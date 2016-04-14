@@ -1,0 +1,310 @@
+header {
+    width: 100%;
+    position: relative;
+}
+
+header img {
+    width: 350px;
+    margin: 5px 5px 55px 5px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+header input {
+    background-color: #eee;
+    border: none;
+    width: 200px;
+    color: #333;
+    padding: 5px;
+    font-size: 1em;
+    position: absolute;
+    right: 15px;
+    top: 35px;
+}
+
+header input:focus {
+    outline: none;
+}
+
+header .fa-search {
+     position: absolute;
+     right: 20px;
+     top: 41px;
+     color: #999;
+     font-size: 1em;
+}
+
+nav {
+    width: 100%;
+    min-height: 40px;
+    position: absolute;
+    bottom: 0;
+    background-color: #eee;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    padding: 5px 20px;
+    display: block;
+    color: #333;
+}
+
+nav ul li a:hover {
+    background-color: #fff;
+    color: #4e2a84;
+    border-bottom: #4e2a84 3px solid;
+}
+
+nav ul li a.active {
+    background-color: #fff;
+    color: #4e2a84;
+    border-bottom: #4e2a84 3px solid;
+}
+
+.hero {
+    height: 450px;
+    background-image: url("../img/annenberg.jpg");
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+
+.hero-inner {
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    background-color: rgba(50,50,50,0.7);
+}
+
+.search {
+    width: 70%;
+    max-width: 700px;
+    height: 170px;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    margin: auto;
+    color: #fff;
+}
+
+.search input {
+    background-color: rgba(220, 220, 220, 0.9);
+    border: none;
+    width: 85%;
+    color: #333;
+    padding: 5px;
+    margin-left: 25px;
+    font-size: 1.5em;
+}
+
+.search input:focus {
+    outline: none;
+}
+
+.search .fa-search {
+     position: relative;
+     right: 35px;
+     color: #999;
+     font-size: 1.5em;
+}
+
+.topics {
+    padding: 20px;
+    text-align: center;
+    border-top: gold 3px solid;
+}
+
+.three-columns {
+    width: 98%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.column {
+    width: 28%;
+    /*min-height: 300px;*/
+    padding: 5px 5px 20px 5px;
+    display: inline-block;
+    margin: 5px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.column h2 {
+    font-size: 1.2em;
+    color: #4e2a84;
+    font-weight: bolder;
+    padding: 0;
+    line-height: 1.5em;
+    border-bottom: 1px dotted #4e2a84;
+}
+
+.column p {
+    font-size: 1em;
+    line-height: 1.2em;
+    color: #555;
+}
+
+.explore {
+    font-size: 0.8em;
+    text-align: right;
+}
+
+.explore a {
+    color: #4e2a84;
+    margin-right: 5px
+}
+
+.explore a:hover {
+   margin-right: 0px;
+    color: #927fb5;
+    transition-duration: 0.5s;
+}
+
+.alert {
+    color: gold;
+}
+
+.sitemap {
+    background-color: #eee;
+    padding: 5px 25px;
+    margin-top: 20px;
+    /*min-height: 250px;*/
+}
+
+.contact-block {
+    margin-bottom: 15px;
+}
+
+.contact-block p {
+    font-size: 0.85em;
+    margin: 1px;
+}
+
+footer {
+    background-color: #ccc;
+    padding: 30px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.8em;
+}
+
+.listby {
+    list-style-type: none;
+    margin: 0 0 20px 0;
+    padding: 0;
+    width: 80%;
+}
+
+.listby li {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 0;
+}
+
+.listby a {
+    padding: 5px 0;
+    color: #333;
+    font-weight: bold;
+}
+
+.listby li a:hover {
+    color: #4e2a84;
+    border-bottom: 3px solid #4e2a84;
+}
+
+.listby li a.active {
+    color: #4e2a84;
+    border-bottom: 3px solid #4e2a84;
+}
+
+aside {
+    width: 30%;
+    min-height: 200px;
+    background-color: #eee;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: top;
+}
+
+aside ul {
+    list-style-type: none;
+    /*margin-left: 10px;*/
+}
+
+.triangle {
+    width: 0; 
+	height: 0; 
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent;
+	
+	border-left: 10px solid #4e2a84;
+	position: absolute;
+	right: -10px;
+	top: 0;
+	opacity: 0;
+}
+
+aside ul li a {
+    font-size: 0.85em;
+    padding: 5px;
+    display: block;
+    border-bottom: 1px dotted #fff;
+    color: #333;
+    font-weight: bolder;
+    position: relative;
+}
+
+aside ul li a.active .triangle {
+    opacity: 1;
+    transition-duration: 0.1s;
+}
+
+aside ul li a.active {
+    background-color: #4e2184;
+    color: #fff;
+}
+
+.mixing {
+    width: 65%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+}
+
+.mix {
+    margin-bottom: 10px;
+    border-bottom: 1px dotted #999;
+}
+
+.mix h2 {
+    font-size: 1.2em;
+    margin: 0;
+    line-height: 1.5em;
+}
+
+.mix p {
+    line-height: 1.2em;
+    font-size: 0.9em;
+}
+
+.mix .subheader {
+    font-size: 0.8em;
+    color: #999;
+    margin-bottom: 10px;
+}

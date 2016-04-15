@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MSHE Student Resources</title>
+    <meta name="author" content="Derek Thurber">
+    <meta name="description" content="The Student Resources for the Master of Science in Higher Education Administration and Policy Program at Northwestern University">
+    <link rel="stylesheet" type="text/css" href="../css/reset.css"></link>
+    <link rel="stylesheet" type="text/css" href="../css/base.css"></link>
+    <link rel="stylesheet" type="text/css" href="../css/main.css"></link>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="jquery.mixitup.min.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <header>
+        <img src="./img/MSHE-horizontal-option2-02.png" alt="MSHE Logo"></img>
+        <input type="text" placeholder="Search"><i class="fa fa-search" aria-hidden="true"></i>
+        <nav>
+            <ul>
+            {% for nav_item in site.data.nav %}
+                {% if page.url == nav_item.link %}
+                <li><a class="active" href="{{ nav_item.link }}">{{ nav_item.name }}</a></li>
+                {% else %}
+                <li><a href="{{ nav_item.link }}">{{ nav_item.name }}</a></li>
+              {% endif %}
+            {% endfor %}
+            </ul>
+        </nav>
+    </header>
+    
+    {{ content }}
+    
+    <section class="sitemap">
+        <div class="three-columns">
+            <div class="column">
+                <h4>Explore</h4>
+                <p><a href="index.html">Search</a></p>
+                <p><a href="topics.html">Topics</a></p>
+            </div>
+            <div class="column">
+                <h4>Stay Connected</h4>
+                <p><i class="fa fa-facebook-square" aria-hidden="true"></i> Facebook</p>
+                <p><i class="fa fa-twitter-square" aria-hidden="true"></i> Twitter</p>
+                <p><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</p>
+            </div>
+            <div class="column">
+                <h4>Contact</h4>
+                <div class="contact-block">
+                    <p>Ask a Question:</p>
+                    <p><a href="mailto:ms-highered@northwestern.edu">ms-highered@northwestern.edu</a></p>
+                </div>
+                <div class="contact-block">
+                    <p>Academic Advising:</p>
+                    <p><a href="mailto:kristin.mccann1@northwestern.edu">kristin.mccann1@northwestern.edu</a></p>
+                </div>
+                <div class="contact-block">
+                    <p>Suggest a Topic:</p>
+                    <p><a href="mailto:derek.thurber@northwestern.edu">derek.thurber@northwestern.edu</a></p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <footer>
+        <p><span class="purple"><strong>Copyright </strong></span><i class="fa fa-copyright" aria-hidden="true"></i> 2016</p>
+        <p>Designed by <strong>Derek Thurber </strong></p>
+    </footer>
+</body>
+</html>

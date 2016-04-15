@@ -1,0 +1,11 @@
+collections:
+  info:
+    output: true
+    
+defaults:
+  -
+    scope:
+      path: ""
+      type: "info"
+    values:
+      layout: "info-page"

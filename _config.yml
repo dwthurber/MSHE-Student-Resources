@@ -1,3 +1,5 @@
+baseurl: /MSHE_Canvas_Resources
+
 collections:
   info:
     output: true

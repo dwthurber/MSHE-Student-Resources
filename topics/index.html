@@ -11,7 +11,7 @@ list-by:
         <p class="listby-label">List by</p>
         <ul class="listby">
             {% for item in page.list-by %}
-            <li ng-click="pickFilter('{{ item | downcase | replace:' ','' }}'); go()" ng-class="{ active: filterFilter == '{{ item.name | downcase | replace:' ','' }}'}">{{ item.name }}</li>
+            <li ng-click="pickFilter('{{ item | downcase | replace:' ','' }}'); go()" ng-class="{ active: filterFilter == '{{ item.name | downcase | replace:' ','' }}'}">{{ item }}</li>
             {% endfor %}
         </ul>
         <div>

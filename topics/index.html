@@ -1,8 +1,8 @@
 ---
 layout: default
-List by: 
-  - name: category
-    default: academics
+List-by: 
+  - Name: Category
+    Default Filter: academics
   - name:
 ---
     <section class="container">
@@ -11,7 +11,7 @@ List by:
         <p class="listby-label">List by</p>
         <ul class="listby">
             
-            <li ng-click="pickFilter('category'); go('/academics')" ng-class="{ active: filterFilter == 'category'}">Category</li>
+            <li ng-click="pickFilter('category'); go('/academics')" ng-class="{ active: filterFilter == 'category'}">{{ page.list-by.name }}</li>
             <li ng-click="pickFilter('action')"  ng-class="{ active: filterFilter == 'action'}">Action</li>
             <li ng-click="pickFilter('studentstatus')" ng-class="{ active: filterFilter == 'studentstatus'}">Student Status</li>
         </ul>

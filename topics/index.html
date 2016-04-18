@@ -10,10 +10,11 @@ List-by:
         <br>
         <p class="listby-label">List by</p>
         <ul class="listby">
-            
-            <li ng-click="pickFilter('category'); go('/academics')" ng-class="{ active: filterFilter == 'category'}">{{ page.list-by.name }}</li>
-            <li ng-click="pickFilter('action')"  ng-class="{ active: filterFilter == 'action'}">Action</li>
-            <li ng-click="pickFilter('studentstatus')" ng-class="{ active: filterFilter == 'studentstatus'}">Student Status</li>
+            {% for item in page.list-by %}
+            <li ng-click="pickFilter('category'); go('/academics')" ng-class="{ active: filterFilter == 'category'}">{{ item.name }}</li>
+            <!--<li ng-click="pickFilter('action')"  ng-class="{ active: filterFilter == 'action'}">Action</li>-->
+            <!--<li ng-click="pickFilter('studentstatus')" ng-class="{ active: filterFilter == 'studentstatus'}">Student Status</li>-->
+            {% endfor %}
         </ul>
         <div>
             <aside>

@@ -28,7 +28,7 @@ list-by:
                 <ul ng-show="filterFilter == 'action'">
                     <li><a href="#{{ filter.name | downcase | replace:' ','' }}" class="filter" data-filter=".{{ filter.name | downcase | replace:' ','' }}">{{ filter.name }} <span class="triangle"></span></a> </li>
                 </ul>
-                {% elsif filter.list-by == 'studentstatus' %}
+                {% elsif filter.list-by == 'student status' %}
                 <ul ng-show="filterFilter == 'studentstatus'">
                     <li><a href="#{{ filter.name | downcase | replace:' ','' }}" class="filter" data-filter=".{{ filter.name | downcase | replace:' ','' }}">{{ filter.name }} <span class="triangle"></span></a> </li>
                 </ul>

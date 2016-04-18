@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<aside>
+                <ul>
+                    <li><a href="#academics" class="filter" data-filter=".academics">Academics <span class="triangle"></span></a> </li>
+                    <li><a href="#internsips" class="filter" data-filter=".internships">Internships <span class="triangle"></span></a></li>
+                </ul>
+            </aside>
+            <article class="mixing" id="Container">
+                {% for item in site.info %}
+                <div class="mix {{ item.categories | join: ' ' }}">
+                    <h2><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></h2>
+                    <p class="subheader">{{ item.categories | join: ' | ' | upcase }} </p>
+                    <p>{{ item.description }}</p>
+                </div>
+                {% endfor %}
+            </article>

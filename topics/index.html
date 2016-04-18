@@ -1,0 +1,38 @@
+---
+layout: default
+---
+    <section class="container">
+        <h2>All topics</h2>
+        <br>
+        <p class="listby-label">List by</p>
+        <ul class="listby">
+            
+            <li ng-click="pickFilter('category'); go('/academics')" ng-class="{ active: filterFilter == 'category'}">Category</li>
+            <li ng-click="pickFilter('action')"  ng-class="{ active: filterFilter == 'action'}">Action</li>
+            <li ng-click="pickFilter('studentstatus')" ng-class="{ active: filterFilter == 'studentstatus'}">Student Status</li>
+        </ul>
+        <div>
+            <aside>
+                <ul ng-show="filterFilter == 'category'">
+                    <li><a href="#academics" class="filter" data-filter=".academics">Academics <span class="triangle"></span></a> </li>
+                    <li><a href="#internsips" class="filter" data-filter=".internships">Internships <span class="triangle"></span></a></li>
+                </ul>
+                <ul ng-show="filterFilter == 'action'">
+                    <li><a href="#register" class="filter" data-filter=".register">Register for Courses <span class="triangle"></span></a> </li>
+                    <li><a href="#relax" class="filter" data-filter=".relax">Relax and Enjoy <span class="triangle"></span></a></li>
+                </ul>
+            </aside>
+            <article class="mixing" id="Container">
+                {% for item in site.info %}
+                <div class="mix {{ item.categories | join: ' ' }}" data-name="{{ item.title }}">
+                    <h2><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></h2>
+                    <p class="subheader">{{ item.categories | join: ' | ' | upcase }} </p>
+                    <p>{{ item.description }}</p>
+                </div>
+                {% endfor %}
+            </article>
+            
+        </div>
+    </section>
+    <br>
+    

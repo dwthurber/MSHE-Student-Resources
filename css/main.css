@@ -211,24 +211,28 @@ footer p {
     width: 80%;
 }
 
+.listby-label {
+    display: inline-block;
+    float: left;
+    margin: 0 20px 0 0;
+    padding: 5px 0 0 0;
+}
+
 .listby li {
     display: inline-block;
     margin: 0 10px;
-    padding: 0;
-}
-
-.listby a {
-    padding: 5px 0;
+    padding: 5px 0 0 0;
     color: #333;
     font-weight: bold;
 }
 
-.listby li a:hover {
+.listby li:hover {
+    cursor: pointer;
     color: #4e2a84;
     border-bottom: 3px solid #4e2a84;
 }
 
-.listby li a.active {
+.listby li.active {
     color: #4e2a84;
     border-bottom: 3px solid #4e2a84;
 }
@@ -304,8 +308,18 @@ aside ul li a.active {
     font-size: 0.9em;
 }
 
-.mix .subheader {
-    font-size: 0.8em;
+.mix .subheader, .subheader {
+    font-size: 0.7em;
     color: #999;
     margin-bottom: 10px;
+}
+
+.info-page-header {
+    margin-bottom: -15px;
+}
+
+.breadcrumbs {
+    font-size: 0.8em;
+    margin: 10px 0 -15px 0;
+    color: #555;
 }

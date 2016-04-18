@@ -2,6 +2,14 @@
 layout: default
 ---
 <section class="container">
-<h2>{{ page.title }}</h2>
-{{ page.content }}
+    <div class="breadcrumbs">
+        <p><a href="{{ site.baseurl }}/topics.html">Topics</a> > {{ page.title }}</p>
+    </div>
+    <div class="info-page-header">
+        <h2>{{ page.title }}</h2>
+    </div>
+    <p class="subheader">{{ page.categories | join: ', ' | upcase }} </p>
+    <hr>
+    <p>{{ page.description }}</p>
+    {{ page.content }}
 </section>

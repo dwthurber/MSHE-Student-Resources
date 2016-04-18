@@ -2,11 +2,11 @@
 layout: default
 list-by:
   - name: Category
-    default-filter-field: academics
+    filter: academics
   - name: Action
-    default-filter-field: register
+    filter: Register for Courses
   - name: Student Status
-    default-filter-field: current-student
+    filter: current students
 ---
     <section class="container">
         <h2>All topics</h2>
@@ -14,24 +14,25 @@ list-by:
         <p class="listby-label">List by</p>
         <ul class="listby">
             {% for item in page.list-by %}
-            <li ng-click="pickFilter('{{ item.name | downcase }}'); go('/{{ item.default-filter-field | downcase }}')" ng-class="{ active: filterFilter == '{{ item.name | downcase }}'}">{{ item.name }}</li>
-            <!--<li ng-click="pickFilter('action')"  ng-class="{ active: filterFilter == 'action'}">Action</li>-->
-            <!--<li ng-click="pickFilter('studentstatus')" ng-class="{ active: filterFilter == 'studentstatus'}">Student Status</li>-->
+            <li ng-click="pickFilter('{{ item.name | downcase | replace:' ','' }}'); go('/{{ item.filter | downcase | replace:' ','' }}')" ng-class="{ active: filterFilter == '{{ item.name | downcase | replace:' ','' }}'}">{{ item.name }}</li>
             {% endfor %}
         </ul>
         <div>
             <aside>
-                {% for filter in site.filters %}
+                {% for filter in site.data.filters %}
                 {% if filter.list-by == 'category' %}
                 <ul ng-show="filterFilter == 'category'">
-                    <li><a href="#academics" class="filter" data-filter=".academics">{{ filter.name }} <span class="triangle"></span></a> </li>
-                    <!--<li><a href="#internsips" class="filter" data-filter=".internships">Internships <span class="triangle"></span></a></li>-->
+                    <li><a href="#{{ filter.name | downcase | replace:' ','' }}" class="filter" data-filter=".{{ filter.name | downcase | replace:' ','' }}">{{ filter.name }} <span class="triangle"></span></a> </li>
+                </ul>
+                {% elsif filter.list-by == 'action' %}
+                <ul ng-show="filterFilter == 'action'">
+                    <li><a href="#{{ filter.name | downcase | replace:' ','' }}" class="filter" data-filter=".{{ filter.name | downcase | replace:' ','' }}">{{ filter.name }} <span class="triangle"></span></a> </li>
+                </ul>
+                {% elsif filter.list-by == 'studentstatus' %}
+                <ul ng-show="filterFilter == 'studentstatus'">
+                    <li><a href="#{{ filter.name | downcase | replace:' ','' }}" class="filter" data-filter=".{{ filter.name | downcase | replace:' ','' }}">{{ filter.name }} <span class="triangle"></span></a> </li>
                 </ul>
                 {% endif %}
-                <!--<ul ng-show="filterFilter == 'action'">-->
-                <!--    <li><a href="#register" class="filter" data-filter=".register">Register for Courses <span class="triangle"></span></a> </li>-->
-                <!--    <li><a href="#relax" class="filter" data-filter=".relax">Relax and Enjoy <span class="triangle"></span></a></li>-->
-                <!--</ul>-->
                 {% endfor %}
             </aside>
             <article class="mixing" id="Container">

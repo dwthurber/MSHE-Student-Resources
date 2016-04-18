@@ -1,4 +1,10 @@
-name,link,list-by
-Academics,academics,category
-Internships,internships,category
-Student Life,studentlife,category
+name,list-by
+Academics,category
+Internships,category
+Student Life,category
+Register for Courses,action
+Relax and Enjoy,action
+Newly Admitted Students,studentstatus
+Current Students,studentstatus
+Non-Matriculated Students,studentstatus
+Certificate Students,studentstatus

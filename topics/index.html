@@ -1,12 +1,9 @@
 ---
 layout: default
 list-by:
-  - name: Category
-    filter: academics
-  - name: Action
-    filter: Register for Courses
-  - name: Student Status
-    filter: current students
+  - Category
+  - Action
+  - Student Status
 ---
     <section class="container">
         <h2>All topics</h2>
@@ -14,7 +11,7 @@ list-by:
         <p class="listby-label">List by</p>
         <ul class="listby">
             {% for item in page.list-by %}
-            <li ng-click="pickFilter('{{ item.name | downcase | replace:' ','' }}'); go('/{{ item.filter | downcase | replace:' ','' }}')" ng-class="{ active: filterFilter == '{{ item.name | downcase | replace:' ','' }}'}">{{ item.name }}</li>
+            <li ng-click="pickFilter('{{ item | downcase | replace:' ','' }}'); go()" ng-class="{ active: filterFilter == '{{ item.name | downcase | replace:' ','' }}'}">{{ item.name }}</li>
             {% endfor %}
         </ul>
         <div>

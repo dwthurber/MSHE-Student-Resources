@@ -11,9 +11,8 @@ var topicsApp = angular.module('topicsApp', ['ngRoute']);
         
         var currentPage = $location.path();
          
-        $scope.go = function(val) {
-            $location.path(val);
-            $('#Container').mixItUp('filter', "." + val.replace(/\//g, ""));
+        $scope.go = function() {
+            $('#Container').mixItUp('filter', 'all');
         };
          
          if (currentPage != '') {

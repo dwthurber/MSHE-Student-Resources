@@ -14,7 +14,7 @@ list-by:
         <p class="listby-label">List by</p>
         <ul class="listby">
             {% for item in page.list-by %}
-            <li ng-click="pickFilter('{{ item.name | lowcase }}'); go('/{{ item.default-filter-field | lowcase }}')" ng-class="{ active: filterFilter == 'category'}">{{ item.name }}</li>
+            <li ng-click="pickFilter('{{ item.name | lowcase }}'); go('/{{ item.default-filter-field | lowcase }}')" ng-class="{ active: filterFilter == '{{ item.name | lowcase }}'}">{{ item.name }}</li>
             <!--<li ng-click="pickFilter('action')"  ng-class="{ active: filterFilter == 'action'}">Action</li>-->
             <!--<li ng-click="pickFilter('studentstatus')" ng-class="{ active: filterFilter == 'studentstatus'}">Student Status</li>-->
             {% endfor %}

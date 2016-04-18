@@ -22,7 +22,7 @@ list-by:
         <div>
             <aside>
                 {% for filter in site.filters %}
-                {% if filter.list-by == category %}
+                {% if filter.list-by == 'category' %}
                 <ul ng-show="filterFilter == 'category'">
                     <li><a href="#academics" class="filter" data-filter=".academics">{{ filter.name }} <span class="triangle"></span></a> </li>
                     <!--<li><a href="#internsips" class="filter" data-filter=".internships">Internships <span class="triangle"></span></a></li>-->

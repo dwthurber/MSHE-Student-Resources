@@ -19,7 +19,7 @@ layout: default
         <article class="mixing" id="Container">
             {% for item in site.info %}
             <div class="mix {{ item.categories | join: ' ' }}">
-                <h2><a href="{{ item.url }}">{{ item.title }}</a></h2>
+                <h2><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></h2>
                 <p class="subheader">{{ item.categories | join: ' ' | capitalize }} </p>
                 <p>{{ item.description }}</p>
             </div>

@@ -11,3 +11,7 @@ defaults:
       type: "info"
     values:
       layout: "info-page"
+      
+categories: 
+  - academics
+  - internships

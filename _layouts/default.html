@@ -17,15 +17,15 @@
 </head>
 <body>
     <header>
-        <img src="./img/MSHE-horizontal-option2-02.png" alt="MSHE Logo"></img>
+        <img src="{{ baseurl }}/img/MSHE-horizontal-option2-02.png" alt="MSHE Logo"></img>
         <input type="text" placeholder="Search"><i class="fa fa-search" aria-hidden="true"></i>
         <nav>
             <ul>
             {% for nav_item in site.data.nav %}
                 {% if page.url == nav_item.link %}
-                <li><a class="active" href="{{ nav_item.link }}">{{ nav_item.name }}</a></li>
+                <li><a class="active" href="{{ nav_item.link | prepend:site.baseurl }}">{{ nav_item.name }}</a></li>
                 {% else %}
-                <li><a href="{{ nav_item.link }}">{{ nav_item.name }}</a></li>
+                <li><a href="{{ nav_item.link | prepend:site.baseurl }}">{{ nav_item.name }}</a></li>
               {% endif %}
             {% endfor %}
             </ul>

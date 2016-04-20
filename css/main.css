@@ -11,8 +11,6 @@ header img {
 }
 
 header input {
-    background-color: #eee;
-    border: none;
     width: 200px;
     color: #333;
     padding: 5px;
@@ -20,19 +18,6 @@ header input {
     position: absolute;
     right: 5%;
     top: 35px;
-}
-
-header input:focus {
-    outline: none;
-}
-
-header .fa-search {
-     position: absolute;
-     margin-right: 5px;
-     right: 5%;
-     top: 41px;
-     color: #999;
-     font-size: 1em;
 }
 
 nav {

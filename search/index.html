@@ -3,5 +3,15 @@ layout: default
 search: true
 ---
 <section class="container">
-    
+    <h2>Search Results</h2>
+    <form action="search.html">
+    <input type="text" name="q" id="tipue_search_input" autocomplete="off" required>
+    </form>
+    <div id="tipue_search_content"></div>
+        
 </section>
+<script>
+$(document).ready(function() {
+     $('#tipue_search_input').tipuesearch();
+});
+</script>

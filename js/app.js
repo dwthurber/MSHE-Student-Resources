@@ -3,6 +3,9 @@ var topicsApp = angular.module('topicsApp', ['ngRoute']);
     // create the controller and inject Angular's $scope
     topicsApp.controller('mainController', function($scope, $route, $routeParams, $location) {
         
+        $scope.title = "this";
+        
+        console.log($scope.title);
         $scope.filterFilter = 'category';
         
         $scope.pickFilter = function(val) {

@@ -1,6 +1,6 @@
 ---
 title: Register for Courses
 description: Use CEASAR to register for classes.
-categories:
-  - academics
+categories: academics
+tags: register
 ---

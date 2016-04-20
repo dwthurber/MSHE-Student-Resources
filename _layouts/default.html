@@ -19,7 +19,7 @@
 </head>
 <body ng-controller="mainController">
     <header>
-        <img src="{{ site.baseurl }}/img/MSHE-horizontal-option2-02.png" alt="MSHE Logo"></img>
+        <a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/img/MSHE-horizontal-option2-02.png" alt="MSHE Logo"></img></a>
         <form action="{{ site.baseurl }}/search">
         <input type="text" name="q" id="tipue_search_input" autocomplete="off" placeholder="Search" required>
         </form>
@@ -82,7 +82,6 @@
     <!--site js files-->
     <script src="{{ site.baseurl }}/js/app.js"></script>
      {% if page.search %}
-    <script src="{{ site.baseurl }}/tipuesearch/tipuesearch_content.js"></script>
     <script src="{{ site.baseurl }}/tipuesearch/tipuesearch_set.js"></script>
     <script src="{{ site.baseurl }}/tipuesearch/tipuesearch.min.js"></script>
     {% endif %}

@@ -86,13 +86,13 @@ nav ul li a.active {
 }
 
 .search input {
-    background-color: rgba(220, 220, 220, 0.9);
+    background-color: rgba(220, 220, 220, 0.9)!important;
     border: none;
-    width: 85%;
-    color: #333;
+    width: 85%!important;
+    color: #333!important;
     padding: 5px;
     margin-left: 25px;
-    font-size: 1.5em;
+    font-size: 1.2em!important;
 }
 
 .search input:focus {

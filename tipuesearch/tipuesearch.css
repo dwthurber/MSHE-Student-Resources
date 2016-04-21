@@ -23,6 +23,10 @@ http://www.tipue.com/search
 	background: #fff url('img/search.png') no-repeat 15px 15px;
 }
 
+.search #tipue_search_input {
+     background: #fff url('img/search.png') no-repeat 15px 21px;
+}
+
 #tipue_search_content
 {
      max-width: 650px;
@@ -56,7 +60,7 @@ http://www.tipue.com/search
 }
 .tipue_search_content_title a
 {
-     color: #333;
+     color: #4e2a84;
      text-decoration: none;
 }
 .tipue_search_content_title a:hover

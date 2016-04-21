@@ -46,6 +46,7 @@ nav ul li a {
     padding: 5px 20px;
     display: block;
     color: #333;
+    border-bottom: #eee 3px solid;
 }
 
 nav ul li a:hover {

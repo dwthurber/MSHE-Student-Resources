@@ -1,13 +1,14 @@
 ---
 title: Register for Courses
-description: Use CEASAR to register for classes. Before registering for courses for the first time there are a few things to be aware of. In order to register for courses, the MSHE program must give you an "enrollment appointment."
+description: Use CEASAR to register for classes. Before registering for courses for the first time there are a few things to be aware of. In order to register for courses, the MSHE program must give you an 'enrollment appointment.'
 categories: 
   - academics
   - register for courses
   - newly admitted students
+  - current students
 comments: true
 ---
-Before registering for courses for the first time there are a few things to be aware of. In order to register for courses, the MSHE program must give you an "enrollment appointment." Dr. Kristin McCann will process your enrollment appointment after receiving the Intention to Register form and the tuition deposit. Depending on when you applied and were accepted, enrollment for your starting quarter may not yet be open (e.g. if you were accepted in January and planning to start in the fall you wouldn't be able to register for courses until fall enrollment opened in late spring.) You will get an email from Kristin letting you know when your enrollment appointment has been set.
+Dr. Kristin McCann will process your enrollment appointment after receiving the Intention to Register form and the tuition deposit. Depending on when you applied and were accepted, enrollment for your starting quarter may not yet be open (e.g. if you were accepted in January and planning to start in the fall you wouldn't be able to register for courses until fall enrollment opened in late spring.) You will get an email from Kristin letting you know when your enrollment appointment has been set.
 
 #### Course Registration
 

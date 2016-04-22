@@ -33,7 +33,7 @@ list-by:
                 {% for item in site.info %}
                 <div class="mix {{ item.categories | join: ',' | remove: ' ' | split: ',' | join: ' ' }}" data-name="{{ item.title }}">
                     <h2><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></h2>
-                    <p class="subheader">{{ item.categories | join: ' | ' | upcase }} </p>
+                    <p class="subheader"><a href="{{ item.url }}">{{ item.url }} </a></p>
                     <p>{{ item.description }}</p>
                 </div>
                 {% endfor %}

@@ -8,10 +8,46 @@ layout: default
     <div class="info-page-header">
         <h2>{{ page.title }}</h2>
     </div>
-    <p class="subheader">{{ page.categories | join: ', ' | upcase }} </p>
-    <hr>
+    <p class="subheader bottom-line">{{ page.categories | join: ', ' | upcase }} </p>
     <p>{{ page.description }}</p>
     {{ page.content }}
+    <div class="related-container">
+    <h4>Related Content</h4>
+    <div class="three-columns related">
+        {% for item in site.info limit:3 %}
+        {% if item.categories contains page.categories[0] and item.title != page.title %}
+        <div class="column related-info">
+            <h5><a href="{{ item.url }}">{{ item.title }}</a></h5>
+            <p>{{ item.description | truncate: 150, '...' }}</p>
+        </div>
+        {% endif %}
+        {% if item.categories contains page.categories[1] and item.title != page.title %}
+        <div class="column related-info">
+            <h5><a href="{{ item.url }}">{{ item.title }}</a></h5>
+            <p>{{ item.description | truncate: 150, '...' }}</p>
+        </div>
+        {% endif %}
+        {% if item.categories contains page.categories[2] and item.title != page.title %}
+        <div class="column related-info">
+            <h5><a href="{{ item.url }}">{{ item.title }}</a></h5>
+            <p>{{ item.description | truncate: 150, '...' }}</p>
+        </div>
+        {% endif %}
+        {% if item.categories contains page.categories[3] and item.title != page.title %}
+        <div class="column related-info">
+            <h5><a href="{{ item.url }}">{{ item.title }}</a></h5>
+            <p>{{ item.description | truncate: 150, '...' }}</p>
+        </div>
+        {% endif %}
+        {% if item.categories contains page.categories[4] and item.title != page.title %}
+        <div class="column related-info">
+            <h5><a href="{{ item.url }}">{{ item.title }}</a></h5>
+            <p>{{ item.description | truncate: 150, '...' }}</p>
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+    </div>
     <div id="disqus_thread"></div>
     <script>
     /**
@@ -34,4 +70,5 @@ layout: default
     })();
     </script>
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+    
 </section>

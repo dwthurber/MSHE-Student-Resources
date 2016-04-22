@@ -125,3 +125,19 @@ strong {
 #Container .mix{
 	display: none;
 }
+
+iframe {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+}
+
+hr {
+	width: 70%;
+	margin: 25px auto;
+}
+
+ul {
+	padding-left: 40px;
+}

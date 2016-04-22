@@ -1,3 +1,8 @@
+.bottom-line {
+    border-bottom: 1px solid #555;
+    padding-bottom: 5px;
+}
+
 header {
     width: 100%;
     position: relative;
@@ -236,6 +241,7 @@ aside {
 aside ul {
     list-style-type: none;
     /*margin-left: 10px;*/
+    padding-left: 0;
 }
 
 .triangle {
@@ -309,4 +315,35 @@ aside ul li a.active {
     font-size: 0.8em;
     margin: 10px 0 -15px 0;
     color: #555;
+}
+
+.related-container {
+    border-top: 2px solid #dedede;
+    margin-bottom: 55px;
+    margin-top: 30px;
+}
+
+.related-container h4 {
+    font-weight: 400;
+}
+
+.related {
+    text-align: left;
+}
+
+.related-info {
+    border: 1px solid #dedede;
+    padding: 15px;
+}
+
+.related p {
+    color: #777;
+}
+
+.related a {
+    font-weight: 300;
+}
+
+.related h5 {
+    margin-top: 0;
 }

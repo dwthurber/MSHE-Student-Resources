@@ -3,9 +3,7 @@ title: MSHE Glossary
 description: Between acronyms and higher ed jargon, sometimes navigating all the terms thrown around in class and at internship sites can be hard to keep up with. Here is our cheat sheet of common terms.  
 categories: 
   - academics
-  - current students
-  - newly admitted students
-  - certificate students
+  - succeed in classes
   - Wildcard
   - CAESAR
   - Canvas
@@ -29,6 +27,10 @@ categories:
   - SES
   - SESP
   - WCAS
+status:  
+  - current students
+  - newly admitted students
+  - certificate students
 comments: true
 glossary-term:
   - term: CAESAR

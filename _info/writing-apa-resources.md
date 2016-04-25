@@ -4,13 +4,15 @@ description: In your time as a student in the MSHE program you will have several
 categories: 
   - academics
   - master project
-  - current students
-  - certificate students
+  - succeed in classes
   - Writing place
   - Academic Writing Workshops
   - APA Style Resources
   - NU Employee Tuition Benefit
   - Purdue OWL
+status:
+  - current students
+  - certificate students
 comments: true
 ---
 

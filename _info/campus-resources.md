@@ -5,12 +5,13 @@ categories:
   - student life
   - wellness
   - newly admitted students
-  - current students
-  - certificate students
   - relax and enjoy
   - athletics
   - gym
   - beach
+status:
+  - current students
+  - certificate students
 comments: true
 ---
 ![campus map](https://northwestern.box.com/shared/static/54qpz78p5z8u0chb71rvc4lgaxfd8q9x.jpg)

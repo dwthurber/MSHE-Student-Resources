@@ -4,6 +4,8 @@ description: There are a variety of higher education professional organizations 
 categories: 
   - career resources
   - attend a conference
+  - professional development
+status:
   - newly admitted students
   - current students
   - certificate students

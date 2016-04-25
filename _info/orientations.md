@@ -3,6 +3,9 @@ title: Orientations
 description: There are virtual orientations and on campus orientations for all new students regardless of student status. An internship orientation is also offered once a year for any students anticipating completing an internship. 
 categories: 
   - policies
+  - get ready for graduate school
+  - orientation
+status: 
   - newly admitted students
   - certificate students
 comments: true

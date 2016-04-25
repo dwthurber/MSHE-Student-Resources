@@ -4,15 +4,16 @@ description: Tuition is set each year during the summer. The Master of Science i
 categories: 
   - financial aid
   - register for classes
-  - newly admitted students
-  - current students
-  - certificate students
   - Office of Student Accounts
   - Tuition Bills
   - Overdue Payments
   - NU Employee Tuition Benefit
   - Tax Documents 
   - 1098T
+status:
+  - newly admitted students
+  - current students
+  - certificate students
 comments: true
 ---
 

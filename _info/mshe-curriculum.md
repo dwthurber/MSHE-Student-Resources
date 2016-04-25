@@ -4,8 +4,7 @@ description: To earn the master's degree in Higher Education Administration and 
 categories: 
   - academics
   - register for courses
-  - find an elective
-  - current students
+  - choose an elective
   - Registering for elective courses outside MSHE
   - School of professional Studies (SPS)
   - MS in Learning and Organizational Change (MSLOC)
@@ -16,6 +15,8 @@ categories:
   - Kellogg MBA
   - The Graduate School (TGS)
   - Medill courses
+status:
+  - current students
 comments: true
 ---
 

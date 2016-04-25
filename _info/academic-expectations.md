@@ -4,6 +4,7 @@ description: As an MSHE student, you have entered a community of scholarship in 
 categories: 
   - academics
   - policies
+status:
   - current students
   - certificate students
 comments: true

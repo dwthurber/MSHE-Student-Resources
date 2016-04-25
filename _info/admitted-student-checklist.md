@@ -4,6 +4,9 @@ description: "Newly admitted students receive a 'new student checklist' along wi
 categories: 
   - academics 
   - financial aid
+  - get ready for graduate school
+  - orientation
+status:
   - newly admitted students
 comments: true
 ---

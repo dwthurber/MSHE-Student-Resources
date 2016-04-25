@@ -4,6 +4,8 @@ description: A range of academic policies for the MSHE program including transfe
 categories: 
   - academics
   - policies
+  - accommodations
+status:
   - current students
   - certificate students
 comments: true

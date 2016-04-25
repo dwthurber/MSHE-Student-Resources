@@ -3,6 +3,8 @@ title: Student Status
 description: Policies related to matriculated vs non-matriculated students, full-time vs part-time students, academic progress and completion, inactive status, and withdrawing from or re-entry into the MSHE program.
 categories: 
   - policies
+  - student status
+status:
   - current students
   - non-matriculated students
 comments: true

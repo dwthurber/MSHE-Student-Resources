@@ -3,6 +3,8 @@ title: Higher Education Data
 description: Data is important for many projects in the Higher Ed program including the Master's project sequence. This page has some publically available data sets that might be useful as a student in the MSHE program.
 categories: 
   - academics
+  - succeed in classes
+status:
   - current students
   - certificate students
 comments: true

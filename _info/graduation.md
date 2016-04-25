@@ -3,6 +3,8 @@ title: Graduation
 description: This page includes all the information you will need to graduate including information about the petition to graduate survey, exit survyes, commencement and convocation ceremonies, transcript requests, and getting your diploma.
 categories: 
   - policies
+  - professional development
+status:
   - current students
 comments: true
 ---

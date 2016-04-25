@@ -4,6 +4,8 @@ description: Northwestern’s extensive library system on the Evanston and Chica
 categories: 
   - academics
   - master project
+  - succeed in classes
+status:
   - current students
   - certificate students
 comments: true

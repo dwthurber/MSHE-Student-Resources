@@ -2,7 +2,7 @@
 title: Transportation
 description: Learn how to get around campus and chicago using the Inter-campus shuttle, Northwestern campus parking, public transportation (CTA), Metra rail, and biking.
 categories: 
-  - housing
+  - find a place to live
   - student life
   - newly admitted students
   - current students

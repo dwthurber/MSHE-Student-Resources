@@ -1,15 +1,16 @@
 name,list-by
 Academics,category
-Internships,category
-Housing,category
-Policies,category
-Financial Aid,category
 Career Resources,category
-Student Life,category
-Technology Tools,category
+Financial Aid,category
+Internships,category
 Master Project,category
+Policies,category
+Student Life,category
+Technology,category
 Wellness,category
-Register for Courses,action
+Attend a Conference,action
+Choose an Elective,action
+Find a Place to Live,action
 Relax and Enjoy,action
 Newly Admitted Students,student status
 Current Students,student status

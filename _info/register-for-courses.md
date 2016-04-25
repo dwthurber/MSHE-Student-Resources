@@ -4,6 +4,7 @@ description: Use CEASAR to register for classes. Before registering for courses 
 categories: 
   - academics
   - register for courses
+  - find an elective
   - newly admitted students
   - current students
   - certificate students

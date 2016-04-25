@@ -4,6 +4,7 @@ description: Chicago has a number of resources for you to explore and enjoy. For
 categories: 
   - student life
   - relax and enjoy
+  - find a place to live
   - newly admitted students
   - current students
   - certificate students

@@ -1,10 +1,21 @@
 ---
-title: MSHE Curriculum
+title: MSHE Curriculum and Suggested Electives
 description: To earn the master's degree in Higher Education Administration and Policy students must complete 15 graduate level courses, including core courses and electives.
 categories: 
   - academics
   - register for courses
+  - find an elective
   - current students
+  - Registering for elective courses outside MSHE
+  - School of professional Studies (SPS)
+  - MS in Learning and Organizational Change (MSLOC)
+  - Learning Sciences (LRN_SCI)
+  - MS in Education (MS_Ed)
+  - Human Development and Social Policy (HDSP)
+  - Counseling Courses
+  - Kellogg MBA
+  - The Graduate School (TGS)
+  - Medill courses
 comments: true
 ---
 
@@ -43,7 +54,7 @@ MSHE students take three elective courses (four if they waive the internship req
 
 Students can also choose graduate-level courses in other Northwestern University schools and programs as elective courses (pending advisor approval, course availability and permission from these programs).  Past students have taken courses in areas such as athletics administration, counseling, educational policy, nonprofit management, organizational development, psychology, sociology and research methods.
 
-Selecting Elective Courses
+##### Selecting Elective Courses
 
 Each quarter the MSHE program will send an email to the student listserv with a list of suggested electives. This list of electives is a good starting place but is not an exhaustive list - you can also search CAESAR for other courses you may be interested in taking. Additionally, a list of suggested electives is provided below. **A course's inclusion on this document is not a guarantee that the course will be offered in any given year or quarter.** This sheet can be sorted by the quarter that the course is typically offered, the general category (or categories) that the course topic fits into, or the name of the course. Please note that you can browse the embedded sheet or download it to your computer.
 

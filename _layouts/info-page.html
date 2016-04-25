@@ -12,40 +12,32 @@ layout: default
     {{ page.content }}
     <div class="related-container">
     <h4>Related Content</h4>
-    <div class="three-columns related">
-        {% for item in site.info limit:3 %}
-        {% if item.categories contains page.categories[0] and item.title != page.title %}
-        <div class="column related-info">
-            <h5><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></h5>
-            <p class="subheader"><a href="{{ item.url }}">{{ item.url }} </a></p>
-            <p>{{ item.description | truncate: 150, ' ... ' }}</p>
+        <div class="three-columns related">
+          {% assign maxRelated = 3 %}
+          {% assign maxRelatedCounter = 0 %}
+          {% for item in site.info %}
+            {% assign sameTagCount = 0 %}
+            {% for tag in item.categories %}
+              {% if item.url != page.url %}
+                {% if page.categories contains tag %}
+                {% assign sameTagCount = sameTagCount | plus: 1 %}
+                {% endif %}
+              {% endif %}
+            {% endfor %}
+            {% if sameTagCount >= 2 %}
+                <div class="column related-info">
+                    <h5><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></h5>
+                    <p class="subheader"><a href="{{ item.url }}">{{ item.url }} </a></p>
+                    <p>{{ item.description | truncate: 150, ' ... ' }}</p>
+                </div>
+              {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+              {% if maxRelatedCounter >= maxRelated %}
+                {% break %}
+              {% endif %}
+            {% endif %}
+           {% endfor %}
         </div>
-        {% elsif item.categories contains page.categories[1] and item.title != page.title %}
-        <div class="column related-info">
-            <h5><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></h5>
-            <p class="subheader"><a href="{{ item.url }}">{{ item.url }} </a></p>
-            <p>{{ item.description | truncate: 150, ' ... ' }}</p>
-        </div>
-        {% elsif item.categories contains page.categories[2] and item.title != page.title %}
-        <div class="column related-info">
-            <h5><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></h5>
-            <p class="subheader"><a href="{{ item.url }}">{{ item.url }} </a></p>
-            <p>{{ item.description | truncate: 150, ' ... ' }}</p>
-        </div>
-        {% elsif item.categories contains page.categories[3] and item.title != page.title %}
-        <div class="column related-info">
-            <h5><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></h5>
-            <p class="subheader"><a href="{{ item.url }}">{{ item.url }} </a></p>
-            <p>{{ item.description | truncate: 150, ' ... ' }}</p>
-        </div>
-        {% elsif item.categories contains page.categories[4] and item.title != page.title %}
-        <div class="column related-info">
-            <h5><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></h5>
-            <p class="subheader"><a href="{{ item.url }}">{{ item.url }} </a></p>
-            <p>{{ item.description | truncate: 150, ' ... ' }}</p>
-        </div>
-        {% endif %}
-        {% endfor %}
+
     </div>
     </div>
     <div id="disqus_thread"></div>

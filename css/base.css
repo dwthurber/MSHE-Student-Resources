@@ -138,6 +138,6 @@ hr {
 	margin: 25px auto;
 }
 
-ul {
+ul, ol {
 	padding-left: 40px;
 }

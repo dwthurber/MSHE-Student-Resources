@@ -6,6 +6,8 @@ categories:
   - wellness
   - newly admitted students
   - current students
+  - certificate students
+  - relax and enjoy
   - athletics
   - gym
   - beach

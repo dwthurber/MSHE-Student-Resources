@@ -5,6 +5,7 @@ categories:
   - academics
   - policies
   - current students
+  - certificate students
 comments: true
 ---
 #### Academic Integrity

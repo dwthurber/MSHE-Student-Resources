@@ -16,31 +16,31 @@ layout: default
         {% for item in site.info limit:3 %}
         {% if item.categories contains page.categories[0] and item.title != page.title %}
         <div class="column related-info">
-            <h5><a href="{{ item.url }}">{{ item.title }}</a></h5>
+            <h5><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></h5>
             <p class="subheader"><a href="{{ item.url }}">{{ item.url }} </a></p>
             <p>{{ item.description | truncate: 150, ' ... ' }}</p>
         </div>
         {% elsif item.categories contains page.categories[1] and item.title != page.title %}
         <div class="column related-info">
-            <h5><a href="{{ item.url }}">{{ item.title }}</a></h5>
+            <h5><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></h5>
             <p class="subheader"><a href="{{ item.url }}">{{ item.url }} </a></p>
             <p>{{ item.description | truncate: 150, ' ... ' }}</p>
         </div>
         {% elsif item.categories contains page.categories[2] and item.title != page.title %}
         <div class="column related-info">
-            <h5><a href="{{ item.url }}">{{ item.title }}</a></h5>
+            <h5><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></h5>
             <p class="subheader"><a href="{{ item.url }}">{{ item.url }} </a></p>
             <p>{{ item.description | truncate: 150, ' ... ' }}</p>
         </div>
         {% elsif item.categories contains page.categories[3] and item.title != page.title %}
         <div class="column related-info">
-            <h5><a href="{{ item.url }}">{{ item.title }}</a></h5>
+            <h5><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></h5>
             <p class="subheader"><a href="{{ item.url }}">{{ item.url }} </a></p>
             <p>{{ item.description | truncate: 150, ' ... ' }}</p>
         </div>
         {% elsif item.categories contains page.categories[4] and item.title != page.title %}
         <div class="column related-info">
-            <h5><a href="{{ item.url }}">{{ item.title }}</a></h5>
+            <h5><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></h5>
             <p class="subheader"><a href="{{ item.url }}">{{ item.url }} </a></p>
             <p>{{ item.description | truncate: 150, ' ... ' }}</p>
         </div>

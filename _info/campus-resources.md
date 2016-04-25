@@ -24,8 +24,6 @@ Campus Tours The NU Office of Undergraduate Admission offers tours of the campus
 
 Virtual Tours of Campus Virtual tours and snapshots of campus are an [easy alternative](http://www.northwestern.edu/campus-life/virtual-tour.html).
 
-* * *
-
 #### Fitness and Recreation
 
 There are several fitness and recreation services available to students, many of them free.
@@ -60,8 +58,6 @@ Offers rental equipment for backpacking, cross-country skiing, rollerblading, ge
 
 In the winter months a skating rink is created on the east lawn of the Norris University Center. Rental skates are available.
 
-* * *
-
 #### Health and Wellness
 
 [Health Services](http://www.northwestern.edu/healthservice-evanston/index.html)
@@ -94,8 +90,6 @@ Northwestern is committed to providing a working, learning, and living environme
 
 In March of 2014, the White House published [notalone.gov](http://notalone.gov/), a website dedicated to providing resources for survivors of sexual assault, specifically on college campuses.
 
-* * *
-
 #### Arts, Athletics, Events
 
 [Athletics - Ticket Office](http://www.nusports.com/tickets/)
@@ -111,8 +105,6 @@ Plays
 > Students can now upload their own [wildcard photo](http://www.northwestern.edu/uservices/wildcard/get_a_card/photo-submission.html)
 
 [STA Travel](http://www.statravel.com/): Travel discounts for students
-
-* * *
 
 #### Dining on Campus 
 
@@ -149,8 +141,6 @@ Plays
 [Fran's Café in Willard](https://nucuisine.sodexomyway.net/dining-choices/retail/frans.html)  
 <span style="line-height: 1.4;">South Campus </span>  
 <span style="line-height: 1.4;">Late night milkshakes, sliders, flatbreads, salads, tater tots, and waffle fries. </span>
-
-* * *
 
 #### Other Campus Resources
 

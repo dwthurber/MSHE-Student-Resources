@@ -17,6 +17,7 @@
     <link href="{{ site.baseurl }}/tipuesearch/tipuesearch.css" rel="stylesheet">
     <!--jquery library-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script async="" defer="" src="//survey.g.doubleclick.net/async_survey?site=l5uivyigcjgba"></script>
 </head>
 <body ng-controller="mainController">
     <header>
@@ -48,9 +49,9 @@
             </div>
             <div class="column">
                 <h4>Stay Connected</h4>
-                <p><i class="fa fa-facebook-square" aria-hidden="true"></i> Facebook</p>
-                <p><i class="fa fa-twitter-square" aria-hidden="true"></i> Twitter</p>
-                <p><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</p>
+                <p><i class="fa fa-facebook-square" aria-hidden="true"></i><a href="https://www.facebook.com/pages/Northwestern-University-Higher-Education-Administration-and-Policy-Program/417734068297949" target="_blank"> Facebook</a></p>
+                <p><i class="fa fa-twitter-square" aria-hidden="true"></i><a href="https://twitter.com/NU_HigherEd" target="_blank"> Twitter</a></p>
+                <p><i class="fa fa-instagram" aria-hidden="true"></i><a href="https://www.instagram.com/nu_mshe/" target="_blank"> Instagram</a></p>
             </div>
             <div class="column">
                 <h4>Contact</h4>
@@ -91,5 +92,16 @@
     <!--Disqus js-->
     <script id="dsq-count-scr" src="//mshestudentresources.disqus.com/count.js" async></script>
     {% endif %}
+    <!--analytics-->
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-69072426-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </body>
 </html>

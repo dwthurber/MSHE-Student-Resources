@@ -15,6 +15,7 @@ categories:
   - Kellogg MBA
   - The Graduate School (TGS)
   - Medill courses
+  - Authorization for Dual Registration Form
 status:
   - current students
 comments: true

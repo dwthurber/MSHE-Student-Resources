@@ -40,6 +40,7 @@ nav ul li {
     display: inline-block;
     margin: 0;
     padding: 0;
+    margin-left: -5px;
 }
 
 nav ul li a {
@@ -259,6 +260,7 @@ aside ul li a {
     color: #333;
     font-weight: bolder;
     position: relative;
+    line-height: 2;
 }
 
 aside ul li a.active .triangle {

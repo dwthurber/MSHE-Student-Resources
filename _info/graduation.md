@@ -4,6 +4,7 @@ description: This page includes all the information you will need to graduate in
 categories: 
   - policies
   - professional development
+  - alumni
 status:
   - current students
 comments: true

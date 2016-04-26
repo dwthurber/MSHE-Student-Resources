@@ -5,6 +5,8 @@ categories:
   - career resources
   - attend a conference
   - professional development
+  - professional organizations
+  - alumni
 status:
   - newly admitted students
   - current students

@@ -82,7 +82,5 @@ glossary-term:
 ---
 
   {% for item in page.glossary-term %}
-  <div>
-  <p><strong>{{ item.term }}:</strong> {{ item.definition }}</p>
-  </div>
+  **{{ item.term }}:** {{ item.definition }}
   {% endfor %}

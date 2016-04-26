@@ -5,7 +5,7 @@ categories:
   - technology
   - get ready for graduate school
   - orientation
-status:
+statuses:
   - newly admitted students
   - current students
   - certificate students

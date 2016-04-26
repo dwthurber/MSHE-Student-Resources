@@ -5,7 +5,7 @@ categories:
   - internships
   - professional development
   - professional organizations
-status: 
+statuses: 
   - current students
   - newly admitted students
 comments: true

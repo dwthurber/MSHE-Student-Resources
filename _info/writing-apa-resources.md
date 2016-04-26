@@ -10,7 +10,7 @@ categories:
   - APA Style Resources
   - NU Employee Tuition Benefit
   - Purdue OWL
-status:
+statuses:
   - current students
   - certificate students
 comments: true

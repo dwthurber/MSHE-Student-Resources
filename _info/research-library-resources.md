@@ -5,7 +5,7 @@ categories:
   - academics
   - master project
   - succeed in classes
-status:
+statuses:
   - current students
   - certificate students
 comments: true

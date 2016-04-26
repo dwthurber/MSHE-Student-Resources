@@ -10,7 +10,7 @@ categories:
   - NU Employee Tuition Benefit
   - Tax Documents 
   - 1098T
-status:
+statuses:
   - newly admitted students
   - current students
   - certificate students

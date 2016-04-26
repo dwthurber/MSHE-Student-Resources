@@ -1,7 +1,7 @@
 ---
 title: Campus Resources
-description: The Northwestern University campus has a wide range of resources available to you as a student. These include fitness and recreation resources, health and wellness resources, arts and athletic events, and dining options.  
-categories: 
+description: 'The Northwestern University campus has a wide range of resources available to you as a student. These include fitness and recreation resources, health and wellness resources, arts and athletic events, and dining options.'
+categories:
   - student life
   - wellness
   - newly admitted students
@@ -14,9 +14,11 @@ statuses:
   - certificate students
 comments: true
 ---
+
+
 ![campus map](https://northwestern.box.com/shared/static/54qpz78p5z8u0chb71rvc4lgaxfd8q9x.jpg)
 
-#### Interactive campus map 
+#### Interactive campus map&nbsp;
 
 The [interactive campus map](http://maps.northwestern.edu/#latlngz=41.972%2C-87.655%2C12) allows you to search for buildings on the Evanston or Chicago campus by name or address. Once you've located a building you can scroll down on the pop-up window and get driving or walking directions from any address.
 
@@ -106,53 +108,53 @@ Plays
 
 [STA Travel](http://www.statravel.com/): Travel discounts for students
 
-#### Dining on Campus 
+#### Dining on Campus&nbsp;
 
 [Hours listed on the NUcuisine website](https://nucuisine.sodexomyway.net/hours/index.html). For more info, check out their websites.
 
-[Einstein Bros. Bagels](https://nucuisine.sodexomyway.net/dining-choices/retail/einsteins.html)  
-<span style="line-height: 1.4;">North Campus</span>  
-<span style="line-height: 1.4;">Bagels and shmear. Best bagels on campus </span>
+[Einstein Bros. Bagels](https://nucuisine.sodexomyway.net/dining-choices/retail/einsteins.html)
+<br>North Campus
+<br>Bagels and shmear. Best bagels on campus&nbsp;
 
-[Lisa's Café in Slivka](https://nucuisine.sodexomyway.net/dining-choices/retail/lisas.html)  
-<span style="line-height: 1.4;">North Campus </span>  
-<span style="line-height: 1.4;">Smoothies, desserts, sushi, pizza and toasted subs and wraps, with a convenience store. </span>
+[Lisa's Caf&eacute; in Slivka](https://nucuisine.sodexomyway.net/dining-choices/retail/lisas.html)
+<br>North Campus&nbsp;
+<br>Smoothies, desserts, sushi, pizza and toasted subs and wraps, with a convenience store.&nbsp;
 
-[Tech Express](https://nucuisine.sodexomyway.net/dining-choices/retail/express.html)  
-<span style="line-height: 1.4;">North Campus </span>  
-<span style="line-height: 1.4;">Varied breakfast selections, hot lunches, fresh salads, hot panini's, sushi, Campbell's Soup and desserts </span>
+[Tech Express](https://nucuisine.sodexomyway.net/dining-choices/retail/express.html)
+<br>North Campus&nbsp;
+<br>Varied breakfast selections, hot lunches, fresh salads, hot panini's, sushi, Campbell's Soup and desserts&nbsp;
 
-[Norris University Center](http://www.nucuisine.com/retail/norris.html)  
-<span style="line-height: 1.4;">Mid-campus </span>  
-<span style="line-height: 1.4;">(Starbucks Coffee, Subway, Dunkin Donuts, food court and convenience store) </span>
+[Norris University Center](http://www.nucuisine.com/retail/norris.html)
+<br>Mid-campus&nbsp;
+<br>(Starbucks Coffee, Subway, Dunkin Donuts, food court and convenience store)&nbsp;
 
-[Food For Thought at Garrett](http://fftchicago.com/garrett/index.php)  
-<span style="line-height: 1.4;">Mid-campus </span>  
-<span style="line-height: 1.4;">Panini sandwiches, grill, salads and soft drinks </span>
+[Food For Thought at Garrett](http://fftchicago.com/garrett/index.php)
+<br>Mid-campus&nbsp;
+<br>Panini sandwiches, grill, salads and soft drinks&nbsp;
 
-[Plaza Café in the Library](https://nucuisine.sodexomyway.net/dining-choices/retail/plaza.html)  
-<span style="line-height: 1.4;">Mid-campus </span>  
-<span style="line-height: 1.4;">Coffee, tea, and pastries. </span>
+[Plaza Caf&eacute; in the Library](https://nucuisine.sodexomyway.net/dining-choices/retail/plaza.html)
+<br>Mid-campus&nbsp;
+<br>Coffee, tea, and pastries.&nbsp;
 
-[Crowe Café](https://nucuisine.sodexomyway.net/hours/index.html#crowe)  
-<span style="line-height: 1.4;">South Campus </span>  
-<span style="line-height: 1.4;">Pastries, coffee, convenience options </span>
+[Crowe Caf&eacute;](https://nucuisine.sodexomyway.net/hours/index.html#crowe)
+<br>South Campus&nbsp;
+<br>Pastries, coffee, convenience options&nbsp;
 
-[Fran's Café in Willard](https://nucuisine.sodexomyway.net/dining-choices/retail/frans.html)  
-<span style="line-height: 1.4;">South Campus </span>  
-<span style="line-height: 1.4;">Late night milkshakes, sliders, flatbreads, salads, tater tots, and waffle fries. </span>
+[Fran's Caf&eacute; in Willard](https://nucuisine.sodexomyway.net/dining-choices/retail/frans.html)
+<br>South Campus&nbsp;
+<br>Late night milkshakes, sliders, flatbreads, salads, tater tots, and waffle fries.&nbsp;
 
 #### Other Campus Resources
 
-*   [International Office](http://www.northwestern.edu/international/)
-*   [Multicultural Student Affairs](http://www.northwestern.edu/msa/)
-*   [Religious Life - University Chaplain](http://www.northwestern.edu/religious-life/)
-*   [Services for Students with Disabilities](http://www.northwestern.edu/disability/)
-*   [Sexual Harassment Prevention Office](http://www.northwestern.edu/sexual-harassment/)
-*   [Student Conduct and Conflict Resolution](http://www.northwestern.edu/student-conduct/)
-*   [Student Financial Services](http://www.northwestern.edu/sfs/)
-*   [Student Loans](http://www.northwestern.edu/sfs/student_loans/index.html)
-*   [Transportation - Shuttles](http://www.northwestern.edu/uservices/transportation/shuttles/)
-*   [University Career Services](http://www.northwestern.edu/careers/)
-*   [University Directory](http://www.northwestern.edu/contact.html)
-*   [WildCARD Office](http://www.northwestern.edu/uservices/wildcard/)
+* [International Office](http://www.northwestern.edu/international/)
+* [Multicultural Student Affairs](http://www.northwestern.edu/msa/)
+* [Religious Life - University Chaplain](http://www.northwestern.edu/religious-life/)
+* [Services for Students with Disabilities](http://www.northwestern.edu/disability/)
+* [Sexual Harassment Prevention Office](http://www.northwestern.edu/sexual-harassment/)
+* [Student Conduct and Conflict Resolution](http://www.northwestern.edu/student-conduct/)
+* [Student Financial Services](http://www.northwestern.edu/sfs/)
+* [Student Loans](http://www.northwestern.edu/sfs/student_loans/index.html)
+* [Transportation - Shuttles](http://www.northwestern.edu/uservices/transportation/shuttles/)
+* [University Career Services](http://www.northwestern.edu/careers/)
+* [University Directory](http://www.northwestern.edu/contact.html)
+* [WildCARD Office](http://www.northwestern.edu/uservices/wildcard/)

@@ -16,7 +16,7 @@ categories:
   - The Graduate School (TGS)
   - Medill courses
   - Authorization for Dual Registration Form
-status:
+statuses:
   - current students
 comments: true
 ---

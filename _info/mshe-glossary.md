@@ -27,7 +27,7 @@ categories:
   - SES
   - SESP
   - WCAS
-status:  
+statuses:  
   - current students
   - newly admitted students
   - certificate students

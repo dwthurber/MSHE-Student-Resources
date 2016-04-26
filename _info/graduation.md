@@ -5,7 +5,7 @@ categories:
   - policies
   - professional development
   - alumni
-status:
+statuses:
   - current students
 comments: true
 ---

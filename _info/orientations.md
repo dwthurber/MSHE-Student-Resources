@@ -5,7 +5,7 @@ categories:
   - policies
   - get ready for graduate school
   - orientation
-status: 
+statuses: 
   - newly admitted students
   - certificate students
 comments: true

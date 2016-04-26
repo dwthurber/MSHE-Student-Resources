@@ -4,7 +4,7 @@ description: Policies related to matriculated vs non-matriculated students, full
 categories: 
   - policies
   - student status
-status:
+statuses:
   - current students
   - non-matriculated students
 comments: true

@@ -4,7 +4,7 @@ description: Navigate what it means to be a non-matriculated student, including 
 categories: 
   - policies
   - student status
-status:
+statuses:
   - current students
   - non-matriculated students
 comments: true

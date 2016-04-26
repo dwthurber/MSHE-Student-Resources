@@ -11,11 +11,6 @@ defaults:
       type: "info"
     values:
       layout: "info-page"
-      
-categories: 
-  - academics
-  - internships
-  - studentlife
 
 statuses:
   - newly admitted students

@@ -4,7 +4,7 @@ description: The Master’s Project is an opportunity to pursue resolution of a 
 categories: 
   - master project
   - academics
-status:
+statuses:
   - current students
 comments: true
 ---

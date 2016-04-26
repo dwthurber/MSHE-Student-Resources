@@ -4,7 +4,7 @@ description: In compliance with Section 504 of the 1973 Rehabilitation Act and t
 categories: 
   - policies
   - accommodations
-status:
+statuses:
   - newly admitted students
   - current students
   - certificate students

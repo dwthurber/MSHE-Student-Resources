@@ -9,7 +9,7 @@ categories:
   - athletics
   - gym
   - beach
-status:
+statuses:
   - current students
   - certificate students
 comments: true

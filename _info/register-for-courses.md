@@ -5,7 +5,7 @@ categories:
   - academics
   - register for courses
   - choose an elective
-status:
+statuses:
   - newly admitted students
   - current students
   - certificate students

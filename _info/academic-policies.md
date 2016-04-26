@@ -5,7 +5,7 @@ categories:
   - academics
   - policies
   - accommodations
-status:
+statuses:
   - current students
   - certificate students
 comments: true

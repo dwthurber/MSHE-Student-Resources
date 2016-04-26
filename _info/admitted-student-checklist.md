@@ -6,7 +6,7 @@ categories:
   - financial aid
   - get ready for graduate school
   - orientation
-status:
+statuses:
   - newly admitted students
 comments: true
 ---

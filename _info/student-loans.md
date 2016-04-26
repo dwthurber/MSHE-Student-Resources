@@ -4,7 +4,7 @@ description: Student loans for MS in Higher Education Administration and Policy 
 categories: 
   - financial aid
   - register for courses
-status:
+statuses:
   - newly admitted students
   - current students
 comments: true

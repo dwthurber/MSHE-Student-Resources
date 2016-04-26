@@ -4,7 +4,7 @@ description: A small selection of Master's Projects completed by Higher Educatio
 categories: 
   - master project
   - academics
-status:
+statuses:
   - current students
 comments: true
 ---

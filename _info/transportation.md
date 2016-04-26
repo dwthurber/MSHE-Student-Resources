@@ -4,7 +4,7 @@ description: Learn how to get around campus and chicago using the Inter-campus s
 categories: 
   - find a place to live
   - student life
-status:
+statuses:
   - newly admitted students
   - current students
   - certificate students

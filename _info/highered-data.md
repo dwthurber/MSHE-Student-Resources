@@ -4,7 +4,7 @@ description: Data is important for many projects in the Higher Ed program includ
 categories: 
   - academics
   - succeed in classes
-status:
+statuses:
   - current students
   - certificate students
 comments: true

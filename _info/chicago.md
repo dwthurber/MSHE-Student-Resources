@@ -5,7 +5,7 @@ categories:
   - student life
   - relax and enjoy
   - find a place to live
-status:
+statuses:
   - newly admitted students
   - current students
   - certificate students

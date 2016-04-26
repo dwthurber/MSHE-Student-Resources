@@ -7,7 +7,7 @@ categories:
   - professional development
   - professional organizations
   - alumni
-status:
+statuses:
   - newly admitted students
   - current students
   - certificate students

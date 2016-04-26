@@ -4,7 +4,7 @@ description: Many students live on-campus or in Evanston. Some students rent apa
 categories: 
   - student life
   - find a place to live
-status:
+statuses:
   - newly admitted students
 comments: true
 ---

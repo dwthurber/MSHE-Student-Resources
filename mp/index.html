@@ -1,0 +1,22 @@
+---
+layout: default
+---
+    <section class="container">
+        <h2>Master's Projects Database</h2>
+        <br>
+        {% for project in site.data.mp limit:50 %}
+        <!--<table>-->
+        <!--    <tr>-->
+        <!--        <td><h2>{{ project.title }}</h2></td>-->
+        <!--        <td><p>{{ project.question }}</p></td>-->
+        <!--    </tr>-->
+        <!--</table>-->
+            <div class="mp-block mix">
+                <p>{{ project.year }}</p>
+                <p><strong>{{ project.title }}</strong></p>
+                <p class="subheader">{{ project.last_name }}, {{ project.first_name }}</p>
+            </div>
+        {% endfor %}
+    </section>
+    <br>
+    

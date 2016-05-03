@@ -22,3 +22,5 @@ list-bies:
   - category
   - action
   - student status
+
+paginate: 50

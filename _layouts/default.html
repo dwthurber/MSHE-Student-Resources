@@ -44,8 +44,9 @@
         <div class="three-columns">
             <div class="column">
                 <h4>Explore</h4>
-                <p><a href="index.html">Search</a></p>
-                <p><a href="topics.html">Topics</a></p>
+                {% for nav_item in site.data.nav %}
+                <p><a href="{{ nav_item.link | prepend:site.baseurl }}">{{ nav_item.name }}</a></p>
+                {% endfor %}
             </div>
             <div class="column">
                 <h4>Stay Connected</h4>

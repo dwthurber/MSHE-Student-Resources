@@ -21,6 +21,11 @@ var topicsApp = angular.module('topicsApp', ['ngRoute']);
              var mixitup = "all";
          }
          
+         $scope.sortYear = function(val) {
+             $scope.direction = val;
+             console.log(val);
+         }
+         
          $(function(){
 
     	// Instantiate MixItUp:
@@ -28,7 +33,7 @@ var topicsApp = angular.module('topicsApp', ['ngRoute']);
     	    $('#Container').mixItUp({
             	load: {
             		filter: mixitup,
-            		sort: 'name:asc'
+            		sort: 'year:desc name:asc'
             	}
             });
     

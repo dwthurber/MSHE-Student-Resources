@@ -15,7 +15,7 @@ list-by:
             {% endfor %}
         </ul>
         <div>
-            <aside>
+            <aside class="topics-filters">
                 {% for filter in site.data.filters %}
                 {% if filter.list-by == 'category' %}
                 <ul ng-show="filterFilter == 'category'">

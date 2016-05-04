@@ -1,22 +1,61 @@
 ---
 layout: default
+featured: 
+  - Ann Merrell
+  - Alice Ji
+  - Carol Chen
 ---
     <section class="container">
         <h2>Master's Projects Database</h2>
         <br>
-        {% for project in site.data.mp limit:50 %}
-        <!--<table>-->
-        <!--    <tr>-->
-        <!--        <td><h2>{{ project.title }}</h2></td>-->
-        <!--        <td><p>{{ project.question }}</p></td>-->
-        <!--    </tr>-->
-        <!--</table>-->
-            <div class="mp-block mix">
-                <p>{{ project.year }}</p>
-                <p><strong>{{ project.title }}</strong></p>
-                <p class="subheader">{{ project.last_name }}, {{ project.first_name }}</p>
-            </div>
-        {% endfor %}
+        <div>
+            
+            <article class="mixing container">
+                <table width="100%" class="sorter-table">
+                    <tr>
+                        <td width="40px">Year</td>
+                        <td>Project Details</td>
+                        <td width="150px">Category</td>
+                    </tr>
+                </table>
+                {% for project in site.data.mp %}
+                    <div class="mp-block mix">
+                        <table width="100%" class="mp-table">
+                            <tr>
+                                <td width="40px" class="year">{{ project.year }}</td>
+                                <td class="title">
+                                    <p><strong>{{ project.title }}</strong></p>
+                                    <p class="author">By {{ project.first_name }} {{ project.last_name }} </p>
+                                </td>
+                                <td width="150px" class="category">{{ project.category }}</td>
+                            </tr>
+                        </table>
+                        <!--<p class="left">{{ project.year }}</p>-->
+                        <!--<p><strong>{{ project.title }}</strong></p>-->
+                        <!--<p class="subheader">By {{ project.first_name }} {{ project.last_name }} in {{ project.year }} </p>-->
+                    </div>
+                {% endfor %}
+            </article>
+            <aside>
+                <p class="column-title">Most Popular Projects</p>
+                {% assign sorted_projects = (page.featured | sort)%}
+                {% for project in sorted_projects %}
+                <p>{{ project }}</p>
+                {% endfor %}
+                <p class="column-title">Filter By Tag</p>
+                {% capture mp_tags %}{% for item in site.data.mp %}{{ item.tags }}{% endfor %}{% endcapture %}
+                {% assign tag_words = mp_tags | downcase | split: ',' | uniq | sort %}
+                <ul class="tag-list">
+                    {% for tag in tag_words %}<li>{{ tag }}</li>{% endfor %}
+                </ul>
+                <!--<ul class="tag-list">-->
+                <!--    {% for item in site.data.convertcsv %}-->
+                <!--    <li>{{ item.keywords | split:', ' }} </li>-->
+                <!--    {% endfor %}-->
+                <!--</ul>-->
+                
+            </aside>
+        </div>
     </section>
     <br>
     

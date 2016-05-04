@@ -227,13 +227,19 @@ footer p {
 
 aside {
     width: 30%;
-    background-color: #eee;
-    display: inline-block;
-    margin-right: 10px;
+    margin-left: 15px;
     vertical-align: top;
+    display: inline-block;
 }
 
-aside ul {
+.topics-filters {
+    background-color: #eee;
+    margin-right: 10px;
+    margin-left: 0;
+    
+}
+
+.topics-filters ul {
     list-style-type: none;
     /*margin-left: 10px;*/
     padding-left: 0;
@@ -354,4 +360,62 @@ aside ul li a.active {
 
 .related .subheader {
     font-size: 0.7em;
+}
+
+table td {
+    vertical-align: top;
+}
+
+.year {
+    font-size: 0.7em;
+    color: #999;
+    vertical-align: top;
+}
+
+.author {
+    font-size: 0.8em;
+    color: #666;
+    margin-top: -8px;
+    font-style: italic;
+}
+
+.category {
+    font-size: 0.8em;
+    line-height: 1;
+    color: #555;
+}
+
+.sorter-table {
+    margin-bottom: 20px;
+    background-color: #555;
+    color: #fff;
+    font-weight: 500;
+    font-size: 0.9em;
+}
+
+.sorter-table td {
+    padding: 0 5px;
+}
+
+.mp-table td {
+    padding: 0 5px;
+}
+
+.column-title {
+    font-weight: 700;
+    border-bottom: 1px dotted #4e2a84;
+}
+
+.tag-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.tag-list li {
+    display: inline-block;
+    padding: 2px 4px;
+    margin: 2px;
+    background-color: #ccc;
+    border-radius: 5px;
+    font-size: 0.6em;
 }

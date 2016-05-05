@@ -21,9 +21,10 @@ var topicsApp = angular.module('topicsApp', ['ngRoute']);
              var mixitup = "all";
          }
          
-         $scope.sortYear = function(val) {
-             $scope.direction = val;
-             console.log(val);
+         $scope.sortFocus = 'year';
+         
+         $scope.sort = function(val) {
+             $scope.sortFocus = val;
          }
          
          $(function(){

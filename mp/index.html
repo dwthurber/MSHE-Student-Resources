@@ -4,6 +4,21 @@ featured:
   - Ann Merrell
   - Alice Ji
   - Carol Chen
+categories:
+  - Academic Services and Programming
+  - Admissions and Enrollment Management
+  - Alumni Relations and Development
+  - Athletics
+  - Career Services
+  - Civic Engagement and Volunteerism
+  - Social Justice (e.g., diversity, inclusion, access, equality, equity)
+  - Financial Issues
+  - Higher Education Policy
+  - Strategic Planning and Institutional Research
+  - Student Development
+  - Student Engagement
+  - Student Wellness
+  - Study Abroad and International Education
 ---
     <section class="container">
         <h2>Master's Projects Database</h2>
@@ -13,16 +28,16 @@ featured:
             <article class="mixing" id="Container">
                 <table width="100%" class="sorter-table">
                     <tr>
-                        <td class="sort" ng-click="sortYear(!sortYear)" data-sort="year:desc name:asc" width="40px">Year</td>
-                        <td class="sort" data-sort="year:desc author:asc">Project Details</td>
-                        <td class="sort" data-sort="year:desc category:asc" width="150px">Category</td>
+                        <td class="sort" ng-click="sort('year')" data-sort="year:desc name:asc" width="50px">Year <i ng-if="sortFocus == 'year'" class="fa fa-caret-down" aria-hidden="true"></i><span class="hover">Sort By Year<div class="arrow-down"></div></span></td>
+                        <td class="sort" ng-click="sort('author')" data-sort="author:asc">Project Details <i ng-if="sortFocus == 'author'" class="fa fa-caret-down" aria-hidden="true"></i><span class="hover">Sort By Author<div class="arrow-down"></div></span></td>
+                        <td class="sort" ng-click="sort('category')" data-sort="category:asc year:desc" width="150px">Category <i ng-if="sortFocus == 'category'" class="fa fa-caret-down" aria-hidden="true"></i><span class="hover">Sort By Category<div class="arrow-down"></div></span></td>
                     </tr>
                 </table>
                 {% for project in site.data.mp %}
-                    <div class="mix" data-name="{{ project.title }}" data-author="{{ project.last_name }}" data-year="{{ project.year }}" data-category="{{ project.category }}">
+                    <div class="mix {{ project.category | downcase | replace:' ','' }} {{ project.tags | downcase | replace:' ','' | replace:',',' '" data-name="{{ project.title }}" data-author="{{ project.last_name }}" data-year="{{ project.year }}" data-category="{{ project.category }}">
                         <table width="100%" class="mp-table">
                             <tr>
-                                <td width="40px" class="year">{{ project.year }}</td>
+                                <td width="50px" class="year">{{ project.year }}</td>
                                 <td class="title">
                                     <p><strong>{{ project.title }}</strong></p>
                                     <p class="author">By {{ project.first_name }} {{ project.last_name }} </p>
@@ -37,13 +52,13 @@ featured:
                 <p class="column-title">Most Popular Projects</p>
                 {% assign sorted_projects = (page.featured | sort)%}
                 {% for project in sorted_projects %}<p>{{ project }}</p>{% endfor %}
-                <p class="column-title">Filter by Category</p>
-                {% for item in site.categories %}<p>{{ item }}</p>{% endfor %}
-                <p class="column-title">Filter By Tag</p>
+                <p class="column-title">Filter by Category <span class="clear"> <a  class="filter" data-filter="all" href="#"> CLEAR </a></span></p>
+                {% for item in page.categories %}<p><a class="filter" data-filter=".{{ item | downcase | replace:' ','' }}" href="#/{{ item | downcase | replace:' ','' }}"><i class="fa fa-angle-double-right" aria-hidden="true"></i> {{ item }}</a></p>{% endfor %}
+                <p class="column-title">Filter By Tag <span class="clear"> <a  class="filter" data-filter="all" href="#"> CLEAR </a></span></p>
                 {% capture mp_tags %}{% for item in site.data.mp %}{{ item.tags }}{% endfor %}{% endcapture %}
                 {% assign tag_words = mp_tags | downcase | split: ',' | uniq | sort %}
                 <ul class="tag-list">
-                    {% for tag in tag_words %}<li>{{ tag }}</li>{% endfor %}
+                    {% for tag in tag_words %}<li><a class="filter" data-filter=".{{ tag | replace:' ','' }}" href="#/{{ tag | replace:' ','' }}">{{ tag }}</a></li>{% endfor %}
                 </ul>
             </aside>
         </div>

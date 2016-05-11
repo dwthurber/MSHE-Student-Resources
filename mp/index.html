@@ -11,7 +11,7 @@ categories:
   - Athletics
   - Career Services
   - Civic Engagement and Volunteerism
-  - Social Justice (e.g., diversity, inclusion, access, equality, equity)
+  - Social Justice
   - Financial Issues
   - Higher Education Policy
   - Strategic Planning and Institutional Research
@@ -34,7 +34,7 @@ categories:
                     </tr>
                 </table>
                 {% for project in site.data.mp %}
-                    <div class="mix {{ project.category | downcase | replace:' ','' }} {{ project.tags | downcase | replace:' ','' | replace:',',' '" data-name="{{ project.title }}" data-author="{{ project.last_name }}" data-year="{{ project.year }}" data-category="{{ project.category }}">
+                    <div class="mix {{ project.category | downcase | replace:' ','' }} {{ project.tags | downcase | replace:' ','' | replace:',',' '}}" data-name="{{ project.title }}" data-author="{{ project.last_name }}" data-year="{{ project.year }}" data-category="{{ project.category }}">
                         <table width="100%" class="mp-table">
                             <tr>
                                 <td width="50px" class="year">{{ project.year }}</td>
@@ -49,12 +49,12 @@ categories:
                 {% endfor %}
             </article>
             <aside>
-                <p class="column-title">Most Popular Projects</p>
+                <p class="column-title">Featured Projects</p>
                 {% assign sorted_projects = (page.featured | sort)%}
                 {% for project in sorted_projects %}<p>{{ project }}</p>{% endfor %}
                 <p class="column-title">Filter by Category <span class="clear"> <a  class="filter" data-filter="all" href="#"> CLEAR </a></span></p>
-                {% for item in page.categories %}<p><a class="filter" data-filter=".{{ item | downcase | replace:' ','' }}" href="#/{{ item | downcase | replace:' ','' }}"><i class="fa fa-angle-double-right" aria-hidden="true"></i> {{ item }}</a></p>{% endfor %}
-                <p class="column-title">Filter By Tag <span class="clear"> <a  class="filter" data-filter="all" href="#"> CLEAR </a></span></p>
+                {% for item in page.categories %}<p><a  class="filter" ng-click="addCategory('.{{ item | downcase | replace:' ','' }}')" href="#/{{ item | downcase | replace:' ','' }}"><i class="fa fa-angle-double-right" aria-hidden="true"></i> {{ item }}</a></p>{% endfor %}
+                <p class="column-title">Filter By Tag <span class="clear"> <a class="filter" data-filter="all" href="#"> CLEAR </a></span></p>
                 {% capture mp_tags %}{% for item in site.data.mp %}{{ item.tags }}{% endfor %}{% endcapture %}
                 {% assign tag_words = mp_tags | downcase | split: ',' | uniq | sort %}
                 <ul class="tag-list">

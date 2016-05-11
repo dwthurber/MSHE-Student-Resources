@@ -1,11 +1,11 @@
-[
+{"Master's Projects:"[
 	{
 		"first_name": "Elysse",
 		"last_name": "Longiotti",
 		"title": "The Study Abroad Decision Making Process: A Look at French and Italian Programs",
 		"year": 2015,
 		"question": "What personal and academic factors contribute to Northwestern undergraduates_ selection of French and Italian study abroad programs and what roles do personal, familial, and instructor expectations play in the selection process?",
-		"tags": "",
+		"tags": [""],
 		"categories": [
 			"Study Abroad and International Education"
 		],
@@ -3184,4 +3184,4 @@
 		"file_path": "",
 		"presentation_file_path": ""
 	}
-]
+]}

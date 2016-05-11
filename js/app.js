@@ -27,6 +27,14 @@ var topicsApp = angular.module('topicsApp', ['ngRoute']);
              $scope.sortFocus = val;
          }
          
+         $scope.categories = [];
+         $scope.tagFilters = [];
+         
+         $scope.addCategory = function(val) {
+            $scope.categories = $scope.categories + val;
+            console.log($scope.categories);
+         };
+         
          $(function(){
 
     	// Instantiate MixItUp:
@@ -34,7 +42,11 @@ var topicsApp = angular.module('topicsApp', ['ngRoute']);
     	    $('#Container').mixItUp({
             	load: {
             		filter: mixitup,
-            		sort: 'year:desc name:asc'
+            		sort: 'year:desc name:asc',
+            	},
+            	controls: {
+            	    toggleFilterButtons: true,
+            	    toggleLogic: 'or'
             	}
             });
     

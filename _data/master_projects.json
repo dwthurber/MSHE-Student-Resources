@@ -18,7 +18,7 @@
     ,"year":2015
     ,"question":"How does the prospect of campus leadership positions play a role in a student_s decision whether or not to study abroad while enrolled at a highly selective, research institution?"
     ,"tags":["study abroad", "involvement", "leadership", "summer programs", "experience", "navigate"]
-    ,"categories":["Study Abroad and International Education, Student Engagement, Student Development"]
+    ,"categories":["Study Abroad and International Education", "Student Engagement", "Student Development"]
     ,"consent":"yes"
     ,"file_path":""
     ,"presentation_file_path":""
@@ -113,7 +113,7 @@
     ,"title":"Supporting Peers with Mental Health Issues"
     ,"year":2015
     ,"question":"What do college students at a highly selective Research I institution recognize as symptoms of mental health issues and what actions do they, or would they, take to help their peers with these challenges?"
-    ,"tags":["college students, mental health"]
+    ,"tags":["college students", "mental health"]
     ,"categories":["Student Wellness"]
     ,"consent":"yes"
     ,"file_path":""
@@ -125,7 +125,7 @@
     ,"title":"The Talking Cure: Sustained Dialogue and Perceptions of Racial/Ethnic Climate"
     ,"year":2015
     ,"question":"Two years after a series of racially-biased incidents led to the implementation of a Sustained Dialogue program at Northwestern University, how do participants in the program and non-participants describe the campus_s racial and ethnic climate?"
-    ,"tags":["race, diversity, racial climate, dialogue, sustained dialogue, inclusion"]
+    ,"tags":["race", "diversity", "racial climate", "dialogue", "sustained dialogue", "inclusion"]
     ,"categories":["Social Justice"]
     ,"consent":"yes"
     ,"file_path":""
@@ -137,7 +137,7 @@
     ,"title":"Recruiting Student-Athletes: An Examination of the Marketing of Academic Reputation and Student-Athlete Services"
     ,"year":2015
     ,"question":"How do student-athletes at a highly selective and athletically competitive Football Bowl Subdivision (FBS) University perceive the effectiveness of their institution_s marketing of academic reputation and athletic student services throughout its recruitment process?"
-    ,"tags":["student athlete, recruiting, college athletics, marketing"]
+    ,"tags":["student athlete", "recruiting", "college athletics", "marketing"]
     ,"categories":[""]
     ,"consent":"yes"
     ,"file_path":""
@@ -161,8 +161,8 @@
     ,"title":"Mission, Culture and the First Year Experience"
     ,"year":2015
     ,"question":"How do new student programs at DePaul University reflect the school_s mission and culture, and after participating do undergraduate first-year students feel engaged and connected to that mission and culture?"
-    ,"tags":["mission, culture, organizational theory, mission statements, first year experience"]
-    ,"categories":["Student Engagement, Student Development"]
+    ,"tags":["mission", "culture", "organizational theory", "mission statements", "first year experience"]
+    ,"categories":["Student Engagement", "Student Development"]
     ,"consent":"yes"
     ,"file_path":""
     ,"presentation_file_path":""
@@ -173,7 +173,7 @@
     ,"title":"Institutional Support for High Achieving Students from Low Socioeconomic Backgrounds"
     ,"year":2015
     ,"question":"What are the student perceptions and satisfaction levels regarding institutionally provided academic and social support for students from low socioeconomic backgrounds at highly selective research universities?"
-    ,"tags":["Low-income students, student success, academic support, social support"]
+    ,"tags":["Low-income students", "student success", "academic support", "social support"]
     ,"categories":["Social Justice"]
     ,"consent":"yes"
     ,"file_path":""
@@ -185,7 +185,7 @@
     ,"title":"Women in Science and Medicine: Mentoring and Retention Along the Academic Pipeline"
     ,"year":2015
     ,"question":"How do two hybridized mentoring programs help participants, female students and faculty in science and medicine at a Research I Institution, overcome factors that lead to attrition in those fields?"
-    ,"tags":["mentorships, dyadic mentoring, peer mentoring, women in STEM, gender parity, medical students, postdoctoral fellows, assistant faculty, tenured faculty"]
+    ,"tags":["mentorships", "dyadic mentoring", "peer mentoring", "women in STEM", "gender parity", "medical students", "postdoctoral fellows", "assistant faculty", "tenured faculty"]
     ,"categories":["Academic Services and Programming"]
     ,"consent":"yes"
     ,"file_path":""
@@ -197,7 +197,7 @@
     ,"title":"Women Senior-Level Leaders in Higher Education: Facing and Overcoming Barriers"
     ,"year":2015
     ,"question":"What career advancement barriers, if any, do women experience along the path to higher education senior-level leadership roles, and how do some women attain senior-level positions at leading research universities despite these barriers?"
-    ,"tags":["women, administrators, leadership, barriers, overcoming barriers, career advacement"]
+    ,"tags":["women", "administrators", "leadership", "barriers", "overcoming barriers", "career advacement"]
     ,"categories":["Career Services"]
     ,"consent":"yes"
     ,"file_path":""
@@ -209,7 +209,7 @@
     ,"title":"Community Colleges Going Abroad: The Characteristics and Motivations for Study Abroad "
     ,"year":2015
     ,"question":"What are the characteristics of Midwestern community colleges offering study abroad and what motivates community college students to participate in the programs?"
-    ,"tags":["study abroad, community colleges, student motivation, international education "]
+    ,"tags":["study abroad", "community colleges", "student motivation", "international education "]
     ,"categories":["Study Abroad and International Education"]
     ,"consent":"yes"
     ,"file_path":""
@@ -221,8 +221,8 @@
     ,"title":"Queer: Will Travel"
     ,"year":2015
     ,"question":"How do new cultural realities experienced through experiential study abroad programs influence LGBTQ-identifying participants in their sexual identity development, and how can higher education professionals best utilize this knowledge in designing programming supportive of students and host communities?"
-    ,"tags":["LGBTQ, gay, lesbian, queer, identity development, abroad, experiential support, study abroad, resources"]
-    ,"categories":["Study Abroad and International Education, Student Development"]
+    ,"tags":["LGBTQ", "gay", "lesbian", "queer", "identity development", "abroad", "experiential support", "study abroad", "resources"]
+    ,"categories":["Study Abroad and International Education", "Student Development"]
     ,"consent":"yes"
     ,"file_path":""
     ,"presentation_file_path":""
@@ -246,7 +246,7 @@
     ,"year":2015
     ,"question":"Directly following participation in a quarter-long Associated Colleges of the Midwest (ACM) study abroad program, how do students_ involvement in on-campus activities and students_ levels of global competency (e.g. cultural sensitivity, intercultural development) change, and how do these same outcomes change after 15 months?"
     ,"tags":[""]
-    ,"categories":["Study Abroad and International Education; Student Development"]
+    ,"categories":["Study Abroad and International Education", "Student Development"]
     ,"consent":"yes"
     ,"file_path":""
     ,"presentation_file_path":""
@@ -257,7 +257,7 @@
     ,"title":"Next Time Won_t You Play With Me: Scalability of Simulation-Based Learning at Northwestern University"
     ,"year":2015
     ,"question":"What variables of scale affect the stated goals of the simulation-based medical education at the Feinberg School of Medicine and how do they compare to the variables of scale required for other types of game-based learning innovations?"
-    ,"tags":["scale, scalability, simulation, game-based learning, fidelity, motivation, augmented reality"]
+    ,"tags":["scale", "scalability", "simulation", "game-based learning", "fidelity", "motivation"]
     ,"categories":["Academic Services and Programming"]
     ,"consent":""
     ,"file_path":""
@@ -270,7 +270,7 @@
     ,"year":2015
     ,"question":"How do undergraduate Asian American students at a highly selective research institution perceive their personal leadership involvement, and how can the institution support their development as leaders?"
     ,"tags":[""]
-    ,"categories":["Social Justice; Student development"]
+    ,"categories":["Social Justice", "Student development"]
     ,"consent":"yes"
     ,"file_path":""
     ,"presentation_file_path":""
@@ -282,7 +282,7 @@
     ,"year":2015
     ,"question":"How are students with multiple marginalized identities among the categories of (1) race/ethnicity, (2) sexual orientation/gender identity, (3) socioeconomic status, and (4) ability status supported by identity-based offices at a private research university, and how do their experiences inform best practices? "
     ,"tags":[""]
-    ,"categories":["Social Justice; Student Support Services"]
+    ,"categories":["Social Justice", "Student Support Services"]
     ,"consent":"yes"
     ,"file_path":""
     ,"presentation_file_path":""
@@ -293,8 +293,8 @@
     ,"title":"Normalizing Nerdiness: Honors Programs and Sense of Belonging"
     ,"year":2015
     ,"question":"How can honors programs cultivate a sense of social and academic belonging amongst program participants at a large urban private university and a suburban liberal arts college?"
-    ,"tags":["honors students, honors programs, belonging, higher education, peer relationships, faculty relationships"]
-    ,"categories":["Student Engagement, Academic Services and Programming"]
+    ,"tags":["honors students", "honors programs", "belonging", "higher education", "peer relationships", "faculty relationships"]
+    ,"categories":["Student Engagement", "Academic Services and Programming"]
     ,"consent":"yes"
     ,"file_path":""
     ,"presentation_file_path":""
@@ -317,8 +317,8 @@
     ,"title":"Perceptions of Mentoring Among Doctoral Students in Science, Technology, Engineering and"
     ,"year":2015
     ,"question":"What types of mentoring relationships exist for doctoral students in science, technology, engineering, and mathematics (STEM)�disciplines at NorthwesternUniversity and how does (1)�gender of the doctoral student,�(2)�type of STEM discipline, and�(3)�gender of the mentor�affect doctoral students_ perceptions ofthese mentoring relationships?�"
-    ,"tags":["doctoral students, STEM, Mentoring Relationships, mentorship, women"]
-    ,"categories":["Student Development, Student Engagement, Academic Services and Programming"]
+    ,"tags":["doctoral students", "STEM", "Mentoring Relationships", "mentorship", "women"]
+    ,"categories":["Student Development", "Student Engagement", "Academic Services and Programming"]
     ,"consent":"yes"
     ,"file_path":""
     ,"presentation_file_path":""
@@ -329,7 +329,7 @@
     ,"title":"Mathematics�(STEM) Disciplines"
     ,"year":2014
     ,"question":"How do alumni from different generations engage with Northwestern through reunions?"
-    ,"tags":["alumni, alumni engagementm reunions, generation, development, social media"]
+    ,"tags":["alumni", "alumni engagement", "reunions", "generation", "development", "social media"]
     ,"categories":["Alumni Relations and Development"]
     ,"consent":"yes"
     ,"file_path":""
@@ -341,7 +341,7 @@
     ,"title":"Teach Us to Teach: An Exploration of Pedagogical Preparation for Humanities Doctoral Students"
     ,"year":2014
     ,"question":"What guidance and resources regarding pedagogy are needed to prepare humanities doctoral students for the professoriate?"
-    ,"tags":["pedagogy, training, doctoral students, humanities, mentorship, pedagogical resources, preparedness for teaching, changing professoriate"]
+    ,"tags":["pedagogy", "training", "doctoral students", "humanities", "mentorship", "pedagogical resources", "preparedness for teaching", "changing professoriate"]
     ,"categories":["Academic Services and Programming"]
     ,"consent":"yes"
     ,"file_path":""
@@ -354,7 +354,7 @@
     ,"year":2014
     ,"question":"How do a group of low-income students at a highly selective, Midwestern research university conceptualize the multiple dimensions of their identities, and what salient factors play a role in this conceptualization?"
     ,"tags":[""]
-    ,"categories":["Student Development, Social Justice"]
+    ,"categories":["Student Development", "Social Justice"]
     ,"consent":"no"
     ,"file_path":""
     ,"presentation_file_path":""
@@ -377,8 +377,8 @@
     ,"title":"The Role of Student Social Groups in the Social Adjustment of International Graduate Students"
     ,"year":2014
     ,"question":"How can student social groups facilitate the social adjustments of international graduate students at Northwestern University?"
-    ,"tags":["international students, graduate student, social adjustment, highly selective university, social groups, forming friendship, facilitator"]
-    ,"categories":["Study Abroad and International Education, Student Engagement"]
+    ,"tags":["international students", "graduate student", "social adjustment", "highly selective university", "social groups", "forming friendship", "facilitator"]
+    ,"categories":["Study Abroad and International Education", "Student Engagement"]
     ,"consent":"yes"
     ,"file_path":""
     ,"presentation_file_path":""
@@ -389,7 +389,7 @@
     ,"title":"Student Involvement with Refugees: Individual and Societal Impacts"
     ,"year":2014
     ,"question":"How does college student involvement with refugees enrich student development and contribute to an enhances perception of their role as a global citizen?"
-    ,"tags":["refugee, service-learning, multicultural immersion, service, comfort zone, growth, involvement"]
+    ,"tags":["refugee", "service-learning", "multicultural immersion", "service", "comfort zone", "growth", "involvement"]
     ,"categories":["Student Development"]
     ,"consent":"yes"
     ,"file_path":""
@@ -401,7 +401,7 @@
     ,"title":"Unreported: An Examination of Athletic Department Finances and the Approximate Cost of the Student - Athlete Experience"
     ,"year":2014
     ,"question":"What is the cost of the student athlete experience and how does it vary by sport activity and institutional type for Division I institutions?"
-    ,"tags":["student-athlete resources, athletics, budget, finance, NCAA"]
+    ,"tags":["student-athlete resources", "athletics", "budget", "finance", "NCAA"]
     ,"categories":["Strategic Planning and Institutional Research"]
     ,"consent":"yes"
     ,"file_path":""
@@ -413,8 +413,8 @@
     ,"title":"Confidence, Collaboration, and Career-Building: Undergraduate Women in Leadership Roles at Northwestern University"
     ,"year":2014
     ,"question":"What factors encourage and support undergraduate women in leadership roles at Northwestern and how can the university develop their leadership competencies through professional and educational opportunities and campus climate support?"
-    ,"tags":["leadership, women, college, mentoring, student leadership"]
-    ,"categories":["Student Development, Social Justice; Student Support Services"]
+    ,"tags":["leadership", "women", "college", "mentoring", "student leadership"]
+    ,"categories":["Student Development", "Social Justice", "Student Support Services"]
     ,"consent":"yes"
     ,"file_path":""
     ,"presentation_file_path":""
@@ -426,7 +426,7 @@
     ,"year":2014
     ,"question":"What are the perceptions of current humanities students and recent alumni from a private, highly selective research institution in regards to their career preparedness, and how can universities help to make them better prepared?"
     ,"tags":[""]
-    ,"categories":["Academic Services and Programming, career services"]
+    ,"categories":["Academic Services and Programming", "career services"]
     ,"consent":""
     ,"file_path":""
     ,"presentation_file_path":""
@@ -437,7 +437,7 @@
     ,"title":"A Course in Emotional Intellig ence: What Stands to be Gained from the Undergraduate Student Perspective"
     ,"year":2014
     ,"question":"How does participation in a course on emotional intelligence affect undergraduate students_ measured emotional intelligence and their utilization of course learning outcomes outside of class?"
-    ,"tags":["emotional intelligence, student learning outcomes, undergraduate, stress management"]
+    ,"tags":["emotional intelligence", "student learning outcomes", "undergraduate", "stress management"]
     ,"categories":[""]
     ,"consent":"yes"
     ,"file_path":""
@@ -449,7 +449,7 @@
     ,"title":"Working Together: An In - Depth Look at a Structured Collaborative Learning in Chemistry Program and Related Student Outcomes"
     ,"year":2014
     ,"question":"How does a structured _collaborative learning in chemistry_ program operate and function, and how does par ticipation in the program impact student learning outcomes and skill development?"
-    ,"tags":["collaborative, learning, critical thinking, communications, interpersonal, chemistry"]
+    ,"tags":["collaborative", "learning", "critical thinking", "communications", "interpersonal", "chemistry"]
     ,"categories":[""]
     ,"consent":"yes"
     ,"file_path":""

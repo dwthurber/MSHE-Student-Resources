@@ -35,15 +35,29 @@ var topicsApp = angular.module('topicsApp', ['ngRoute']);
          $scope.sort = function(val) {
              $scope.sortOrder = val;
              $scope.reverse = ($scope.sortOrder === val) ? !$scope.reverse : false;
-         }
-         
-         $scope.categories = [];
-         $scope.tagFilters = [];
-         
-         $scope.addCategory = function(val) {
-            $scope.categories = $scope.categories + val;
-            console.log($scope.categories);
          };
+
+        $scope.categoryIncludes = [];
+
+        $scope.filterCat = function(newVal) {
+            var i = $.inArray(newVal, $scope.categoryIncludes);
+            if (i > -1) {
+                $scope.categoryIncludes.splice(i, 1);
+            } else {
+                $scope.categoryIncludes.push(newVal);
+            }
+            
+            console.log($scope.categoryIncludes);
+        };
+        
+        $scope.filterByCategory = function(mp) {
+            if ($scope.categoryIncludes.length > 0) {
+                if ($.inArray(mp.categories, $scope.categoryIncludes) < 0)
+                    return;
+            }
+            
+            return mp;
+        }
          
          $(function(){
 
@@ -52,11 +66,7 @@ var topicsApp = angular.module('topicsApp', ['ngRoute']);
     	    $('#Container').mixItUp({
             	load: {
             		filter: mixitup,
-            		sort: 'year:desc name:asc',
-            	},
-            	controls: {
-            	    toggleFilterButtons: true,
-            	    toggleLogic: 'or'
+            		sort: 'name:asc',
             	}
             });
     

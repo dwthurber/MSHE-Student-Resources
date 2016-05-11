@@ -1,7 +1,16 @@
 var topicsApp = angular.module('topicsApp', ['ngRoute']);
 
     // create the controller and inject Angular's $scope
-    topicsApp.controller('mainController', function($scope, $route, $routeParams, $location) {
+    topicsApp.controller('mainController', function($scope, $route, $routeParams, $location, $http) {
+        
+        $http({
+          method: 'GET',
+          url: './master_projects.json'
+        }).then(function successCallback(response) {
+            $scope.masterProjects = response.data;
+          }, function errorCallback(response) {
+            console.log(response.status);
+          });
 
         $scope.filterFilter = 'category';
         
@@ -21,10 +30,11 @@ var topicsApp = angular.module('topicsApp', ['ngRoute']);
              var mixitup = "all";
          }
          
-         $scope.sortFocus = 'year';
-         
+         $scope.sortOrder = 'year';
+         $scope.reverse = true;
          $scope.sort = function(val) {
-             $scope.sortFocus = val;
+             $scope.sortOrder = val;
+             $scope.reverse = ($scope.sortOrder === val) ? !$scope.reverse : false;
          }
          
          $scope.categories = [];

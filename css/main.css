@@ -108,6 +108,28 @@ nav ul li a.active {
      font-size: 1.5em;
 }
 
+.input-filter {
+    background-color: #fff;
+    width: 45%!important;
+    color: #333!important;
+    padding: 5px 5px 5px 30px;
+    margin-left: 6px;
+    font-size: 1.2em!important;
+    margin-bottom: 20px;
+}
+
+.input-filter:focus {
+    outline: none;
+}
+
+.input-filter-icon {
+     position: relative;
+     left: 30px;
+     bottom: 2px;
+     color: #333;
+     font-size: 1.5em;
+}
+
 .topics {
     padding: 20px;
     text-align: center;
@@ -372,6 +394,10 @@ table td {
     vertical-align: top;
 }
 
+.title {
+    line-height: 1;
+}
+
 .author {
     font-size: 0.8em;
     color: #666;
@@ -433,7 +459,7 @@ table td {
 }
 
 .mp-table td {
-    padding: 0 5px;
+    padding: 5px;
 }
 
 .column-title {
@@ -552,4 +578,12 @@ table td {
 
 .book-hover a:hover {
   background-color: #ddd;
+}
+
+.flip {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
 }

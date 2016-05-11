@@ -22,31 +22,30 @@ categories:
 ---
     <section class="container">
         <h2>Master's Projects Database</h2>
+        <i class="fa fa-search input-filter-icon"></i><input class="input-filter" ng-model="inputFilter" placeholder="Start typing to filter...">
         <br>
         <div>
             
-            <article class="mixing" id="Container">
+            <article class="mixing">
                 <table width="100%" class="sorter-table">
                     <tr>
-                        <td class="sort" ng-click="sort('year')" data-sort="year:desc name:asc" width="50px">Year <i ng-if="sortFocus == 'year'" class="fa fa-caret-down" aria-hidden="true"></i><span class="hover">Sort By Year<div class="arrow-down"></div></span></td>
-                        <td class="sort" ng-click="sort('author')" data-sort="author:asc">Project Details <i ng-if="sortFocus == 'author'" class="fa fa-caret-down" aria-hidden="true"></i><span class="hover">Sort By Author<div class="arrow-down"></div></span></td>
-                        <td class="sort" ng-click="sort('category')" data-sort="category:asc year:desc" width="150px">Category <i ng-if="sortFocus == 'category'" class="fa fa-caret-down" aria-hidden="true"></i><span class="hover">Sort By Category<div class="arrow-down"></div></span></td>
+                        <td class="sort" ng-click="sort('year')" width="50px">Year <i ng-if="sortOrder == 'year'" class="fa fa-caret-down" ng-class="{flip:reverse}" aria-hidden="true"></i><span class="hover">Sort By Year<div class="arrow-down"></div></span></td>
+                        <td class="sort" ng-click="sort('last_name')">Project Details <i ng-if="sortOrder == 'last_name'" class="fa fa-caret-down" ng-class="{flip:reverse}" aria-hidden="true"></i><span class="hover">Sort By Author<div class="arrow-down"></div></span></td>
+                        <td class="sort" ng-click="sort('categories')" width="150px">Category <i ng-if="sortOrder == 'categories'" class="fa fa-caret-down" ng-class="{flip:reverse}" aria-hidden="true"></i><span class="hover">Sort By Category<div class="arrow-down"></div></span></td>
                     </tr>
                 </table>
-                {% for project in site.data.mp %}
-                    <div class="mix {{ project.category | downcase | replace:' ','' }} {{ project.tags | downcase | replace:' ','' | replace:',',' '}}" data-name="{{ project.title }}" data-author="{{ project.last_name }}" data-year="{{ project.year }}" data-category="{{ project.category }}">
-                        <table width="100%" class="mp-table">
-                            <tr>
-                                <td width="50px" class="year">{{ project.year }}</td>
-                                <td class="title">
-                                    <p><strong>{{ project.title }}</strong></p>
-                                    <p class="author">By {{ project.first_name }} {{ project.last_name }} </p>
-                                </td>
-                                <td width="150px" class="category">{{ project.category }}</td>
-                            </tr>
-                        </table>
-                    </div>
-                {% endfor %}
+                {% raw %}
+                <table width="100%" class="mp-table" >
+                    <tr ng-repeat="project in masterProjects.master_projects | orderBy:sortOrder:reverse | filter:inputFilter">
+                        <td width="50px" class="year">{{ project.year }}</td>
+                        <td class="title">
+                            <p><strong>{{ project.title }}</strong></p>
+                            <p class="author">By {{ project.first_name }} {{ project.last_name }} </p>
+                        </td>
+                        <td width="150px" class="category"><span ng-repeat="category in project.categories">{{ category }}{{$last ? '' : ', '}}</span></td>
+                    </tr>
+                </table>
+                {% endraw %}
             </article>
             <aside>
                 <p class="column-title">Featured Projects</p>

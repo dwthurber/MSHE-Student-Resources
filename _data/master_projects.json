@@ -7,7 +7,7 @@
     ,"question":"What personal and academic factors contribute to Northwestern undergraduates_ selection of French and Italian study abroad programs and what roles do personal, familial, and instructor expectations play in the selection process?"
     ,"tags":[""]
     ,"categories":["Study Abroad and International Education"]
-    ,"consent":"yes"
+    ,"consent":yes
     ,"file_path":""
     ,"presentation_file_path":""
   },
@@ -19,7 +19,7 @@
     ,"question":"How does the prospect of campus leadership positions play a role in a student_s decision whether or not to study abroad while enrolled at a highly selective, research institution?"
     ,"tags":["study abroad", "involvement", "leadership", "summer programs", "experience", "navigate"]
     ,"categories":["Study Abroad and International Education", "Student Engagement", "Student Development"]
-    ,"consent":"yes"
+    ,"consent":yes
     ,"file_path":""
     ,"presentation_file_path":""
   },
@@ -43,7 +43,7 @@
     ,"question":"How do universities with federally funded Title VI National Resource Centers (NRCs) perceive the impact of these centers on institutional objectives related to international studies and foreign language instruction?"
     ,"tags":[""]
     ,"categories":["Student Wellness"]
-    ,"consent":"no"
+    ,"consent":no
     ,"file_path":""
     ,"presentation_file_path":""
   },

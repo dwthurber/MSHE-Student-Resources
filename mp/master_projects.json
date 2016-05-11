@@ -838,7 +838,7 @@
 				"policies and guidelines, marketing"
 			],
 			"categories": "",
-			"consent": "",
+			"consent": true,
 			"file_path": "",
 			"presentation_file_path": ""
 		},

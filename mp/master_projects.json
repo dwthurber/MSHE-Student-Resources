@@ -1144,7 +1144,9 @@
 				"academic programming",
 				"teacher retention"
 			],
-			"categories": "",
+			"categories": [
+				"Academic Services and Programming"
+			],
 			"consent": true,
 			"file_path": "",
 			"presentation_file_path": ""

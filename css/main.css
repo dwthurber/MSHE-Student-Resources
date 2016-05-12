@@ -409,6 +409,7 @@ table td {
     font-size: 0.8em;
     line-height: 1;
     color: #555;
+    text-align: right;
 }
 
 .sorter-table {

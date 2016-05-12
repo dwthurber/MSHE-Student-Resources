@@ -27,26 +27,32 @@ categories:
         <br>
         <div>
             
-            <article class="mixing">
+            <article class="mixing" id="Container">
                 <table width="100%" class="sorter-table">
                     <tr>
                         <td class="sort" ng-click="sort('year')" width="50px">Year <i ng-if="sortOrder == 'year'" class="fa fa-caret-down" ng-class="{flip:reverse}" aria-hidden="true"></i><span class="hover">Sort By Year<div class="arrow-down"></div></span></td>
-                        <td class="sort" ng-click="sort('last_name')">Project Details <i ng-if="sortOrder == 'last_name'" class="fa fa-caret-down" ng-class="{flip:reverse}" aria-hidden="true"></i><span class="hover">Sort By Author<div class="arrow-down"></div></span></td>
-                        <td class="sort" ng-click="sort('categories')" width="150px">Category <i ng-if="sortOrder == 'categories'" class="fa fa-caret-down" ng-class="{flip:reverse}" aria-hidden="true"></i><span class="hover">Sort By Category<div class="arrow-down"></div></span></td>
+                        <td class="sort" ng-click="sort('name')">Project Details <i ng-if="sortOrder == 'name'" class="fa fa-caret-down" ng-class="{flip:reverse}" aria-hidden="true"></i><span class="hover">Sort By Author<div class="arrow-down"></div></span></td>
+                        <td class="sort" ng-click="sort('categories')" width="150px">Categories <i ng-if="sortOrder == 'categories'" class="fa fa-caret-down" ng-class="{flip:reverse}" aria-hidden="true"></i><span class="hover">Sort By Category<div class="arrow-down"></div></span></td>
                     </tr>
                 </table>
-                {% raw %}
+                
+                
                 <table width="100%" class="mp-table" >
-                    <tr ng-repeat="project in masterProjects.master_projects | orderBy:sortOrder:reverse | filter:inputFilter | filter:filterByCategory" id="/{{ project.first_name | lowercase }}{{ project.last_name | lowercase }}">
+                   {% for project in site.data.master_projects %} 
+                   <div class="mix" data-year="{{ project.year }}" data-name="{{ project.last_name }}" data-category="{{ project.categories | join:' ' }}">
+                    <tr>
                         <td width="50px" class="year">{{ project.year }}</td>
                         <td class="title">
                             <p><strong>{{ project.title }}</strong></p>
                             <p class="author">By {{ project.first_name }} {{ project.last_name }} </p>
                         </td>
-                        <td width="150px" class="category"><span ng-repeat="category in project.categories">{{ category }}{{$last ? '' : ', '}}</span></td>
+                        <td width="150px" class="category">{{ project.categories | join:', ' }}</td>
                     </tr>
+                    </div>
+                    {% endfor %}
                 </table>
-                {% endraw %}
+                
+                
             </article>
             <aside>
                 <p class="column-title">Featured Projects</p>
@@ -55,10 +61,10 @@ categories:
                 <p class="column-title">Filter by Category <span class="clear"> <a  class="filter" data-filter="all" href="#"> CLEAR </a></span></p>
                 {% for item in page.categories %}<b><input type="checkbox" ng-click="filterCat('{{ item }}')">{{ item }}</b><br>{% endfor %}
                 <p class="column-title">Filter By Tag <span class="clear"> <a class="filter" data-filter="all" href="#"> CLEAR </a></span></p>
-                {% capture mp_tags %}{% for item in site.data.mp %}{{ item.tags }}{% endfor %}{% endcapture %}
-                {% assign tag_words = mp_tags | downcase | split: ',' | uniq | sort %}
+                {% capture mp_tags %}{% for item in site.data.master_projects %}{% for tag in item.tags %}{{ tag }},{% endfor %}{% endfor %}{% endcapture %}
+                {% assign tag_words = mp_tags | downcase | split:',' | uniq %}
                 <ul class="tag-list">
-                    {% for tag in tag_words %}<li><a class="filter" data-filter=".{{ tag | replace:' ','' }}" href="#/{{ tag | replace:' ','' }}">{{ tag }}</a></li>{% endfor %}
+                    {% for tag in tag_words %}<li><a class="filter">{{ tag }}</a></li>{% endfor %}
                 </ul>
             </aside>
         </div>

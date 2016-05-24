@@ -52,29 +52,50 @@ var topicsApp = angular.module('topicsApp', ['ngRoute']);
              
              $('#Container').mixItUp('sort', val + ':' + ascdesc);
          };
-
-        // // $scope.categoryIncludes = [];
-
-        // // $scope.filterCat = function(newVal) {
-        // //     var i = $.inArray(newVal, $scope.categoryIncludes);
-        // //     if (i > -1) {
-        // //         $scope.categoryIncludes.splice(i, 1);
-        // //     } else {
-        // //         $scope.categoryIncludes.push(newVal);
-        // //     }
-            
-        // //     console.log($scope.categoryIncludes);
-        // // };
-        
-        // // $scope.filterByCategory = function(mp) {
-        // //     if ($scope.categoryIncludes.length > 0) {
-        // //         angular.foreach($scope.categoryIncludes, function(key) {
-        // //             if ($scope.masterProjects.master_projects.categories.indexof(key) >= 0) 
-        // //                 return;
-        // //         })
-        // //     }
-        // //     return mp;
-        // // }
+         
+         var categoryIncludes = [];
+         
+         $scope.filterCat = function(val) {
+             if (categoryIncludes.indexOf(val) > -1) {
+                 var index=categoryIncludes.indexOf(val)
+                 categoryIncludes.splice(index,1); 
+             } else {
+                 categoryIncludes.splice(0, 0, val);
+             }
+             
+             if (categoryIncludes.length > 0) {
+                 $('#Container').mixItUp('filter', categoryIncludes.toString());
+             } else {
+                 $('#Container').mixItUp('filter', 'all');
+             }
+             
+             console.log(categoryIncludes.toString());
+         };
+         
+         $scope.tagIncludes = [];
+         
+         $scope.filterTag = function(val) {
+             
+             if ($scope.tagIncludes.indexOf(val) > -1) {
+                 var index=$scope.tagIncludes.indexOf(val)
+                 $scope.tagIncludes.splice(index,1); 
+             } else {
+                 $scope.tagIncludes.splice(0, 0, val);
+             }
+             
+             if ($scope.tagIncludes.length > 0) {
+                 $('#Container').mixItUp('filter', $scope.tagIncludes.toString());
+             } else {
+                 $('#Container').mixItUp('filter', 'all');
+             }
+             
+             console.log($scope.tagIncludes.toString());
+         };
+         
+         $scope.clearAll = function () {
+            $scope.tagIncludes = [];
+            console.log(categoryIncludes.toString());
+         };
          
          $(function(){
 

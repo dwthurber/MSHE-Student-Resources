@@ -466,6 +466,7 @@ table td {
 .column-title {
     font-weight: 700;
     border-bottom: 1px dotted #4e2a84;
+    margin-top: 10px;
 }
 
 .clear {
@@ -502,6 +503,11 @@ table td {
 
 .tag-list li a:hover,
 .tag-list li a:active {
+    background-color: #4e2a84;
+    color: #fff;
+}
+
+.tag-list.active {
     background-color: #4e2a84;
     color: #fff;
 }

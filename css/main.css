@@ -412,6 +412,10 @@ table td {
     text-align: right;
 }
 
+.download {
+    text-align: center;
+}
+
 .sorter-table {
     margin-bottom: 20px;
     background-color: #555;

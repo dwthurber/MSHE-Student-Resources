@@ -109,4 +109,5 @@ var topicsApp = angular.module('topicsApp', ['ngRoute']);
             });
     
         });
+
      })

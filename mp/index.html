@@ -47,6 +47,7 @@ categories:
                             <p class="author">By {{ project.first_name }} {{ project.last_name }} </p>
                         </td>
                         <td width="150px" class="category">{{ project.categories | join:', ' }}</td>
+                        <td width="25px" class="download">{% if project.file_path != '' %}<a href="{{ project.file_path }}" data-featherlight="iframe" data-featherlight-iframe-height="500px" data-featherlight-iframe-width="600px"><i class="fa fa-file-text-o" aria-hidden="true"></i></a>{% endif %}</td>
                     </tr>
                     
                 </table>

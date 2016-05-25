@@ -37,7 +37,7 @@ categories:
                 </table>
                 
                 {% for project in site.data.master_projects %} 
-                   <div class="mix {{ project.categories | join: ',' | downcase | remove:' ' | replace:',',' ' }} {{ project.tags | join: ',' | downcase | remove:' ' | replace:',',' '}}" data-year="{{ project.year }}" data-name="{{ project.last_name }}" data-category="{{ project.categories | join:' ' }}">
+                   <div class="mix {{ project.categories | join: ',' | downcase | remove:' ' | replace:',',' ' }} {{ project.tags | join: ',' | downcase | remove:' ' | replace:',',' '}} {{ project.first_name | downcase }}{{ project.last_name | downcase }}" data-year="{{ project.year }}" data-name="{{ project.last_name }}" data-category="{{ project.categories | join:' ' }}">
                 <table width="100%" class="mp-table" >
                    
                     <tr>
@@ -57,9 +57,9 @@ categories:
                 
             </article>
             <aside>
-                <p class="column-title">Featured Projects</p>
+                <p class="column-title">Featured Projects <span class="clear"><a ng-click="clearAll()" class="filter" data-filter="all" href="#">CLEAR</a></span></p>
                 {% assign sorted_projects = (page.featured | sort)%}
-                {% for project in sorted_projects %}<p><a href="#{{ project | downcase | replace:' ','' }}">{{ project }}</a></p>{% endfor %}
+                {% for project in sorted_projects %}<p><a class="filter featured" data-filter=".{{ project | downcase | replace:' ','' }}" href="#{{ project | downcase | replace:' ','' }}">{{ project }}</a></p>{% endfor %}
                 <p class="column-title">Filter by Category</p>
                 {% for item in page.categories %}<b><input type="checkbox" ng-click="filterCat('.{{ item | downcase | replace:' ','' }}')">{{ item }}</b><br>{% endfor %}
                 <p class="column-title">Filter By Tag <span class="clear"><a ng-click="clearAll()" class="filter" data-filter="all" href="#">CLEAR</a></span></p>

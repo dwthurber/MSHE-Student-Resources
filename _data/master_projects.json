@@ -12,7 +12,7 @@
 				"Study Abroad and International Education"
 			],
 			"consent": true,
-			"file_path": "https://app.box.com/embed/preview/8xmi8y7ffwcxvvlt053gkunlqm8lw8um?theme=dark",
+			"file_path": "",
 			"presentation_file_path": ""
 		},
 		{
@@ -96,9 +96,9 @@
 		{
 			"first_name": "Michel",
 			"last_name": "Joy",
-			"title": "The 'T' Word at Women's Colleges",
+			"title": "The _T_ Word at Women_s Colleges",
 			"year": 2015,
-			"question": "What are the perceptions and opinions of students and administrators on the controversy of inclusion and exclusion of trans*gender students at a women's college; what do students believe are the central issues in resolving the controversy; and how do those opinions inform ongoing student and administrator actions?",
+			"question": "What are the perceptions and opinions of students and administrators on the controversy of inclusion and exclusion of trans*gender students at a women_s college; what do students believe are the central issues in resolving the controversy; and how do those opinions inform ongoing student and administrator actions?",
 			"tags": [
 				""
 			],
@@ -216,14 +216,16 @@
 			"last_name": "Smith",
 			"title": "Recruiting Student-Athletes: An Examination of the Marketing of Academic Reputation and Student-Athlete Services",
 			"year": 2015,
-			"question": "How do student-athletes at a highly selective and athletically competitive Football Bowl Subdivision (FBS) University perceive the effectiveness of their institution's marketing of academic reputation and athletic student services throughout its recruitment process?",
+			"question": "How do student-athletes at a highly selective and athletically competitive Football Bowl Subdivision (FBS) University perceive the effectiveness of their institution_s marketing of academic reputation and athletic student services throughout its recruitment process?",
 			"tags": [
 				"student athlete",
 				"recruiting",
 				"college athletics",
 				"marketing"
 			],
-			"categories": "",
+			"categories": [
+				"Athletics"
+			],
 			"consent": true,
 			"file_path": "",
 			"presentation_file_path": ""
@@ -238,7 +240,9 @@
 				""
 			],
 			"categories": [
-				"Social Justice"
+				"Social Justice",
+				"Higher Education Policy",
+				"Career Services"
 			],
 			"consent": true,
 			"file_path": "",
@@ -323,7 +327,8 @@
 				"career advacement"
 			],
 			"categories": [
-				"Career Services"
+				"Career Services",
+				"Social Justice"
 			],
 			"consent": true,
 			"file_path": "",
@@ -584,7 +589,7 @@
 		{
 			"first_name": "Daniel",
 			"last_name": "Bradley",
-			"title": "The Impact of Study Abroad on Undergraduate Male Students' Perceptions of Privilege and Oppression",
+			"title": "The Impact of Study Abroad on Undergraduate Male Students_ Perceptions of Privilege and Oppression",
 			"year": 2014,
 			"question": "Do male undergraduate students who study abroad in developing nations have a more complex understanding of privilege and oppression than students who study in developed destinations?",
 			"tags": [
@@ -645,7 +650,7 @@
 		{
 			"first_name": "Emily",
 			"last_name": "Crosby",
-			"title": "Unreported: An Examination of Athletic Department Finances and the Approximate Cost of the Student-Athlete Experience",
+			"title": "Unreported: An Examination of Athletic Department Finances and the Approximate Cost of the Student - Athlete Experience",
 			"year": 2014,
 			"question": "What is the cost of the student athlete experience and how does it vary by sport activity and institutional type for Division I institutions?",
 			"tags": [
@@ -703,7 +708,7 @@
 		{
 			"first_name": "Tana",
 			"last_name": "Gahlinger",
-			"title": "A Course in Emotional Intellig ence: What Stands to be Gained from the Undergraduate Student Perspective",
+			"title": "A Course in Emotional Intelligence: What Stands to be Gained from the Undergraduate Student Perspective",
 			"year": 2014,
 			"question": "How does participation in a course on emotional intelligence affect undergraduate students' measured emotional intelligence and their utilization of course learning outcomes outside of class?",
 			"tags": [
@@ -712,7 +717,9 @@
 				"undergraduate",
 				"stress management"
 			],
-			"categories": "",
+			"categories": [
+				"Student Development"
+			],
 			"consent": true,
 			"file_path": "",
 			"presentation_file_path": ""
@@ -720,9 +727,9 @@
 		{
 			"first_name": "Jacqueline",
 			"last_name": "Gaines",
-			"title": "Working Together: An In-Depth Look at a Structured Collaborative Learning in Chemistry Program and Related Student Outcomes",
+			"title": "Working Together: An In - Depth Look at a Structured Collaborative Learning in Chemistry Program and Related Student Outcomes",
 			"year": 2014,
-			"question": "How does a structured _collaborative learning in chemistry_ program operate and function, and how does par ticipation in the program impact student learning outcomes and skill development?",
+			"question": "How does a structured collaborative learning in chemistry program operate and function, and how does participation in the program impact student learning outcomes and skill development?",
 			"tags": [
 				"collaborative",
 				"learning",
@@ -731,7 +738,10 @@
 				"interpersonal",
 				"chemistry"
 			],
-			"categories": "",
+			"categories": [
+				"Student Development",
+				"Academic Services and Programming"
+			],
 			"consent": true,
 			"file_path": "",
 			"presentation_file_path": ""
@@ -745,7 +755,11 @@
 			"tags": [
 				""
 			],
-			"categories": "",
+			"categories": [
+				"Higher Education Policy",
+				"Strategic Planning and Institutional Research",
+				"Financial Issues"
+			],
 			"consent": true,
 			"file_path": "",
 			"presentation_file_path": ""
@@ -766,7 +780,10 @@
 				"missions",
 				"international service"
 			],
-			"categories": "",
+			"categories": [
+				"Study Abroad and International Education",
+				"Student Support Services"
+			],
 			"consent": true,
 			"file_path": "",
 			"presentation_file_path": ""
@@ -780,7 +797,11 @@
 			"tags": [
 				""
 			],
-			"categories": "",
+			"categories": [
+				"Higher Education Policy",
+				"Student Support Services",
+				"Academic Services and Programming"
+			],
 			"consent": true,
 			"file_path": "",
 			"presentation_file_path": ""
@@ -799,7 +820,9 @@
 				"campus community",
 				"non-traditional-age students"
 			],
-			"categories": "",
+			"categories": [
+				"Student Engagement"
+			],
 			"consent": true,
 			"file_path": "",
 			"presentation_file_path": ""
@@ -819,7 +842,9 @@
 				"off-campus",
 				"engagement"
 			],
-			"categories": "",
+			"categories": [
+				"Student Engagement"
+			],
 			"consent": true,
 			"file_path": "",
 			"presentation_file_path": ""
@@ -829,15 +854,17 @@
 			"last_name": "Pfleger",
 			"title": "Social Media and Student Affairs: Like Us, Follow Us, Tweet Us, Talk To Us",
 			"year": 2014,
-			"question": "What can a Research I University's Student Affairs Division learn from their social media practices?",
+			"question": "What can a Research 1 University's Student Affairs Division learn from their socia media practices?",
 			"tags": [
 				"social media",
 				"student affairs",
 				"best practives",
 				"policies and guidelines, marketing"
 			],
-			"categories": "",
-			"consent": true,
+			"categories": [
+				"Student Engagement"
+			],
+			"consent": "yes (but not online)",
 			"file_path": "",
 			"presentation_file_path": ""
 		},
@@ -852,7 +879,9 @@
 				"civic engagement",
 				"community service"
 			],
-			"categories": "",
+			"categories": [
+				"Civic Engagement and Volunteerism"
+			],
 			"consent": true,
 			"file_path": "",
 			"presentation_file_path": ""
@@ -978,7 +1007,7 @@
 			"last_name": "Struglinski",
 			"title": "Supporting New Students: Comparing Student and Administrator Perception of Needs",
 			"year": 2014,
-			"question": "What support do first year students at Northwestern University need, what types of support do they want during orientation and their first year, and what do they report using; and how do these students_ perceptions compare to administrators_ perceptions of first year students' needs ?",
+			"question": "What support do first year students at Northwestern University need, what types of support do they want during orientation and their first year, and what do they report using; and how do these students_ perceptions compare to administrators_ perceptions of first year students_ needs ?",
 			"tags": [
 				"orientation",
 				"first year experience",
@@ -1143,9 +1172,7 @@
 				"academic programming",
 				"teacher retention"
 			],
-			"categories": [
-				"Academic Services and Programming"
-			],
+			"categories": "",
 			"consent": true,
 			"file_path": "",
 			"presentation_file_path": ""
@@ -1564,7 +1591,7 @@
 		{
 			"first_name": "Matt",
 			"last_name": "Douponce",
-			"title": "Scholarly Scale-up: Promoting Faculty Engagement in Funded Scholarship at a 'Non-Very High Research Activity' Institution",
+			"title": "Scholarly Scale-up: Promoting Faculty Engagement in Funded Scholarship at a 'Non-Very High  Research Activity' Institution",
 			"year": 2012,
 			"question": "What are the factors that influence faculty engagement in scholarship at a lower tier research university and how can institutional policy promote scholarship productivity?",
 			"tags": [
@@ -2026,7 +2053,7 @@
 			"last_name": "Randall",
 			"title": "In Four Loko Parentis: The Struggle to Regulate Student Drinking in American Higher Education",
 			"year": 2011,
-			"question": "How do historical and legal factors influence the undergraduate student alcohol environment, and how effective are today's interventions, prevention strategies, and national policies in mitigating harm?",
+			"question": "How do historical and legal factors influence the undergraduate student alcohol environment, and how effective are today_s interventions, prevention strategies, and national policies in mitigating harm?",
 			"tags": [
 				"college student",
 				"drinking",
@@ -2317,7 +2344,7 @@
 				""
 			],
 			"categories": "",
-			"consent": "",
+			"consent": "N/A",
 			"file_path": "",
 			"presentation_file_path": ""
 		},
@@ -2499,7 +2526,7 @@
 		{
 			"first_name": "Nicole C.",
 			"last_name": "Shiperek",
-			"title": "America's Comeback: Educating Globally Aware Students through Community College Study Abroad Programs",
+			"title": "America_s Comeback: Educating Globally Aware Students through Community College Study Abroad Programs",
 			"year": 2010,
 			"question": "What are the impacts on global awareness for community college students who participated in a study abroad program?",
 			"tags": [

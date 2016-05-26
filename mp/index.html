@@ -49,8 +49,20 @@ categories:
                         <td width="150px" class="category">{{ project.categories | join:', ' }}</td>
                         <td width="25px" class="download">{% if project.file_path != '' %}<a href="{{ project.file_path }}" data-featherlight="iframe" data-featherlight-iframe-height="500px" data-featherlight-iframe-width="600px"><i class="fa fa-file-text-o" aria-hidden="true"></i></a>{% endif %}</td>
                     </tr>
+                    <!--<tr ng-show="showDetails">-->
+                    <!--    <td></td>-->
+                    <!--    <td colspan="2" class="details">-->
+                    <!--        <p>{{ project.question }}</p>-->
+                    <!--        {% if project.tags != '' %}<p class="subheader"><i class="fa fa-tags" aria-hidden="true"></i> {{ project.tags | join: ', ' }}</p>{% endif %}-->
+                        
+                    <!--    </td>-->
+                    <!--</tr>-->
+                    <!--<tr class="showDetails">-->
+                    <!--    <td colspan="4"><p><a href="#" ng-click="showDetails = !showDetails">Show Details</a></p></td>-->
+                    <!--</tr>-->
                     
                 </table>
+                
                 </div>
                     {% endfor %}
                 

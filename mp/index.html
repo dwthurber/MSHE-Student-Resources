@@ -37,7 +37,7 @@ categories:
                 </table>
                 
                 {% for project in site.data.master_projects %} 
-                   <div class="mix {{ project.categories | join: ',' | downcase | remove:' ' | replace:',',' ' }} {{ project.tags | join: ',' | downcase | remove:' ' | replace:',',' '}} {{ project.first_name | downcase }}{{ project.last_name | downcase }}" data-year="{{ project.year }}" data-name="{{ project.last_name }}" data-category="{{ project.categories | join:' ' }}">
+                   <div class="mix {{ project.categories | join: ',' | downcase | remove:' ' | replace:',',' ' }} {{ project.tags | join: ',' | downcase | remove:' ' | replace:',',' '}} {{ project.first_name | downcase }}{{ project.last_name | downcase }}" data-year="{{ project.year }}" data-name="{{ project.last_name }}" data-category="{{ project.categories | join:' ' | remove:' ' }}">
                 <table width="100%" class="mp-table" >
                    
                     <tr>

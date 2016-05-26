@@ -994,7 +994,10 @@
 			"camps climate",
 			"stereotype threat"
 		],
-		"categories": "",
+		"categories": [
+			"Student Development",
+			"Admissions and Enrollment Management"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -1010,7 +1013,9 @@
 			"liberal arts and sciences",
 			"advisor-advisee relationship"
 		],
-		"categories": "",
+		"categories": [
+			"Student Support Services"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""

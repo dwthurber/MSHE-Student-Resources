@@ -3,22 +3,12 @@ var topicsApp = angular.module('topicsApp', ['ngRoute']);
     // create the controller and inject Angular's $scope
     topicsApp.controller('mainController', function($scope, $route, $routeParams, $location, $http) {
         
-        // $http({
-        //   method: 'GET',
-        //   url: './master_projects.json'
-        // }).then(function successCallback(response) {
-        //     $scope.masterProjects = response.data;
-        //   }, function errorCallback(response) {
-        //     console.log(response.status);
-        //   });
+        $scope.show = 'false';
         
-        // var getTags = function(data) {  
-        //     angular.foreach($scope.masterProjects, function(tags) {
-        //         $scope.tags = tags.tags;
-                
-        //     });
-        //     console.log($scope.tags);
-        // };
+        $scope.showDetails = function(val) {
+            $scope.show = val;
+            console.log($scope.show);
+        }
 
         $scope.filterFilter = 'category';
         
@@ -52,6 +42,25 @@ var topicsApp = angular.module('topicsApp', ['ngRoute']);
              
              $('#Container').mixItUp('sort', val + ':' + ascdesc);
          };
+         
+         var availIncludes = [];
+         
+         $scope.filterAvail = function(val) {
+             if (availIncludes.indexOf(val) > -1) {
+                 var index=availIncludes.indexOf(val)
+                 availIncludes.splice(index,1); 
+             } else {
+                 availIncludes.splice(0, 0, val);
+             }
+             
+             if (availIncludes.length > 0) {
+                 $('#Container').mixItUp('filter', availIncludes.toString());
+             } else {
+                 $('#Container').mixItUp('filter', 'all');
+             }
+             
+             console.log(availIncludes.toString());
+         }
          
          var categoryIncludes = [];
          

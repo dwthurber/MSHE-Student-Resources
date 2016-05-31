@@ -43,16 +43,25 @@ var topicsApp = angular.module('topicsApp', ['ngRoute']);
              $('#Container').mixItUp('sort', val + ':' + ascdesc);
          };
          
+        //  $scope.catChecked = null;
+        //  $scope.availChecked = null;
+         
          $scope.inputFilter = '';
          
          $scope.inputChange = function() {
+             // clear all other filters
              $scope.tagIncludes = [];
+             categoryIncludes = [];
+             availIncludes = [];
+             $scope.catChecked = false;
+             $scope.availChecked = false;
+             
              var searchString = $filter('lowercase')($scope.inputFilter);
             //  console.log(searchString);
             
             var $matching = $();
             $('.mix').each(function(){
-               var $this =$(this);
+               var $this = $(this);
                if (
                 ($this.find('.title').text().toLowerCase().indexOf(searchString) > -1) ||
                 ($this.find('.category').text().toLowerCase().indexOf(searchString) > -1) ||
@@ -68,6 +77,12 @@ var topicsApp = angular.module('topicsApp', ['ngRoute']);
          var availIncludes = [];
          
          $scope.filterAvail = function(val) {
+             // clear all other filters
+             categoryIncludes = [];
+             $scope.catChecked = false;
+             $scope.inputFilter = '';
+             $scope.tagIncludes = [];
+             
              if (availIncludes.indexOf(val) > -1) {
                  var index=availIncludes.indexOf(val)
                  availIncludes.splice(index,1); 
@@ -87,6 +102,12 @@ var topicsApp = angular.module('topicsApp', ['ngRoute']);
          var categoryIncludes = [];
          
          $scope.filterCat = function(val) {
+             // clear all other filters
+             availIncludes = [];
+             $scope.availChecked = false;             
+             $scope.inputFilter = '';
+             $scope.tagIncludes = [];
+             
              if (categoryIncludes.indexOf(val) > -1) {
                  var index=categoryIncludes.indexOf(val)
                  categoryIncludes.splice(index,1); 
@@ -106,6 +127,12 @@ var topicsApp = angular.module('topicsApp', ['ngRoute']);
          $scope.tagIncludes = [];
          
          $scope.filterTag = function(val) {
+             // clear all other filters
+             categoryIncludes = [];
+             availIncludes = [];
+             $scope.catChecked = false;
+             $scope.availChecked = false;
+             $scope.inputFilter = '';
              
              if ($scope.tagIncludes.indexOf(val) > -1) {
                  var index=$scope.tagIncludes.indexOf(val)
@@ -125,6 +152,11 @@ var topicsApp = angular.module('topicsApp', ['ngRoute']);
          
          $scope.clearAll = function () {
             $scope.tagIncludes = [];
+            categoryIncludes = [];
+            availIncludes = [];
+            $scope.catChecked = false;
+            $scope.availChecked = false;
+            $scope.inputFilter = '';
             console.log(categoryIncludes.toString());
          };
          

@@ -28,7 +28,6 @@ categories:
         <div class="details-buttons"><a href="#" ng-click="showDetails('false')" ng-class="{'active': show == 'false'}"><i class="fa fa-list" aria-hidden="true"><span class="hover">Narrow view<div class="arrow-down"></div></span></i></a> <a href="#" ng-click="showDetails('true')" ng-class="{'active': show == 'true'}"><i class="fa fa-th-list" aria-hidden="true"><span class="hover">Detail view<div class="arrow-down"></div></span></i></a></div>
         <br>
         <br>
-        {% raw %}{{ searchString }}{% endraw %}
         <div>
             
             <article class="mixing" id="Container">
@@ -75,10 +74,10 @@ categories:
                 {% assign sorted_projects = (page.featured | sort)%}
                 {% for project in sorted_projects %}<p><a class="filter featured" data-filter=".{{ project | downcase | replace:' ','' }}" href="#{{ project | downcase | replace:' ','' }}">{{ project }}</a></p>{% endfor %}
                 <p class="column-title">Filter by Availability</p>
-                <label><input type="checkbox" ng-click="filterAvail('.fulltextavail')">Full Text</label><br>
-                <label><input type="checkbox" ng-click="filterAvail('.presentationavail')">Presentation</label><br>
+                <label><input type="checkbox" ng-checked="availChecked" ng-click="filterAvail('.fulltextavail')">Full Text</label><br>
+                <label><input type="checkbox" ng-checked="availChecked" ng-click="filterAvail('.presentationavail')">Presentation</label><br>
                 <p class="column-title">Filter by Category</p>
-                {% for item in page.categories %}<label><input type="checkbox" ng-click="filterCat('.{{ item | downcase | replace:' ','' }}')">{{ item }}</label><br>{% endfor %}
+                {% for item in page.categories %}<label><input ng-checked="catChecked" type="checkbox" ng-click="filterCat('.{{ item | downcase | replace:' ','' }}')">{{ item }}</label><br>{% endfor %}
                 <p class="column-title">Filter By Tag <span class="clear"><a ng-click="clearAll()" class="filter" data-filter="all" href="#">CLEAR</a></span></p>
                 {% capture mp_tags %}{% for item in site.data.master_projects %}{% for tag in item.tags %}{{ tag }},{% endfor %}{% endfor %}{% endcapture %}
                 {% assign tag_words = mp_tags | downcase | split:',' | uniq | sort %}

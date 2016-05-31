@@ -24,10 +24,11 @@ categories:
     <section class="container">
         <h2>Master's Projects Database</h2>
         <br>
-        <i class="fa fa-search input-filter-icon"></i><input class="input-filter" ng-model="inputFilter" placeholder="Start typing to filter...">
+        <i class="fa fa-search input-filter-icon"></i><input class="input-filter" id-"input-filter" ng-model="inputFilter" ng-change="inputChange()" placeholder="Start typing to filter...">
         <div class="details-buttons"><a href="#" ng-click="showDetails('false')" ng-class="{'active': show == 'false'}"><i class="fa fa-list" aria-hidden="true"><span class="hover">Narrow view<div class="arrow-down"></div></span></i></a> <a href="#" ng-click="showDetails('true')" ng-class="{'active': show == 'true'}"><i class="fa fa-th-list" aria-hidden="true"><span class="hover">Detail view<div class="arrow-down"></div></span></i></a></div>
         <br>
         <br>
+        {% raw %}{{ searchString }}{% endraw %}
         <div>
             
             <article class="mixing" id="Container">

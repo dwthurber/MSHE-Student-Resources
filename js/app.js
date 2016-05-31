@@ -1,7 +1,7 @@
 var topicsApp = angular.module('topicsApp', ['ngRoute']);
 
     // create the controller and inject Angular's $scope
-    topicsApp.controller('mainController', function($scope, $route, $routeParams, $location, $http) {
+    topicsApp.controller('mainController', function($scope, $route, $routeParams, $location, $http, $filter) {
         
         $scope.show = 'false';
         
@@ -41,6 +41,28 @@ var topicsApp = angular.module('topicsApp', ['ngRoute']);
              }
              
              $('#Container').mixItUp('sort', val + ':' + ascdesc);
+         };
+         
+         $scope.inputFilter = '';
+         
+         $scope.inputChange = function() {
+             $scope.tagIncludes = [];
+             var searchString = $filter('lowercase')($scope.inputFilter);
+            //  console.log(searchString);
+            
+            var $matching = $();
+            $('.mix').each(function(){
+               var $this =$(this);
+               if (
+                ($this.find('.title').text().toLowerCase().indexOf(searchString) > -1) ||
+                ($this.find('.category').text().toLowerCase().indexOf(searchString) > -1) ||
+                ($this.find('.year').text().toLowerCase().indexOf(searchString) > -1) ||
+                ($this.find('.details').text().toLowerCase().indexOf(searchString) > -1)
+                ) {
+                    $matching = $matching.add(this);
+                }
+            });
+            $('#Container').mixItUp('filter', $matching);
          };
          
          var availIncludes = [];

@@ -1,45 +1,53 @@
 ---
 layout: default
 ---
+<div class="info-page-hero">
+  <div class="info-page-header">
+      <h2>{{ page.title }}</h2>
+  </div>
+</div>
 <section class="container">
+  
     <div class="breadcrumbs">
-        <p><a href="{{ site.baseurl }}/info">Topics</a> > {{ page.title }}</p>
+        <p>You are here: &nbsp;&nbsp;&nbsp; <a href="{{ site.baseurl }}/info">Topics</a> > {{ page.title }}</p>
     </div>
-    <div class="info-page-header">
-        <h2>{{ page.title }}</h2>
-    </div>
+    
     <p>{{ page.description }}</p>
     {{ page.content }}
-    <div class="related-container">
-    <h4>Related Content</h4>
-        <div class="three-columns related">
-          {% assign maxRelated = 3 %}
-          {% assign maxRelatedCounter = 0 %}
-          {% for item in site.info %}
-            {% assign sameTagCount = 0 %}
-            {% for tag in item.categories %}
-              {% if item.url != page.url %}
-                {% if page.categories contains tag %}
-                {% assign sameTagCount = sameTagCount | plus: 1 %}
-                {% endif %}
-              {% endif %}
-            {% endfor %}
-            {% if sameTagCount >= 2 %}
-                <div class="column related-info">
-                    <h5><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></h5>
-                    <p class="subheader"><a href="{{ item.url }}">{{ item.url }} </a></p>
-                    <p>{{ item.description | truncate: 150, ' ... ' }}</p>
-                </div>
-              {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
-              {% if maxRelatedCounter >= maxRelated %}
-                {% break %}
-              {% endif %}
+</section>
+<div class="related-container">
+  <div class="container">
+    <h5>You might also like...</h5>
+    <div class="three-columns related">
+      {% assign maxRelated = 3 %}
+      {% assign maxRelatedCounter = 0 %}
+      {% for item in site.info %}
+        {% assign sameTagCount = 0 %}
+        {% for tag in item.categories %}
+          {% if item.url != page.url %}
+            {% if page.categories contains tag %}
+            {% assign sameTagCount = sameTagCount | plus: 1 %}
             {% endif %}
-           {% endfor %}
-        </div>
-
+          {% endif %}
+        {% endfor %}
+        {% if sameTagCount >= 2 %}
+        
+            <div class="column related-info">
+                <h5><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></h5>
+                <p class="subheader"><a href="{{ item.url }}">{{ item.url }} </a></p>
+                <p>{{ item.description | truncate: 150, ' ... ' }}</p>
+                <div class="related-info-hover"><a href="{{ item.url | prepend:site.baseurl }}"></a><i class=""></i></div>
+            </div>
+          {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+          {% if maxRelatedCounter >= maxRelated %}
+            {% break %}
+          {% endif %}
+        {% endif %}
+       {% endfor %}
     </div>
     </div>
+</div>
+<section class="container">
     <div id="disqus_thread"></div>
     <script>
     /**

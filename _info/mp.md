@@ -17,9 +17,7 @@ The Master’s Project is an opportunity to pursue resolution of a question abou
 
 #### List of all Master's Projects
 
-<iframe src="https://app.box.com/embed/preview/6a7653ad82d94e92d350?view=&amp;sort=&amp;direction=ASC&amp;theme=dark" width="90%" height="400" frameborder="0" allowfullscreen="" webkitallowfullscreen="" msallowfullscreen=""></iframe>
-
-#### [Examples of Master's Projects](#examples)
+Check out the [Master's Project Database](/mp/) for a list of all master's projects from previous years.
 
 #### Before the Master's Project
 

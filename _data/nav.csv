@@ -1,4 +1,4 @@
-name,link
-Home,/
-Topics,/info/
-Master's Projects,/mp/
+name,link,layout
+Home,/,
+Topics,/info/,info-page
+Master's Projects,/mp/,

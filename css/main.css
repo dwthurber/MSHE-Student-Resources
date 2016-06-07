@@ -472,39 +472,6 @@ table td {
     position: relative;
 }
 
-.arrow-down {
-	width: 0; 
-	height: 0; 
-	border-left: 5px solid transparent;
-	border-right: 5px solid transparent;
-	
-	border-top: 5px solid rgba(150,150,150,0.8);
-	position: absolute;
-	bottom: -5px;
-	left: 40%;
-	right: 50%;
-}
-
-.hover {
-    position: absolute;
-    top: -20px;
-    left: -20px;
-    background-color: rgba(150,150,150,0.8);
-    color: #fff;
-    font-size: 0.6em;
-    width: 100%;
-    min-width: 75px;
-    max-width: 100px;
-    padding: 1px 2px;
-    border-radius: 5px;
-    text-align: center;
-    display: none;
-}
-
-.sorter-table td:hover .hover {
-    display: block;
-}
-
 .mp-table td {
     padding: 5px;
 }
@@ -687,8 +654,4 @@ table td {
 .details-buttons > a.active i {
     background-color: #333;
     color: #fff;
-}
-
-.details-buttons i:hover .hover {
-    display: block;
 }

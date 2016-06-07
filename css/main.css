@@ -143,7 +143,7 @@ nav ul li a.active {
 }
 
 .column {
-    width: 28%;
+    width: 26%;
     /*min-height: 300px;*/
     padding: 5px 5px 20px 5px;
     display: inline-block;

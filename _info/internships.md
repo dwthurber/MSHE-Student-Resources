@@ -6,6 +6,7 @@ categories:
   - professional development
   - professional organizations
   - financial aid
+  - fafsa
 statuses: 
   - current students
   - newly admitted students

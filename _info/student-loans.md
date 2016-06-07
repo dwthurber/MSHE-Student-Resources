@@ -5,6 +5,7 @@ categories:
   - financial aid
   - register for courses
   - internships
+  - fafsa
 statuses:
   - newly admitted students
   - current students

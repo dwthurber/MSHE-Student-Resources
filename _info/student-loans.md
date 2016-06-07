@@ -4,6 +4,7 @@ description: Student loans for MS in Higher Education Administration and Policy 
 categories: 
   - financial aid
   - register for courses
+  - internships
 statuses:
   - newly admitted students
   - current students
@@ -53,3 +54,7 @@ Students admitted during the early admission deadline are typically notified tha
 #### Other Scholarships
 
 Students are encouraged to investigate scholarships offered through various civic and professional organizations, foundations, and state agencies. One place to search for scholarships is the [financial aid information web page](http://www.finaid.org/) sponsored by the National Association of Student Aid Administration. Another good resource is Northwestern University's [Office of Fellowships](http://www.northwestern.edu/fellowships/).
+
+#### Internship Funding
+
+Many MSHE internships are also funded either federally or through the department or school. For more information about internship funding, please visit the [Internships page]({{ site.baseurl }}/info/internships.html)

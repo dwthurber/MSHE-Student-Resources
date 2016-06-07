@@ -5,6 +5,7 @@ categories:
   - internships
   - professional development
   - professional organizations
+  - financial aid
 statuses: 
   - current students
   - newly admitted students

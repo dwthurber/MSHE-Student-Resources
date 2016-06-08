@@ -1234,7 +1234,10 @@
 			"campus involvement",
 			"extracurricular activities"
 		],
-		"categories": "",
+		"categories": [
+			"Student Development",
+			"Student Engagement"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""

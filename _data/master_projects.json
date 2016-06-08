@@ -1425,7 +1425,9 @@
 			"strategic planning",
 			"engagement"
 		],
-		"categories": "",
+		"categories": [
+			"Strategic Planning and Institutional Research"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -1444,7 +1446,9 @@
 			"support services",
 			"military"
 		],
-		"categories": "",
+		"categories": [
+			"Student Support Services"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -1461,7 +1465,9 @@
 			"civic engagement",
 			"Freshman Urban Program"
 		],
-		"categories": "",
+		"categories": [
+			"Civic Engagement and Volunteerism"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -1475,7 +1481,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Admissions and Enrollment Management"
+		],
 		"consent": false,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -1491,7 +1499,10 @@
 			"asian american students",
 			"identity development"
 		],
-		"categories": "",
+		"categories": [
+			"Student Development",
+			"Study Abroad and International Education"
+		],
 		"consent": false,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -1507,7 +1518,10 @@
 			"career services",
 			"development"
 		],
-		"categories": "",
+		"categories": [
+			"Career Services",
+			"Student Support Services"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -1526,7 +1540,10 @@
 			"involvement",
 			"assessment"
 		],
-		"categories": "",
+		"categories": [
+			"Athletics",
+			"Alumni Relations and Development"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -1546,7 +1563,10 @@
 			"curriculum",
 			"advising"
 		],
-		"categories": "",
+		"categories": [
+			"Student Engagement",
+			"Academic Services and Programming"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -1569,7 +1589,10 @@
 			"experiential",
 			"learning"
 		],
-		"categories": "",
+		"categories": [
+			"Social Justice",
+			"Student Development"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -1588,7 +1611,10 @@
 			"stereotypes",
 			"athletic department"
 		],
-		"categories": "",
+		"categories": [
+			"Admissions and Enrollment Management",
+			"Athletics"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""

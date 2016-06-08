@@ -1814,7 +1814,9 @@
 			"satisfaction",
 			"non-immigrant"
 		],
-		"categories": "",
+		"categories": [
+			"Study Abroad and International Education"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -1831,7 +1833,9 @@
 			"decision-making",
 			"morality"
 		],
-		"categories": "",
+		"categories": [
+			"Student Development"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -1853,7 +1857,10 @@
 			"belonging",
 			"social network"
 		],
-		"categories": "",
+		"categories": [
+			"Student Development",
+			"Social Justice"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""

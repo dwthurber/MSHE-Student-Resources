@@ -1251,7 +1251,10 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Student Support Services",
+			"Student Wellness"
+		],
 		"consent": false,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -1269,7 +1272,9 @@
 			"science",
 			"cooperative"
 		],
-		"categories": "",
+		"categories": [
+			"Academic Services and Programming"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -1287,7 +1292,10 @@
 			"validation",
 			"student affairs"
 		],
-		"categories": "",
+		"categories": [
+			"Student Engagement",
+			"Student Support Services"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -1304,7 +1312,10 @@
 			"career development",
 			"involvement"
 		],
-		"categories": "",
+		"categories": [
+			"Athletics",
+			"Career Services"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""

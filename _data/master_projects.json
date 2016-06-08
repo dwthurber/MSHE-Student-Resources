@@ -1340,8 +1340,8 @@
 			"transferable skills"
 		],
 		"categories": [
-			"Civic Engagement and Volunteerism",
 			"Career Services",
+			"Civic Engagement and Volunteerism",
 			"Study Abroad and International Education"
 		],
 		"consent": true,
@@ -1403,9 +1403,9 @@
 			"ethnicity"
 		],
 		"categories": [
+			"Social Justice",
 			"Student Development",
-			"Student Support Services",
-			"Social Justice"
+			"Student Support Services"
 		],
 		"consent": true,
 		"file_path": "",
@@ -1541,8 +1541,8 @@
 			"assessment"
 		],
 		"categories": [
-			"Athletics",
-			"Alumni Relations and Development"
+			"Alumni Relations and Development",
+			"Athletics"
 		],
 		"consent": true,
 		"file_path": "",
@@ -1564,8 +1564,8 @@
 			"advising"
 		],
 		"categories": [
-			"Student Engagement",
-			"Academic Services and Programming"
+			"Academic Services and Programming",
+			"Student Engagement"
 		],
 		"consent": true,
 		"file_path": "",
@@ -1628,7 +1628,10 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Student Development",
+			"Academic Services and Programming"
+		],
 		"consent": false,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -1644,7 +1647,9 @@
 			"Washington State scholarship",
 			"underrepresented students"
 		],
-		"categories": "",
+		"categories": [
+			"Admissions and Enrollment Management"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -1660,7 +1665,10 @@
 			"policy",
 			"scholarship"
 		],
-		"categories": "",
+		"categories": [
+			"Admissions and Enrollment Management",
+			"Higher Education Policy"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -1679,7 +1687,9 @@
 			"undergraduate",
 			"Chicago Field Studies"
 		],
-		"categories": "",
+		"categories": [
+			"Civic Engagement and Volunteerism"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -1687,7 +1697,7 @@
 	{
 		"first_name": "Matt",
 		"last_name": "Douponce",
-		"title": "Scholarly Scale-up: Promoting Faculty Engagement in Funded Scholarship at a 'Non-Very High  Research Activity' Institution",
+		"title": "Scholarly Scale-up: Promoting Faculty Engagement in Funded Scholarship at a 'Non-Very High Research Activity' Institution",
 		"year": 2012,
 		"question": "What are the factors that influence faculty engagement in scholarship at a lower tier research university and how can institutional policy promote scholarship productivity?",
 		"tags": [
@@ -1698,7 +1708,9 @@
 			"tier-III",
 			"research university"
 		],
-		"categories": "",
+		"categories": [
+			"Higher Education Policy"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -1714,7 +1726,9 @@
 			"distance learner",
 			"support services"
 		],
-		"categories": "",
+		"categories": [
+			"Student Support Services"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -1728,7 +1742,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Student Engagement"
+		],
 		"consent": false,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -1750,7 +1766,10 @@
 			"higher education",
 			"freshman"
 		],
-		"categories": "",
+		"categories": [
+			"Study Abroad and International Education",
+			"Student Engagement"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -1774,7 +1793,9 @@
 			"curriculum",
 			"value of liberal arts"
 		],
-		"categories": "",
+		"categories": [
+			"Career Services"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""

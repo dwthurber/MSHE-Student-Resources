@@ -1402,7 +1402,11 @@
 			"multiracial",
 			"ethnicity"
 		],
-		"categories": "",
+		"categories": [
+			"Student Development",
+			"Student Support Services",
+			"Social Justice"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""

@@ -1880,7 +1880,9 @@
 			"QuestBridge",
 			"underrepresented students"
 		],
-		"categories": "",
+		"categories": [
+			"Student Support Services"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -1900,7 +1902,9 @@
 			"MBA curriculum",
 			"experiential learning"
 		],
-		"categories": "",
+		"categories": [
+			"Academic Services and Programming"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -1919,7 +1923,10 @@
 			"football",
 			"player"
 		],
-		"categories": "",
+		"categories": [
+			"Athletics",
+			"Student Engagement"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -1940,7 +1947,10 @@
 			"first generation",
 			"support programs"
 		],
-		"categories": "",
+		"categories": [
+			"Student Support Services",
+			"Social Justice"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -1959,7 +1969,9 @@
 			"mission",
 			"finanacial stability"
 		],
-		"categories": "",
+		"categories": [
+			"Higher Education Policy"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -1978,7 +1990,9 @@
 			"student leadership",
 			"leading through change"
 		],
-		"categories": "",
+		"categories": [
+			"Student Engagement"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -2001,7 +2015,10 @@
 			"time management",
 			"social engagement"
 		],
-		"categories": "",
+		"categories": [
+			"Admissions and Enrollment Management",
+			"Student Development"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""

@@ -918,8 +918,8 @@
 			"identity development"
 		],
 		"categories": [
-			"Student Development",
-			"Social Justice"
+			"Social Justice",
+			"Student Development"
 		],
 		"consent": true,
 		"file_path": "",
@@ -940,8 +940,8 @@
 			"policy development"
 		],
 		"categories": [
-			"Study Abroad and International Education",
-			"Higher Education Policy"
+			"Higher Education Policy",
+			"Study Abroad and International Education"
 		],
 		"consent": true,
 		"file_path": "",
@@ -957,8 +957,8 @@
 			""
 		],
 		"categories": [
-			"Social Justice",
-			"Higher Education Policy"
+			"Higher Education Policy",
+			"Social Justice"
 		],
 		"consent": false,
 		"file_path": "",
@@ -994,8 +994,8 @@
 			"stereotype threat"
 		],
 		"categories": [
-			"Student Development",
-			"Admissions and Enrollment Management"
+			"Admissions and Enrollment Management",
+			"Student Development"
 		],
 		"consent": true,
 		"file_path": "",
@@ -1031,7 +1031,10 @@
 			"first year students",
 			"student support"
 		],
-		"categories": "",
+		"categories": [
+			"Student Engagement",
+			"Student Support Services"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -1050,7 +1053,9 @@
 			"women",
 			"fraternity"
 		],
-		"categories": "",
+		"categories": [
+			"Student Development"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -1060,7 +1065,7 @@
 		"last_name": "Voth",
 		"title": "Problem Based Learning: Large-Group Format versus Small-Group Format",
 		"year": 2014,
-		"question": "How are the academic experiences of students in two variations of an actie learning modality similar and different in the context of the second year curriculum at Northwestern University's Feinberg School of Medicine?",
+		"question": "How are the academic experiences of students in two variations of an active learning modality similar and different in the context of the second year curriculum at Northwestern University's Feinberg School of Medicine?",
 		"tags": [
 			"education",
 			"learning",
@@ -1068,7 +1073,9 @@
 			"problem based learning",
 			"medical education"
 		],
-		"categories": "",
+		"categories": [
+			"Academic Services and Programming"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -1082,7 +1089,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Academic Services and Programming"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -1105,7 +1114,10 @@
 			"communications",
 			"highly selective private universities"
 		],
-		"categories": "",
+		"categories": [
+			"Admissions and Enrollment Management",
+			"Financial Issues"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -1113,13 +1125,15 @@
 	{
 		"first_name": "Laura",
 		"last_name": "West",
-		"title": "STEM Transfer Students: Influence of Out-of-Classroom Invovement on Student Outcomes",
+		"title": "STEM Transfer Students: Influence of Out-of-Classroom Involvement on Student Outcomes",
 		"year": 2014,
 		"question": "In what ways do students transferring from a community college into a science, technology, engineering or math (STEM) major at an urban, public, master's university, become involved outside the classroom on campus and how does this involvement influence their outcomes at the new institution?",
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Student Engagement"
+		],
 		"consent": false,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -1137,7 +1151,10 @@
 			"academic advising",
 			"leadership"
 		],
-		"categories": "",
+		"categories": [
+			"Athletics",
+			"Student Development"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -1155,7 +1172,10 @@
 			"motivation",
 			"graduate students"
 		],
-		"categories": "",
+		"categories": [
+			"Academic Services and Programming",
+			"Student Engagement"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -1174,7 +1194,10 @@
 			"ethnicity",
 			"interactions"
 		],
-		"categories": "",
+		"categories": [
+			"Social Justice",
+			"Student Engagement"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -1189,7 +1212,10 @@
 			"academic programming",
 			"teacher retention"
 		],
-		"categories": "",
+		"categories": [
+			"Academic Services and Programming",
+			"Student Development"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""

@@ -70,9 +70,9 @@ categories:
                 </div> {% endfor %}
             </article>
             <aside>
-                <p class="column-title">Featured Projects <span class="clear"><a ng-click="clearAll()" class="filter" data-filter="all" href="#">CLEAR</a></span></p>
+                <p class="column-title">Featured Projects <span class="clear"><a ng-click="clearAll()" class="filter" data-filter="all" href="#/">CLEAR</a></span></p>
                 {% assign sorted_projects = (page.featured | sort)%}
-                {% for project in sorted_projects %}<p><a class="filter featured" data-filter=".{{ project | downcase | replace:' ','' }}" href="#{{ project | downcase | replace:' ','' }}">{{ project }}</a></p>{% endfor %}
+                {% for project in sorted_projects %}<p><a class="filter featured" data-filter=".{{ project | downcase | replace:' ','' }}" href="#{{ project | downcase | replace:' ','' }}/">{{ project }}</a></p>{% endfor %}
                 <p class="column-title">Filter by Availability</p>
                 <label><input type="checkbox" ng-checked="availChecked" ng-click="filterAvail('.fulltextavail')">Full Text</label><br>
                 <label><input type="checkbox" ng-checked="availChecked" ng-click="filterAvail('.presentationavail')">Presentation</label><br>
@@ -82,7 +82,7 @@ categories:
                 {% capture mp_tags %}{% for item in site.data.master_projects %}{% for tag in item.tags %}{{ tag }},{% endfor %}{% endfor %}{% endcapture %}
                 {% assign tag_words = mp_tags | downcase | split:',' | uniq | sort %}
                 <ul class="tag-list">
-                    {% for tag in tag_words %}{% if tag != '' %}<li><a href="#" ng-class="{'active': tagIncludes.indexOf('.{{ tag | replace:' ','' }}') > -1}" ng-click="filterTag('.{{ tag | replace:' ',''}}')">{{ tag }}</a></li>{% endif %}{% endfor %}
+                    {% for tag in tag_words %}{% if tag != '' %}<li><a href="#/" ng-class="{'active': tagIncludes.indexOf('.{{ tag | replace:' ','' }}') > -1}" ng-click="filterTag('.{{ tag | replace:' ',''}}')">{{ tag }}</a></li>{% endif %}{% endfor %}
                 </ul>
             </aside>
         </div>

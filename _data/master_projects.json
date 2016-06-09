@@ -2056,7 +2056,9 @@
 			"insentive",
 			"human capital development"
 		],
-		"categories": "",
+		"categories": [
+			"Career Services"
+		],
 		"consent": "N/A",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -2346,7 +2348,9 @@
 			"collaboration",
 			"advising"
 		],
-		"categories": "",
+		"categories": [
+			"Strategic Planning and Institutional Research"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""

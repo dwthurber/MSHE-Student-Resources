@@ -1629,8 +1629,8 @@
 			""
 		],
 		"categories": [
-			"Student Development",
-			"Academic Services and Programming"
+			"Academic Services and Programming",
+			"Student Development"
 		],
 		"consent": false,
 		"file_path": "",
@@ -1767,8 +1767,8 @@
 			"freshman"
 		],
 		"categories": [
-			"Study Abroad and International Education",
-			"Student Engagement"
+			"Student Engagement",
+			"Study Abroad and International Education"
 		],
 		"consent": true,
 		"file_path": "",
@@ -1858,8 +1858,8 @@
 			"social network"
 		],
 		"categories": [
-			"Student Development",
-			"Social Justice"
+			"Social Justice",
+			"Student Development"
 		],
 		"consent": true,
 		"file_path": "",
@@ -1948,8 +1948,8 @@
 			"support programs"
 		],
 		"categories": [
-			"Student Support Services",
-			"Social Justice"
+			"Social Justice",
+			"Student Support Services"
 		],
 		"consent": true,
 		"file_path": "",
@@ -2035,7 +2035,10 @@
 			"first-year experience",
 			"academic advising"
 		],
-		"categories": "",
+		"categories": [
+			"Student Development",
+			"Student Support Services"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -2071,7 +2074,9 @@
 			"COFHE",
 			"forum on education abroad"
 		],
-		"categories": "",
+		"categories": [
+			"Study Abroad and International Education"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -2092,7 +2097,10 @@
 			"perceptions",
 			"leadership"
 		],
-		"categories": "",
+		"categories": [
+			"Civic Engagement and Volunteerism",
+			"Student Engagement"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -2109,7 +2117,9 @@
 			"intercultural competence",
 			"sensitivity development"
 		],
-		"categories": "",
+		"categories": [
+			"Study Abroad and International Education"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -2127,7 +2137,10 @@
 			"religion",
 			"spirituality"
 		],
-		"categories": "",
+		"categories": [
+			"Student Engagement",
+			"Study Abroad and International Education"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -2146,7 +2159,9 @@
 			"learning outcome",
 			"formal leadership"
 		],
-		"categories": "",
+		"categories": [
+			"Athletics"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -2165,7 +2180,9 @@
 			"engagement",
 			"non-traditional students"
 		],
-		"categories": "",
+		"categories": [
+			"Student Engagement"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -2194,7 +2211,7 @@
 		"last_name": "Randall",
 		"title": "In Four Loko Parentis: The Struggle to Regulate Student Drinking in American Higher Education",
 		"year": 2011,
-		"question": "How do historical and legal factors influence the undergraduate student alcohol environment, and how effective are today_s interventions, prevention strategies, and national policies in mitigating harm?",
+		"question": "How do historical and legal factors influence the undergraduate student alcohol environment, and how effective are today's interventions, prevention strategies, and national policies in mitigating harm?",
 		"tags": [
 			"college student",
 			"drinking",
@@ -2206,7 +2223,10 @@
 			"harm",
 			"history"
 		],
-		"categories": "",
+		"categories": [
+			"Alumni Relations and Development",
+			"Student Wellness"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -2227,7 +2247,9 @@
 			"STEM",
 			"science education"
 		],
-		"categories": "",
+		"categories": [
+			"Academic Services and Programming"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -2241,7 +2263,10 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Student Development",
+			"Academic Services and Programming"
+		],
 		"consent": false,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -2255,7 +2280,11 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Academic Services and Programming",
+			"Student Development",
+			"Student Engagement"
+		],
 		"consent": "N/A",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -2276,7 +2305,9 @@
 			"common application",
 			"admission"
 		],
-		"categories": "",
+		"categories": [
+			"Student Development"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -2292,7 +2323,10 @@
 			"academic and student development services",
 			"intercollegiate athletics"
 		],
-		"categories": "",
+		"categories": [
+			"Academic Services and Programming",
+			"Athletics"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -2332,7 +2366,10 @@
 			"allocation",
 			"employment"
 		],
-		"categories": "",
+		"categories": [
+			"Student Wellness",
+			"Student Support Services"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -2352,7 +2389,10 @@
 			"univeristy sponsor",
 			"undergraduate"
 		],
-		"categories": "",
+		"categories": [
+			"Student Development",
+			"Student Engagement"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""

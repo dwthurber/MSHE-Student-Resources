@@ -82,7 +82,7 @@ categories:
                 {% capture mp_tags %}{% for item in site.data.master_projects %}{% for tag in item.tags %}{{ tag }},{% endfor %}{% endfor %}{% endcapture %}
                 {% assign tag_words = mp_tags | downcase | split:',' | uniq | sort %}
                 <ul class="tag-list">
-                    {% for tag in tag_words %}<li><a href="#" ng-class="{'active': tagIncludes.indexOf('.{{ tag | replace:' ','' }}') > -1}" ng-click="filterTag('.{{ tag | replace:' ',''}}')">{{ tag }}</a></li>{% endfor %}
+                    {% for tag in tag_words %}{% if tag != '' %}<li><a href="#" ng-class="{'active': tagIncludes.indexOf('.{{ tag | replace:' ','' }}') > -1}" ng-click="filterTag('.{{ tag | replace:' ',''}}')">{{ tag }}</a></li>{% endif %}{% endfor %}
                 </ul>
             </aside>
         </div>

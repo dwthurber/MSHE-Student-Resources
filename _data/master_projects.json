@@ -3897,7 +3897,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Academic Services and Programming"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3911,7 +3913,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Strategic Planning and Institutional Research"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3925,7 +3929,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Student Engagement"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3939,7 +3945,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Civic Engagement and Volunteerism"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3953,7 +3961,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Social Justice"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3981,7 +3991,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Academic Services and Programming"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3995,7 +4007,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Career Services"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -4009,7 +4023,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Study Abroad and International Education"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -4019,11 +4035,13 @@
 		"last_name": "Calkins",
 		"title": "Roles, Responsibilities, and Expectations: The Evolving Faculty-Teaching Assistant Relationship",
 		"year": 2004,
-		"question": "What factors contribute to forming faculty expectations of teaching assistants (TAs) and how do those expectations affect the faculty members_ professional interactions with their TAs?",
+		"question": "What factors contribute to forming faculty expectations of teaching assistants (TAs) and how do those expectations affect the faculty members' professional interactions with their TAs?",
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Academic Services and Programming"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -4037,7 +4055,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Admissions and Enrollment Management"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -4051,7 +4071,10 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Student Wellness",
+			"Student Support Services"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -4065,7 +4088,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Academic Services and Programming"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -4079,7 +4104,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Student Development"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""

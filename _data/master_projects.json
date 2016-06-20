@@ -2266,8 +2266,8 @@
 			""
 		],
 		"categories": [
-			"Student Development",
-			"Academic Services and Programming"
+			"Academic Services and Programming",
+			"Student Development"
 		],
 		"consent": false,
 		"file_path": "",
@@ -2371,8 +2371,8 @@
 			"employment"
 		],
 		"categories": [
-			"Student Wellness",
-			"Student Support Services"
+			"Student Support Services",
+			"Student Wellness"
 		],
 		"consent": true,
 		"file_path": "",
@@ -2413,7 +2413,9 @@
 			"effective approach",
 			"public"
 		],
-		"categories": "",
+		"categories": [
+			"Financial Issues"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""

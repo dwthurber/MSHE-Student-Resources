@@ -2506,8 +2506,8 @@
 			"retention"
 		],
 		"categories": [
-			"Student Support Services",
-			"Social Justice"
+			"Social Justice",
+			"Student Support Services"
 		],
 		"consent": true,
 		"file_path": "",
@@ -2796,8 +2796,8 @@
 			"public university"
 		],
 		"categories": [
-			"Student Support Services",
-			"Social Justice"
+			"Social Justice",
+			"Student Support Services"
 		],
 		"consent": true,
 		"file_path": "",
@@ -2883,8 +2883,8 @@
 			""
 		],
 		"categories": [
-			"Student Engagement",
-			"Student Development"
+			"Student Development",
+			"Student Engagement"
 		],
 		"consent": "",
 		"file_path": "",
@@ -2932,8 +2932,8 @@
 			""
 		],
 		"categories": [
-			"Study Abroad and International Education",
-			"Student Development"
+			"Student Development",
+			"Study Abroad and International Education"
 		],
 		"consent": "",
 		"file_path": "",
@@ -3109,8 +3109,8 @@
 			""
 		],
 		"categories": [
-			"Career Services",
-			"Academic Services and Programming"
+			"Academic Services and Programming",
+			"Career Services"
 		],
 		"consent": "",
 		"file_path": "",
@@ -3125,7 +3125,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Study Abroad and International Education"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3139,7 +3141,10 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Student Wellness",
+			"Student Support Services"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3153,7 +3158,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Academic Services and Programming"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3167,7 +3174,10 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Civic Engagement and Volunteerism",
+			"Study Abroad and International Education"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3181,7 +3191,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Student Support Services"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3195,7 +3207,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Career Services"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3209,7 +3223,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Strategic Planning and Institutional Research"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3223,7 +3239,10 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Student Wellness",
+			"Student Support Services"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3237,7 +3256,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Academic Services and Programming"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3251,7 +3272,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Alumni Relations and Development"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3265,7 +3288,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Student Development"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3279,7 +3304,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Academic Services and Programming"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3293,7 +3320,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Financial Issues"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3307,7 +3336,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Student Wellness"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3321,7 +3352,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Study Abroad and International Education"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3335,7 +3368,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Career Services"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3349,7 +3384,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Strategic Planning and Institutional Research"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3363,7 +3400,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Student Development"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3377,7 +3416,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Student Development"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3391,7 +3432,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Career Services"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3405,7 +3448,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Civic Engagement and Volunteerism"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3419,7 +3464,10 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Financial Issues",
+			"Athletics"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3433,7 +3481,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Financial Issues"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3447,7 +3497,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Student Development"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3461,7 +3513,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Student Development"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3475,7 +3529,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Student Development"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3489,7 +3545,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Student Development"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3503,7 +3561,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Student Development"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3517,7 +3577,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Student Development"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3531,7 +3593,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Strategic Planning and Institutional Research"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3545,7 +3609,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Admissions and Enrollment Management"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3559,7 +3625,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Strategic Planning and Institutional Research"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3573,7 +3641,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Student Development"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3587,7 +3657,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Academic Services and Programming"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3601,7 +3673,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Strategic Planning and Institutional Research"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3615,7 +3689,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Student Support Services"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3629,7 +3705,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Student Support Services"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3643,7 +3721,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Student Development"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3657,7 +3737,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Academic Services and Programming"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3671,7 +3753,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Student Development"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3685,7 +3769,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Student Development"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3695,11 +3781,13 @@
 		"last_name": "Boecklin",
 		"title": "The College Application Essay",
 		"year": 2005,
-		"question": "How does a student_s college application essay assist admissions directors at elite research I institutions to determine a good fit for both the student and the institution?",
+		"question": "How does a student's college application essay assist admissions directors at elite research I institutions to determine a good fit for both the student and the institution?",
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Admissions and Enrollment Management"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3713,7 +3801,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Academic Services and Programming"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3727,7 +3817,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Financial Issues"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3741,7 +3833,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Career Services"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3755,7 +3849,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Student Development"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3769,7 +3865,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Student Development"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -3783,7 +3881,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Student Development"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""

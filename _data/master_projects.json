@@ -2436,7 +2436,9 @@
 			"religious",
 			"undergraduate"
 		],
-		"categories": "",
+		"categories": [
+			"Student Development"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -2459,7 +2461,9 @@
 			"cognitive",
 			"journey"
 		],
-		"categories": "",
+		"categories": [
+			"Student Development"
+		],
 		"consent": false,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -2481,7 +2485,9 @@
 			"networking",
 			"young alumni"
 		],
-		"categories": "",
+		"categories": [
+			"Alumni Relations and Development"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -2499,7 +2505,10 @@
 			"enrollment",
 			"retention"
 		],
-		"categories": "",
+		"categories": [
+			"Student Support Services",
+			"Social Justice"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -2516,7 +2525,9 @@
 			"college admissions",
 			"US News & World Report"
 		],
-		"categories": "",
+		"categories": [
+			"Admissions and Enrollment Management"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -2530,7 +2541,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Student Support Services"
+		],
 		"consent": "N/A",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -2544,7 +2557,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Career Services"
+		],
 		"consent": false,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -2561,7 +2576,9 @@
 			"accommodations",
 			"private university"
 		],
-		"categories": "",
+		"categories": [
+			"Student Support Services"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -2579,7 +2596,9 @@
 			"ABET",
 			"self-efficacy"
 		],
-		"categories": "",
+		"categories": [
+			"Academic Services and Programming"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -2596,7 +2615,9 @@
 			"course evaluations",
 			"faculty"
 		],
-		"categories": "",
+		"categories": [
+			"Academic Services and Programming"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -2618,7 +2639,9 @@
 			"Philinthropic",
 			"philanthropy"
 		],
-		"categories": "",
+		"categories": [
+			"Alumni Relations and Development"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -2642,7 +2665,9 @@
 			"information source",
 			"non-academic"
 		],
-		"categories": "",
+		"categories": [
+			"Career Services"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -2656,7 +2681,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Academic Services and Programming"
+		],
 		"consent": false,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -2677,7 +2704,9 @@
 			"major choice",
 			"Millennials"
 		],
-		"categories": "",
+		"categories": [
+			"Academic Services and Programming"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -2691,7 +2720,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Career Services"
+		],
 		"consent": false,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -2705,7 +2736,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Athletics"
+		],
 		"consent": false,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -2713,7 +2746,7 @@
 	{
 		"first_name": "Nicole C.",
 		"last_name": "Shiperek",
-		"title": "America_s Comeback: Educating Globally Aware Students through Community College Study Abroad Programs",
+		"title": "America's Comeback: Educating Globally Aware Students through Community College Study Abroad Programs",
 		"year": 2010,
 		"question": "What are the impacts on global awareness for community college students who participated in a study abroad program?",
 		"tags": [
@@ -2723,7 +2756,9 @@
 			"international",
 			"global awareness"
 		],
-		"categories": "",
+		"categories": [
+			"Study Abroad and International Education"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -2741,7 +2776,9 @@
 			"student affairs",
 			"learning communities"
 		],
-		"categories": "",
+		"categories": [
+			"Student Support Services"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -2758,7 +2795,10 @@
 			"public",
 			"public university"
 		],
-		"categories": "",
+		"categories": [
+			"Student Support Services",
+			"Social Justice"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -2777,7 +2817,9 @@
 			"private university",
 			"decision-making"
 		],
-		"categories": "",
+		"categories": [
+			"Career Services"
+		],
 		"consent": true,
 		"file_path": "",
 		"presentation_file_path": ""
@@ -2791,7 +2833,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Study Abroad and International Education"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -2805,7 +2849,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Student Support Services"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -2819,7 +2865,10 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Athletics",
+			"Student Support Services"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -2833,7 +2882,10 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Student Engagement",
+			"Student Development"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -2847,7 +2899,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Academic Services and Programming"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -2861,7 +2915,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Career Services"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -2875,7 +2931,10 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Study Abroad and International Education",
+			"Student Development"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -2889,7 +2948,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Student Engagement"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -2903,7 +2964,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Athletics"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -2917,7 +2980,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Student Support Services"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""

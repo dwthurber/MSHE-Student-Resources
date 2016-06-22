@@ -4169,7 +4169,10 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Admissions and Enrollment Management",
+			"Student Development"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -4183,7 +4186,10 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Academic Services and Programming",
+			"Study Abroad and International Education"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -4197,7 +4203,10 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Student Development",
+			"Study Abroad and International Education"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -4211,7 +4220,10 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Student Development",
+			"Study Abroad and International Education"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -4225,7 +4237,10 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Career Services",
+			"Student Development"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -4239,7 +4254,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Student Engagement"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""

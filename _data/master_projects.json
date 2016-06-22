@@ -3142,8 +3142,8 @@
 			""
 		],
 		"categories": [
-			"Student Wellness",
-			"Student Support Services"
+			"Student Support Services",
+			"Student Wellness"
 		],
 		"consent": "",
 		"file_path": "",
@@ -3240,8 +3240,8 @@
 			""
 		],
 		"categories": [
-			"Student Wellness",
-			"Student Support Services"
+			"Student Support Services",
+			"Student Wellness"
 		],
 		"consent": "",
 		"file_path": "",
@@ -3465,8 +3465,8 @@
 			""
 		],
 		"categories": [
-			"Financial Issues",
-			"Athletics"
+			"Athletics",
+			"Financial Issues"
 		],
 		"consent": "",
 		"file_path": "",
@@ -4072,8 +4072,8 @@
 			""
 		],
 		"categories": [
-			"Student Wellness",
-			"Student Support Services"
+			"Student Support Services",
+			"Student Wellness"
 		],
 		"consent": "",
 		"file_path": "",
@@ -4116,11 +4116,14 @@
 		"last_name": "Burke",
 		"title": "Compliance Issues Impacting University Budgets",
 		"year": 2003,
-		"question": "See title",
+		"question": "What are the constraints and mandates of regulatory agencies, and do they impact the budgets of public and private research universities?",
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Financial Issues",
+			"Higher Education Policy"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -4134,7 +4137,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Student Development"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -4148,7 +4153,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Strategic Planning and Institutional Research"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -4400,7 +4407,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Career Services"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""

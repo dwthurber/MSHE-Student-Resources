@@ -661,7 +661,7 @@
 			"NCAA"
 		],
 		"categories": [
-			"Strategic Planning and Institutional Research"
+			"Athletics"
 		],
 		"consent": true,
 		"file_path": "",
@@ -2349,6 +2349,7 @@
 			"advising"
 		],
 		"categories": [
+			"Academic Services and Programming",
 			"Strategic Planning and Institutional Research"
 		],
 		"consent": true,
@@ -3061,7 +3062,8 @@
 			""
 		],
 		"categories": [
-			"Strategic Planning and Institutional Research"
+			"Strategic Planning and Institutional Research",
+			"Higher Education Policy"
 		],
 		"consent": "",
 		"file_path": "",
@@ -3594,7 +3596,9 @@
 			""
 		],
 		"categories": [
-			"Strategic Planning and Institutional Research"
+			"Strategic Planning and Institutional Research",
+			"Higher Education Policy",
+			"Civic Engagement and Volunteerism"
 		],
 		"consent": "",
 		"file_path": "",
@@ -3914,7 +3918,8 @@
 			""
 		],
 		"categories": [
-			"Strategic Planning and Institutional Research"
+			"Strategic Planning and Institutional Research",
+			"Academic Services and Programming"
 		],
 		"consent": "",
 		"file_path": "",

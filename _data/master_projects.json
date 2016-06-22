@@ -4504,7 +4504,10 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Civic Engagement and Volunteerism",
+			"Social Justice"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -4518,7 +4521,10 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Career Services",
+			"Study Abroad and International Education"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -4532,7 +4538,10 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Social Justice",
+			"Student Support Services"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -4540,13 +4549,15 @@
 	{
 		"first_name": "Meredith",
 		"last_name": "Unger",
-		"title": "Can Project-based Organizations Learn to Innovate?",
+		"title": "Can Project-Based Organizations Learn to Innovate?",
 		"year": 1999,
 		"question": "see title",
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Corporate Learning/Development"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -4560,7 +4571,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Corporate Learning/Development"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -4574,7 +4587,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Corporate Learning/Development"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -4588,7 +4603,11 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Social Justice",
+			"Student Wellness",
+			"Student Development"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -4602,7 +4621,11 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Higher Education Policy",
+			"Social Justice",
+			"Athletics"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -4616,7 +4639,10 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Student Wellness",
+			"Student Engagement"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -4630,7 +4656,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Admissions and Enrollment Management"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -4644,7 +4672,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Admissions and Enrollment Management"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -4658,7 +4688,10 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Academic Services and Programming",
+			"Student Support Services"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -4672,7 +4705,11 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Admissions and Enrollment Management",
+			"Higher Education Policy",
+			"Social Justice"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -4686,7 +4723,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Student Development"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -4700,7 +4739,10 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Athletics",
+			"Student Development"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""

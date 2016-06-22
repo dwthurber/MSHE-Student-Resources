@@ -4756,7 +4756,9 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Admissions and Enrollment Management"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -4770,7 +4772,11 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Higher Education Policy",
+			"Social Justice",
+			"Admissions and Enrollment Management"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -4784,7 +4790,10 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Academic Services and Programming",
+			"Student Engagement"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -4798,7 +4807,11 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Academic Services and Programming",
+			"Social Justice",
+			"Student Engagement"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -4812,7 +4825,10 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Corporate Learning/Development",
+			"Student Wellness"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""
@@ -4826,7 +4842,11 @@
 		"tags": [
 			""
 		],
-		"categories": "",
+		"categories": [
+			"Social Justice",
+			"Student Support Services",
+			"Student Wellness"
+		],
 		"consent": "",
 		"file_path": "",
 		"presentation_file_path": ""

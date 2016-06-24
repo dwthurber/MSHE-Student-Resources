@@ -4991,5 +4991,160 @@
 		"consent": "Y",
 		"file_path": "",
 		"presentation_file_path": ""
+	},
+	{
+		"first_name": "Bridget",
+		"last_name": "O'Connell",
+		"title": "Faculty Involvement with Engineering Students’ Career Development",
+		"year": 2016,
+		"question": "To what extent do faculty members interact with undergraduate college students in their career development; how do students’ and faculty’s expectations differ for working on this process; and how can these interactions be improved at a private Midwestern research university’s engineering school?",
+		"tags": [
+			"STEM",
+			"Engineering",
+			"Career",
+			"Advising",
+			"Retention",
+			"Faculty",
+			"Student"
+		],
+		"categories": [
+			"Academic Services and Programming",
+			"Career Services",
+			"Student Support Services"
+		],
+		"consent": "Y",
+		"file_path": "",
+		"presentation_file_path": ""
+	},
+	{
+		"first_name": "Leslie",
+		"last_name": "McSpadden",
+		"title": "Resilience in Residency: What Makes a Resident Resilient, and How Can You Recruit for It?",
+		"year": 2016,
+		"question": "What are the characteristics that make some general surgery residents at Northwestern University more resilient than their peers to the stressors of residency, and how can those characteristics be identified during the residency recruitment process?",
+		"tags": [
+			"Resilience",
+			"Residency",
+			"Medical Education",
+			"Surgical residency",
+			"Resilience in medicine",
+			"Resilience in residency"
+		],
+		"categories": [
+			"Student Support Services",
+			"Student Wellness"
+		],
+		"consent": "Y",
+		"file_path": "",
+		"presentation_file_path": ""
+	},
+	{
+		"first_name": "Phong",
+		"last_name": "Luu",
+		"title": "Leadership Through Scholarship:The Role of Leadership Programming for Underrepresented Studentsin a Merit-Based Scholarship Program in Postgraduate Outcomes",
+		"year": 2016,
+		"question": "How do leadership development opportunities targeted at underrepresented students of color in a merit-based scholarship program at the University of Wisconsin-Madison promote postgraduate outcomes, such as professional growth and postgraduate leadership experiences?",
+		"tags": [
+			"Leadership",
+			"Diversity",
+			"Inclusion",
+			"Postgraduate",
+			"Professional Development"
+		],
+		"categories": [
+			"Student Development",
+			"Career Services",
+			"Social Justice"
+		],
+		"consent": "Y",
+		"file_path": "",
+		"presentation_file_path": ""
+	},
+	{
+		"first_name": "Emily",
+		"last_name": "Livingston",
+		"title": "Social Experiences of Students with Autism Spectrum Disorder: Disability Service Administrator Contributions",
+		"year": 2016,
+		"question": "How do disability service administrators support social engagement for students with Autism Spectrum Disorder and how do current practices encourage or hinder their involvement?",
+		"tags": [
+			"Autism",
+			"Student support",
+			"Administrators",
+			"Access",
+			"Inclusion"
+		],
+		"categories": [
+			"Social Justice",
+			"Student Development",
+			"Student Support Services"
+		],
+		"consent": "Y",
+		"file_path": "",
+		"presentation_file_path": ""
+	},
+	{
+		"first_name": "Joanne",
+		"last_name": "Kang",
+		"title": "This I Believe and Do: Influence of Spirituality on Social Justice Values",
+		"year": 2016,
+		"question": "How do students’ spirituality and faith maturity influence their social justice values and\nactivism at a secular, private, highly selective research institution?",
+		"tags": [
+			"Spirituality",
+			"Social justice",
+			"Faith",
+			"Activism",
+			"Spiritual development"
+		],
+		"categories": [
+			"Social Justice",
+			"Student Development"
+		],
+		"consent": "Y",
+		"file_path": "",
+		"presentation_file_path": ""
+	},
+	{
+		"first_name": "Emily",
+		"last_name": "Lawson",
+		"title": "Diversity in Small Liberal Arts Test-Optional Colleges –  What Does it Look Like and How is it Acquired?",
+		"year": 2016,
+		"question": "What are the different types of diversity valued at small liberal arts test-optional colleges, what types of diversity recruitment strategies are used, and what is the role of test-optional policies in recruiting a diverse student body, if any?",
+		"tags": [
+			"Diversity",
+			"Small liberal arts colleges",
+			"Test-optional admissions policies"
+		],
+		"categories": [
+			"Admissions and Enrollment Management",
+			"Social Justice"
+		],
+		"consent": "Y",
+		"file_path": "",
+		"presentation_file_path": ""
+	},
+	{
+		"first_name": "Megan",
+		"last_name": "Joyce",
+		"title": "Recent College Graduates and Teaching Service Program Participation",
+		"year": 2016,
+		"question": "What factors influence recent graduates of an elite, private research institution to commit to a teaching service program, and what do they gain from working for these programs?",
+		"tags": [
+			"Teaching programs",
+			"Service programs",
+			"College seniors",
+			"Transition theory",
+			"Self-authorship",
+			"Civic identity",
+			"College career services",
+			"Teach for America",
+			"AmeriCorps",
+			"College advising"
+		],
+		"categories": [
+			"Career Services"
+		],
+		"consent": "Y",
+		"file_path": "",
+		"presentation_file_path": ""
 	}
 ]

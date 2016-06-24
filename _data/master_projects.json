@@ -4884,5 +4884,112 @@
 		"consent": "Y",
 		"file_path": "",
 		"presentation_file_path": ""
+	},
+	{
+		"first_name": "Lorato",
+		"last_name": "Anderson",
+		"title": "Que Voy a Hacer; Je Suis Perdu: The Distinctive Learning Needs of English Language Learners and Underprepared Native English Speakers",
+		"year": 2016,
+		"question": "What are the distinctive student and program learning needs for English Language Learner (ELL) students versus those of Underprepared Native English Speaker (UNES) students at a medium-sized, Midwestern public university, and how is the institution fulfilling these needs in its developmental English program?",
+		"tags": [
+			"Language",
+			"English Language Learner",
+			"Underprepared",
+			"Acquisition",
+			"Remediation",
+			"Needs Analysis",
+			"Program assessment"
+		],
+		"categories": [
+			"Academic Services and Programming",
+			"Student Development"
+		],
+		"consent": "Y",
+		"file_path": "",
+		"presentation_file_path": ""
+	},
+	{
+		"first_name": "Lusha",
+		"last_name": "Zhang",
+		"title": "English for East Asian International Students",
+		"year": 2016,
+		"question": "In a case study at a medium-sized, highly selective four-year research Midwestern university, what language proficiency characteristics do international Ph.D. students from East Asian countries have in common and what campus-based resources do they perceive to be most helpful in improving English skills?",
+		"tags": [
+			"English learning",
+			"International students",
+			"Being foreign",
+			"On-campus resources"
+		],
+		"categories": [
+			"Academic Services and Programming",
+			"Student Development"
+		],
+		"consent": "Y",
+		"file_path": "",
+		"presentation_file_path": ""
+	},
+	{
+		"first_name": "Marlee",
+		"last_name": "Stein",
+		"title": "Linking Content-Based Foreign Language Courses With Study Abroad",
+		"year": 2016,
+		"question": "How can content-based foreign language courses taught at US higher education institutions play a role in students’ preparation for, and experience in, a language immersion study abroad program academically, socially, and professionally?",
+		"tags": [
+			"Study abroad",
+			"Language acquisition",
+			"Foreign language",
+			"Internationalization"
+		],
+		"categories": [
+			"Academic Services and Programming",
+			"Study Abroad and International Education"
+		],
+		"consent": "Y",
+		"file_path": "",
+		"presentation_file_path": ""
+	},
+	{
+		"first_name": "Jeffrey",
+		"last_name": "Scholl",
+		"title": "Civic Engagement in College and Beyond: Building a Lasting Commitment to Community",
+		"year": 2016,
+		"question": "How do students who participate in the Northwestern University Civic Engagement Certificate Program perceive its value in developing their ability to work for positive change in communities, both during and after college?",
+		"tags": [
+			"Civic engagement",
+			"Case study",
+			"Education for democracy",
+			"Active citizenship",
+			"Community engagement",
+			"Civic renewal",
+			"Service learning"
+		],
+		"categories": [
+			"Civic Engagement and Volunteerism",
+			"Academic Services and Programming"
+		],
+		"consent": "Y",
+		"file_path": "",
+		"presentation_file_path": ""
+	},
+	{
+		"first_name": "Saagit",
+		"last_name": "Sanders",
+		"title": "Forging Friendships Overseas: International Graduate Students’ Friendship Formation on an American Campus",
+		"year": 2016,
+		"question": "Through what processes do international graduate students develop friendships while at a highly selective, private, research university in the Midwest, and how do their perceptions of the social climate on campus play a role in the relationships they may form?",
+		"tags": [
+			"International",
+			"Graduate student",
+			"Social life",
+			"Friendships",
+			"Social climate"
+		],
+		"categories": [
+			"Student Development",
+			"Student Engagement"
+		],
+		"consent": "Y",
+		"file_path": "",
+		"presentation_file_path": ""
 	}
 ]

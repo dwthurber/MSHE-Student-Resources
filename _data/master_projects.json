@@ -3062,8 +3062,8 @@
 			""
 		],
 		"categories": [
-			"Strategic Planning and Institutional Research",
-			"Higher Education Policy"
+			"Higher Education Policy",
+			"Strategic Planning and Institutional Research"
 		],
 		"consent": "",
 		"file_path": "",
@@ -3596,9 +3596,9 @@
 			""
 		],
 		"categories": [
-			"Strategic Planning and Institutional Research",
+			"Civic Engagement and Volunteerism",
 			"Higher Education Policy",
-			"Civic Engagement and Volunteerism"
+			"Strategic Planning and Institutional Research"
 		],
 		"consent": "",
 		"file_path": "",
@@ -3918,8 +3918,8 @@
 			""
 		],
 		"categories": [
-			"Strategic Planning and Institutional Research",
-			"Academic Services and Programming"
+			"Academic Services and Programming",
+			"Strategic Planning and Institutional Research"
 		],
 		"consent": "",
 		"file_path": "",
@@ -4345,8 +4345,8 @@
 			""
 		],
 		"categories": [
-			"Athletics",
-			"Admissions and Enrollment Management"
+			"Admissions and Enrollment Management",
+			"Athletics"
 		],
 		"consent": "",
 		"file_path": "",
@@ -4596,8 +4596,8 @@
 		],
 		"categories": [
 			"Social Justice",
-			"Student Wellness",
-			"Student Development"
+			"Student Development",
+			"Student Wellness"
 		],
 		"consent": "",
 		"file_path": "",
@@ -4613,9 +4613,9 @@
 			""
 		],
 		"categories": [
+			"Athletics",
 			"Higher Education Policy",
-			"Social Justice",
-			"Athletics"
+			"Social Justice"
 		],
 		"consent": "",
 		"file_path": "",
@@ -4631,8 +4631,8 @@
 			""
 		],
 		"categories": [
-			"Student Wellness",
-			"Student Engagement"
+			"Student Engagement",
+			"Student Wellness"
 		],
 		"consent": "",
 		"file_path": "",
@@ -4764,9 +4764,9 @@
 			""
 		],
 		"categories": [
+			"Admissions and Enrollment Management",
 			"Higher Education Policy",
-			"Social Justice",
-			"Admissions and Enrollment Management"
+			"Social Justice"
 		],
 		"consent": "",
 		"file_path": "",
@@ -4839,6 +4839,49 @@
 			"Student Wellness"
 		],
 		"consent": "",
+		"file_path": "",
+		"presentation_file_path": ""
+	},
+	{
+		"first_name": "David",
+		"last_name": "Ernst",
+		"title": "Untying the Knot: Financial Literacy Challenges and Resources for First-Generation and Low-Income Students",
+		"year": 2016,
+		"question": "What challenges and resources exist for financial literacy for low-income and first-generation college students at a private, highly selective research institution and how do students' perspectives compare with administrators’ perspectives?",
+		"tags": [
+			"Financial aid",
+			"Low-income",
+			"Low-income",
+			"Low-income",
+			"Low-income"
+		],
+		"categories": [
+			"Financial Issues",
+			"Social Justice"
+		],
+		"consent": "Y",
+		"file_path": "",
+		"presentation_file_path": ""
+	},
+	{
+		"first_name": "Anna-Kate",
+		"last_name": "Trubilowicz",
+		"title": "Understanding Students’ Stress and Perceptions of University Support Services and Programs",
+		"year": 2016,
+		"question": "What do undergraduate students at a private, highly selective, research institution identify as their greatest stressors; what programs and services is the university offering to help students better manage their stress; and how do students perceive these programs and services?",
+		"tags": [
+			"Stress management",
+			"Student stress",
+			"University programs and services",
+			"Resilience",
+			"Perfectionism",
+			"Campus Climate"
+		],
+		"categories": [
+			"Student Wellness",
+			"Student Support Services"
+		],
+		"consent": "Y",
 		"file_path": "",
 		"presentation_file_path": ""
 	}

@@ -668,12 +668,18 @@ table td {
 .inner-title h2 {
     line-height: 1;
     margin: 0;
+    font-size: 2.5em;
 }
 
 .inner-title {
-    margin: 20px 0 20px 13% ;
+    margin: 20px 0 20px 10px ;
     padding-left: 10px;
     border-left: 3px solid #333;
+}
+
+.inner-title hr {
+    width: 98%;
+    margin: 5px 0 0 0;
 }
 
 .content {

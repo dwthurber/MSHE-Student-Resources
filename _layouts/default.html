@@ -24,11 +24,11 @@
 <body ng-controller="mainController">
     <header>
         <a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/img/MSHE-horizontal-option2-02.png" alt="MSHE Logo"></img></a>
-        <form action="{{ site.baseurl }}/search/">
+        {% unless page.title == 'MP Database' %}<form action="{{ site.baseurl }}/search/">
         <input type="text" name="q" id="tipue_search_input" autocomplete="off" placeholder="Search" required>
-        </form>
+        </form>{% endunless %}
         <nav>
-            <ul>
+            {% unless page.title == 'MP Database' %}<ul>
             {% for nav_item in site.data.nav %}
                 {% if page.url == nav_item.link or page.layout == nav_item.layout %}
                 <li><a class="active" href="{{ nav_item.link | prepend:site.baseurl }}">{{ nav_item.name }}</a></li>
@@ -36,13 +36,13 @@
                 <li><a href="{{ nav_item.link | prepend:site.baseurl }}">{{ nav_item.name }}</a></li>
               {% endif %}
             {% endfor %}
-            </ul>
+            </ul>{% endunless %}
         </nav>
     </header>
     
     {{ content }}
     
-    <section class="sitemap">
+    {% unless page.title == 'MP Database' %}<section class="sitemap">
         <div class="three-columns">
             <div class="column">
                 <h4>Explore</h4>
@@ -73,7 +73,7 @@
             </div>
             
         </div>
-    </section>
+    </section>{% endunless %}
     <footer>
         <p><span class="purple"><strong>Copyright </strong></span><i class="fa fa-copyright" aria-hidden="true"></i> 2016</p>
         <p>Designed by <strong>Derek Thurber </strong></p>

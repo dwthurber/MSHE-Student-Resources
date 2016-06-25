@@ -655,3 +655,27 @@ table td {
     background-color: #333;
     color: #fff;
 }
+
+.mp-title {
+    background-color: #eee;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-bottom: 50px;
+}
+
+.inner-title h2 {
+    line-height: 1;
+    margin: 0;
+}
+
+.inner-title {
+    margin: 20px 0 20px 13% ;
+    padding-left: 10px;
+    border-left: 3px solid #333;
+}
+
+.content {
+    margin-top: 110px;
+}

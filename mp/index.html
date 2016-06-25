@@ -24,8 +24,14 @@ categories:
   - Study Abroad and International Education
 ---
     <section class="container">
-        <h2>Master's Projects Database</h2>
+        <div class="mp-title">
+            <div class="inner-title">
+            <h2>Master's Projects Database</h2>
+            <p><em>Research project titles, questions, and other detials from previous years.</em></p>
+            </div>
+        </div>
         <br>
+        <div class="content">
         <i class="fa fa-search input-filter-icon"></i><input class="input-filter" id-"input-filter" ng-model="inputFilter" ng-change="inputChange()" placeholder="Start typing to filter...">
         <div class="details-buttons"><a href="#/" ng-click="showDetails('false')" ng-class="{'active': show == 'false'}"><i class="fa fa-list tip" data-tip="Narrow View" data-mode="top" aria-hidden="true"></i></a> <a href="#/" ng-click="showDetails('true')"  ng-class="{'active': show == 'true'}"><i class="fa fa-th-list tip" data-tip="Detailed View" data-mode="top" aria-hidden="true"></i></a></div>
         <br>
@@ -87,6 +93,7 @@ categories:
                     {% for tag in tag_words %}{% if tag != '' %}<li><a href="#/" ng-class="{'active': tagIncludes.indexOf('.{{ tag | replace:' ','' }}') > -1}" ng-click="filterTag('.{{ tag | replace:' ',''}}')">{{ tag }}</a></li>{% endif %}{% endfor %}
                 </ul>
             </aside>
+        </div>
         </div>
     </section>
     <br>

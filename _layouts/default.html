@@ -22,13 +22,13 @@
     <script async="" defer="" src="//survey.g.doubleclick.net/async_survey?site=l5uivyigcjgba"></script>
 </head>
 <body ng-controller="mainController">
-    <header>
+    {% unless page.title == 'MP Database' %}<header>
         <a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/img/MSHE-horizontal-option2-02.png" alt="MSHE Logo"></img></a>
-        {% unless page.title == 'MP Database' %}<form action="{{ site.baseurl }}/search/">
+        <form action="{{ site.baseurl }}/search/">
         <input type="text" name="q" id="tipue_search_input" autocomplete="off" placeholder="Search" required>
-        </form>{% endunless %}
+        </form>
         <nav>
-            {% unless page.title == 'MP Database' %}<ul>
+            <ul>
             {% for nav_item in site.data.nav %}
                 {% if page.url == nav_item.link or page.layout == nav_item.layout %}
                 <li><a class="active" href="{{ nav_item.link | prepend:site.baseurl }}">{{ nav_item.name }}</a></li>
@@ -36,9 +36,9 @@
                 <li><a href="{{ nav_item.link | prepend:site.baseurl }}">{{ nav_item.name }}</a></li>
               {% endif %}
             {% endfor %}
-            </ul>{% endunless %}
+            </ul>
         </nav>
-    </header>
+    </header>{% endunless %}
     
     {{ content }}
     

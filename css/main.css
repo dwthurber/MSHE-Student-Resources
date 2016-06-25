@@ -678,8 +678,8 @@ table td {
 }
 
 .inner-title hr {
-    width: 98%;
-    margin: 5px 0 0 0;
+    width: 98%!important;
+    margin: 5px 0 0 0!important;
 }
 
 .content {

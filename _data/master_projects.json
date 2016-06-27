@@ -5340,5 +5340,72 @@
 		"consent": "Y",
 		"file_path": "",
 		"presentation_file_path": ""
+	},
+	{
+		"first_name": "Rachel",
+		"last_name": "Edelman",
+		"title": "Sexual Misconduct on Campus: A Closer Look at Wildcat University Student Perceptions of Their Campus Climate",
+		"year": 2016,
+		"question": "What are student perceptions of the campus climate of sexual misconduct at an elite, private, research I institution, and what do these perceptions suggest for the institution’s student education and prevention of, and response to, sexual misconduct?",
+		"tags": [
+			""
+		],
+		"categories": [
+			"Student Support Services",
+			"Student Wellness"
+		],
+		"consent": "N",
+		"file_path": "",
+		"presentation_file_path": ""
+	},
+	{
+		"first_name": "Tamar",
+		"last_name": "Daskin",
+		"title": "Early Alert in Higher Education: Examining System Usage and Efficacy",
+		"year": 2016,
+		"question": "In what ways do early alert systems used by a four-year university and a community college differ in their implementation and use, and what is the measurable and perceived efficacy of each system?",
+		"tags": [
+			""
+		],
+		"categories": [
+			"Academic Services and Programming"
+		],
+		"consent": "N",
+		"file_path": "",
+		"presentation_file_path": ""
+	},
+	{
+		"first_name": "Kathryn",
+		"last_name": "Melendez",
+		"title": "Supporting Low-Income Students Through Residential Services",
+		"year": 2016,
+		"question": "What are the most needed supports for on-campus, low-income students at a highly selective, private, research institution in the Midwest, and how can the institution’s residential services address those needs?",
+		"tags": [
+			""
+		],
+		"categories": [
+			"Student Support Services",
+			"Social Justice"
+		],
+		"consent": "N",
+		"file_path": "",
+		"presentation_file_path": ""
+	},
+	{
+		"first_name": "Jennifer",
+		"last_name": "Klink",
+		"title": "Perceptions of Black Student Support",
+		"year": 2016,
+		"question": "How do perceptions of resources for black undergraduate students at a private, Midwest research university differ between alumni, administrators, and students, and how do those perceptions compare with actual offerings?  And, what steps could the university take to implement changes to better meet the needs of black students?",
+		"tags": [
+			""
+		],
+		"categories": [
+			"Social Justice",
+			"Student Support Services"
+		],
+		"consent": "N",
+		"file_path": "",
+		"presentation_file_path": ""
 	}
 ]

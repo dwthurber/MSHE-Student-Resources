@@ -4878,8 +4878,8 @@
 			"Campus Climate"
 		],
 		"categories": [
-			"Student Wellness",
-			"Student Support Services"
+			"Student Support Services",
+			"Student Wellness"
 		],
 		"consent": "Y",
 		"file_path": "",
@@ -4964,8 +4964,8 @@
 			"Service learning"
 		],
 		"categories": [
-			"Civic Engagement and Volunteerism",
-			"Academic Services and Programming"
+			"Academic Services and Programming",
+			"Civic Engagement and Volunteerism"
 		],
 		"consent": "Y",
 		"file_path": "",
@@ -5052,9 +5052,9 @@
 			"Professional Development"
 		],
 		"categories": [
-			"Student Development",
 			"Career Services",
-			"Social Justice"
+			"Social Justice",
+			"Student Development"
 		],
 		"consent": "Y",
 		"file_path": "",
@@ -5142,6 +5142,200 @@
 		],
 		"categories": [
 			"Career Services"
+		],
+		"consent": "Y",
+		"file_path": "",
+		"presentation_file_path": ""
+	},
+	{
+		"first_name": "Hana",
+		"last_name": "Johnson",
+		"title": "Perceived Effectiveness of Social Media in Campus Activism",
+		"year": 2016,
+		"question": "In what ways do members of student activist groups at Northwestern University utilize social media as a platform for furthering their causes, and what is the perceived effectiveness of their social media use by both students and administrators?",
+		"tags": [
+			"Social media",
+			"Facebook",
+			"Activist",
+			"Activism",
+			"Student group",
+			"Social activism",
+			"Campus"
+		],
+		"categories": [
+			"Social Justice"
+		],
+		"consent": "Y",
+		"file_path": "",
+		"presentation_file_path": ""
+	},
+	{
+		"first_name": "Khaled",
+		"last_name": "Ismail",
+		"title": "Student Activism on Campus: Opportunities for Leadership and Engagement",
+		"year": 2016,
+		"question": "What role does participation in activist behaviors play in students’ leadership development, and how do student affairs administrators currently engage with student activists at a highly selective, private, research university in the Midwest?",
+		"tags": [
+			"Activism",
+			"Leadership",
+			"Learning",
+			"Development",
+			"Student affairs",
+			"Engagement",
+			"Social Justice"
+		],
+		"categories": [
+			"Social Justice",
+			"Student Support Services"
+		],
+		"consent": "Y",
+		"file_path": "",
+		"presentation_file_path": ""
+	},
+	{
+		"first_name": "Jenna",
+		"last_name": "Goldberg",
+		"title": "Sexual Protection of Northwestern Students: An Issue That Spans Decades",
+		"year": 2016,
+		"question": "In a comparative case study on Northwestern University of the 2010s and the 1920s, what policies and administrative resources were developed to protect students from sexual violence and to what extent have student voices guided the creation of these policies? What can universities do today to best protect students from sexual violence?",
+		"tags": [
+			"Sexual violence",
+			"Higher education",
+			"Women in the 1920s",
+			"Title IX",
+			"In loco parentis"
+		],
+		"categories": [
+			"Student Support Services",
+			"Student Wellness"
+		],
+		"consent": "Y",
+		"file_path": "",
+		"presentation_file_path": ""
+	},
+	{
+		"first_name": "Alexandra",
+		"last_name": "Frawley",
+		"title": "Spending Habits of Student-Athletes and Financial Management Resources",
+		"year": 2016,
+		"question": "What are the discretionary spending habits and financial behaviors of student-athletes at Northwestern University, and how can athletics administration effectively implement resources to aid in the development of student-athlete financial management skills?",
+		"tags": [
+			"Athletics",
+			"Student-athletes",
+			"Financial literacy",
+			"Spending habits",
+			"NCAA",
+			"Athletic administration"
+		],
+		"categories": [
+			"Student Support Services",
+			"Student Wellness"
+		],
+		"consent": "Y",
+		"file_path": "",
+		"presentation_file_path": ""
+	},
+	{
+		"first_name": "Karen",
+		"last_name": "Cross",
+		"title": "Unionization and the Development of Policies for Non-Tenure Track Faculty: A Comparative Study of Research Universities",
+		"year": 2016,
+		"question": "How do policies at research universities support and professionalize full-time, non-tenure track (NTT) faculty, and how does NTT faculty unionization influence the development of these policies?",
+		"tags": [
+			"Non-tenure track faculty",
+			"Faculty unions",
+			"Faculty policies",
+			"Research universities"
+		],
+		"categories": [
+			"Academic Services and Programming"
+		],
+		"consent": "Y, except Data Results Summary",
+		"file_path": "",
+		"presentation_file_path": ""
+	},
+	{
+		"first_name": "Jennifer",
+		"last_name": "Burke",
+		"title": "Intercultural Competence and Intercultural Sensitivity Skills Development for Faculty and Staff A Look at American Undergraduate University Campuses in Education City, Qatar",
+		"year": 2016,
+		"question": "How do American undergraduate university campuses located in Education City, Qatar develop intercultural competence and intercultural sensitivity skills their faculty and staff?",
+		"tags": [
+			"Intercultural",
+			"International",
+			"Branch campus",
+			"Education city",
+			"Intercultural competence",
+			"Intercultural sensitivity",
+			"Faculty support",
+			"Staff support",
+			"Trainings"
+		],
+		"categories": [
+			"Academic Services and Programming",
+			"Social Justice"
+		],
+		"consent": "Y",
+		"file_path": "",
+		"presentation_file_path": ""
+	},
+	{
+		"first_name": "Felipe",
+		"last_name": "Briceno",
+		"title": "Who Helps the Helpers? Evaluating Mentorship and Program Design in Undergraduate Research at a large Private, Midwestern Research University",
+		"year": 2016,
+		"question": "How do perceived motives, rewards, and impediments for participation in undergraduate research influence mentorship at a large private, Midwestern research university and how can administrators use this information to encourage mentor participation?",
+		"tags": [
+			"Undergraduate research",
+			"Mentorship",
+			"Academic careers",
+			"Students",
+			"Faculty",
+			"Student research"
+		],
+		"categories": [
+			"Academic Services and Programming",
+			"Student Development"
+		],
+		"consent": "Y",
+		"file_path": "",
+		"presentation_file_path": ""
+	},
+	{
+		"first_name": "Ziva",
+		"last_name": "Benarieh",
+		"title": "Experimenting With Experiential Education Is Class Plus Internship Really Better?",
+		"year": 2016,
+		"question": "How does the concurrent course model of experiential education, which includes a class taken in tandem with an internship, as utilized by Northwestern University’s Chicago Field Studies program contribute to a student’s learning of workplace skills such as oral and written communication, ethical decision-making, leadership, teamwork, problem solving and critical thinking?",
+		"tags": [
+			"Work-based experiential learning",
+			"Concurrent course",
+			"Internship"
+		],
+		"categories": [
+			"Academic Services and Programming",
+			"Student Development"
+		],
+		"consent": "Y",
+		"file_path": "",
+		"presentation_file_path": ""
+	},
+	{
+		"first_name": "Ashley",
+		"last_name": "Belisle",
+		"title": "College Student Parental Involvement in Academic Experiences: Patterns of Involvement and Best Practices for Higher Education Administrators",
+		"year": 2016,
+		"question": "In what ways and to what extent are parents of first-year students at Northwestern University directly involved in their students’ academic college experiences, and in what ways does parental involvement aid and hinder the student transition to college?",
+		"tags": [
+			"Parents",
+			"First-year",
+			"Students",
+			"Academics",
+			"Transition"
+		],
+		"categories": [
+			"Academic Services and Programming",
+			"Student Development"
 		],
 		"consent": "Y",
 		"file_path": "",

@@ -1,21 +1,17 @@
 ---
 title: Internships
-description: Internships support the program's vision of connecing theory to practice and support students' development as higher education professionals. Read more about waiving the internship requirement, the internship course (MSHE 485), steps to securing an internship, and internship funding. 
-categories: 
-  - internships
-  - professional development
-  - professional organizations
-  - financial aid
-  - fafsa
-statuses: 
-  - current students
+description: "Internships support the program's vision of connecting theory to practice and support students' development as higher education professionals. Read more about waiving the internship requirement, the internship course (MSHE 485), steps to securing an internship, and internship funding."
+categories:
+statuses:
   - newly admitted students
+  - current students
 comments: true
 ---
 
+
 #### Internship Overview
 
-All students are required to complete an internship experience and an internship course (MS_HE 485) as part of their degree curriculum. [*Note: Only matriculated (i.e., degree-seeking) students are eligible to enroll in the internship course or engage in an internship experience.]
+All students are required to complete an internship experience and an internship course (MS_HE 485) as part of their degree curriculum. [\*Note: Only matriculated (i.e., degree-seeking) students are eligible to enroll in the internship course or engage in an internship experience.]
 
 You can read more about the specifics of internships here: [Internship Handbook.pdf](https://northwestern.box.com/shared/static/8q1ruv7ksl49x294l5sf.pdf)
 
@@ -25,27 +21,28 @@ For those students who have significant work experience in the field, [there is 
 
 #### Internship Course: MS_HE 485 Canvas Site
 
-All students who are doing an internship should have access to the the MS_HE 485 Canvas course site (even if they are not getting credit for in that quarter.) The Canvas course site has valuable resources that can help you make the most of your internship experience. Having access to the Canvas site also ensures that you are receiving communications about meetings and reminders about the types of documents you should be gathering to include in your internship portfolio and paper. If you have been placed in an internship but do not have access to the internship Canvas site please contact Dr. Kristin McCann at [kristin.mccann1@northwestern.edu](mailto:kristin.mccann1@northwestern.edu).
+All students who are doing an internship should have access to the the MS_HE 485 Canvas course site (even if they are not getting credit for in that quarter.) The Canvas course site has valuable resources that can help you make the most of your internship experience. Having access to the Canvas site also ensures that you are receiving communications about meetings and reminders about the types of documents you should be gathering to include in your internship portfolio and paper. If you have been placed in an internship but do not have access to the internship Canvas site please contact Dr. Kristin McCann at [&#107;&#114;&#105;&#115;&#116;&#105;&#110;&#046;&#109;&#099;&#099;&#097;&#110;&#110;&#049;&#064;&#110;&#111;&#114;&#116;&#104;&#119;&#101;&#115;&#116;&#101;&#114;&#110;&#046;&#101;&#100;&#117;](&#109;&#097;&#105;&#108;&#116;&#111;:&#107;&#114;&#105;&#115;&#116;&#105;&#110;&#046;&#109;&#099;&#099;&#097;&#110;&#110;&#049;&#064;&#110;&#111;&#114;&#116;&#104;&#119;&#101;&#115;&#116;&#101;&#114;&#110;&#046;&#101;&#100;&#117;).
 
 #### Steps to Secure an Internship
 
 ##### New Students
 
-Some of you may have participated in admitted student 'Preview Days' in order to interview for internships. If you did not participate in preview days then you should have a conversation with Assistant Director, Dr. Kristin McCann at [kristin.mccann1@northwestern.edu](mailto:kristin.mccann1@northwestern.edu), to alert her of a desired internship (e.g., what type, in what quarter(s), etc.).
+Some of you may have participated in admitted student 'Preview Days' in order to interview for internships. If you did not participate in preview days then you should have a conversation with Assistant Director, Dr. Kristin McCann at [&#107;&#114;&#105;&#115;&#116;&#105;&#110;&#046;&#109;&#099;&#099;&#097;&#110;&#110;&#049;&#064;&#110;&#111;&#114;&#116;&#104;&#119;&#101;&#115;&#116;&#101;&#114;&#110;&#046;&#101;&#100;&#117;](&#109;&#097;&#105;&#108;&#116;&#111;:&#107;&#114;&#105;&#115;&#116;&#105;&#110;&#046;&#109;&#099;&#099;&#097;&#110;&#110;&#049;&#064;&#110;&#111;&#114;&#116;&#104;&#119;&#101;&#115;&#116;&#101;&#114;&#110;&#046;&#101;&#100;&#117;), to alert her of a desired internship (e.g., what type, in what quarter(s), etc.).
 
 ##### Current Students
 
-For current students, there is not a similar process as preview days; rather, students should contact Assistant Director, Dr. Kristin McCann at [kristin.mccann1@northwestern.edu](mailto:kristin.mccann1@northwestern.edu), to alert her of a desired internship (e.g., what type, in what quarter(s), etc.).
+For current students, there is not a similar process as preview days; rather, students should contact Assistant Director, Dr. Kristin McCann at [&#107;&#114;&#105;&#115;&#116;&#105;&#110;&#046;&#109;&#099;&#099;&#097;&#110;&#110;&#049;&#064;&#110;&#111;&#114;&#116;&#104;&#119;&#101;&#115;&#116;&#101;&#114;&#110;&#046;&#101;&#100;&#117;](&#109;&#097;&#105;&#108;&#116;&#111;:&#107;&#114;&#105;&#115;&#116;&#105;&#110;&#046;&#109;&#099;&#099;&#097;&#110;&#110;&#049;&#064;&#110;&#111;&#114;&#116;&#104;&#119;&#101;&#115;&#116;&#101;&#114;&#110;&#046;&#101;&#100;&#117;), to alert her of a desired internship (e.g., what type, in what quarter(s), etc.).
 
 MSHE staff keep track of what internship opportunities are available for current students, and students should also check their NU email regularly, as openings are also sent through the MSHE student Listserv.
 
-1.  **Reflect** on what type(s) of internship experience(s) you hope to gain.
-2.  **Contact** Dr. Kristin McCann at [kristin.mccann1@northwestern.edu](mailto:kristin.mccann1@northwestern.edu) to discuss your interests and/or contact Dr. McCann to alert her that you decided to apply to a given opportunity you saw advertised.
-3.  **Email and/or meet with** the Director, Assistant Director, or Career Coach to discuss your application and/or interview.
-4.  After **applying for, interviewing for, and securing an opportunity**, alert your supervisor(s) that you are required to complete an [Internship Contract (PDF)](https://sesp.box.com/shared/static/0af73a6f40872a70bcbe.pdf) and that you will eventually need your supervisor(s) to complete an [Internship Evaluation (PDF)](https://sesp.box.com/shared/static/3308bfceade7c9fa2ab1.pdf) about your performance--whether the experience is for credit or not, both documents are required.
-5.  **Complete the Internship Contract** WITH your site supervisor(s).
-6.  **[Submit a copy of the Internship Contract](mailto:kristin.mccann1@northwestern.edu)** to the MSHE office--(Attn.: Assistant Director).
-7.  We recommend that you **submit an internship evaluation quarterly to the office**; however, if your supervisor only has time to submit an evaluation at the end of the internship experience (such as after two or three quarters), that is acceptable. Nevertheless, **we highly recommend** that you gain structured feedback from your supervisor on a regular basis to assess your progress in your internship.
+1. **Reflect** on what type(s) of internship experience(s) you hope to gain.
+2. **Contact** Dr. Kristin McCann at [&#107;&#114;&#105;&#115;&#116;&#105;&#110;&#046;&#109;&#099;&#099;&#097;&#110;&#110;&#049;&#064;&#110;&#111;&#114;&#116;&#104;&#119;&#101;&#115;&#116;&#101;&#114;&#110;&#046;&#101;&#100;&#117;](&#109;&#097;&#105;&#108;&#116;&#111;:&#107;&#114;&#105;&#115;&#116;&#105;&#110;&#046;&#109;&#099;&#099;&#097;&#110;&#110;&#049;&#064;&#110;&#111;&#114;&#116;&#104;&#119;&#101;&#115;&#116;&#101;&#114;&#110;&#046;&#101;&#100;&#117;) to discuss your interests and/or contact Dr. McCann to alert her that you decided to apply to a given opportunity you saw advertised.
+3. **Email and/or meet with** the Director, Assistant Director, or Career Coach to discuss your application and/or interview.
+4. After **applying for, interviewing for, and securing an opportunity**, alert your supervisor(s) that you are required to complete an [Internship Contract (PDF)](https://sesp.box.com/shared/static/0af73a6f40872a70bcbe.pdf) and that you will eventually need your supervisor(s) to complete an [Internship Evaluation (PDF)](https://sesp.box.com/shared/static/3308bfceade7c9fa2ab1.pdf) about your performance–whether the experience is for credit or not, both documents are required.
+5. **Complete the Internship Contract** WITH your site supervisor(s).
+6. **[Submit a copy of the Internship Contract](&#109;&#097;&#105;&#108;&#116;&#111;:&#107;&#114;&#105;&#115;&#116;&#105;&#110;&#046;&#109;&#099;&#099;&#097;&#110;&#110;&#049;&#064;&#110;&#111;&#114;&#116;&#104;&#119;&#101;&#115;&#116;&#101;&#114;&#110;&#046;&#101;&#100;&#117;)** to the MSHE office–(Attn.: Assistant Director).
+7. We recommend that you **submit an internship evaluation quarterly to the office**; however, if your supervisor only has time to submit an evaluation at the end of the internship experience (such as after two or three quarters), that is acceptable. Nevertheless, **we highly recommend** that you gain structured feedback from your supervisor on a regular basis to assess your progress in your internship.
+
 
 #### Internship Funding
 

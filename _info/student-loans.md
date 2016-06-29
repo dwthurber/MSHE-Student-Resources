@@ -1,14 +1,16 @@
 ---
 title: Student Loans
 description: Student loans for MS in Higher Education Administration and Policy students are administered through Student Financial Services. Students may not receive their student loan offer at the same time as their scholarship and awards offer.
-categories: 
+topics: 
   - financial aid
-  - register for courses
   - internships
-  - fafsa
+actions:
 statuses:
   - newly admitted students
   - current students
+keywords:
+  - register for courses
+  - fafsa
 comments: true
 ---
 

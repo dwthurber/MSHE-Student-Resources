@@ -1,10 +1,18 @@
 ---
 title: Internships
 description: "Internships support the program's vision of connecting theory to practice and support students' development as higher education professionals. Read more about waiving the internship requirement, the internship course (MSHE 485), steps to securing an internship, and internship funding."
-categories:
+topics:
+  - internships
+  - financial aid
+actions:
+  - 
 statuses:
   - newly admitted students
   - current students
+keywords:
+  - professional development
+  - professional organizations
+  - fafsa
 comments: true
 ---
 

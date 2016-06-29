@@ -1,12 +1,14 @@
 ---
 title: Non-Matriculated Students
 description: Navigate what it means to be a non-matriculated student, including financial resources, applying for matriculation, petitioning to take a 5th class, and other topics.
-categories: 
+topics: 
   - policies
   - student status
+actions:
 statuses:
   - current students
   - non-matriculated students
+keywords:
 comments: true
 ---
 

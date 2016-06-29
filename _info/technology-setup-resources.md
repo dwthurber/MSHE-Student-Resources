@@ -1,14 +1,16 @@
 ---
 title: Technology Setup and Resources
 description: There are a number of technology tools you might use as an MSHE student. Learn how to connect to the wireless network, set up VPN, access your u.northwestern.edu email address, and troublesheet common IT issues.
-categories: 
+topics: 
   - technology
-  - get ready for graduate school
-  - orientation
+actions:
 statuses:
   - newly admitted students
   - current students
   - certificate students
+keywords:
+  - get ready for graduate school
+  - orientation
 comments: true
 ---
 

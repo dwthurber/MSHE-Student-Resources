@@ -1,8 +1,14 @@
 ---
 title: Tuition
 description: Tuition is set each year during the summer. The Master of Science in Higher Education Administration and Policy Program does not charge any student activity or other fee beyond tuition. Tuition does not include the cost of books.
-categories: 
+topics: 
   - financial aid
+actions:
+statuses:
+  - newly admitted students
+  - current students
+  - certificate students
+keywords:
   - register for classes
   - Office of Student Accounts
   - Tuition Bills
@@ -10,10 +16,6 @@ categories:
   - NU Employee Tuition Benefit
   - Tax Documents 
   - 1098T
-statuses:
-  - newly admitted students
-  - current students
-  - certificate students
 comments: true
 ---
 

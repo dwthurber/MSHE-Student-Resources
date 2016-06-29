@@ -1,14 +1,17 @@
 ---
 title: Chicago
 description: Chicago has a number of resources for you to explore and enjoy. For example you might check out Chicago's many bike routes, got to a comedy show, or check out one of Chicago's many attractions. 
-categories: 
+topics: 
   - student life
+actions:
   - relax and enjoy
   - find a place to live
 statuses:
   - newly admitted students
   - current students
   - certificate students
+keywords:
+  - 
 comments: true
 ---
 

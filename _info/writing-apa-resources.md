@@ -1,18 +1,20 @@
 ---
 title: Writing/APA Resources
 description: In your time as a student in the MSHE program you will have several occasions to search for research articles and write papers about those articles. The most obvious example of this is the Master's Project literature review, but you'll likely use the resources outlined on this page in every course you take.
-categories: 
+topics: 
   - academics
   - master project
+actions:
   - succeed in classes
+statuses:
+  - current students
+  - certificate students
+keywords:
   - Writing place
   - Academic Writing Workshops
   - APA Style Resources
   - NU Employee Tuition Benefit
   - Purdue OWL
-statuses:
-  - current students
-  - certificate students
 comments: true
 ---
 

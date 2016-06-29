@@ -1,11 +1,13 @@
 ---
 title: Master's Project Examples
 description: A small selection of Master's Projects completed by Higher Education Administration and Policy students, grouped by topic. A project's inclusion in this list is not an indication that the project is without error. The goal of these samples is to provide students and alumni with samples on a variety of topics.
-categories: 
+topics: 
   - master project
   - academics
+actions:
 statuses:
   - current students
+keywords:
 comments: true
 ---
 

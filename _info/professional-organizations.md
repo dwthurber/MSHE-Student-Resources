@@ -1,16 +1,15 @@
 ---
 title: Professional Organizations
 description: There are a variety of higher education professional organizations with which you should familiarize yourself and in which you should consider more substantial involvement. 
-categories: 
+topics: 
   - career resources
+actions:
   - attend a conference
-  - professional development
-  - professional organizations
-  - alumni
 statuses:
   - newly admitted students
   - current students
   - certificate students
+keywords:
 comments: true
 ---
 

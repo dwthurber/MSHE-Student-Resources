@@ -1,13 +1,16 @@
 ---
 title: Disability Accomodations
 description: In compliance with Section 504 of the 1973 Rehabilitation Act and the Americans with Disabilities Act, Northwestern University is committed to providing equal access to all programming.
-categories: 
+topics: 
   - policies
-  - accommodations
+actions:
+  - 
 statuses:
   - newly admitted students
   - current students
   - certificate students
+keywords:
+  - accommodations
 comments: true
 ---
 

@@ -1,11 +1,13 @@
 ---
 title: Master's Project Sequence
 description: The Master’s Project is an opportunity to pursue resolution of a question about which you have genuine concern. The question may grow out of an interest that you have had for some time or one that has arisen recently through course work or personal experience.
-categories: 
+topics: 
   - master project
   - academics
+actions:
 statuses:
   - current students
+keywords:
 comments: true
 ---
 

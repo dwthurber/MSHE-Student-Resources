@@ -1,17 +1,19 @@
 ---
 title: Campus Resources
 description: 'The Northwestern University campus has a wide range of resources available to you as a student. These include fitness and recreation resources, health and wellness resources, arts and athletic events, and dining options.'
-categories:
+topics:
   - student life
   - wellness
-  - newly admitted students
+actions:
   - relax and enjoy
-  - athletics
-  - gym
-  - beach
 statuses:
   - current students
   - certificate students
+  - newly admitted students
+keywords:
+  - athletics
+  - gym
+  - beach
 comments: true
 ---
 

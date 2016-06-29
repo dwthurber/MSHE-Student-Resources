@@ -22,6 +22,24 @@ list-bies:
   - category
   - action
   - student status
+  
+topics: 
+  - academics
+  - career resources
+  - financial aid
+  - internships
+  - master project
+  - policies
+  - student life
+  - technology
+  - wellness
+  
+actions: 
+  - attend a conference
+  - choose an elective
+  - find a place to live
+  - relax and enjoy
+  - succeed in classes
 
 categories:
   - Academic Services and Programming

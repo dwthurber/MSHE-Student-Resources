@@ -1,11 +1,14 @@
 ---
 title: Housing Resources
 description: Many students live on-campus or in Evanston. Some students rent apartments in Chicago and the neighboring suburbs. Since the campus is centrally located, public transportation is excellent. It is highly advisable for students who wish to rent apartments to visit the area and make living arrangements before beginning their graduate work.
-categories: 
+topics: 
   - student life
+actions:
   - find a place to live
 statuses:
   - newly admitted students
+keywords:
+  - 
 comments: true
 ---
 

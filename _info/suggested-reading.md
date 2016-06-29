@@ -1,12 +1,14 @@
 ---
 title: Suggested Reading
 description: This suggested reading list is intended to be a resource for the MSHE community. Whether you are a newly admitted student looking to increase your knowledge of higher education administration or a graduate of the program interested in continuing your professional development, the books and articles listed here are a good place to start.
-categories: 
+topics: 
   - academics
+actions:
   - succeed in classes
 statuses:
   - current students
   - non-matriculated students
+keywords:
 comments: true
 advising-reading:
   - title: Academic Advising Approaches

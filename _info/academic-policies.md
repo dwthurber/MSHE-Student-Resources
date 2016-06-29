@@ -1,13 +1,16 @@
 ---
 title: Academic Policies
 description: A range of academic policies for the MSHE program including transfer credit, FERPA and right to privacy, grade changes, taking an incomplete, grades for dropped courses, pass/no pass grades, auditing courses, academic probation and other questions. 
-categories: 
+topics: 
   - academics
   - policies
-  - accommodations
+actions:
+  - 
 statuses:
   - current students
   - certificate students
+keywords:
+  - accommodations
 comments: true
 ---
 #### Transfer Credit

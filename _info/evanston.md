@@ -1,14 +1,17 @@
 ---
 title: Evanston
 description: Evanston has a number of good restaurants and attractions. Check out these suggestions for places to go on a budget (or to get your parents to take you not on a budget), and other useful suggestions about making the most of living in Evanston.
-categories: 
+topics: 
   - student life
+actions:
   - find a place to live
   - relax and enjoy
 statuses:
   - newly admitted students
   - current students
   - certificate students
+keywords:
+  - 
 comments: true
 ---
 

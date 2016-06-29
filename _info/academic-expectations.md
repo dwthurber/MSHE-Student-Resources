@@ -1,12 +1,16 @@
 ---
 title: Academic and Grading Expectations
 description: As an MSHE student, you have entered a community of scholarship in which academic integrity is of the highest value. Criteria for and evaluation of performance are at the discretion of the instructor. Expectations and how they are being met will be communicated to students via the course syllabus and feedback throughout the term.
-categories: 
+topics: 
   - academics
   - policies
+actions:
+  - 
 statuses:
   - current students
   - certificate students
+keywords:
+  - 
 comments: true
 ---
 #### Academic Integrity

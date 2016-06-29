@@ -1,13 +1,15 @@
 ---
 title: Research Library Resources
 description: Northwestern’s extensive library system on the Evanston and Chicago campuses provides resources and support for scholars engaged in research. Northwestern’s combined library collections rank among the top 35 in the nation. The online catalog is accessible from campus computers or off campus with VPN access.
-categories: 
+topics: 
   - academics
   - master project
+actions:
   - succeed in classes
 statuses:
   - current students
   - certificate students
+keywords:
 comments: true
 ---
 

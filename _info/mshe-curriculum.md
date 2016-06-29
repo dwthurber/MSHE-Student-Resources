@@ -1,10 +1,14 @@
 ---
 title: MSHE Curriculum and Suggested Electives
 description: To earn the master's degree in Higher Education Administration and Policy students must complete 15 graduate level courses, including core courses and electives.
-categories: 
+topics: 
   - academics
+actions:
   - register for courses
   - choose an elective
+statuses:
+  - current students
+keywords:
   - Registering for elective courses outside MSHE
   - School of professional Studies (SPS)
   - MS in Learning and Organizational Change (MSLOC)
@@ -16,8 +20,6 @@ categories:
   - The Graduate School (TGS)
   - Medill courses
   - Authorization for Dual Registration Form
-statuses:
-  - current students
 comments: true
 ---
 

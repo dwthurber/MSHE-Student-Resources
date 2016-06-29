@@ -23,9 +23,23 @@ layout: default
       {% assign maxRelatedCounter = 0 %}
       {% for item in site.info %}
         {% assign sameTagCount = 0 %}
-        {% for tag in item.categories %}
+        {% for tag in item.topics %}
           {% if item.url != page.url %}
-            {% if page.categories contains tag %}
+            {% if page.topics contains tag %}
+            {% assign sameTagCount = sameTagCount | plus: 1 %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+        {% for action in item.actions %}
+          {% if item.url != page.url %}
+            {% if page.actions contains action %}
+            {% assign sameTagCount = sameTagCount | plus: 1 %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+        {% for keyword in item.keywords %}
+          {% if item.url != page.url %}
+            {% if page.keywords contains keyword %}
             {% assign sameTagCount = sameTagCount | plus: 1 %}
             {% endif %}
           {% endif %}

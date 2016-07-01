@@ -170,6 +170,12 @@ var topicsApp = angular.module('topicsApp', ['ngRoute']);
             		sort: 'year:desc name:asc',
             	}, 
             });
+            
+            $('.group').mixItUp({
+            	selectors: {
+            		target: '.resource'
+            	}
+            });
     
         });
 

@@ -1,0 +1,99 @@
+---
+layout: default
+title: MP Database
+featured: 
+  - Ann Merrell
+  - Alice Ji
+  - Carol Chen
+categories:
+  - Academic Services and Programming
+  - Admissions and Enrollment Management
+  - Alumni Relations and Development
+  - Athletics
+  - Career Services
+  - Civic Engagement and Volunteerism
+  - Corporate Learning/Development
+  - Financial Issues
+  - Higher Education Policy
+  - Social Justice
+  - Strategic Planning and Institutional Research
+  - Student Development
+  - Student Engagement
+  - Student Support Services
+  - Student Wellness
+  - Study Abroad and International Education
+---
+    <div class="info-page-hero">
+      <div class="info-page-header">
+          <h2>{{ page.title }}</h2>
+      </div>
+    </div>
+    <section class="container wide">
+        <p class="description">The master's project can take many forms depending on the size and scope of the study you undertake. There is no one correct length, scope, focus, or method to completing the Master's Project. Each project is similarly uniform in style and content in some important structural ways, but each project is also unique and different in important ways as well. Each project should be a reflection of the individual researcher conducting it, their skills, experience, interests, and knowledge.</p>
+        <div class="content">
+        <i class="fa fa-search input-filter-icon"></i><input class="input-filter" id-"input-filter" ng-model="inputFilter" ng-change="inputChange()" placeholder="Start typing to filter...">
+        <div class="details-buttons"><a href="#/" ng-click="showDetails('false')" ng-class="{'active': show == 'false'}"><i class="fa fa-list tip" data-tip="Narrow View" data-mode="top" aria-hidden="true"></i></a> <a href="#/" ng-click="showDetails('true')"  ng-class="{'active': show == 'true'}"><i class="fa fa-th-list tip" data-tip="Detailed View" data-mode="top" aria-hidden="true"></i></a></div>
+        <br>
+        <br>
+        <div>
+            
+            <article class="mixing" id="Container">
+                <table width="100%" class="sorter-table">
+                    <tr>
+                        <td class="sort tip" data-tip="Sort by Year" ng-click="sort('year')" width="50px">Year <i ng-if="sortOrder == 'year'" class="fa fa-caret-down" ng-class="{flip:reverse}" aria-hidden="true"></i></td>
+                        <td class="sort tip" data-tip="Sort By Author" ng-click="sort('name')">Project Details <i ng-if="sortOrder == 'name'" class="fa fa-caret-down" ng-class="{flip:reverse}" aria-hidden="true"></i></td>
+                        <td width="150px">Categories</td>
+                    </tr>
+                </table>
+                
+                {% for project in site.data.master_projects %} 
+                   <div class="mix {{ project.categories | join: ',' | downcase | remove:' ' | replace:',',' ' }} {{ project.tags | join: ',' | downcase | remove:' ' | replace:',',' '}} {{ project.first_name | downcase }}{{ project.last_name | downcase }} {% if project.file_path != '' %}fulltextavail{% endif %} {% if project.presentation_file_path != '' %}presentationavail{% endif %}" data-year="{{ project.year }}" data-name="{{ project.last_name }}" data-category="{{ project.categories | join:' ' }}">
+                <table width="100%" class="mp-table" >
+                   
+                    <tr>
+                        <td width="50px" class="year">{{ project.year }}</td>
+                        <td class="title">
+                            <p><strong>{{ project.title }}</strong></p>
+                            <p class="author">By {{ project.first_name }} {{ project.last_name }} </p>
+                        </td>
+                        <td width="150px" class="category">{{ project.categories | join:', ' }}</td>
+                        <td width="25px" class="download">
+                            {% if project.file_path != '' %}<a href="{{ project.file_path }}" data-featherlight="iframe" data-featherlight-iframe-height="500px" data-featherlight-iframe-width="700px"><i class="fa fa-file-text-o" aria-hidden="true"></i></a>{% endif %}
+                            {% if project.presentation_file_path != '' %}<a href="{{ project.presentation_file_path }}" data-featherlight="iframe" data-featherlight-iframe-height="500px" data-featherlight-iframe-width="700px"><i class="fa fa-file-powerpoint-o" aria-hidden="true"></i></a>{% endif %}
+                            </td>
+                    </tr>
+                    <tr ng-show="show == 'true'">
+                        <td></td>
+                        <td colspan="2" class="details">
+                            <p>{{ project.question }}</p>
+                            {% if project.tags != '' %}<p class="subheader"><i class="fa fa-tags" aria-hidden="true"></i> {{ project.tags | join: ', ' }}</p>{% endif %}
+                        
+                        </td>
+                    </tr>
+                    <tr ng-show="show == 'true'">
+                        <td colspan="4"><p></p></td>
+                    </tr>
+                </table>
+                </div> {% endfor %}
+            </article>
+            <aside>
+                <p class="column-title">Featured Projects <span class="clear"><a ng-click="clearAll()" class="filter" data-filter="all" href="#/">CLEAR</a></span></p>
+                {% assign sorted_projects = (page.featured | sort)%}
+                {% for project in sorted_projects %}<p><a class="filter featured" data-filter=".{{ project | downcase | replace:' ','' }}" href="#{{ project | downcase | replace:' ','' }}/">{{ project }}</a></p>{% endfor %}
+                <p class="column-title">Filter by Availability</p>
+                <label><input type="checkbox" ng-checked="availChecked" ng-click="filterAvail('.fulltextavail')">Full Text</label><br>
+                <label><input type="checkbox" ng-checked="availChecked" ng-click="filterAvail('.presentationavail')">Presentation</label><br>
+                <p class="column-title">Filter by Category</p>
+                {% for item in page.categories %}<label><input ng-checked="catChecked" type="checkbox" ng-click="filterCat('.{{ item | downcase | replace:' ','' }}')">{{ item }}</label><br>{% endfor %}
+                <p class="column-title">Filter By Tag <span class="clear"><a ng-click="clearAll()" class="filter" data-filter="all" href="#">CLEAR</a></span></p>
+                {% capture mp_tags %}{% for item in site.data.master_projects %}{% for tag in item.tags %}{{ tag }},{% endfor %}{% endfor %}{% endcapture %}
+                {% assign tag_words = mp_tags | downcase | split:',' | uniq | sort %}
+                <ul class="tag-list">
+                    {% for tag in tag_words %}{% if tag != '' %}<li><a href="#/" ng-class="{'active': tagIncludes.indexOf('.{{ tag | replace:' ','' }}') > -1}" ng-click="filterTag('.{{ tag | replace:' ',''}}')">{{ tag }}</a></li>{% endif %}{% endfor %}
+                </ul>
+            </aside>
+        </div>
+        </div>
+    </section>
+    <br>
+    

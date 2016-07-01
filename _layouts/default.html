@@ -14,6 +14,7 @@
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/base.css"></link>
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/main.css"></link>
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/tipr.css"></link>
+    {% if page.title == 'MP Guides' %}<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/resources.css"></link>{% endif %}
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <link href="{{ site.baseurl }}/tipuesearch/tipuesearch.css" rel="stylesheet">
     <link href="//cdn.rawgit.com/noelboss/featherlight/1.4.1/release/featherlight.min.css" type="text/css" rel="stylesheet" />
@@ -22,7 +23,7 @@
     <script async="" defer="" src="//survey.g.doubleclick.net/async_survey?site=l5uivyigcjgba"></script>
 </head>
 <body ng-controller="mainController">
-    {% unless page.title == 'MP Database' %}<header>
+    {% unless page.title == 'MP Database' or 'MP Guides' %}<header>
         <a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/img/MSHE-horizontal-option2-02.png" alt="MSHE Logo"></img></a>
         <form action="{{ site.baseurl }}/search/">
         <input type="text" name="q" id="tipue_search_input" autocomplete="off" placeholder="Search" required>
@@ -42,7 +43,7 @@
     
     {{ content }}
     
-    {% unless page.title == 'MP Database' %}<section class="sitemap">
+    {% unless page.title == 'MP Database' or 'MP Guides' %}<section class="sitemap">
         <div class="three-columns">
             <div class="column">
                 <h4>Explore</h4>

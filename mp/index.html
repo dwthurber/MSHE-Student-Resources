@@ -23,15 +23,20 @@ categories:
   - Student Wellness
   - Study Abroad and International Education
 ---
-    <section class="container">
-        <div class="mp-title">
-            <div class="inner-title">
-            <h2>Master's Projects Database</h2>
-            <hr>
-            <p><em>Research project titles, questions, and other detials from previous years.</em></p>
-            </div>
-        </div>
-        <br>
+    <div class="info-page-hero">
+      <div class="info-page-header">
+          <h2>{{ page.title }}</h2>
+      </div>
+    </div>
+    <section class="container wide">
+        <!--<div class="mp-title">-->
+        <!--    <div class="inner-title">-->
+        <!--    <h2>Master's Projects Database</h2>-->
+        <!--    <hr>-->
+        <!--    <p>Research project titles, questions, and other details from previous years.</p>-->
+        <!--    </div>-->
+        <!--</div>-->
+        <p class="description">The master's project can take many forms depending on the size and scope of the study you undertake. There is no one correct length, scope, focus, or method to completing the Master's Project. Each project is similarly uniform in style and content in some important structural ways, but each project is also unique and different in important ways as well. Each project should be a reflection of the individual researcher conducting it, their skills, experience, interests, and knowledge.</p>
         <div class="content">
         <i class="fa fa-search input-filter-icon"></i><input class="input-filter" id-"input-filter" ng-model="inputFilter" ng-change="inputChange()" placeholder="Start typing to filter...">
         <div class="details-buttons"><a href="#/" ng-click="showDetails('false')" ng-class="{'active': show == 'false'}"><i class="fa fa-list tip" data-tip="Narrow View" data-mode="top" aria-hidden="true"></i></a> <a href="#/" ng-click="showDetails('true')"  ng-class="{'active': show == 'true'}"><i class="fa fa-th-list tip" data-tip="Detailed View" data-mode="top" aria-hidden="true"></i></a></div>

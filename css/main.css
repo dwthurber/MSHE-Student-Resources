@@ -682,6 +682,12 @@ table td {
     margin: 5px 0 0 0!important;
 }
 
-.content {
-    margin-top: 120px;
+.wide {
+    width: 90%;
+    max-width: 1560px;
+}
+
+.description {
+    margin: 40px 15px;
+    line-height: 1.4em;
 }

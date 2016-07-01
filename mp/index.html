@@ -290,27 +290,101 @@ tools:
     <div class="info-page-hero">
       <div class="info-page-header" id="top">
           <h2>{{ page.title }}</h2>
+          <p>Master's project aids, handouts, resources, rubrics, tools, templates and more.</p>
       </div>
     </div>
-    <section class="filter-section">
+    <section class="guide-section">
         <div class="container wide">
-            <div id="category" class="categories">
+            <div class="guide">
+                <div class="icon"><img src="{{ site.baseurl }}/img/guide_icons/research_question.png"></div>
+                <div class="text">
+                    <h3>Research Question</h3>
+                    <p>The guiding question that your Master's Project is aimed at answering.</p>
+                </div>
+                <div class="arrow-right"></div>
+            </div>
+            <div class="guide">
+                <div class="icon"><img src="{{ site.baseurl }}/img/guide_icons/abstract.png"></div>
+                <div class="text">
+                    <h3>Abstract</h3>
+                    <p>Short summary of the Master's Project. Written at the very end.</p>
+                </div>
+                <div class="arrow-right"></div>
+            </div>
+            <div class="guide">
+                <div class="icon"><img src="{{ site.baseurl }}/img/guide_icons/intro-background.png"></div>
+                <div class="text">
+                    <h3>Introduction and Background</h3>
+                    <p>Overview and introduction to the MP including rationale.</p>
+                </div>
+                <div class="arrow-right"></div>
+            </div>
+            <div class="guide">
+                <div class="icon"><img src="{{ site.baseurl }}/img/guide_icons/literature_review.png"></div>
+                <div class="text">
+                    <h3>Literature Review</h3>
+                    <p>Analysis of existing literature including gaps and shortcomings.</p>
+                </div>
+                <div class="arrow-right"></div>
+            </div>
+            <div class="guide">
+                <div class="icon"><img src="{{ site.baseurl }}/img/guide_icons/data_collection_methods.png"></div>
+                <div class="text">
+                    <h3>Data Collection Methods</h3>
+                    <p>Data collection strategies and triangulation of data.</p>
+                </div>
+                <div class="arrow-right"></div>
+            </div>
+            <div class="guide">
+                <div class="icon"><img src="{{ site.baseurl }}/img/guide_icons/data_summary.png"></div>
+                <div class="text">
+                    <h3>Data Results Summary</h3>
+                    <p>Summary of data collected. </p>
+                </div>
+                <div class="arrow-right"></div>
+            </div>
+            <div class="guide">
+                <div class="icon"><img src="{{ site.baseurl }}/img/guide_icons/data_interpretation.png"></div>
+                <div class="text">
+                    <h3>Data Interpretation</h3>
+                    <p>Analysis of data collected, especially as it relates to MPQ and Literature.</p>
+                </div>
+                <div class="arrow-right"></div>
+            </div>
+            <div class="guide">
+                <div class="icon"><img src="{{ site.baseurl }}/img/guide_icons/conclusion.png"></div>
+                <div class="text">
+                    <h3>Conclusion</h3>
+                    <p>Summary of findings/master's project.</p>
+                </div>
+                <div class="arrow-right"></div>
+            </div>
+            
+        </div>
+    </section>
+    <section class="main">
+    <div class="container wide light">
+        <div class="section-title">
+        <h2><i class="fa fa-book" aria-hidden="true"></i> All Content</h2>
+        </div>
+        <div id="category" class="categories">
                 <div class="filter" data-filter="all">Show All</div>
                 <div class="filter class-filter" data-filter=".406">406</div>
                 <div class="filter class-filter" data-filter=".407">407</div>
                 <div class="filter class-filter" data-filter=".408">408</div>
-                <div class="filter mp-filter" data-filter=".researchquestions">Research Questions</div>
-                <div class="filter mp-filter" data-filter=".abstract">Abstract</div>
-                <div class="filter mp-filter" data-filter=".introduction">Introduction/Background</div>
-                <div class="filter mp-filter" data-filter=".literaturereview">Literature Review</div>
-                <div class="filter mp-filter" data-filter=".datacollection">Data Collection</div>
-                <div class="filter mp-filter" data-filter=".datasummary">Data Summary</div>
-                <div class="filter mp-filter" data-filter=".datainterpretation">Data Interpretation</div>
-                <div class="filter mp-filter" data-filter=".conclusion">Conclusion</div>
+                <!--<div class="filter mp-filter" data-filter=".researchquestions">Research Questions</div>-->
+                <!--<div class="filter mp-filter" data-filter=".abstract">Abstract</div>-->
+                <!--<div class="filter mp-filter" data-filter=".introduction">Introduction/Background</div>-->
+                <!--<div class="filter mp-filter" data-filter=".literaturereview">Literature Review</div>-->
+                <!--<div class="filter mp-filter" data-filter=".datacollection">Data Collection</div>-->
+                <!--<div class="filter mp-filter" data-filter=".datasummary">Data Summary</div>-->
+                <!--<div class="filter mp-filter" data-filter=".datainterpretation">Data Interpretation</div>-->
+                <!--<div class="filter mp-filter" data-filter=".conclusion">Conclusion</div>-->
                 <div class="filter mp-filter" data-filter=".executivesummary">Executive Summary</div>
                 <div class="filter mp-filter" data-filter=".irb">IRB</div>
                 <div class="filter mp-filter" data-filter=".posters">Posters</div>
                 <div class="filter mp-filter" data-filter=".presentations">Presentations</div>
+                <div class="filter mp-filter" data-filter=".rationale">Rationale</div>
                 <div class="filter type-filter" data-filter=".artifactanalysis">Artifact Analysis</div>
                 <div class="filter type-filter" data-filter=".chartsandtables">Charts and Tables</div>
                 <div class="filter type-filter" data-filter=".coding">Coding</div>
@@ -321,14 +395,6 @@ tools:
                 <div class="filter type-filter" data-filter=".statistics">Statistics</div>
                 <div class="filter type-filter" data-filter=".surveys">Surveys</div>
             </div>
-            
-            <div id="search" class="hidden">
-                <input id="input" type="text" placeholder="Start typing to search" />
-            </div>
-        </div>
-    </section>
-    <section class="main">
-    <div class="container wide">
         <div class="flex-container group">
             <h3 class="flex-header editable" id="aids">Aids and Handouts</h3>
             {% for item in page.aids %}

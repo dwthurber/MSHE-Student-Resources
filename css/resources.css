@@ -1,3 +1,7 @@
+body {
+    background-color: #eee;
+}
+
 .hidden {
     display: none;
 }
@@ -10,8 +14,14 @@
 
 
 .main {
-    padding-top: 15px;
+    padding: 15px 0 0 0;
     margin-bottom: 50px;
+}
+
+.light {
+    background-color: #fff;
+    padding: 15px;
+    position: relative;
 }
 
 .title {
@@ -67,6 +77,15 @@
     font-size: 0.9em;
     margin-top: -15px;
     font-weight: 200;
+}
+
+.section-title {
+    margin: 0 10px;
+    border-bottom: 1px solid #aaa;
+}
+
+.section-title h2 {
+    line-height: 1.2em;
 }
 
 .scrolltop {
@@ -126,6 +145,8 @@
     font-size: 0.7em;
     line-height: 1.1;
     vertical-align: bottom;
+    text-transform: uppercase;
+    color: #999;
 }
 
 .resource p {
@@ -182,7 +203,7 @@
 }
 
 .categories {
-    margin-bottom: 10px;
+    margin: 10px 0;
 }
 
 .categories:last-child {
@@ -195,12 +216,12 @@
     padding: 3px 6px;
     background-color: #999;
     border-radius: 2px;
-    box-shadow: 0px 0px 4px 0px #333;
+    /*box-shadow: 0px 0px 4px 0px #333;*/
 }
 
 .filter:hover {
     cursor: pointer;
-    box-shadow: 0px 0px 6px 0px #fff;
+    box-shadow: 0px 0px 6px 0px #333;
 }
 
 .class-filter {
@@ -213,4 +234,63 @@
 
 .type-filter {
     background-color: #B8968A!important;
+}
+
+.guide-section {
+    margin: 10px 0 20px 0;
+}
+
+.guide {
+    display: inline-block;
+    height: 85px;
+    width: 280px;
+    margin: 20px 35px 0 0;
+    background-color: #fff;
+    position: relative;
+    padding: 15px;
+}
+
+.arrow-right {
+  width: 0; 
+  height: 0; 
+  border-top: 57px solid transparent;
+  border-bottom: 57px solid transparent;
+  
+  border-left: 40px solid #fff;
+  position: absolute;
+  left: 100%;
+  top: 0;
+  vertical-align: top;
+}
+
+.guide .icon img {
+    width: 40px;
+    height: auto;
+}
+
+.guide .icon {
+    display: inline-block;
+    padding: 0 5px 0 0;
+    height: 100%;
+}
+
+.guide .text {
+    display: inline-block;
+    padding: 5px 0 0 15px;
+    border-left: 1px solid #aaa;
+    vertical-align: top;
+    width: 200px;
+}
+
+.guide .text h3 {
+    font-size: 1.2em;
+    line-height: 1em;
+    margin: 0 0 5px 0;
+    color: #999;
+}
+
+.guide .text p {
+    font-size: 0.8em;
+    line-height: 1em;
+    margin-bottom: 5px;
 }

@@ -243,8 +243,8 @@ body {
 .guide {
     display: inline-block;
     height: 85px;
-    width: 280px;
-    margin: 20px 35px 0 0;
+    width: 230px;
+    margin: 20px 25px 0 0;
     background-color: #fff;
     position: relative;
     padding: 15px;
@@ -256,7 +256,7 @@ body {
   border-top: 57px solid transparent;
   border-bottom: 57px solid transparent;
   
-  border-left: 40px solid #fff;
+  border-left: 30px solid #fff;
   position: absolute;
   left: 100%;
   top: 0;
@@ -276,21 +276,21 @@ body {
 
 .guide .text {
     display: inline-block;
-    padding: 5px 0 0 15px;
+    padding: 5px 0 0 10px;
     border-left: 1px solid #aaa;
     vertical-align: top;
-    width: 200px;
+    width: 165px;
 }
 
 .guide .text h3 {
-    font-size: 1.2em;
+    font-size: 1.1em;
     line-height: 1em;
     margin: 0 0 5px 0;
     color: #999;
 }
 
 .guide .text p {
-    font-size: 0.8em;
+    font-size: 0.7em;
     line-height: 1em;
     margin-bottom: 5px;
 }

@@ -288,7 +288,7 @@ tools:
     <!--</div>-->
     <!--</section>-->
     <div class="info-page-hero">
-      <div class="info-page-header">
+      <div class="info-page-header" id="top">
           <h2>{{ page.title }}</h2>
       </div>
     </div>
@@ -333,7 +333,7 @@ tools:
             <h3 class="flex-header editable" id="aids">Aids and Handouts</h3>
             {% for item in page.aids %}
             <div class="resource {{ item.filters | join: ',' | remove: ' ' | split: ',' | join: ' ' }}" data-name="{{ item.title }}">
-                {% if item.icon_path != null %}<img src="..{{ item.icon_path | prepend: site.baseurl }}" alt="resource type icon" />{% endif %}
+                {% if item.icon_path != null %}<img src="{{ item.icon_path | prepend: site.baseurl }}" alt="resource type icon" />{% endif %}
                 <h2>{{ item.title }}</h2>
                 <p>{{ item.subtitle }}</p>
                 {% if item.type == 'external link' %}<a href="{{ item.link_path }}" target="_blank">{% else %}<a href="{{ item.link_path }}">{% endif %}
@@ -354,7 +354,7 @@ tools:
             <h3 class="flex-header editable" id="resources">External Resources</h3>
             {% for item in page.resources %}
             <div class="resource {{ item.filters | join: ',' | remove: ' ' | split: ',' | join: ' ' }}" data-name="{{ item.title }}">
-                {% if item.icon_path != null %}<img src="..{{ item.icon_path | prepend: site.baseurl }}" alt="resource type icon" />{% endif %}
+                {% if item.icon_path != null %}<img src="{{ item.icon_path | prepend: site.baseurl }}" alt="resource type icon" />{% endif %}
                 <h2>{{ item.title }}</h2>
                 <p>{{ item.subtitle }}</p>
                 {% if item.type == 'external link' %}<a href="{{ item.link_path }}" target="_blank">{% else %}<a href="{{ item.link_path }}">{% endif %}
@@ -375,7 +375,7 @@ tools:
             <h3 class="flex-header editable" id="rubrics">Rubrics</h3>
             {% for item in page.rubrics %}
             <div class="resource {{ item.filters | join: ',' | remove: ' ' | split: ',' | join: ' ' }}" data-name="{{ item.title }}">
-                {% if item.icon_path != null %}<img src="..{{ item.icon_path | prepend: site.baseurl }}" alt="resource type icon" />{% endif %}
+                {% if item.icon_path != null %}<img src="{{ item.icon_path | prepend: site.baseurl }}" alt="resource type icon" />{% endif %}
                 <h2>{{ item.title }}</h2>
                 <p>{{ item.subtitle }}</p>
                 {% if item.type == 'external link' %}<a href="{{ item.link_path }}" target="_blank">{% else %}<a href="{{ item.link_path }}">{% endif %}
@@ -396,7 +396,7 @@ tools:
             <h3 class="flex-header editable" id="technology">Technology Tools</h3>
             {% for item in page.tools %}
             <div class="resource {{ item.filters | join: ',' | remove: ' ' | split: ',' | join: ' ' }}" data-name="{{ item.title }}">
-                {% if item.icon_path != null %}<img src="..{{ item.icon_path | prepend: site.baseurl }}" alt="resource type icon" />{% endif %}
+                {% if item.icon_path != null %}<img src="{{ item.icon_path | prepend: site.baseurl }}" alt="resource type icon" />{% endif %}
                 <h2>{{ item.title }}</h2>
                 <p>{{ item.subtitle }}</p>
                 {% if item.type == 'external link' %}<a href="{{ item.link_path }}" target="_blank">{% else %}<a href="{{ item.link_path }}">{% endif %}
@@ -416,7 +416,7 @@ tools:
         <div class="flex-container group">
             <h3 class="flex-header editable" id="templates">Templates</h3>
             <div class="resource templates conclusions data-summary abstracts data-collection lit-review data-analysis 406 407 408" data-name="MP APA Template">
-                <img src="../img/sheet.png" alt="document icon" />
+                <img src="{{ site.baseurl }}/img/sheet.png" alt="document icon" />
                 <h2>MP APA Template</h2>
                 <p>Word document template for the Master's Project.</p>
                 <a href="https://northwestern.box.com/shared/static/lgqwax92o5crl4xnenkn.docx">
@@ -461,4 +461,4 @@ tools:
     </div>
 	</section>
 	<!--<script src="./js/main.js"></script>-->
-	<script src="./js/smoothscroll.js"></script>
+	<script src="{{ site.baseurl }}/js/smoothscroll.js"></script>

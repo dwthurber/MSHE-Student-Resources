@@ -9,8 +9,6 @@ var topicsApp = angular.module('topicsApp', ['ngRoute']);
             $scope.guideText = val;
             $scope.guide = $filter('lowercase')(val.replace(/[\s]/g, ''));
             console.log($scope.low);
-            
-            $('.group').mixitup('filter', '.' + val)
         };
         
         $scope.show = 'false';

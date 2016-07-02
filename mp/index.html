@@ -365,57 +365,124 @@ tools:
     </section>
     <section class="main">
     <div class="container wide light">
-        <div class="section-title" ng-if="guide == 'researchquestions'">
+        <div class="guide-section" ng-if="guide == 'researchquestions'">
+        <div class="section-title">
             <img src="{{ site.baseurl }}/img/guide_icons/research_question.png"><h2>Research Questions</h2>
+            <a href="{{ site.baseurl }}/mp"><div class="close"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
         </div>
-        <div class="section-title" ng-if="guide == 'abstract'">
+        <div class="guide-content">
+        {% include research_questions.html %}
+        </div>
+        <div class="section-title">
+            <h2><i class="fa fa-book" aria-hidden="true"></i> Research Questions Readings</h2>
+        </div>
+        </div>
+        <div class="guide-section" ng-if="guide == 'abstract'">
+        <div class="section-title">
             <img src="{{ site.baseurl }}/img/guide_icons/abstract.png"><h2>Abstract</h2>
+            <a href="{{ site.baseurl }}/mp"><div class="close"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
         </div>
-        <div class="section-title" ng-if="guide == 'introduction'">
+        <div class="guide-content">
+        {% include abstract.html %}
+        </div>
+        <div class="section-title">
+            <h2><i class="fa fa-book" aria-hidden="true"></i> Abstract Readings</h2>
+        </div>
+        </div>
+        <div class="guide-section" ng-if="guide == 'introduction'">
+        <div class="section-title">
             <img src="{{ site.baseurl }}/img/guide_icons/intro-background.png"><h2>Introduction and Background</h2>
+            <a href="{{ site.baseurl }}/mp"><div class="close"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
+        </div>
+        <div class="guide-content">
+        {% include introduction.html %}
+        </div>
+        <div class="section-title">
+            <h2><i class="fa fa-book" aria-hidden="true"></i> Introduction and Background Readings</h2>
+        </div>
         </div>
         <div class="guide-section" ng-if="guide == 'literaturereview'">
         <div class="section-title">
             <img src="{{ site.baseurl }}/img/guide_icons/literature_review.png"><h2>Literature Review</h2>
+            <a href="{{ site.baseurl }}/mp"><div class="close"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
         </div>
         <div class="guide-content">
         {% include literature_review.html %}
         </div>
+        <div class="section-title">
+            <h2><i class="fa fa-book" aria-hidden="true"></i> Literature Review Readings</h2>
         </div>
-        <div class="section-title" ng-if="guide == 'datacollection'">
+        </div>
+        <div class="guide-section" ng-if="guide == 'datacollection'">
+        <div class="section-title">
             <img src="{{ site.baseurl }}/img/guide_icons/data_collection_methods.png"><h2>Data Collection Methods</h2>
+            <a href="{{ site.baseurl }}/mp"><div class="close"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
         </div>
-        <div class="section-title" ng-if="guide == 'datasummary'">
-            <img src="{{ site.baseurl }}/img/guide_icons/data_summary.png"><h2>Data Results Summary</h2>
-        </div>
-        <div class="section-title" ng-if="guide == 'datainterpretation'">
-            <img src="{{ site.baseurl }}/img/guide_icons/data_interpretation.png"><h2>Data Interpretation</h2>
-        </div>
-        <div class="section-title" ng-if="guide == 'conclusion'">
-            <img src="{{ site.baseurl }}/img/guide_icons/conclusion.png"><h2>Conclusion</h2>
+        <div class="guide-content">
+        {% include data_collection.html %}
         </div>
         <div class="section-title">
-        <h2><i class="fa fa-book" aria-hidden="true"></i> <span ng-if="guide == ''">All</span><span ng-if="guide != ''">{% raw %}{{ guideText }}{% endraw %}</span> Content</h2>
+            <h2><i class="fa fa-book" aria-hidden="true"></i> Data Collection Readings</h2>
         </div>
-        <div id="category" class="categories">
-                <div class="filter" data-filter="all" ng-click="selectGuide('')">Show All</div>
-                <div class="filter class-filter" data-filter=".406" ng-click="selectGuide('')">406</div>
-                <div class="filter class-filter" data-filter=".407" ng-click="selectGuide('')">407</div>
-                <div class="filter class-filter" data-filter=".408" ng-click="selectGuide('')">408</div>
-                <div class="filter mp-filter" data-filter=".executivesummary" ng-click="selectGuide('')">Executive Summary</div>
-                <div class="filter mp-filter" data-filter=".irb" ng-click="selectGuide('')">IRB</div>
-                <div class="filter mp-filter" data-filter=".posters" ng-click="selectGuide('')">Posters</div>
-                <div class="filter mp-filter" data-filter=".presentations" ng-click="selectGuide('')">Presentations</div>
-                <div class="filter mp-filter" data-filter=".rationale" ng-click="selectGuide('')">Rationale</div>
-                <div class="filter type-filter" data-filter=".artifactanalysis" ng-click="selectGuide('')">Artifact Analysis</div>
-                <div class="filter type-filter" data-filter=".chartsandtables" ng-click="selectGuide('')">Charts and Tables</div>
-                <div class="filter type-filter" data-filter=".coding" ng-click="selectGuide('')">Coding</div>
-                <div class="filter type-filter" data-filter=".focusgroups" ng-click="selectGuide('')">Focus Groups</div>
-                <div class="filter type-filter" data-filter=".interviews" ng-click="selectGuide('')">Interviews</div>
-                <div class="filter type-filter" data-filter=".observations" ng-click="selectGuide('')">Observations</div>
-                <div class="filter type-filter" data-filter=".references" ng-click="selectGuide('')">References</div>
-                <div class="filter type-filter" data-filter=".statistics" ng-click="selectGuide('')">Statistics</div>
-                <div class="filter type-filter" data-filter=".surveys" ng-click="selectGuide('')">Surveys</div>
+        </div>
+        <div class="guide-section" ng-if="guide == 'datasummary'">
+        <div class="section-title">
+            <img src="{{ site.baseurl }}/img/guide_icons/data_summary.png"><h2>Data Results Summary</h2>
+            <a href="{{ site.baseurl }}/mp"><div class="close"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
+        </div>
+        <div class="guide-content">
+        {% include data_summary.html %}
+        </div>
+        <div class="section-title">
+            <h2><i class="fa fa-book" aria-hidden="true"></i> Data Summary Readings</h2>
+        </div>
+        </div>
+        <div class="guide-section" ng-if="guide == 'datainterpretation'">
+        <div class="section-title">
+            <img src="{{ site.baseurl }}/img/guide_icons/data_interpretation.png"><h2>Data Interpretation</h2>
+            <a href="{{ site.baseurl }}/mp"><div class="close"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
+        </div>
+        <div class="guide-content">
+        {% include data_interpretation.html %}
+        </div>
+        <div class="section-title">
+            <h2><i class="fa fa-book" aria-hidden="true"></i> Data Interpretation Readings</h2>
+        </div>
+        </div>
+        <div class="guide-section" ng-if="guide == 'conclusion'">
+        <div class="section-title">
+            <img src="{{ site.baseurl }}/img/guide_icons/conclusion.png"><h2>Conclusion</h2>
+            <a href="{{ site.baseurl }}/mp"><div class="close"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
+        </div>
+        <div class="guide-content">
+        {% include conclusion.html %}
+        </div>
+        <div class="section-title">
+            <h2><i class="fa fa-book" aria-hidden="true"></i> Conclusion Readings</h2>
+        </div>
+        </div>
+        <div class="section-title">
+        <h2><i class="fa fa-th" aria-hidden="true"></i> <span ng-if="guide == ''">All</span><span ng-if="guide != ''">{% raw %}{{ guideText }}{% endraw %}</span> Content</h2>
+        </div>
+        <div id="category" class="categories" ng-if="guide == ''">
+                <div class="filter" data-filter="all">Show All</div>
+                <div class="filter class-filter" data-filter=".406">406</div>
+                <div class="filter class-filter" data-filter=".407">407</div>
+                <div class="filter class-filter" data-filter=".408">408</div>
+                <div class="filter mp-filter" data-filter=".executivesummary">Executive Summary</div>
+                <div class="filter mp-filter" data-filter=".irb">IRB</div>
+                <div class="filter mp-filter" data-filter=".posters">Posters</div>
+                <div class="filter mp-filter" data-filter=".presentations">Presentations</div>
+                <div class="filter mp-filter" data-filter=".rationale">Rationale</div>
+                <div class="filter type-filter" data-filter=".artifactanalysis">Artifact Analysis</div>
+                <div class="filter type-filter" data-filter=".chartsandtables">Charts and Tables</div>
+                <div class="filter type-filter" data-filter=".coding">Coding</div>
+                <div class="filter type-filter" data-filter=".focusgroups">Focus Groups</div>
+                <div class="filter type-filter" data-filter=".interviews">Interviews</div>
+                <div class="filter type-filter" data-filter=".observations">Observations</div>
+                <div class="filter type-filter" data-filter=".references">References</div>
+                <div class="filter type-filter" data-filter=".statistics">Statistics</div>
+                <div class="filter type-filter" data-filter=".surveys">Surveys</div>
             </div>
         <div class="flex-container group">
             <h3 class="flex-header editable" id="aids">Aids and Handouts</h3>

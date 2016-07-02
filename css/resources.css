@@ -107,6 +107,10 @@ body {
     color: #333;
 }
 
+.close:hover {
+    cursor: pointer;
+}
+
 .hover-over {
     position: relative;
 }

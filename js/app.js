@@ -3,6 +3,16 @@ var topicsApp = angular.module('topicsApp', ['ngRoute']);
     // create the controller and inject Angular's $scope
     topicsApp.controller('mainController', function($scope, $route, $routeParams, $location, $http, $filter) {
         
+        $scope.guide = '';
+        
+        $scope.selectGuide = function(val){
+            $scope.guideText = val;
+            $scope.guide = $filter('lowercase')(val.replace(/[\s]/g, ''));
+            console.log($scope.low);
+            
+            $('.group').mixitup('filter', '.' + val)
+        };
+        
         $scope.show = 'false';
         
         $scope.showDetails = function(val) {
@@ -24,6 +34,7 @@ var topicsApp = angular.module('topicsApp', ['ngRoute']);
          
          if (currentPage != '') {
             var mixitup = "." + currentPage.replace(/\//g, "");
+            $scope.guide = currentPage.replace(/\//g, "");
          } else {
              var mixitup = "all";
          }
@@ -172,6 +183,9 @@ var topicsApp = angular.module('topicsApp', ['ngRoute']);
             });
             
             $('.group').mixItUp({
+                load: {
+            		filter: mixitup,
+            	}, 
             	selectors: {
             		target: '.resource'
             	}

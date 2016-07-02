@@ -77,6 +77,7 @@ body {
     font-size: 0.9em;
     margin-top: -15px;
     font-weight: 200;
+    position: relative;
 }
 
 .section-title {
@@ -86,6 +87,45 @@ body {
 
 .section-title h2 {
     line-height: 1.2em;
+}
+
+.section-title img {
+    float: left;
+    height: 35px;
+    width: auto;
+    margin: 2px 5px 0 0;
+}
+
+.close {
+    display: inline;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
+.close i {
+    color: #333;
+}
+
+.hover-over {
+    position: relative;
+}
+
+.hover-hidden {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    visibility: hidden;
+}
+
+.hover-over:hover {
+    visibility: hidden;    
+}
+
+.hover-over:hover .hover-hidden {
+    display: inline;
+    visibility: visible;
 }
 
 .scrolltop {
@@ -194,7 +234,7 @@ body {
     margin: -30px 0 0 -25px;
 }
 
-.filter {
+.categories .filter {
     font-size: 0.8em;
 }
 
@@ -219,7 +259,7 @@ body {
     /*box-shadow: 0px 0px 4px 0px #333;*/
 }
 
-.filter:hover {
+.categories .filter:hover {
     cursor: pointer;
     box-shadow: 0px 0px 6px 0px #333;
 }
@@ -293,4 +333,30 @@ body {
     font-size: 0.7em;
     line-height: 1em;
     margin-bottom: 5px;
+    color: #333;
+}
+
+.guide:hover {
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+.guide:hover .arrow-right {
+    border-left-color: #ddd;
+}
+
+.guide.active {
+    background-color: #4e2a84;
+}
+
+.guide.active p {
+    color: #fff;
+}
+
+.guide.active .arrow-right {
+    border-left-color: #4e2a84;
+}
+
+.guide-content {
+    padding: 0 15px;
 }

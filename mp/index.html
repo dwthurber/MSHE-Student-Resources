@@ -368,7 +368,7 @@ tools:
         <div class="guide-section" ng-if="guide == 'researchquestions'">
         <div class="section-title">
             <img src="{{ site.baseurl }}/img/guide_icons/research_question.png"><h2>Research Questions</h2>
-            <a href="{{ site.baseurl }}/mp"><div class="close"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
+            <a href="#"><div class="close" ng-click="go()"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
         </div>
         <div class="guide-content">
         {% include research_questions.html %}
@@ -380,7 +380,7 @@ tools:
         <div class="guide-section" ng-if="guide == 'abstract'">
         <div class="section-title">
             <img src="{{ site.baseurl }}/img/guide_icons/abstract.png"><h2>Abstract</h2>
-            <a href="{{ site.baseurl }}/mp"><div class="close"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
+            <a href="#/"><div class="close" ng-click="go()"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
         </div>
         <div class="guide-content">
         {% include abstract.html %}
@@ -392,7 +392,7 @@ tools:
         <div class="guide-section" ng-if="guide == 'introduction'">
         <div class="section-title">
             <img src="{{ site.baseurl }}/img/guide_icons/intro-background.png"><h2>Introduction and Background</h2>
-            <a href="{{ site.baseurl }}/mp"><div class="close"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
+            <a href="#/"><div class="close" ng-click="go()"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
         </div>
         <div class="guide-content">
         {% include introduction.html %}
@@ -404,7 +404,7 @@ tools:
         <div class="guide-section" ng-if="guide == 'literaturereview'">
         <div class="section-title">
             <img src="{{ site.baseurl }}/img/guide_icons/literature_review.png"><h2>Literature Review</h2>
-            <a href="https://{{ site.baseurl }}/mp/"><div class="close"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
+            <a href="#/"><div class="close" ng-click="go()"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
         </div>
         <div class="guide-content">
         {% include literature_review.html %}
@@ -416,7 +416,7 @@ tools:
         <div class="guide-section" ng-if="guide == 'datacollection'">
         <div class="section-title">
             <img src="{{ site.baseurl }}/img/guide_icons/data_collection_methods.png"><h2>Data Collection Methods</h2>
-            <a href="{{ site.baseurl }}/mp"><div class="close"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
+            <a href="#/"><div class="close" ng-click="go()"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
         </div>
         <div class="guide-content">
         {% include data_collection.html %}
@@ -428,7 +428,7 @@ tools:
         <div class="guide-section" ng-if="guide == 'datasummary'">
         <div class="section-title">
             <img src="{{ site.baseurl }}/img/guide_icons/data_summary.png"><h2>Data Results Summary</h2>
-            <a href="{{ site.baseurl }}/mp"><div class="close"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
+            <a href="#/"><div class="close" ng-click="go()"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
         </div>
         <div class="guide-content">
         {% include data_summary.html %}
@@ -440,7 +440,7 @@ tools:
         <div class="guide-section" ng-if="guide == 'datainterpretation'">
         <div class="section-title">
             <img src="{{ site.baseurl }}/img/guide_icons/data_interpretation.png"><h2>Data Interpretation</h2>
-            <a href="{{ site.baseurl }}/mp"><div class="close"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
+            <a href="#/"><div class="close" ng-click="go()"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
         </div>
         <div class="guide-content">
         {% include data_interpretation.html %}
@@ -452,7 +452,7 @@ tools:
         <div class="guide-section" ng-if="guide == 'conclusion'">
         <div class="section-title">
             <img src="{{ site.baseurl }}/img/guide_icons/conclusion.png"><h2>Conclusion</h2>
-            <a href="{{ site.baseurl }}/mp"><div class="close"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
+            <a href="#/"><div class="close" ng-click="go()"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
         </div>
         <div class="guide-content">
         {% include conclusion.html %}
@@ -464,7 +464,7 @@ tools:
         <div class="section-title">
         <h2><i class="fa fa-th" aria-hidden="true"></i> <span ng-if="guide == ''">All</span><span ng-if="guide != ''">{% raw %}{{ guideText }}{% endraw %}</span> Content</h2>
         </div>
-        <div id="category" class="categories" ng-if="guide == ''">
+        <div id="category" class="categories" ng-show="guide == ''">
                 <div class="filter" data-filter="all">Show All</div>
                 <div class="filter class-filter" data-filter=".406">406</div>
                 <div class="filter class-filter" data-filter=".407">407</div>

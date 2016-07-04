@@ -8,8 +8,13 @@ var topicsApp = angular.module('topicsApp', ['ngRoute']);
         $scope.selectGuide = function(val){
             $scope.guideText = val;
             $scope.guide = $filter('lowercase')(val.replace(/[\s]/g, ''));
-            console.log($scope.low);
         };
+        
+        $scope.reset = function() {
+            var mixitup = 'all'
+            //  $('.group').mixItUp('filter', mixitup);
+             $scope.guide = '';
+        }
         
         $scope.show = 'false';
         
@@ -25,14 +30,18 @@ var topicsApp = angular.module('topicsApp', ['ngRoute']);
         };
         
         var currentPage = $location.path();
-         
+        
         $scope.go = function() {
             $('#Container').mixItUp('filter', 'all');
+            $('.group').mixItUp('filter', 'all');
+            $scope.guide = '';
         };
          
          if (currentPage != '') {
             var mixitup = "." + currentPage.replace(/\//g, "");
             $scope.guide = currentPage.replace(/\//g, "");
+         } else if (currentPage == "/") {
+             var mixitup = "all";
          } else {
              var mixitup = "all";
          }

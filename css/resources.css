@@ -22,6 +22,33 @@ body {
     background-color: #fff;
     padding: 15px;
     position: relative;
+    margin: 20px auto;
+}
+
+.tabs {
+    position: absolute;
+    top: -32px;
+    left: 0;
+}
+
+.tabs > ul {
+    list-style-type: none;
+}
+
+.tabs ul li {
+    display: inline-block;
+    padding: 0 10px;
+    color: #999;
+}
+
+.tabs ul li:hover {
+    color: #333;
+    cursor: pointer;
+}
+
+.tabs ul li.active {
+    background-color: #fff;
+    color: #333;
 }
 
 .title {

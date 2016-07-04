@@ -3,6 +3,8 @@ baseurl: /MSHE-Student-Resources
 collections:
   info:
     output: true
+  mp_content:
+    output: true
     
 defaults:
   -
@@ -11,6 +13,12 @@ defaults:
       type: "info"
     values:
       layout: "info-page"
+  - 
+    scope:
+      path: ""
+      type: "mp_content"
+    values:
+      layout: "mp-guide-page"
 
 statuses:
   - newly admitted students

@@ -3,18 +3,20 @@ var topicsApp = angular.module('topicsApp', ['ngRoute']);
     // create the controller and inject Angular's $scope
     topicsApp.controller('mainController', function($scope, $route, $routeParams, $location, $http, $filter) {
         
+        $scope.tab = 'details';
+        
         $scope.guide = '';
         
         $scope.selectGuide = function(val){
             $scope.guideText = val;
             $scope.guide = $filter('lowercase')(val.replace(/[\s]/g, ''));
+            $scope.tab = 'details';
         };
         
-        $scope.reset = function() {
-            var mixitup = 'all'
-            //  $('.group').mixItUp('filter', mixitup);
-             $scope.guide = '';
-        }
+        $scope.pickTab = function(val) {
+            $scope.tab = val;  
+            console.log($scope.tab);
+        };
         
         $scope.show = 'false';
         

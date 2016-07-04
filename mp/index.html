@@ -272,22 +272,6 @@ tools:
     type: external link
 ---
 
-    <!--<section class="hero" id="top">-->
-    <!--<div class="container wide">-->
-    <!--    <div class="title">-->
-    <!--        <h1>MP Aids and Resources</h1><br />-->
-            
-    <!--        <ul>-->
-                <!--<li id="show-all" class="filter" data-filter="all">Show All</li>-->
-                <!--<li id="type-button">Type <i id="type-chevron" class="fa fa-chevron-down"></i></li>-->
-                <!--<li id="category-button">Category <i id="category-chevron" class="fa fa-chevron-down"></i></li>-->
-                <!--<li id="search-button">Search <i id="search-chevron" class="fa fa-chevron-down"></i></li>-->
-    <!--        </ul>-->
-    <!--        <p>Jump to: <a href="#aids" class="smoothScroll">Aids and Handouts</a> | <a href="#resources" class="smoothScroll">External Resources</a> | <a href="#rubrics" class="smoothScroll">Rubrics</a> | <a href="#technology" class="smoothScroll">Technology Tools</a> | <a href="#templates" class="smoothScroll">Templates</a></p>-->
-    <!--        <input id="input" type="text" placeholder="Start typing to search" />-->
-    <!--    </div>-->
-    <!--</div>-->
-    <!--</section>-->
     <div class="info-page-hero">
       <div class="info-page-header" id="top">
           <h2>{{ page.title }}</h2>
@@ -364,103 +348,144 @@ tools:
         </div>
     </section>
     <section class="main">
-    <div class="container wide light">
+    <div class="container wide light" ng-if="guide != ''">
+        <div class="tabs">
+            <ul>
+                <li ng-click="pickTab('details')" ng-class="{'active':tab == 'details'}">Details</li>
+                <li ng-click="pickTab('readings')" ng-class="{'active':tab == 'readings'}">Readings</li>
+            </ul>
+        </div>
         <div class="guide-section" ng-if="guide == 'researchquestions'">
-        <div class="section-title">
-            <img src="{{ site.baseurl }}/img/guide_icons/research_question.png"><h2>Research Questions</h2>
-            <a href="#"><div class="close" ng-click="go()"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
-        </div>
-        <div class="guide-content">
-        {% include research_questions.html %}
-        </div>
-        <div class="section-title">
-            <h2><i class="fa fa-book" aria-hidden="true"></i> Research Questions Readings</h2>
-        </div>
+            <a href="#/"><div class="close" ng-click="go()"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
+            <div class="guide-details" ng-show="tab == 'details'">
+            <div class="section-title">
+                <img src="{{ site.baseurl }}/img/guide_icons/research_question.png"><h2>Research Questions</h2>
+                
+            </div>
+            <div class="guide-content">
+            {% include research_questions.html %}
+            </div>
+            </div>
+            <div class="readings" ng-show="tab == 'readings'">
+            <div class="section-title">
+                <h2><i class="fa fa-book" aria-hidden="true"></i> Research Questions Readings</h2>
+            </div>
+            </div>
         </div>
         <div class="guide-section" ng-if="guide == 'abstract'">
-        <div class="section-title">
-            <img src="{{ site.baseurl }}/img/guide_icons/abstract.png"><h2>Abstract</h2>
             <a href="#/"><div class="close" ng-click="go()"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
-        </div>
-        <div class="guide-content">
-        {% include abstract.html %}
-        </div>
-        <div class="section-title">
-            <h2><i class="fa fa-book" aria-hidden="true"></i> Abstract Readings</h2>
-        </div>
+            <div class="guide-details" ng-show="tab == 'details'">
+            <div class="section-title">
+                <img src="{{ site.baseurl }}/img/guide_icons/abstract.png"><h2>Abstract</h2>
+            </div>
+            <div class="guide-content">
+            {% include abstract.html %}
+            </div>
+            </div>
+            <div class="readings" ng-show="tab == 'readings'">
+            <div class="section-title">
+                <h2><i class="fa fa-book" aria-hidden="true"></i> Abstract Readings</h2>
+            </div>
+            </div>
         </div>
         <div class="guide-section" ng-if="guide == 'introduction'">
-        <div class="section-title">
-            <img src="{{ site.baseurl }}/img/guide_icons/intro-background.png"><h2>Introduction and Background</h2>
             <a href="#/"><div class="close" ng-click="go()"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
-        </div>
-        <div class="guide-content">
-        {% include introduction.html %}
-        </div>
-        <div class="section-title">
-            <h2><i class="fa fa-book" aria-hidden="true"></i> Introduction and Background Readings</h2>
-        </div>
+            <div class="guide-details" ng-show="tab == 'details'">
+            <div class="section-title">
+                <img src="{{ site.baseurl }}/img/guide_icons/intro-background.png"><h2>Introduction and Background</h2>
+            </div>
+            <div class="guide-content">
+            {% include introduction.html %}
+            </div>
+            </div>
+            <div class="readings" ng-show="tab == 'readings'">
+            <div class="section-title">
+                <h2><i class="fa fa-book" aria-hidden="true"></i> Introduction and Background Readings</h2>
+            </div>
+            </div>
         </div>
         <div class="guide-section" ng-if="guide == 'literaturereview'">
-        <div class="section-title">
-            <img src="{{ site.baseurl }}/img/guide_icons/literature_review.png"><h2>Literature Review</h2>
             <a href="#/"><div class="close" ng-click="go()"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
-        </div>
-        <div class="guide-content editable">
-            {% include literature_review.html %}
-        </div>
-        <div class="section-title">
-            <h2><i class="fa fa-book" aria-hidden="true"></i> Literature Review Readings</h2>
-        </div>
+            <div class="guide-details" ng-show="tab == 'details'">
+            <div class="section-title">
+                <img src="{{ site.baseurl }}/img/guide_icons/literature_review.png"><h2>Literature Review</h2>
+            </div>
+            <div class="guide-content editable">
+                {% include literature_review.html %}
+            </div>
+            </div>
+            <div class="readings" ng-show="tab == 'readings'">
+            <div class="section-title">
+                <h2><i class="fa fa-book" aria-hidden="true"></i> Literature Review Readings</h2>
+            </div>
+            </div>
         </div>
         <div class="guide-section" ng-if="guide == 'datacollection'">
-        <div class="section-title">
-            <img src="{{ site.baseurl }}/img/guide_icons/data_collection_methods.png"><h2>Data Collection Methods</h2>
             <a href="#/"><div class="close" ng-click="go()"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
-        </div>
-        <div class="guide-content">
-        {% include data_collection.html %}
-        </div>
-        <div class="section-title">
-            <h2><i class="fa fa-book" aria-hidden="true"></i> Data Collection Readings</h2>
-        </div>
+            <div class="guide-details" ng-show="tab == 'details'">
+            <div class="section-title">
+                <img src="{{ site.baseurl }}/img/guide_icons/data_collection_methods.png"><h2>Data Collection Methods</h2>
+            </div>
+            <div class="guide-content">
+            {% include data_collection.html %}
+            </div>
+            </div>
+            <div class="readings" ng-show="tab == 'readings'">
+            <div class="section-title">
+                <h2><i class="fa fa-book" aria-hidden="true"></i> Data Collection Readings</h2>
+            </div>
+            </div>
         </div>
         <div class="guide-section" ng-if="guide == 'datasummary'">
-        <div class="section-title">
-            <img src="{{ site.baseurl }}/img/guide_icons/data_summary.png"><h2>Data Results Summary</h2>
             <a href="#/"><div class="close" ng-click="go()"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
-        </div>
-        <div class="guide-content">
-        {% include data_summary.html %}
-        </div>
-        <div class="section-title">
-            <h2><i class="fa fa-book" aria-hidden="true"></i> Data Summary Readings</h2>
-        </div>
+            <div class="guide-details" ng-show="tab == 'details'">
+            <div class="section-title">
+                <img src="{{ site.baseurl }}/img/guide_icons/data_summary.png"><h2>Data Results Summary</h2>
+            </div>
+            <div class="guide-content">
+            {% include data_summary.html %}
+            </div>
+            </div>
+            <div class="readings" ng-show="tab == 'readings'">
+            <div class="section-title">
+                <h2><i class="fa fa-book" aria-hidden="true"></i> Data Summary Readings</h2>
+            </div>
+            </div>
         </div>
         <div class="guide-section" ng-if="guide == 'datainterpretation'">
-        <div class="section-title">
-            <img src="{{ site.baseurl }}/img/guide_icons/data_interpretation.png"><h2>Data Interpretation</h2>
             <a href="#/"><div class="close" ng-click="go()"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
-        </div>
-        <div class="guide-content">
-        {% include data_interpretation.html %}
-        </div>
-        <div class="section-title">
-            <h2><i class="fa fa-book" aria-hidden="true"></i> Data Interpretation Readings</h2>
-        </div>
+            <div class="guide-details" ng-show="tab == 'details'">
+            <div class="section-title">
+                <img src="{{ site.baseurl }}/img/guide_icons/data_interpretation.png"><h2>Data Interpretation</h2>
+            </div>
+            <div class="guide-content">
+            {% include data_interpretation.html %}
+            </div>
+            </div>
+            <div class="readings" ng-show="tab == 'readings'">
+            <div class="section-title">
+                <h2><i class="fa fa-book" aria-hidden="true"></i> Data Interpretation Readings</h2>
+            </div>
+            </div>
         </div>
         <div class="guide-section" ng-if="guide == 'conclusion'">
-        <div class="section-title">
-            <img src="{{ site.baseurl }}/img/guide_icons/conclusion.png"><h2>Conclusion</h2>
             <a href="#/"><div class="close" ng-click="go()"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
+            <div class="guide-details" ng-show="tab == 'details'">
+            <div class="section-title">
+                <img src="{{ site.baseurl }}/img/guide_icons/conclusion.png"><h2>Conclusion</h2>
+            </div>
+            <div class="guide-content">
+            {% include conclusion.html %}
+            </div>
+            </div>
+            <div class="readings" ng-show="tab == 'readings'">
+            <div class="section-title">
+                <h2><i class="fa fa-book" aria-hidden="true"></i> Conclusion Readings</h2>
+            </div>
+            </div>
         </div>
-        <div class="guide-content">
-        {% include conclusion.html %}
         </div>
-        <div class="section-title">
-            <h2><i class="fa fa-book" aria-hidden="true"></i> Conclusion Readings</h2>
-        </div>
-        </div>
+        <div class="container wide light">
         <div class="section-title">
         <h2><i class="fa fa-th" aria-hidden="true"></i> <span ng-if="guide == ''">All</span><span ng-if="guide != ''">{% raw %}{{ guideText }}{% endraw %}</span> Content</h2>
         </div>

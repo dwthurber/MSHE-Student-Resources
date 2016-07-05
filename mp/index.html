@@ -512,7 +512,7 @@ tools:
         <div class="flex-container group">
             <h3 class="flex-header editable" id="aids">Aids and Handouts</h3>
             {% for item in page.aids %}
-            <div class="resource {{ item.filters | join: ',' | remove: ' ' | split: ',' | join: ' ' }}" data-name="{{ item.title }}">
+            <div class="resource {{ item.filters | downcase | join: ',' | remove: ' ' | split: ',' | join: ' ' }}" data-name="{{ item.title }}">
                 {% if item.icon_path != null %}<img src="{{ item.icon_path | prepend: site.baseurl }}" alt="resource type icon" />{% endif %}
                 <h2>{{ item.title }}</h2>
                 <p>{{ item.subtitle }}</p>
@@ -533,7 +533,7 @@ tools:
         <div class="flex-container group">
             <h3 class="flex-header editable" id="resources">External Resources</h3>
             {% for item in page.resources %}
-            <div class="resource {{ item.filters | join: ',' | remove: ' ' | split: ',' | join: ' ' }}" data-name="{{ item.title }}">
+            <div class="resource {{ item.filters | downcase | join: ',' | remove: ' ' | split: ',' | join: ' ' }}" data-name="{{ item.title }}">
                 {% if item.icon_path != null %}<img src="{{ item.icon_path | prepend: site.baseurl }}" alt="resource type icon" />{% endif %}
                 <h2>{{ item.title }}</h2>
                 <p>{{ item.subtitle }}</p>
@@ -554,7 +554,7 @@ tools:
         <div class="flex-container group">
             <h3 class="flex-header editable" id="rubrics">Rubrics</h3>
             {% for item in page.rubrics %}
-            <div class="resource {{ item.filters | join: ',' | remove: ' ' | split: ',' | join: ' ' }}" data-name="{{ item.title }}">
+            <div class="resource {{ item.filters | downcase | join: ',' | remove: ' ' | split: ',' | join: ' ' }}" data-name="{{ item.title }}">
                 {% if item.icon_path != null %}<img src="{{ item.icon_path | prepend: site.baseurl }}" alt="resource type icon" />{% endif %}
                 <h2>{{ item.title }}</h2>
                 <p>{{ item.subtitle }}</p>
@@ -575,7 +575,7 @@ tools:
         <div class="flex-container group">
             <h3 class="flex-header editable" id="technology">Technology Tools</h3>
             {% for item in page.tools %}
-            <div class="resource {{ item.filters | join: ',' | remove: ' ' | split: ',' | join: ' ' }}" data-name="{{ item.title }}">
+            <div class="resource {{ item.filters | downcase | join: ',' | remove: ' ' | split: ',' | join: ' ' }}" data-name="{{ item.title }}">
                 {% if item.icon_path != null %}<img src="{{ item.icon_path | prepend: site.baseurl }}" alt="resource type icon" />{% endif %}
                 <h2>{{ item.title }}</h2>
                 <p>{{ item.subtitle }}</p>
@@ -595,44 +595,23 @@ tools:
         
         <div class="flex-container group">
             <h3 class="flex-header editable" id="templates">Templates</h3>
-            <div class="resource templates conclusions data-summary abstracts data-collection lit-review data-analysis 406 407 408" data-name="MP APA Template">
-                <img src="{{ site.baseurl }}/img/sheet.png" alt="document icon" />
-                <h2>MP APA Template</h2>
-                <p>Word document template for the Master's Project.</p>
-                <a href="https://northwestern.box.com/shared/static/lgqwax92o5crl4xnenkn.docx">
+            {% for item in page.templates %}
+            <div class="resource {{ item.filters | downcase | join: ',' | remove: ' ' | split: ',' | join: ' ' }}" data-name="{{ item.title }}">
+                {% if item.icon_path != null %}<img src="{{ item.icon_path | prepend: site.baseurl }}" alt="resource type icon" />{% endif %}
+                <h2>{{ item.title }}</h2>
+                <p>{{ item.subtitle }}</p>
+                {% if item.type == 'external link' %}<a href="{{ item.link_path }}" target="_blank">{% else %}<a href="{{ item.link_path }}">{% endif %}
                     <div class="mix-hover hidden">
-                        <p><i class="fa fa-tags"></i> APA</p>
-                        <i class="fa fa-download fa-3x action"></i>
+                        <p><i class="fa fa-tags"></i> {{ item.filters | join:', ' }}</p>
+                        {% if item.type == 'external link' %}<i class="fa fa-external-link fa-3x action"></i>{% endif %}
+                        {% if item.type == 'download' %}<i class="fa fa-download fa-3x action"></i>{% endif %}
                     </div>
                 </a>
                 <div class="meta hidden">
-                    <p>templates</p>
-                    <p>apa</p>
-                    <p>master's project</p>
-                    <p>mp apa template</p>
+                    <p>{{ item.filters }}</p>
                 </div>
-            </div>
-            <div class="resource templates irb 406 407" data-name="IRB Template">
-                <!--<img src="./img/sheet.png" alt="document icon">-->
-                <h2>IRB Templates</h2>
-                <p>Templates for various forms required by IRB, including Human Research Determination Form, Social Behavioral Protocol Template, and Social and Behavioral Consent Template.</p>
-                <a href="./pages/irb-templates.html">
-                    <div class="mix-hover hidden">
-                        <p><i class="fa fa-tags"></i> IRB, Templates</p>
-                        <!--<i class="fa fa-download fa-3x action"></i>-->
-                    </div>
-                </a>
-                <div class="meta hidden">
-                    <p>templates</p>
-                    <p>Human Research Determination Form</p>
-                    <p>Social Behavioral Protocol Template</p>
-                    <p>Social and Behavioral Consent Template</p>
-                    <p>irb</p>
-                    <p>consent</p>
-                    <p>407</p>
-                    <p>ethics</p>
-                </div>
-            </div>
+            </a></div>
+            {% endfor %}
         </div>
             
     </div>

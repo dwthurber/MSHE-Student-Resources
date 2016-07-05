@@ -212,11 +212,15 @@ body {
     overflow: hidden;
 }
 
+.resource-content {
+    position: absolute;
+    bottom: 0;
+}
+
 .resource h2 {
-    margin: 8px 0px 3px 0px;
+    margin: 0px 0px 3px 0px;
     font-size: 0.7em;
     line-height: 1.1;
-    vertical-align: bottom;
     text-transform: uppercase;
     color: #999;
 }
@@ -225,10 +229,11 @@ body {
     color: #333;
     font-size: small;
     line-height: 1;
+    padding-right: 10px;
 }
 
 .resource img {
-    height: 100px;
+    height: 90px;
     display: block;
     text-align: center;
     margin: 0 auto;

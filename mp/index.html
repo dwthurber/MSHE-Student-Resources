@@ -663,8 +663,10 @@ templates:
             {% for item in page.aids %}
             <div class="resource {{ item.filters | join: ',' | remove: ' ' | split: ',' | join: ' '  | downcase }} {{ item.guides | join: ',' | remove: ' ' | split: ',' | join: ' ' | downcase }}" data-name="{{ item.title }}">
                 {% if item.icon_path != null %}<img src="{{ item.icon_path | prepend: site.baseurl }}" alt="resource type icon" />{% endif %}
-                <h2>{{ item.title }}</h2>
-                <p>{{ item.subtitle }}</p>
+                <div class="resource-content">
+                    <h2>{{ item.title }}</h2>
+                    <p>{{ item.subtitle }}</p>
+                </div>
                 {% if item.type == 'external link' %}<a href="{{ item.link_path }}" target="_blank">{% else %}<a href="{{ item.link_path }}">{% endif %}
                     <div class="mix-hover hidden">
                         <p><i class="fa fa-tags"></i> {{ item.filters | join:', ' }}</p>
@@ -684,8 +686,10 @@ templates:
             {% for item in page.resources %}
             <div class="resource {{ item.filters | join: ',' | remove: ' ' | split: ',' | join: ' ' | downcase }} {{ item.guides | join: ',' | remove: ' ' | split: ',' | join: ' ' | downcase }}" data-name="{{ item.title }}">
                 {% if item.icon_path != null %}<img src="{{ item.icon_path | prepend: site.baseurl }}" alt="resource type icon" />{% endif %}
-                <h2>{{ item.title }}</h2>
-                <p>{{ item.subtitle }}</p>
+                <div class="resource-content">
+                    <h2>{{ item.title }}</h2>
+                    <p>{{ item.subtitle }}</p>
+                </div>
                 {% if item.type == 'external link' %}<a href="{{ item.link_path }}" target="_blank">{% else %}<a href="{{ item.link_path }}">{% endif %}
                     <div class="mix-hover hidden">
                         <p><i class="fa fa-tags"></i> {{ item.filters | join:', ' }}</p>
@@ -705,8 +709,10 @@ templates:
             {% for item in page.rubrics %}
             <div class="resource {{ item.filters | join: ',' | remove: ' ' | split: ',' | join: ' ' | downcase }} {{ item.guides | join: ',' | remove: ' ' | split: ',' | join: ' ' | downcase }}" data-name="{{ item.title }}">
                 {% if item.icon_path != null %}<img src="{{ item.icon_path | prepend: site.baseurl }}" alt="resource type icon" />{% endif %}
-                <h2>{{ item.title }}</h2>
-                <p>{{ item.subtitle }}</p>
+                <div class="resource-content">
+                    <h2>{{ item.title }}</h2>
+                    <p>{{ item.subtitle }}</p>
+                </div>
                 {% if item.type == 'external link' %}<a href="{{ item.link_path }}" target="_blank">{% else %}<a href="{{ item.link_path }}">{% endif %}
                     <div class="mix-hover hidden">
                         <p><i class="fa fa-tags"></i> {{ item.filters | join:', ' }}</p>
@@ -726,8 +732,10 @@ templates:
             {% for item in page.tools %}
             <div class="resource {{ item.filters | join: ',' | remove: ' ' | split: ',' | join: ' ' | downcase }} {{ item.guides | join: ',' | remove: ' ' | split: ',' | join: ' ' | downcase }}" data-name="{{ item.title }}">
                 {% if item.icon_path != null %}<img src="{{ item.icon_path | prepend: site.baseurl }}" alt="resource type icon" />{% endif %}
-                <h2>{{ item.title }}</h2>
-                <p>{{ item.subtitle }}</p>
+                <div class="resource-content">
+                    <h2>{{ item.title }}</h2>
+                    <p>{{ item.subtitle }}</p>
+                </div>
                 {% if item.type == 'external link' %}<a href="{{ item.link_path }}" target="_blank">{% else %}<a href="{{ item.link_path }}">{% endif %}
                     <div class="mix-hover hidden">
                         <p><i class="fa fa-tags"></i> {{ item.filters | join:', ' }}</p>
@@ -747,8 +755,10 @@ templates:
             {% for item in page.templates %}
             <div class="resource {{ item.filters | join: ',' | remove: ' ' | split: ',' | join: ' ' | downcase }} {{ item.guides | join: ',' | remove: ' ' | split: ',' | join: ' ' | downcase }}" data-name="{{ item.title }}">
                 {% if item.icon_path != null %}<img src="{{ item.icon_path | prepend: site.baseurl }}" alt="resource type icon" />{% endif %}
-                <h2>{{ item.title }}</h2>
-                <p>{{ item.subtitle }}</p>
+                <div class="resource-content">
+                    <h2>{{ item.title }}</h2>
+                    <p>{{ item.subtitle }}</p>
+                </div>
                 {% if item.type == 'external link' %}<a href="{{ item.link_path }}" target="_blank">{% else %}<a href="{{ item.link_path }}">{% endif %}
                     <div class="mix-hover hidden">
                         <p><i class="fa fa-tags"></i> {{ item.filters | join:', ' }}</p>

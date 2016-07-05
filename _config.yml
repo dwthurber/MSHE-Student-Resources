@@ -67,6 +67,29 @@ categories:
   - Student Wellness
   - Study Abroad and International Education
   
+types: 
+  - download
+  - external link
+  - internal pages
+  
+filters: 
+  - 406
+  - 407
+  - 408
+  - Executive Summary
+  - IRB
+  - Posters
+  - Rationale
+  - Artifact Analysis
+  - Charts and Tables
+  - Coding
+  - Focus Groups
+  - Interviews
+  - Observations
+  - References
+  - Statistics
+  - Surveys
+  
 consent: 
   - true
   - false

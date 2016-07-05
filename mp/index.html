@@ -456,7 +456,7 @@ templates:
         <div class="flex-container group">
             <h3 class="flex-header editable" id="aids">Aids and Handouts</h3>
             {% for item in page.aids %}
-            <div class="resource {{ item.filters | downcase | join: ',' | remove: ' ' | split: ',' | join: ' ' }}" data-name="{{ item.title }}">
+            <div class="resource {{ item.filters | join: ',' | remove: ' ' | split: ',' | join: ' '  | downcase }}" data-name="{{ item.title }}">
                 {% if item.icon_path != null %}<img src="{{ item.icon_path | prepend: site.baseurl }}" alt="resource type icon" />{% endif %}
                 <h2>{{ item.title }}</h2>
                 <p>{{ item.subtitle }}</p>
@@ -477,7 +477,7 @@ templates:
         <div class="flex-container group">
             <h3 class="flex-header editable" id="resources">External Resources</h3>
             {% for item in page.resources %}
-            <div class="resource {{ item.filters | downcase | join: ',' | remove: ' ' | split: ',' | join: ' ' }}" data-name="{{ item.title }}">
+            <div class="resource {{ item.filters | join: ',' | remove: ' ' | split: ',' | join: ' ' | downcase }}" data-name="{{ item.title }}">
                 {% if item.icon_path != null %}<img src="{{ item.icon_path | prepend: site.baseurl }}" alt="resource type icon" />{% endif %}
                 <h2>{{ item.title }}</h2>
                 <p>{{ item.subtitle }}</p>
@@ -498,7 +498,7 @@ templates:
         <div class="flex-container group">
             <h3 class="flex-header editable" id="rubrics">Rubrics</h3>
             {% for item in page.rubrics %}
-            <div class="resource {{ item.filters | downcase | join: ',' | remove: ' ' | split: ',' | join: ' ' }}" data-name="{{ item.title }}">
+            <div class="resource {{ item.filters | join: ',' | remove: ' ' | split: ',' | join: ' ' | downcase }}" data-name="{{ item.title }}">
                 {% if item.icon_path != null %}<img src="{{ item.icon_path | prepend: site.baseurl }}" alt="resource type icon" />{% endif %}
                 <h2>{{ item.title }}</h2>
                 <p>{{ item.subtitle }}</p>
@@ -519,7 +519,7 @@ templates:
         <div class="flex-container group">
             <h3 class="flex-header editable" id="technology">Technology Tools</h3>
             {% for item in page.tools %}
-            <div class="resource {{ item.filters | downcase | join: ',' | remove: ' ' | split: ',' | join: ' ' }}" data-name="{{ item.title }}">
+            <div class="resource {{ item.filters | join: ',' | remove: ' ' | split: ',' | join: ' ' | downcase }}" data-name="{{ item.title }}">
                 {% if item.icon_path != null %}<img src="{{ item.icon_path | prepend: site.baseurl }}" alt="resource type icon" />{% endif %}
                 <h2>{{ item.title }}</h2>
                 <p>{{ item.subtitle }}</p>
@@ -540,7 +540,7 @@ templates:
         <div class="flex-container group">
             <h3 class="flex-header editable" id="templates">Templates</h3>
             {% for item in page.templates %}
-            <div class="resource {{ item.filters | downcase | join: ',' | remove: ' ' | split: ',' | join: ' ' }}" data-name="{{ item.title }}">
+            <div class="resource {{ item.filters | join: ',' | remove: ' ' | split: ',' | join: ' ' | downcase }}" data-name="{{ item.title }}">
                 {% if item.icon_path != null %}<img src="{{ item.icon_path | prepend: site.baseurl }}" alt="resource type icon" />{% endif %}
                 <h2>{{ item.title }}</h2>
                 <p>{{ item.subtitle }}</p>

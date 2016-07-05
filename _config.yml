@@ -89,6 +89,16 @@ filters:
   - References
   - Statistics
   - Surveys
+
+guides:
+  - Research Questions
+  - Abstract
+  - Introduction
+  - Literature Review
+  - Data Collection
+  - Data Summary
+  - Data Interpretation
+  - Conclusion
   
 consent: 
   - true

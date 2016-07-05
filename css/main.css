@@ -700,6 +700,11 @@ table td {
     margin: 0 0 100px 20px;
 }
 
+#markdown-toc li {
+    list-style-type: inherit;
+    padding: 0;
+}
+
 #markdown-toc:before {
     content: "Contents";
     font-weight: bold;
@@ -709,4 +714,11 @@ table td {
 
 .inner-wrapper {
     width: 75%;
+    padding-right: 10px;
+}
+
+.fix-toc {
+    position: fixed!important;
+    top: 20px!important;
+    right: 35px!important;
 }

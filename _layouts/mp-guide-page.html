@@ -16,3 +16,15 @@ layout: default
         </div>
     </div>
 </section>
+
+<script>
+    $(document).ready(function() {
+        $(window).scroll(function(){
+          if ($(this).scrollTop() > 378) {
+              $('#markdown-toc').addClass('fix-toc');
+          } else {
+              $('#markdown-toc').removeClass('fix-toc');
+          }
+      });
+    });
+</script>

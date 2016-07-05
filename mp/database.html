@@ -48,7 +48,7 @@ categories:
                 </table>
                 
                 {% for project in site.data.master_projects %} 
-                   <div class="mix {{ project.categories | join: ',' | downcase | remove:' ' | replace:',',' ' }} {{ project.tags | join: ',' | downcase | remove:' ' | replace:',',' '}} {{ project.first_name | downcase }}{{ project.last_name | downcase }} {% if project.file_path != '' %}fulltextavail{% endif %} {% if project.presentation_file_path != '' %}presentationavail{% endif %}" data-year="{{ project.year }}" data-name="{{ project.last_name }}" data-category="{{ project.categories | join:' ' }}">
+                   <div class="mix {{ project.categories | join: ',' | downcase | remove:' ' | replace:',',' ' }} {{ project.tags | join: ',' | downcase | remove:' ' | replace:',',' '}} {{ project.first_name | downcase }}{{ project.last_name | downcase }} {% if project.file_path != '' %}fulltextavail{% endif %} {% if project.presentation_file_path != '' %}presentationavail{% endif %} {% if project.poster_file_path != '' %}posteravail{% endif %} {% if project.executive_summary_file_path != '' %}execsummaryavail{% endif %}" data-year="{{ project.year }}" data-name="{{ project.last_name }}" data-category="{{ project.categories | join:' ' }}">
                 <table width="100%" class="mp-table" >
                    
                     <tr>
@@ -59,8 +59,10 @@ categories:
                         </td>
                         <td width="150px" class="category">{{ project.categories | join:', ' }}</td>
                         <td width="25px" class="download">
-                            {% if project.file_path != '' %}<a href="{{ project.file_path }}" data-featherlight="iframe" data-featherlight-iframe-height="500px" data-featherlight-iframe-width="700px"><i class="fa fa-file-text-o" aria-hidden="true"></i></a>{% endif %}
-                            {% if project.presentation_file_path != '' %}<a href="{{ project.presentation_file_path }}" data-featherlight="iframe" data-featherlight-iframe-height="500px" data-featherlight-iframe-width="700px"><i class="fa fa-file-powerpoint-o" aria-hidden="true"></i></a>{% endif %}
+                            {% if project.file_path != '' %}<a href="{{ project.file_path }}" data-featherlight="iframe" data-featherlight-iframe-height="500px" data-featherlight-iframe-width="700px"><i class="fa fa-file-text-o tip" data-tip="View MP Text" aria-hidden="true"></i></a>{% endif %}
+                            {% if project.presentation_file_path != '' %}<a href="{{ project.presentation_file_path }}" data-featherlight="iframe" data-featherlight-iframe-height="500px" data-featherlight-iframe-width="700px"><i class="fa fa-file-powerpoint-o tip" data-tip="View Presentations" aria-hidden="true"></i></a>{% endif %}
+                            {% if project.poster_file_path != '' %}<a href="{{ project.poster_file_path }}" data-featherlight="iframe" data-featherlight-iframe-height="500px" data-featherlight-iframe-width="700px"><i class="fa fa-file-image-o tip" data-tip="View Poster" aria-hidden="true"></i></a>{% endif %}
+                            {% if project.executive_summary_file_path != '' %}<a href="{{ project.executive_summary_file_path }}" data-featherlight="iframe" data-featherlight-iframe-height="500px" data-featherlight-iframe-width="700px"><i class="fa fa-file-o tip" data-tip="View Executive Summary" aria-hidden="true"></i></a>{% endif %}
                             </td>
                     </tr>
                     <tr ng-show="show == 'true'">
@@ -83,6 +85,8 @@ categories:
                 <p class="column-title">Filter by Availability</p>
                 <label><input type="checkbox" ng-checked="availChecked" ng-click="filterAvail('.fulltextavail')">Full Text</label><br>
                 <label><input type="checkbox" ng-checked="availChecked" ng-click="filterAvail('.presentationavail')">Presentation</label><br>
+                <label><input type="checkbox" ng-checked="availChecked" ng-click="filterAvail('.posteravail')">Poster</label><br>
+                <label><input type="checkbox" ng-checked="availChecked" ng-click="filterAvail('.execsummaryavail')">Executive Summary</label><br>
                 <p class="column-title">Filter by Category</p>
                 {% for item in page.categories %}<label><input ng-checked="catChecked" type="checkbox" ng-click="filterCat('.{{ item | downcase | replace:' ','' }}')">{{ item }}</label><br>{% endfor %}
                 <p class="column-title">Filter By Tag <span class="clear"><a ng-click="clearAll()" class="filter" data-filter="all" href="#">CLEAR</a></span></p>

@@ -9,8 +9,6 @@ aids:
     link_path:
     filters:
       - '408'
-      - data interpretation
-      - coding
     type: download
   - title: Data Summary Worksheet
     subtitle:
@@ -19,7 +17,6 @@ aids:
     filters:
       - '407'
       - '408'
-      - data summary
     type: download
   - title: Excel for Research
     subtitle: Step-by-step instructions for basic excel functions
@@ -28,10 +25,6 @@ aids:
     filters:
       - '407'
       - '408'
-      - data summary
-      - data interpretation
-      - charts and tables
-      - statistics
     type: download
   - title: MP Outline
     subtitle: What to include in each section of the MP
@@ -49,7 +42,6 @@ aids:
     filters:
       - '407'
       - '408'
-      - data summary
     type: download
   - title: RSS Instructions
     subtitle: IRB RSS setup instructions
@@ -58,7 +50,6 @@ aids:
     filters:
       - '406'
       - '407'
-      - irb
     type: download
   - title: Summarizing Literature and Data
     subtitle:
@@ -66,7 +57,6 @@ aids:
     link_path:
     filters:
       - '408'
-      - data interpretation
     type: download
   - title: Summarizing Literature and Data
     subtitle:
@@ -74,7 +64,6 @@ aids:
     link_path:
     filters:
       - '408'
-      - data interpretation
     type: download
   - title: Tips on Conducting a Lit Review
     subtitle: A great resource from the University of Toronto that explains what a literature review is and tips on how to write a good one
@@ -82,7 +71,6 @@ aids:
     link_path:
     filters:
       - '406'
-      - literature review
     type: external link
   - title: Weaving Together
     subtitle: Aid for interpretation and conclusions
@@ -90,8 +78,6 @@ aids:
     link_path:
     filters:
       - '408'
-      - data interpretation
-      - conclusion
     type: download
 resources:
   - title: NU Library Education Guide
@@ -102,8 +88,6 @@ resources:
       - '406'
       - '407'
       - '408'
-      - literature review
-      - references
     type: external link
   - title: Research Data
     subtitle: List of sources of data for research projects
@@ -112,9 +96,6 @@ resources:
     filters:
       - '406'
       - '407'
-      - data collection
-      - artifact analysis
-      - surveys
     type: internal pages
   - title: SESP Librarian
     subtitle: 'School of Education Librarian: Qunying Li'
@@ -123,8 +104,6 @@ resources:
     filters:
       - '406'
       - '407'
-      - research questions
-      - literature review
     type: internal pages
 rubrics:
   - title: Final MP Rubric
@@ -135,14 +114,6 @@ rubrics:
       - '406'
       - '407'
       - '408'
-      - research questions
-      - abstract
-      - introduction
-      - literature review
-      - data collection
-      - data summary
-      - data interpretation
-      - conclusion
     type: download
 tools:
   - title: Canva
@@ -152,9 +123,6 @@ tools:
     filters:
       - '407'
       - '408'
-      - posters
-      - presentations
-      - charts and tables
     type: external link
   - title: Endnote
     subtitle: Manage references and general citations
@@ -164,17 +132,12 @@ tools:
       - '406'
       - '407'
       - '408'
-      - literature review
-      - references
     type: external link
   - title: Lynda.com
     subtitle: Online learning videos for technology and graphics
     icon_path: /img/lynda.com-logo.png
     link_path: /pages/lynda.html
     filters:
-      - posters
-      - presentations
-      - statistics
     type: internal pages
   - title: Nvivo
     subtitle: Free access provided through virtual desktop
@@ -183,8 +146,6 @@ tools:
     filters:
       - '407'
       - '408'
-      - data interpretation
-      - coding
     type: external link
   - title: OTranscribe
     subtitle: Free web app to take the pain out of transcribing
@@ -193,10 +154,6 @@ tools:
     filters:
       - '407'
       - '408'
-      - data summary
-      - focus groups
-      - interviews
-      - observations
     type: external link
   - title: Picktochart
     subtitle: All you will need to make information beautiful
@@ -205,9 +162,6 @@ tools:
     filters:
       - '407'
       - '408'
-      - posters
-      - presentations
-      - charts and tables
     type: external link
   - title: SPSS
     subtitle: Free access provided through virtual desktop
@@ -216,11 +170,6 @@ tools:
     filters:
       - '407'
       - '408'
-      - data summary
-      - data interpretation
-      - charts and tables
-      - coding
-      - statistics
     type: external link
   - title: Survey Monkey
     subtitle: Free access through SESP account
@@ -229,11 +178,6 @@ tools:
     filters:
       - '407'
       - '408'
-      - data collection
-      - data summary
-      - data interpretation
-      - charts and tables
-      - surveys
     type: internal pages
   - title: Tape A Call
     subtitle: Record iPhone and Android calls
@@ -242,9 +186,6 @@ tools:
     filters:
       - '407'
       - '408'
-      - data collection
-      - data summary
-      - interviews
     type: external link
   - title: Wreally Transcribe
     subtitle: Free web app to take the pain out of transcribing
@@ -253,11 +194,6 @@ tools:
     filters:
       - '407'
       - '408'
-      - data collection
-      - data summary
-      - focus groups
-      - interviews
-      - observations
     type: external link
   - title: Zotero
     subtitle: Manage references and generate citations
@@ -267,20 +203,16 @@ tools:
       - '406'
       - '407'
       - '408'
-      - literature review
-      - references
     type: external link
 templates:
   - title: MP APA Word Template
-    subtitle: Word Template for Master's Project
-    icon_path: /img/document.png
+    subtitle: "Word Template for Master's Project"
+    icon_path: /img/sheet.png
     link_path:
     filters:
       - '407'
       - '408'
-      - posters
-      - presentations
-      - charts and tables
+      - '406'
     type: download
 ---
 
@@ -293,7 +225,7 @@ templates:
     <section class="guide-section">
         <div class="container wide">
             <a href="#/researchquestions" class="filter" data-filter=".researchquestions"><div class="guide" ng-click="selectGuide('Research Questions')" ng-class="{'active':guide == 'researchquestions'}">
-                <div class="icon"><img ng-if="guide != 'researchquestions'" src="{{ site.baseurl }}/img/guide_icons/research_question.png"><img ng-if="guide == 'researchquestions'" src="{{ site.baseurl }}/img/guide_icons/white_research_question.png"></div>
+                <div class="icon"><img ng-if="guide != 'researchquestions'" src="{{ site.baseurl }}/img/guide_icons/research_question.png" /><img ng-if="guide == 'researchquestions'" src="{{ site.baseurl }}/img/guide_icons/white_research_question.png" /></div>
                 <div class="text">
                     <h3>Research Questions</h3>
                     <p>The guiding question that your Master's Project is aimed at answering.</p>
@@ -301,7 +233,7 @@ templates:
                 <div class="arrow-right"></div>
             </div></a>
             <a href="#/abstract" class="filter" data-filter=".abstract"><div class="guide" ng-click="selectGuide('Abstract')" ng-class="{active:guide == 'abstract'}">
-                <div class="icon"><img ng-if="guide != 'abstract'" src="{{ site.baseurl }}/img/guide_icons/abstract.png"><img ng-if="guide == 'abstract'" src="{{ site.baseurl }}/img/guide_icons/white_abstract.png"></div>
+                <div class="icon"><img ng-if="guide != 'abstract'" src="{{ site.baseurl }}/img/guide_icons/abstract.png" /><img ng-if="guide == 'abstract'" src="{{ site.baseurl }}/img/guide_icons/white_abstract.png" /></div>
                 <div class="text">
                     <h3>Abstract</h3>
                     <p>Short summary of the Master's Project. Written at the very end.</p>
@@ -309,7 +241,7 @@ templates:
                 <div class="arrow-right"></div>
             </div></a>
             <a href="#/introduction" class="filter" data-filter=".introduction"><div class="guide" ng-click="selectGuide('Introduction')" ng-class="{active:guide == 'introduction'}">
-                <div class="icon"><img ng-if="guide != 'introduction'" src="{{ site.baseurl }}/img/guide_icons/intro-background.png"><img ng-if="guide == 'introduction'" src="{{ site.baseurl }}/img/guide_icons/white_intro-background.png"></div>
+                <div class="icon"><img ng-if="guide != 'introduction'" src="{{ site.baseurl }}/img/guide_icons/intro-background.png" /><img ng-if="guide == 'introduction'" src="{{ site.baseurl }}/img/guide_icons/white_intro-background.png" /></div>
                 <div class="text">
                     <h3>Introduction and Background</h3>
                     <p>Overview and introduction to the MP including rationale.</p>
@@ -317,7 +249,7 @@ templates:
                 <div class="arrow-right"></div>
             </div></a>
             <a href="#/literaturereview" class="filter" data-filter=".literaturereview"><div class="guide" ng-click="selectGuide('Literature Review')" ng-class="{active:guide == 'literaturereview'}">
-                <div class="icon"><img ng-if="guide != 'literaturereview'" src="{{ site.baseurl }}/img/guide_icons/literature_review.png"><img ng-if="guide == 'literaturereview'" src="{{ site.baseurl }}/img/guide_icons/white_literature_review.png"></div>
+                <div class="icon"><img ng-if="guide != 'literaturereview'" src="{{ site.baseurl }}/img/guide_icons/literature_review.png" /><img ng-if="guide == 'literaturereview'" src="{{ site.baseurl }}/img/guide_icons/white_literature_review.png" /></div>
                 <div class="text">
                     <h3>Literature Review</h3>
                     <p>Analysis of existing literature including gaps and shortcomings.</p>
@@ -325,7 +257,7 @@ templates:
                 <div class="arrow-right"></div>
             </div></a>
             <a href="#/datacollection" class="filter" data-filter=".datacollection"><div class="guide" ng-click="selectGuide('Data Collection')" ng-class="{active:guide == 'datacollection'}">
-                <div class="icon"><img ng-if="guide != 'datacollection'" src="{{ site.baseurl }}/img/guide_icons/data_collection_methods.png"><img ng-if="guide == 'datacollection'" src="{{ site.baseurl }}/img/guide_icons/white_data_collection_methods.png"></div>
+                <div class="icon"><img ng-if="guide != 'datacollection'" src="{{ site.baseurl }}/img/guide_icons/data_collection_methods.png" /><img ng-if="guide == 'datacollection'" src="{{ site.baseurl }}/img/guide_icons/white_data_collection_methods.png" /></div>
                 <div class="text">
                     <h3>Data Collection Methods</h3>
                     <p>Data collection strategies and triangulation of data.</p>
@@ -333,7 +265,7 @@ templates:
                 <div class="arrow-right"></div>
             </div></a>
             <a href="#/datasummary" class="filter" data-filter=".datasummary"><div class="guide" ng-click="selectGuide('Data Summary')" ng-class="{active:guide == 'datasummary'}">
-                <div class="icon"><img ng-if="guide != 'datasummary'" src="{{ site.baseurl }}/img/guide_icons/data_summary.png"><img ng-if="guide == 'datasummary'" src="{{ site.baseurl }}/img/guide_icons/white_data_summary.png"></div>
+                <div class="icon"><img ng-if="guide != 'datasummary'" src="{{ site.baseurl }}/img/guide_icons/data_summary.png" /><img ng-if="guide == 'datasummary'" src="{{ site.baseurl }}/img/guide_icons/white_data_summary.png" /></div>
                 <div class="text">
                     <h3>Data Results Summary</h3>
                     <p>Summary of data collected. </p>
@@ -341,7 +273,7 @@ templates:
                 <div class="arrow-right"></div>
             </div></a>
             <a href="#/datainterpretation" class="filter" data-filter=".datainterpretation"><div class="guide" ng-click="selectGuide('Data Interpretation')" ng-class="{active:guide == 'datainterpretation'}">
-                <div class="icon"><img ng-if="guide != 'datainterpretation'" src="{{ site.baseurl }}/img/guide_icons/data_interpretation.png"><img ng-if="guide == 'datainterpretation'" src="{{ site.baseurl }}/img/guide_icons/white_data_interpretation.png"></div>
+                <div class="icon"><img ng-if="guide != 'datainterpretation'" src="{{ site.baseurl }}/img/guide_icons/data_interpretation.png" /><img ng-if="guide == 'datainterpretation'" src="{{ site.baseurl }}/img/guide_icons/white_data_interpretation.png" /></div>
                 <div class="text">
                     <h3>Data Interpretation</h3>
                     <p>Analysis of data collected, especially as it relates to MPQ and Literature.</p>
@@ -349,7 +281,7 @@ templates:
                 <div class="arrow-right"></div>
             </div></a>
             <a href="#/conclusion" class="filter" data-filter=".conclusion"><div class="guide" ng-click="selectGuide('Conclusion')" ng-class="{active:guide == 'conclusion'}">
-                <div class="icon"><img ng-if="guide != 'conclusion'" src="{{ site.baseurl }}/img/guide_icons/conclusion.png"><img ng-if="guide == 'conclusion'" src="{{ site.baseurl }}/img/guide_icons/white_conclusion.png"></div>
+                <div class="icon"><img ng-if="guide != 'conclusion'" src="{{ site.baseurl }}/img/guide_icons/conclusion.png" /><img ng-if="guide == 'conclusion'" src="{{ site.baseurl }}/img/guide_icons/white_conclusion.png" /></div>
                 <div class="text">
                     <h3>Conclusion</h3>
                     <p>Summary of findings/master's project.</p>
@@ -371,7 +303,7 @@ templates:
             <a href="#/"><div class="close" ng-click="go()"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
             <div class="guide-details" ng-show="tab == 'details'">
             <div class="section-title">
-                <img src="{{ site.baseurl }}/img/guide_icons/research_question.png"><h2>Research Questions</h2>
+                <img src="{{ site.baseurl }}/img/guide_icons/research_question.png" /><h2>Research Questions</h2>
                 
             </div>
             <div class="guide-content">
@@ -388,7 +320,7 @@ templates:
             <a href="#/"><div class="close" ng-click="go()"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
             <div class="guide-details" ng-show="tab == 'details'">
             <div class="section-title">
-                <img src="{{ site.baseurl }}/img/guide_icons/abstract.png"><h2>Abstract</h2>
+                <img src="{{ site.baseurl }}/img/guide_icons/abstract.png" /><h2>Abstract</h2>
             </div>
             <div class="guide-content">
             {% include abstract.html %}
@@ -404,7 +336,7 @@ templates:
             <a href="#/"><div class="close" ng-click="go()"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
             <div class="guide-details" ng-show="tab == 'details'">
             <div class="section-title">
-                <img src="{{ site.baseurl }}/img/guide_icons/intro-background.png"><h2>Introduction and Background</h2>
+                <img src="{{ site.baseurl }}/img/guide_icons/intro-background.png" /><h2>Introduction and Background</h2>
             </div>
             <div class="guide-content">
             {% include introduction.html %}
@@ -420,7 +352,7 @@ templates:
             <a href="#/"><div class="close" ng-click="go()"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
             <div class="guide-details" ng-show="tab == 'details'">
             <div class="section-title">
-                <img src="{{ site.baseurl }}/img/guide_icons/literature_review.png"><h2>Literature Review</h2>
+                <img src="{{ site.baseurl }}/img/guide_icons/literature_review.png" /><h2>Literature Review</h2>
             </div>
             <div class="guide-content editable">
                 {% include literature_review.html %}
@@ -436,7 +368,7 @@ templates:
             <a href="#/"><div class="close" ng-click="go()"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
             <div class="guide-details" ng-show="tab == 'details'">
             <div class="section-title">
-                <img src="{{ site.baseurl }}/img/guide_icons/data_collection_methods.png"><h2>Data Collection Methods</h2>
+                <img src="{{ site.baseurl }}/img/guide_icons/data_collection_methods.png" /><h2>Data Collection Methods</h2>
             </div>
             <div class="guide-content">
             {% include data_collection.html %}
@@ -452,7 +384,7 @@ templates:
             <a href="#/"><div class="close" ng-click="go()"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
             <div class="guide-details" ng-show="tab == 'details'">
             <div class="section-title">
-                <img src="{{ site.baseurl }}/img/guide_icons/data_summary.png"><h2>Data Results Summary</h2>
+                <img src="{{ site.baseurl }}/img/guide_icons/data_summary.png" /><h2>Data Results Summary</h2>
             </div>
             <div class="guide-content">
             {% include data_summary.html %}
@@ -468,7 +400,7 @@ templates:
             <a href="#/"><div class="close" ng-click="go()"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
             <div class="guide-details" ng-show="tab == 'details'">
             <div class="section-title">
-                <img src="{{ site.baseurl }}/img/guide_icons/data_interpretation.png"><h2>Data Interpretation</h2>
+                <img src="{{ site.baseurl }}/img/guide_icons/data_interpretation.png" /><h2>Data Interpretation</h2>
             </div>
             <div class="guide-content">
             {% include data_interpretation.html %}
@@ -484,7 +416,7 @@ templates:
             <a href="#/"><div class="close" ng-click="go()"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
             <div class="guide-details" ng-show="tab == 'details'">
             <div class="section-title">
-                <img src="{{ site.baseurl }}/img/guide_icons/conclusion.png"><h2>Conclusion</h2>
+                <img src="{{ site.baseurl }}/img/guide_icons/conclusion.png" /><h2>Conclusion</h2>
             </div>
             <div class="guide-content">
             {% include conclusion.html %}

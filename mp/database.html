@@ -66,9 +66,8 @@ categories:
                     <tr ng-show="show == 'true'">
                         <td></td>
                         <td colspan="2" class="details">
-                            <p>{{ project.question }}</p>
                             {% if project.tags != '' %}<p class="subheader"><i class="fa fa-tags" aria-hidden="true"></i> {{ project.tags | join: ', ' }}</p>{% endif %}
-                        
+                            <p>{{ project.question }}</p>
                         </td>
                     </tr>
                     <tr ng-show="show == 'true'">

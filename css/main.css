@@ -515,9 +515,8 @@ table td {
 }
 
 .details {
-    padding-left: 8px;
-    border-left: 2px solid #999;
-    padding-bottom: 0;
+    padding: 0 0 0 8px;
+    /*border-left: 2px solid #999;*/
 }
 
 .showDetails {

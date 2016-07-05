@@ -691,3 +691,22 @@ table td {
     margin: 40px 15px;
     line-height: 1.4em;
 }
+
+#markdown-toc {
+    position: absolute;
+    width: 20%;
+    top: 90px;
+    right: 20px;
+    margin: 0 0 100px 20px;
+}
+
+#markdown-toc:before {
+    content: "Contents";
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-left: -20px;
+}
+
+.inner-wrapper {
+    width: 75%;
+}

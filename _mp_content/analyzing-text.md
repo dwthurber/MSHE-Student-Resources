@@ -1,10 +1,16 @@
 ---
+title: Analyzing Text
 header: false
-title: MP Guides
-page-title: Analyzing Text
+mp_guide: true
 ---
+* TOC
+{:toc}
 
 #### Wordle ([www.wordle.com](www.wordle.com))
+
+## Test
+
+### Other Test
 
 Wordle is a fun (though non-scientific) way to analyze themes in text. Wordle will generate an image of words where the most frequently used words are larger.
 

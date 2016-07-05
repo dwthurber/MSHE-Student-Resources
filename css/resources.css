@@ -319,8 +319,8 @@ body {
 .guide {
     display: inline-block;
     height: 85px;
-    width: 230px;
-    margin: 20px 25px 0 0;
+    width: 220px;
+    margin: 20px 24px 0 0;
     background-color: #fff;
     position: relative;
     padding: 15px;
@@ -340,7 +340,7 @@ body {
 }
 
 .guide .icon img {
-    width: 40px;
+    width: 30px;
     height: auto;
 }
 

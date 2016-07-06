@@ -209,7 +209,7 @@ aids:
       - Data Interpretation
     type: internal page
   - title: 'Creating Presentations'
-    subtitle: 'Poster options, what to include, and design tips'
+    subtitle: 'Presentation options, what to include, and tips'
     icon_path: /img/guide_icons/presentation.png
     link_path: '/mp_content/presentations.html'
     filters:
@@ -784,7 +784,7 @@ templates:
                     <h2>{{ item.title }}</h2>
                     <p>{{ item.subtitle }}</p>
                 </div>
-                {% if item.type == 'external link' %}<a href="{{ item.link_path }}" target="_blank">{% else %}<a href="{{ item.link_path }}">{% endif %}
+                {% if item.type == 'external link' %}<a href="{{ item.link_path }}" target="_blank">{% else %}<a href="{{ item.link_path | prepend: site.baseurl }}">{% endif %}
                     <div class="mix-hover hidden">
                         <p><i class="fa fa-tags"></i> {{ item.filters | join:', ' }}</p>
                         {% if item.type == 'external link' %}<i class="fa fa-external-link fa-3x action"></i>{% endif %}
@@ -806,7 +806,7 @@ templates:
                     <h2>{{ item.title }}</h2>
                     <p>{{ item.subtitle }}</p>
                 </div>
-                {% if item.type == 'external link' %}<a href="{{ item.link_path }}" target="_blank">{% else %}<a href="{{ item.link_path }}">{% endif %}
+                {% if item.type == 'external link' %}<a href="{{ item.link_path }}" target="_blank">{% else %}<a href="{{ item.link_path | prepend: site.baseurl }}">{% endif %}
                     <div class="mix-hover hidden">
                         <p><i class="fa fa-tags"></i> {{ item.filters | join:', ' }}</p>
                         {% if item.type == 'external link' %}<i class="fa fa-external-link fa-3x action"></i>{% endif %}
@@ -828,7 +828,7 @@ templates:
                     <h2>{{ item.title }}</h2>
                     <p>{{ item.subtitle }}</p>
                 </div>
-                {% if item.type == 'external link' %}<a href="{{ item.link_path }}" target="_blank">{% else %}<a href="{{ item.link_path }}">{% endif %}
+                {% if item.type == 'external link' %}<a href="{{ item.link_path }}" target="_blank">{% else %}<a href="{{ item.link_path | prepend: site.baseurl }}">{% endif %}
                     <div class="mix-hover hidden">
                         <p><i class="fa fa-tags"></i> {{ item.filters | join:', ' }}</p>
                         {% if item.type == 'external link' %}<i class="fa fa-external-link fa-3x action"></i>{% endif %}
@@ -850,7 +850,7 @@ templates:
                     <h2>{{ item.title }}</h2>
                     <p>{{ item.subtitle }}</p>
                 </div>
-                {% if item.type == 'external link' %}<a href="{{ item.link_path }}" target="_blank">{% else %}<a href="{{ item.link_path }}">{% endif %}
+                {% if item.type == 'external link' %}<a href="{{ item.link_path }}" target="_blank">{% else %}<a href="{{ item.link_path | prepend: site.baseurl }}">{% endif %}
                     <div class="mix-hover hidden">
                         <p><i class="fa fa-tags"></i> {{ item.filters | join:', ' }}</p>
                         {% if item.type == 'external link' %}<i class="fa fa-external-link fa-3x action"></i>{% endif %}
@@ -872,7 +872,7 @@ templates:
                     <h2>{{ item.title }}</h2>
                     <p>{{ item.subtitle }}</p>
                 </div>
-                {% if item.type == 'external link' %}<a href="{{ item.link_path }}" target="_blank">{% else %}<a href="{{ item.link_path }}">{% endif %}
+                {% if item.type == 'external link' %}<a href="{{ item.link_path }}" target="_blank">{% else %}<a href="{{ item.link_path | prepend: site.baseurl }}">{% endif %}
                     <div class="mix-hover hidden">
                         <p><i class="fa fa-tags"></i> {{ item.filters | join:', ' }}</p>
                         {% if item.type == 'external link' %}<i class="fa fa-external-link fa-3x action"></i>{% endif %}

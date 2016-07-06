@@ -10,21 +10,7 @@ layout: default
 <section class="main">
     <div class="container wide light">
         <p>You are here: &nbsp;&nbsp;&nbsp; <a href="{{ site.baseurl }}/mp/">MP Guides</a> > {{ page.title }}</p>
-        <div class="inner-wrapper">
         <h2>{{ page.title }}</h2>
         {{ page.content }}
-        </div>
     </div>
 </section>
-
-<script>
-    $(document).ready(function() {
-        $(window).scroll(function(){
-          if ($(this).scrollTop() > 378) {
-              $('#markdown-toc').addClass('fix-toc');
-          } else {
-              $('#markdown-toc').removeClass('fix-toc');
-          }
-      });
-    });
-</script>

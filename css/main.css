@@ -716,6 +716,10 @@ table td {
     border-bottom: 1px solid #eee;
 }
 
+#markdown-toc li:last-of-type {
+    border-bottom: none;
+}
+
 #markdown-toc > li {
     border-left: 3px solid #4e2a84;
 }

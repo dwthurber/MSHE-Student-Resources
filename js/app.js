@@ -194,6 +194,7 @@ var topicsApp = angular.module('topicsApp', ['ngRoute']);
             $('.group').mixItUp({
                 load: {
             		filter: mixitup,
+            		sort: 'name:asc',
             	}, 
             	selectors: {
             		target: '.resource'

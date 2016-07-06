@@ -95,23 +95,6 @@ aids:
       - Data Interpretation
       - Conclusion
     type: download
-  - title: Tips on Conducting a Lit Review
-    subtitle: A great resource from the University of Toronto that explains what a literature review is and tips on how to write a good one
-    icon_path:
-    link_path:
-    filters:
-      - '406'
-    guides:
-      - Literature Review
-    type: external link
-  - title: Slowing Down Audio Recording
-    subtitle: A website with tips on how to slow down your audio recording; helpful for interview transcriptions.
-    icon_path:
-    link_path: 'http://sites.lafayette.edu/fllrc/files/2011/08/Tech-Tip_audioSlowdown.pdf'
-    filters:
-      - '407'
-      - Focus Groups
-      - Interviews
   - title: Forming Research Question Worksheet
     subtitle: Use literature analysis to help form MPQ.
     icon_path: /img/sheet.png
@@ -213,16 +196,18 @@ aids:
     guides:
       - Data Summary
     type: download
-  - title: Executive Summary Guide
-    subtitle: By Lisa Metzger-Mugg
-    icon_path: /img/sheet.png
-    link_path: 'https://northwestern.box.com/shared/static/c1xfjc7zh65v9jqa4ze2ys4m2n8gzi9y.pdf'
+  - title: 'Creating Posters'
+    subtitle: 'Poster options, what to include, and design tips'
+    icon_path: /img/guide_icons/poster_session.png
+    link_path: '/mp_content/posters.html'
     filters:
       - '407'
       - Charts and Tables
+      - Posters
     guides:
       - Data Summary
-    type: download
+      - Data Interpretation
+    type: internal page
 resources:
   - title: NU Library Education Guide
     subtitle: Browse the Northwestern Library resources related to Education
@@ -275,7 +260,7 @@ resources:
   - title: Tips on Conducting a Lit Review
     subtitle: A great resource from the University of Toronto that explains what a literature review is and tips on how to write a good one
     icon_path:
-    link_path:
+    link_path: 'http://www.writing.utoronto.ca/advice/specific-types-of-writing/literature-review'
     filters:
       - '406'
       - Existing Data
@@ -372,7 +357,7 @@ tools:
   - title: Lynda.com
     subtitle: Online learning videos for technology and graphics
     icon_path: /img/lynda.com-logo.png
-    link_path: /pages/lynda.html
+    link_path: /mp_content/lynda.html
     filters:
       - '406'
       - '407'
@@ -476,7 +461,6 @@ tools:
       - Observations
     guides:
       - Data Summary
-      - Data Interpretation
     type: external link
   - title: Zotero
     subtitle: Manage references and generate citations
@@ -530,7 +514,7 @@ templates:
                 <div class="icon"><img ng-if="guide != 'abstract'" src="{{ site.baseurl }}/img/guide_icons/abstract.png" /><img ng-if="guide == 'abstract'" src="{{ site.baseurl }}/img/guide_icons/white_abstract.png" /></div>
                 <div class="text">
                     <h3>Abstract</h3>
-                    <p>Short summary of the Master's Project. Written at the very end.</p>
+                    <p>Very short summary of the Master's Project.</p>
                 </div>
                 <div class="arrow-right"></div>
             </div></a>
@@ -579,6 +563,14 @@ templates:
                 <div class="text">
                     <h3>Conclusion</h3>
                     <p>Summary of findings/master's project.</p>
+                </div>
+                <div class="arrow-right"></div>
+            </div></a>
+            <a href="#/executivesummary" class="filter" data-filter=".executivesummary"><div class="guide" ng-click="selectGuide('Executive Summary')" ng-class="{active:guide == 'executivesummary'}">
+                <div class="icon"><img ng-if="guide != 'executivesummary'" src="{{ site.baseurl }}/img/guide_icons/executive_summary.png" /><img ng-if="guide == 'executivesummary'" src="{{ site.baseurl }}/img/guide_icons/white_executive_summary.png" /></div>
+                <div class="text">
+                    <h3>Executive Summary</h3>
+                    <p>A concise, yet thorough, overview of your study.</p>
                 </div>
                 <div class="arrow-right"></div>
             </div></a>
@@ -722,6 +714,22 @@ templates:
             </div>
             </div>
         </div>
+        <div class="guide-section" ng-if="guide == 'executivesummary'">
+            <a href="#/"><div class="close" ng-click="go()"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
+            <div class="guide-details" ng-show="tab == 'details'">
+            <div class="section-title">
+                <img src="{{ site.baseurl }}/img/guide_icons/executive_summary.png" /><h2>Executive Summary</h2>
+            </div>
+            <div class="guide-content">
+            {% include executive_summary.html %}
+            </div>
+            </div>
+            <div class="readings" ng-show="tab == 'readings'">
+            <div class="section-title">
+                <h2><i class="fa fa-book" aria-hidden="true"></i> Executive Summary Readings</h2>
+            </div>
+            </div>
+        </div>
         </div>
         <div class="container wide light">
         <div class="section-title">
@@ -732,7 +740,6 @@ templates:
                 <div class="filter class-filter" data-filter=".406">406</div>
                 <div class="filter class-filter" data-filter=".407">407</div>
                 <div class="filter class-filter" data-filter=".408">408</div>
-                <div class="filter mp-filter" data-filter=".executivesummary">Executive Summary</div>
                 <div class="filter mp-filter" data-filter=".irb">IRB</div>
                 <div class="filter mp-filter" data-filter=".posters">Posters</div>
                 <div class="filter mp-filter" data-filter=".presentations">Presentations</div>

@@ -76,7 +76,6 @@ filters:
   - '406'
   - '407'
   - '408'
-  - Executive Summary
   - IRB
   - Posters
   - Presentations
@@ -101,6 +100,7 @@ guides:
   - Data Summary
   - Data Interpretation
   - Conclusion
+  - Executive Summary
   
 consent: 
   - true

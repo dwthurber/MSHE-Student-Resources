@@ -218,6 +218,16 @@ aids:
     guides:
       - Conclusion
     type: internal page
+  - title: 'Abstract vs Executive Summary'
+    subtitle: 'Explanation of the key differences'
+    icon_path: /img/sheet.png
+    link_path: 'https://northwestern.box.com/shared/static/al3dwvcx098iisqj5f4k34b26ak1ffuk.pdf'
+    filters:
+      - '408'
+    guides:
+      - Executive Summary
+      - Abstract
+    type: download
 resources:
   - title: NU Library Education Guide
     subtitle: Browse the Northwestern Library resources related to Education
@@ -740,8 +750,8 @@ templates:
             </div>
             </div>
         </div>
-        </div>
-        <div class="container wide light">
+    </div>
+    <div class="container wide light">
         <div class="section-title">
         <h2><i class="fa fa-th" aria-hidden="true"></i> <span ng-if="guide == ''">All</span><span ng-if="guide != ''">{% raw %}{{ guideText }}{% endraw %}</span> Content</h2>
         </div>
@@ -787,7 +797,6 @@ templates:
             </a></div>
             {% endfor %}
         </div>
-        
         <div class="flex-container group">
             <h3 class="flex-header editable" id="resources">External Resources</h3>
             {% for item in page.resources %}
@@ -810,7 +819,6 @@ templates:
             </a></div>
             {% endfor %}
         </div>
-        
         <div class="flex-container group">
             <h3 class="flex-header editable" id="rubrics">Rubrics</h3>
             {% for item in page.rubrics %}
@@ -833,7 +841,6 @@ templates:
             </a></div>
             {% endfor %}
         </div>
-        
         <div class="flex-container group">
             <h3 class="flex-header editable" id="technology">Technology Tools</h3>
             {% for item in page.tools %}
@@ -856,7 +863,6 @@ templates:
             </a></div>
             {% endfor %}
         </div>
-        
         <div class="flex-container group">
             <h3 class="flex-header editable" id="templates">Templates</h3>
             {% for item in page.templates %}
@@ -879,7 +885,6 @@ templates:
             </a></div>
             {% endfor %}
         </div>
-            
     </div>
     <div class="scrolltop">
         <p><a href="#top" class="smoothScroll"><i class="fa fa-arrow-up fa-lg"></i></a></p>

@@ -694,31 +694,43 @@ table td {
 
 #markdown-toc {
     position: absolute;
-    width: 20%;
-    top: 90px;
+    top: 18px;
     right: 18px;
-    margin: 0 0 100px 20px;
+    margin: 10px 0;
+    width: 25%;
+    /*background-color: #eee;*/
+    /*border-radius: 10px;*/
+    padding: 10px 15px;
+    border: 1px solid #eee;
+}
+
+#markdown-toc ul {
+    padding-left: 0;
+    margin-top: 10px;
 }
 
 #markdown-toc li {
-    list-style-type: inherit;
-    padding: 0;
+    list-style-type: none;
+    padding: 0 0 0 10px;
+    font-size: 0.8em;
+    border-bottom: 1px solid #eee;
+}
+
+#markdown-toc > li {
+    border-left: 3px solid #4e2a84;
+}
+
+#markdown-toc > li:hover {
+    border-left: 3px solid #999;
+    color: #999;
+    transition-duration: 0.3s;
 }
 
 #markdown-toc:before {
-    content: "Contents";
+    content: "On this page:";
     font-weight: bold;
-    font-size: 1.3em;
-    margin-left: -20px;
-}
-
-.inner-wrapper {
-    width: 75%;
-    padding-right: 10px;
-}
-
-.fix-toc {
-    position: fixed!important;
-    top: 20px!important;
-    right: 35px!important;
+    font-size: 0.9em;
+    /*border-bottom: 1px dotted #4e2a84;*/
+    display: block;
+    margin-bottom: 10px
 }

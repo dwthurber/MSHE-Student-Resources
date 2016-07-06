@@ -693,10 +693,12 @@ table td {
 }
 
 #markdown-toc {
-    position: absolute;
-    top: 18px;
-    right: 18px;
-    margin: 10px 0;
+    /*position: relative;*/
+    /*top: -18px;*/
+    /*right: 18px;*/
+    /*float: left;*/
+    display: block;
+    margin: 10px 0px;
     width: 25%;
     /*background-color: #eee;*/
     /*border-radius: 10px;*/
@@ -706,7 +708,7 @@ table td {
 
 #markdown-toc ul {
     padding-left: 0;
-    margin-top: 10px;
+    /*margin-top: 10px;*/
 }
 
 #markdown-toc li {

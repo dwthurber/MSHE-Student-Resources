@@ -1,4 +1,3 @@
 var tipuesearch = {"pages": [
-    {% for item in site.info %}{"title": "{{ item.title }}", "text": "{{ item.description }}", "tags": "{{ item.categories | join: ' ' }}", "url": "{{ item.url | prepend:site.baseurl }}"},
-    {% endfor %}
+    {% for item in site.info %}{"title": "{{ item.title }}", "text": "{{ item.description }}", "tags": "{{ item.categories | join: ' ' }}", "url": "{{ item.url | prepend:site.baseurl }}"},{% endfor %}
 ]};

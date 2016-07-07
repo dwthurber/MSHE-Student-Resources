@@ -1,4 +1,4 @@
-body {
+.grey-background {
     background-color: #eee;
 }
 
@@ -395,4 +395,19 @@ body {
 
 .guide-content {
     padding: 0 15px;
+}
+
+.purple-box {
+    background-color: #836EAA;
+}
+
+.purple-box > .resource-content {
+    background-color: #4e2a84;
+    width: 100%;
+    left: 0;
+    padding: 10px;
+}
+
+.purple-box > .mix-hover {
+    background-color: #4e2a84;
 }

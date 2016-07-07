@@ -351,7 +351,7 @@ aside ul li a.active {
     color: #fff;
     position: absolute;
     bottom: 0;
-    background-color: rgba(78,42,132, 0.6);
+    background-color: rgba(48,16,78, 0.6);
 }
 
 .breadcrumbs {

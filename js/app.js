@@ -91,6 +91,17 @@ var topicsApp = angular.module('topicsApp', ['ngRoute']);
                     $matching = $matching.add(this);
                 }
             });
+            
+            $('.resource').each(function(){
+                var $this = $(this);
+                if (
+                  ($this.find('.resource-content').text().toLowerCase().indexOf(searchString) > -1) ||
+                  ($this.find('.resource-tags').text().toLowerCase().indexOf(searchString) > -1)
+                ) {
+                    $matching = $matching.add(this);
+                }
+            });
+            $('.group').mixItUp('filter', $matching);
             $('#Container').mixItUp('filter', $matching);
          };
          

@@ -766,6 +766,7 @@ templates:
     <div class="container wide light">
         <div class="section-title">
         <h2><i class="fa fa-th" aria-hidden="true"></i> <span ng-if="guide == ''">All</span><span ng-if="guide != ''">{% raw %}{{ guideText }}{% endraw %}</span> Content</h2>
+        <div class="resource-input-filter" ng-if="guide == ''"><i class="fa fa-search input-filter-icon"></i><input class="input-filter input-short" id-"input-filter" ng-model="inputFilter" ng-change="inputChange()" placeholder="Start typing to filter..."></div>
         </div>
         <div id="category" class="categories" ng-show="guide == ''">
                 <div class="filter" data-filter="all">Show All</div>
@@ -799,7 +800,7 @@ templates:
                 </div>
                 {% if item.type == 'external link' %}<a href="{{ item.link_path }}" target="_blank">{% else %}<a href="{{ item.link_path | prepend: site.baseurl }}">{% endif %}
                     <div class="mix-hover hidden">
-                        <p><i class="fa fa-tags"></i> {{ item.filters | join:', ' }}</p>
+                        <p class="resource-tags"><i class="fa fa-tags"></i> {{ item.filters | join:', ' }}</p>
                         {% if item.type == 'external link' %}<i class="fa fa-external-link fa-3x action"></i>{% endif %}
                         {% if item.type == 'download' %}<i class="fa fa-download fa-3x action"></i>{% endif %}
                     </div>
@@ -821,7 +822,7 @@ templates:
                 </div>
                 {% if item.type == 'external link' %}<a href="{{ item.link_path }}" target="_blank">{% else %}<a href="{{ item.link_path | prepend: site.baseurl }}">{% endif %}
                     <div class="mix-hover hidden">
-                        <p><i class="fa fa-tags"></i> {{ item.filters | join:', ' }}</p>
+                        <p class="resource-tags"><i class="fa fa-tags"></i> {{ item.filters | join:', ' }}</p>
                         {% if item.type == 'external link' %}<i class="fa fa-external-link fa-3x action"></i>{% endif %}
                         {% if item.type == 'download' %}<i class="fa fa-download fa-3x action"></i>{% endif %}
                     </div>
@@ -843,7 +844,7 @@ templates:
                 </div>
                 {% if item.type == 'external link' %}<a href="{{ item.link_path }}" target="_blank">{% else %}<a href="{{ item.link_path | prepend: site.baseurl }}">{% endif %}
                     <div class="mix-hover hidden">
-                        <p><i class="fa fa-tags"></i> {{ item.filters | join:', ' }}</p>
+                        <p class="resource-tags"><i class="fa fa-tags"></i> {{ item.filters | join:', ' }}</p>
                         {% if item.type == 'external link' %}<i class="fa fa-external-link fa-3x action"></i>{% endif %}
                         {% if item.type == 'download' %}<i class="fa fa-download fa-3x action"></i>{% endif %}
                     </div>
@@ -865,7 +866,7 @@ templates:
                 </div>
                 {% if item.type == 'external link' %}<a href="{{ item.link_path }}" target="_blank">{% else %}<a href="{{ item.link_path | prepend: site.baseurl }}">{% endif %}
                     <div class="mix-hover hidden">
-                        <p><i class="fa fa-tags"></i> {{ item.filters | join:', ' }}</p>
+                        <p class="resource-tags"><i class="fa fa-tags"></i> {{ item.filters | join:', ' }}</p>
                         {% if item.type == 'external link' %}<i class="fa fa-external-link fa-3x action"></i>{% endif %}
                         {% if item.type == 'download' %}<i class="fa fa-download fa-3x action"></i>{% endif %}
                     </div>
@@ -887,7 +888,7 @@ templates:
                 </div>
                 {% if item.type == 'external link' %}<a href="{{ item.link_path }}" target="_blank">{% else %}<a href="{{ item.link_path | prepend: site.baseurl }}">{% endif %}
                     <div class="mix-hover hidden">
-                        <p><i class="fa fa-tags"></i> {{ item.filters | join:', ' }}</p>
+                        <p class="resource-tags"><i class="fa fa-tags"></i> {{ item.filters | join:', ' }}</p>
                         {% if item.type == 'external link' %}<i class="fa fa-external-link fa-3x action"></i>{% endif %}
                         {% if item.type == 'download' %}<i class="fa fa-download fa-3x action"></i>{% endif %}
                     </div>

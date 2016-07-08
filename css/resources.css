@@ -396,3 +396,14 @@
 .guide-content {
     padding: 0 15px;
 }
+
+.resource-input-filter {
+    position: absolute;
+    top: 35px;
+    right: 25px;
+    
+}
+
+.input-short {
+    width: 200px!important;
+}

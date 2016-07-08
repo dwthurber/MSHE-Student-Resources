@@ -13,7 +13,7 @@ layout: default
     </div>
     
     
-    {% unless page.upcoming_workshop.upcoming_date == 'blank' %}<blockquote>
+    {% if page.upcoming_workshop.upcoming_date != blank %}<blockquote>
         <p class="upcoming-date"><i class="fa fa-calendar" aria-hidden="true"></i> <strong>Next workshop:</strong> {{ page.upcoming_workshop.upcoming_date | date: "%a, %b %-d, %Y" }} at {{ page.upcoming_workshop.start_time }} - {{ page.upcoming_workshop.end_time }} // {{ page.upcoming_workshop.location }}</p>
     </blockquote>{% endif %}
     

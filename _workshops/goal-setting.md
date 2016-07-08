@@ -4,10 +4,10 @@ description: 'Reflection, Self Assessment, and Goal Setting acquaints you with y
 facilitator: 'Audra Nelson, Career Coach'
 icon_path: /img/workshop_icons/icon_assessment.png
 upcoming_workshop
-  upcoming_date: 2016-10-06T00:00:00.000Z
-  start_time: '6:00 pm'
-  end_time: '6:00 pm'
-  location: '6:00 pm'
+    upcoming_date: 2016-10-06T00:00:00.000Z
+    start_time: '6:00 pm'
+    end_time: '6:00 pm'
+    location: '6:00 pm'
 comments: false
 ---
 

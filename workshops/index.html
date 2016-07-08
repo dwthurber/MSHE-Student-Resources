@@ -5,17 +5,17 @@ layout: default
     <section class="container">
         <h2>Workshops</h2>
         <div class="flex-container">
-            <div class="resource">
+            {% for page in site.workshops %}<div class="resource">
+                <img src="{{ page.icon_path | prepend: site.baseurl }}" alt="workshop icon" />
                 <div class="resource-content">
-                    <h2>Test</h2>
+                    <h2>{{ page.title }}</h2>
+                    <p>{{ page.facilitator }}</p>
                 </div>
-            </div>
-            <div class="resource">
-                <div class="resource-content">
-                    <h2>Test</h2>
-                </div>
-                <div class="mix-hover hidden"></div>
-            </div>
+                <a href="{{ page.url | prepend: site.baseurl }}"><div class="mix-hover hidden text-left">
+                    <p>{{ page.description | truncate: 200, ' ... ' }}</p>
+                </div></a>
+            </div>{% endfor %}
+            
         </div>
     </section>
     <br>

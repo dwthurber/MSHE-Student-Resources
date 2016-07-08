@@ -1,5 +1,5 @@
 .grey-background {
-    background-color: #eee;
+    background-color: #efefef;
 }
 
 .hidden {
@@ -260,6 +260,17 @@
     color: #eee;
     text-align: right;
     margin: 0;
+}
+
+.text-left {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.text-left p {
+    text-align: left;
+    font-size: 0.7em;
+    line-height: 1.2em;
+    padding: 8px;
 }
 
 .mix-hover .action {

@@ -5,6 +5,8 @@ collections:
     output: true
   mp_content:
     output: true
+  workshops:
+    output: true
     
 defaults:
   -
@@ -19,6 +21,12 @@ defaults:
       type: "mp_content"
     values:
       layout: "mp-guide-page"
+  - 
+    scope:
+      path: ""
+      type: "workshops"
+    values:
+      layout: "workshop-page"
 
 statuses:
   - newly admitted students

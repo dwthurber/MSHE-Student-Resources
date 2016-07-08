@@ -13,7 +13,7 @@ layout: default
     </div>
     
     <div class="upcoming-date">
-        <p>{{ page.upcoming_date | date: "%a, %b %d, %y" }}</p>
+        <p><i class="fa fa-calendar" aria-hidden="true"></i> Next workshop: {% if page.date != '' %}{{ page.upcoming_date | date: "%a, %b %d, %y" }} at {{ page.upcoming_time }}{% else %} None schedule. Check back for updates. {% endif %}</p>
     </div>
     
     <p>{{ page.description }}</p>

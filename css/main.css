@@ -370,6 +370,15 @@ aside ul li a.active {
     color: #555;
 }
 
+.upcoming-date {
+    margin-top: 10px;
+    color: #555;
+}
+
+.upcoming-date i {
+    color: #4e2a84;
+}
+
 .related-container {
     /*border-top: 2px solid #dedede;*/
     margin-bottom: 55px;

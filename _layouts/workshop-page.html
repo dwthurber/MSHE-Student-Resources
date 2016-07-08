@@ -12,6 +12,10 @@ layout: default
         <p>You are here: &nbsp;&nbsp;&nbsp; <a href="{{ site.baseurl }}/workshops/">Workshops</a> > {{ page.title }}</p>
     </div>
     
+    <div class="upcoming-date">
+        <p>{{ page.upcoming_date | date: "%a, %b %d, %y" }}</p>
+    </div>
+    
     <p>{{ page.description }}</p>
     {{ page.content }}
 </section>

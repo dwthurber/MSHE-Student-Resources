@@ -766,7 +766,7 @@ templates:
     <div class="container wide light">
         <div class="section-title">
         <h2><i class="fa fa-th" aria-hidden="true"></i> <span ng-if="guide == ''">All</span><span ng-if="guide != ''">{% raw %}{{ guideText }}{% endraw %}</span> Content</h2>
-        <div class="resource-input-filter" ng-if="guide == ''"><i class="fa fa-search input-filter-icon"></i><input class="input-filter input-short" id-"input-filter" ng-model="inputFilter" ng-change="inputChange()" placeholder="Start typing to filter..."></div>
+        <div class="resource-input-filter" ng-show="guide == ''"><i class="fa fa-search input-filter-icon"></i><input class="input-filter input-short" id-"input-filter" ng-model="inputFilter" ng-change="inputChange()" placeholder="Start typing to filter..."></div>
         </div>
         <div id="category" class="categories" ng-show="guide == ''">
                 <div class="filter" data-filter="all">Show All</div>

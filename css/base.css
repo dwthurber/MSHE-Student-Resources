@@ -173,3 +173,7 @@ blockquote {
 blockquote p {
   line-height: 1.1em;
 }
+
+.grey {
+	color: #999;
+}

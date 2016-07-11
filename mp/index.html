@@ -632,6 +632,46 @@ templates:
             <div class="section-title">
                 <h2><i class="fa fa-book" aria-hidden="true"></i> Research Questions Readings</h2>
             </div>
+            <div class="guide-content">
+                <h4>Textbook Readings</h4>
+                <table width="100%">
+                    <tr>
+                        <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/merriam-tisdell.jpg" class="book"></td>
+                        <td class="textbook-details">
+                            <h5>Qualitative Research: A Guide to Design and Implementation (JOSSEY-BASS HIGHER & ADULT EDUCATION SERIES) <span class="by-line">4th Edition</span></h5>
+                            <p class="by-line"><strong>By Sharan B. Merriam, Elizabeth J. Tisdell</strong></p>
+                            <div class="chapters">
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 8 <span class="by-line">on data analysis</span></p>
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 8 <span class="by-line">on data analysis</span></p>
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 8 <span class="by-line">on data analysis</span></p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <table width="100%">
+                    <tr>
+                        <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/savin-baden.jpg" class="book"></td>
+                        <td class="textbook-details">
+                            <h5>Qualitative Research: The essential guide to theory and practice</h5>
+                            <p class="by-line"><strong>By Maggi Savin-Baden, Claire Howell Major</strong></p>
+                            <div class="chapters">
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 8 <span class="by-line">on data analysis</span></p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <hr class="subtle">
+                <h4>Other Readings</h4>
+                <table width="100%" class="mp-table reading-table" >
+                    {% for reading in site.data.mp_readings %}{% if reading.guides contains 'Research Questions' %}<tr>
+                        <td width="25px">
+                            {% if reading.format == 'pdf' %}<i class="fa fa-file-pdf-o" aria-hidden="true"></i>{% elsif reading.format == 'word' %}<i class="fa fa-file-word-o" aria-hidden="true"></i>{% elsif reading.format == 'powerpoint' %}<i class="fa fa-file-powerpoint-o" aria-hidden="true"></i>{% elsif reading.format == 'excel' %}<i class="fa fa-file-excel-o" aria-hidden="true"></i>{% elsif reading.format == 'video' %}<i class="fa fa-file-movie-o" aria-hidden="true"></i>{% elsif reading.format == 'photo' %}<i class="fa fa-file-photo-o" aria-hidden="true"></i>{% elsif reading.format == 'other' %}<i class="fa fa-file-text-o" aria-hidden="true"></i>{% endif %}
+                        </td>
+                        <td><a href="{{ reading.link_path }}">{{ reading.title }}</a></td>
+                        <td width="100px" class="grey tip" data-tip="{{ reading.note }}">pp. {{ reading.pages }}</td>
+                    </tr>{% endif %}{% endfor %}
+                </table>
+            </div>
             </div>
         </div>
         <div class="guide-section" ng-if="guide == 'abstract'">
@@ -647,6 +687,46 @@ templates:
             <div class="readings" ng-show="tab == 'readings'">
             <div class="section-title">
                 <h2><i class="fa fa-book" aria-hidden="true"></i> Abstract Readings</h2>
+            </div>
+            <div class="guide-content">
+                <h4>Textbook Readings</h4>
+                <table width="100%">
+                    <tr>
+                        <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/merriam-tisdell.jpg" class="book"></td>
+                        <td class="textbook-details">
+                            <h5>Qualitative Research: A Guide to Design and Implementation (JOSSEY-BASS HIGHER & ADULT EDUCATION SERIES) <span class="by-line">4th Edition</span></h5>
+                            <p class="by-line"><strong>By Sharan B. Merriam, Elizabeth J. Tisdell</strong></p>
+                            <div class="chapters">
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 8 <span class="by-line">on data analysis</span></p>
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 8 <span class="by-line">on data analysis</span></p>
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 8 <span class="by-line">on data analysis</span></p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <table width="100%">
+                    <tr>
+                        <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/savin-baden.jpg" class="book"></td>
+                        <td class="textbook-details">
+                            <h5>Qualitative Research: The essential guide to theory and practice</h5>
+                            <p class="by-line"><strong>By Maggi Savin-Baden, Claire Howell Major</strong></p>
+                            <div class="chapters">
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 8 <span class="by-line">on data analysis</span></p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <hr class="subtle">
+                <h4>Other Readings</h4>
+                <table width="100%" class="mp-table reading-table" >
+                    {% for reading in site.data.mp_readings %}{% if reading.guides contains 'Abstract' %}<tr>
+                        <td width="25px">
+                            {% if reading.format == 'pdf' %}<i class="fa fa-file-pdf-o" aria-hidden="true"></i>{% elsif reading.format == 'word' %}<i class="fa fa-file-word-o" aria-hidden="true"></i>{% elsif reading.format == 'powerpoint' %}<i class="fa fa-file-powerpoint-o" aria-hidden="true"></i>{% elsif reading.format == 'excel' %}<i class="fa fa-file-excel-o" aria-hidden="true"></i>{% elsif reading.format == 'video' %}<i class="fa fa-file-movie-o" aria-hidden="true"></i>{% elsif reading.format == 'photo' %}<i class="fa fa-file-photo-o" aria-hidden="true"></i>{% elsif reading.format == 'other' %}<i class="fa fa-file-text-o" aria-hidden="true"></i>{% endif %}
+                        </td>
+                        <td><a href="{{ reading.link_path }}">{{ reading.title }}</a></td>
+                        <td width="100px" class="grey tip" data-tip="{{ reading.note }}">pp. {{ reading.pages }}</td>
+                    </tr>{% endif %}{% endfor %}
+                </table>
             </div>
             </div>
         </div>
@@ -664,6 +744,46 @@ templates:
             <div class="section-title">
                 <h2><i class="fa fa-book" aria-hidden="true"></i> Introduction and Background Readings</h2>
             </div>
+            <div class="guide-content">
+                <h4>Textbook Readings</h4>
+                <table width="100%">
+                    <tr>
+                        <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/merriam-tisdell.jpg" class="book"></td>
+                        <td class="textbook-details">
+                            <h5>Qualitative Research: A Guide to Design and Implementation (JOSSEY-BASS HIGHER & ADULT EDUCATION SERIES) <span class="by-line">4th Edition</span></h5>
+                            <p class="by-line"><strong>By Sharan B. Merriam, Elizabeth J. Tisdell</strong></p>
+                            <div class="chapters">
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 8 <span class="by-line">on data analysis</span></p>
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 8 <span class="by-line">on data analysis</span></p>
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 8 <span class="by-line">on data analysis</span></p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <table width="100%">
+                    <tr>
+                        <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/savin-baden.jpg" class="book"></td>
+                        <td class="textbook-details">
+                            <h5>Qualitative Research: The essential guide to theory and practice</h5>
+                            <p class="by-line"><strong>By Maggi Savin-Baden, Claire Howell Major</strong></p>
+                            <div class="chapters">
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 8 <span class="by-line">on data analysis</span></p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <hr class="subtle">
+                <h4>Other Readings</h4>
+                <table width="100%" class="mp-table reading-table" >
+                    {% for reading in site.data.mp_readings %}{% if reading.guides contains 'Introduction' %}<tr>
+                        <td width="25px">
+                            {% if reading.format == 'pdf' %}<i class="fa fa-file-pdf-o" aria-hidden="true"></i>{% elsif reading.format == 'word' %}<i class="fa fa-file-word-o" aria-hidden="true"></i>{% elsif reading.format == 'powerpoint' %}<i class="fa fa-file-powerpoint-o" aria-hidden="true"></i>{% elsif reading.format == 'excel' %}<i class="fa fa-file-excel-o" aria-hidden="true"></i>{% elsif reading.format == 'video' %}<i class="fa fa-file-movie-o" aria-hidden="true"></i>{% elsif reading.format == 'photo' %}<i class="fa fa-file-photo-o" aria-hidden="true"></i>{% elsif reading.format == 'other' %}<i class="fa fa-file-text-o" aria-hidden="true"></i>{% endif %}
+                        </td>
+                        <td><a href="{{ reading.link_path }}">{{ reading.title }}</a></td>
+                        <td width="100px" class="grey tip" data-tip="{{ reading.note }}">pp. {{ reading.pages }}</td>
+                    </tr>{% endif %}{% endfor %}
+                </table>
+            </div>
             </div>
         </div>
         <div class="guide-section" ng-if="guide == 'literaturereview'">
@@ -679,6 +799,46 @@ templates:
             <div class="readings" ng-show="tab == 'readings'">
             <div class="section-title">
                 <h2><i class="fa fa-book" aria-hidden="true"></i> Literature Review Readings</h2>
+            </div>
+            <div class="guide-content">
+                <h4>Textbook Readings</h4>
+                <table width="100%">
+                    <tr>
+                        <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/merriam-tisdell.jpg" class="book"></td>
+                        <td class="textbook-details">
+                            <h5>Qualitative Research: A Guide to Design and Implementation (JOSSEY-BASS HIGHER & ADULT EDUCATION SERIES) <span class="by-line">4th Edition</span></h5>
+                            <p class="by-line"><strong>By Sharan B. Merriam, Elizabeth J. Tisdell</strong></p>
+                            <div class="chapters">
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 8 <span class="by-line">on data analysis</span></p>
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 8 <span class="by-line">on data analysis</span></p>
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 8 <span class="by-line">on data analysis</span></p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <table width="100%">
+                    <tr>
+                        <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/savin-baden.jpg" class="book"></td>
+                        <td class="textbook-details">
+                            <h5>Qualitative Research: The essential guide to theory and practice</h5>
+                            <p class="by-line"><strong>By Maggi Savin-Baden, Claire Howell Major</strong></p>
+                            <div class="chapters">
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 8 <span class="by-line">on data analysis</span></p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <hr class="subtle">
+                <h4>Other Readings</h4>
+                <table width="100%" class="mp-table reading-table" >
+                    {% for reading in site.data.mp_readings %}{% if reading.guides contains 'Literature Review' %}<tr>
+                        <td width="25px">
+                            {% if reading.format == 'pdf' %}<i class="fa fa-file-pdf-o" aria-hidden="true"></i>{% elsif reading.format == 'word' %}<i class="fa fa-file-word-o" aria-hidden="true"></i>{% elsif reading.format == 'powerpoint' %}<i class="fa fa-file-powerpoint-o" aria-hidden="true"></i>{% elsif reading.format == 'excel' %}<i class="fa fa-file-excel-o" aria-hidden="true"></i>{% elsif reading.format == 'video' %}<i class="fa fa-file-movie-o" aria-hidden="true"></i>{% elsif reading.format == 'photo' %}<i class="fa fa-file-photo-o" aria-hidden="true"></i>{% elsif reading.format == 'other' %}<i class="fa fa-file-text-o" aria-hidden="true"></i>{% endif %}
+                        </td>
+                        <td><a href="{{ reading.link_path }}">{{ reading.title }}</a></td>
+                        <td width="100px" class="grey tip" data-tip="{{ reading.note }}">pp. {{ reading.pages }}</td>
+                    </tr>{% endif %}{% endfor %}
+                </table>
             </div>
             </div>
         </div>
@@ -696,6 +856,46 @@ templates:
             <div class="section-title">
                 <h2><i class="fa fa-book" aria-hidden="true"></i> Data Collection Readings</h2>
             </div>
+            <div class="guide-content">
+                <h4>Textbook Readings</h4>
+                <table width="100%">
+                    <tr>
+                        <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/merriam-tisdell.jpg" class="book"></td>
+                        <td class="textbook-details">
+                            <h5>Qualitative Research: A Guide to Design and Implementation (JOSSEY-BASS HIGHER & ADULT EDUCATION SERIES) <span class="by-line">4th Edition</span></h5>
+                            <p class="by-line"><strong>By Sharan B. Merriam, Elizabeth J. Tisdell</strong></p>
+                            <div class="chapters">
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 8 <span class="by-line">on data analysis</span></p>
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 8 <span class="by-line">on data analysis</span></p>
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 8 <span class="by-line">on data analysis</span></p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <table width="100%">
+                    <tr>
+                        <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/savin-baden.jpg" class="book"></td>
+                        <td class="textbook-details">
+                            <h5>Qualitative Research: The essential guide to theory and practice</h5>
+                            <p class="by-line"><strong>By Maggi Savin-Baden, Claire Howell Major</strong></p>
+                            <div class="chapters">
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 8 <span class="by-line">on data analysis</span></p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <hr class="subtle">
+                <h4>Other Readings</h4>
+                <table width="100%" class="mp-table reading-table" >
+                    {% for reading in site.data.mp_readings %}{% if reading.guides contains 'Data Collection' %}<tr>
+                        <td width="25px">
+                            {% if reading.format == 'pdf' %}<i class="fa fa-file-pdf-o" aria-hidden="true"></i>{% elsif reading.format == 'word' %}<i class="fa fa-file-word-o" aria-hidden="true"></i>{% elsif reading.format == 'powerpoint' %}<i class="fa fa-file-powerpoint-o" aria-hidden="true"></i>{% elsif reading.format == 'excel' %}<i class="fa fa-file-excel-o" aria-hidden="true"></i>{% elsif reading.format == 'video' %}<i class="fa fa-file-movie-o" aria-hidden="true"></i>{% elsif reading.format == 'photo' %}<i class="fa fa-file-photo-o" aria-hidden="true"></i>{% elsif reading.format == 'other' %}<i class="fa fa-file-text-o" aria-hidden="true"></i>{% endif %}
+                        </td>
+                        <td><a href="{{ reading.link_path }}">{{ reading.title }}</a></td>
+                        <td width="100px" class="grey tip" data-tip="{{ reading.note }}">pp. {{ reading.pages }}</td>
+                    </tr>{% endif %}{% endfor %}
+                </table>
+            </div>
             </div>
         </div>
         <div class="guide-section" ng-if="guide == 'datasummary'">
@@ -711,6 +911,46 @@ templates:
             <div class="readings" ng-show="tab == 'readings'">
             <div class="section-title">
                 <h2><i class="fa fa-book" aria-hidden="true"></i> Data Summary Readings</h2>
+            </div>
+            <div class="guide-content">
+                <h4>Textbook Readings</h4>
+                <table width="100%">
+                    <tr>
+                        <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/merriam-tisdell.jpg" class="book"></td>
+                        <td class="textbook-details">
+                            <h5>Qualitative Research: A Guide to Design and Implementation (JOSSEY-BASS HIGHER & ADULT EDUCATION SERIES) <span class="by-line">4th Edition</span></h5>
+                            <p class="by-line"><strong>By Sharan B. Merriam, Elizabeth J. Tisdell</strong></p>
+                            <div class="chapters">
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 8 <span class="by-line">on data analysis</span></p>
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 8 <span class="by-line">on data analysis</span></p>
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 8 <span class="by-line">on data analysis</span></p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <table width="100%">
+                    <tr>
+                        <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/savin-baden.jpg" class="book"></td>
+                        <td class="textbook-details">
+                            <h5>Qualitative Research: The essential guide to theory and practice</h5>
+                            <p class="by-line"><strong>By Maggi Savin-Baden, Claire Howell Major</strong></p>
+                            <div class="chapters">
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 8 <span class="by-line">on data analysis</span></p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <hr class="subtle">
+                <h4>Other Readings</h4>
+                <table width="100%" class="mp-table reading-table" >
+                    {% for reading in site.data.mp_readings %}{% if reading.guides contains 'Data Summary' %}<tr>
+                        <td width="25px">
+                            {% if reading.format == 'pdf' %}<i class="fa fa-file-pdf-o" aria-hidden="true"></i>{% elsif reading.format == 'word' %}<i class="fa fa-file-word-o" aria-hidden="true"></i>{% elsif reading.format == 'powerpoint' %}<i class="fa fa-file-powerpoint-o" aria-hidden="true"></i>{% elsif reading.format == 'excel' %}<i class="fa fa-file-excel-o" aria-hidden="true"></i>{% elsif reading.format == 'video' %}<i class="fa fa-file-movie-o" aria-hidden="true"></i>{% elsif reading.format == 'photo' %}<i class="fa fa-file-photo-o" aria-hidden="true"></i>{% elsif reading.format == 'other' %}<i class="fa fa-file-text-o" aria-hidden="true"></i>{% endif %}
+                        </td>
+                        <td><a href="{{ reading.link_path }}">{{ reading.title }}</a></td>
+                        <td width="100px" class="grey tip" data-tip="{{ reading.note }}">pp. {{ reading.pages }}</td>
+                    </tr>{% endif %}{% endfor %}
+                </table>
             </div>
             </div>
         </div>
@@ -728,6 +968,46 @@ templates:
             <div class="section-title">
                 <h2><i class="fa fa-book" aria-hidden="true"></i> Data Interpretation Readings</h2>
             </div>
+            <div class="guide-content">
+                <h4>Textbook Readings</h4>
+                <table width="100%">
+                    <tr>
+                        <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/merriam-tisdell.jpg" class="book"></td>
+                        <td class="textbook-details">
+                            <h5>Qualitative Research: A Guide to Design and Implementation (JOSSEY-BASS HIGHER & ADULT EDUCATION SERIES) <span class="by-line">4th Edition</span></h5>
+                            <p class="by-line"><strong>By Sharan B. Merriam, Elizabeth J. Tisdell</strong></p>
+                            <div class="chapters">
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 8 <span class="by-line">on data analysis</span></p>
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 8 <span class="by-line">on data analysis</span></p>
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 8 <span class="by-line">on data analysis</span></p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <table width="100%">
+                    <tr>
+                        <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/savin-baden.jpg" class="book"></td>
+                        <td class="textbook-details">
+                            <h5>Qualitative Research: The essential guide to theory and practice</h5>
+                            <p class="by-line"><strong>By Maggi Savin-Baden, Claire Howell Major</strong></p>
+                            <div class="chapters">
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 8 <span class="by-line">on data analysis</span></p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <hr class="subtle">
+                <h4>Other Readings</h4>
+                <table width="100%" class="mp-table reading-table" >
+                    {% for reading in site.data.mp_readings %}{% if reading.guides contains 'Data Interpretation' %}<tr>
+                        <td width="25px">
+                            {% if reading.format == 'pdf' %}<i class="fa fa-file-pdf-o" aria-hidden="true"></i>{% elsif reading.format == 'word' %}<i class="fa fa-file-word-o" aria-hidden="true"></i>{% elsif reading.format == 'powerpoint' %}<i class="fa fa-file-powerpoint-o" aria-hidden="true"></i>{% elsif reading.format == 'excel' %}<i class="fa fa-file-excel-o" aria-hidden="true"></i>{% elsif reading.format == 'video' %}<i class="fa fa-file-movie-o" aria-hidden="true"></i>{% elsif reading.format == 'photo' %}<i class="fa fa-file-photo-o" aria-hidden="true"></i>{% elsif reading.format == 'other' %}<i class="fa fa-file-text-o" aria-hidden="true"></i>{% endif %}
+                        </td>
+                        <td><a href="{{ reading.link_path }}">{{ reading.title }}</a></td>
+                        <td width="100px" class="grey tip" data-tip="{{ reading.note }}">pp. {{ reading.pages }}</td>
+                    </tr>{% endif %}{% endfor %}
+                </table>
+            </div>
             </div>
         </div>
         <div class="guide-section" ng-if="guide == 'conclusion'">
@@ -744,6 +1024,46 @@ templates:
             <div class="section-title">
                 <h2><i class="fa fa-book" aria-hidden="true"></i> Conclusion Readings</h2>
             </div>
+            <div class="guide-content">
+                <h4>Textbook Readings</h4>
+                <table width="100%">
+                    <tr>
+                        <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/merriam-tisdell.jpg" class="book"></td>
+                        <td class="textbook-details">
+                            <h5>Qualitative Research: A Guide to Design and Implementation (JOSSEY-BASS HIGHER & ADULT EDUCATION SERIES) <span class="by-line">4th Edition</span></h5>
+                            <p class="by-line"><strong>By Sharan B. Merriam, Elizabeth J. Tisdell</strong></p>
+                            <div class="chapters">
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 8 <span class="by-line">on data analysis</span></p>
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 8 <span class="by-line">on data analysis</span></p>
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 8 <span class="by-line">on data analysis</span></p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <table width="100%">
+                    <tr>
+                        <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/savin-baden.jpg" class="book"></td>
+                        <td class="textbook-details">
+                            <h5>Qualitative Research: The essential guide to theory and practice</h5>
+                            <p class="by-line"><strong>By Maggi Savin-Baden, Claire Howell Major</strong></p>
+                            <div class="chapters">
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 8 <span class="by-line">on data analysis</span></p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <hr class="subtle">
+                <h4>Other Readings</h4>
+                <table width="100%" class="mp-table reading-table" >
+                    {% for reading in site.data.mp_readings %}{% if reading.guides contains 'Conclusion' %}<tr>
+                        <td width="25px">
+                            {% if reading.format == 'pdf' %}<i class="fa fa-file-pdf-o" aria-hidden="true"></i>{% elsif reading.format == 'word' %}<i class="fa fa-file-word-o" aria-hidden="true"></i>{% elsif reading.format == 'powerpoint' %}<i class="fa fa-file-powerpoint-o" aria-hidden="true"></i>{% elsif reading.format == 'excel' %}<i class="fa fa-file-excel-o" aria-hidden="true"></i>{% elsif reading.format == 'video' %}<i class="fa fa-file-movie-o" aria-hidden="true"></i>{% elsif reading.format == 'photo' %}<i class="fa fa-file-photo-o" aria-hidden="true"></i>{% elsif reading.format == 'other' %}<i class="fa fa-file-text-o" aria-hidden="true"></i>{% endif %}
+                        </td>
+                        <td><a href="{{ reading.link_path }}">{{ reading.title }}</a></td>
+                        <td width="100px" class="grey tip" data-tip="{{ reading.note }}">pp. {{ reading.pages }}</td>
+                    </tr>{% endif %}{% endfor %}
+                </table>
+            </div>
             </div>
         </div>
         <div class="guide-section" ng-if="guide == 'executivesummary'">
@@ -759,6 +1079,46 @@ templates:
             <div class="readings" ng-show="tab == 'readings'">
             <div class="section-title">
                 <h2><i class="fa fa-book" aria-hidden="true"></i> Executive Summary Readings</h2>
+            </div>
+            <div class="guide-content">
+                <h4>Textbook Readings</h4>
+                <table width="100%">
+                    <tr>
+                        <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/merriam-tisdell.jpg" class="book"></td>
+                        <td class="textbook-details">
+                            <h5>Qualitative Research: A Guide to Design and Implementation (JOSSEY-BASS HIGHER & ADULT EDUCATION SERIES) <span class="by-line">4th Edition</span></h5>
+                            <p class="by-line"><strong>By Sharan B. Merriam, Elizabeth J. Tisdell</strong></p>
+                            <div class="chapters">
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 8 <span class="by-line">on data analysis</span></p>
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 8 <span class="by-line">on data analysis</span></p>
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 8 <span class="by-line">on data analysis</span></p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <table width="100%">
+                    <tr>
+                        <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/savin-baden.jpg" class="book"></td>
+                        <td class="textbook-details">
+                            <h5>Qualitative Research: The essential guide to theory and practice</h5>
+                            <p class="by-line"><strong>By Maggi Savin-Baden, Claire Howell Major</strong></p>
+                            <div class="chapters">
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 8 <span class="by-line">on data analysis</span></p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <hr class="subtle">
+                <h4>Other Readings</h4>
+                <table width="100%" class="mp-table reading-table" >
+                    {% for reading in site.data.mp_readings %}{% if reading.guides contains 'Executive Summary' %}<tr>
+                        <td width="25px">
+                            {% if reading.format == 'pdf' %}<i class="fa fa-file-pdf-o" aria-hidden="true"></i>{% elsif reading.format == 'word' %}<i class="fa fa-file-word-o" aria-hidden="true"></i>{% elsif reading.format == 'powerpoint' %}<i class="fa fa-file-powerpoint-o" aria-hidden="true"></i>{% elsif reading.format == 'excel' %}<i class="fa fa-file-excel-o" aria-hidden="true"></i>{% elsif reading.format == 'video' %}<i class="fa fa-file-movie-o" aria-hidden="true"></i>{% elsif reading.format == 'photo' %}<i class="fa fa-file-photo-o" aria-hidden="true"></i>{% elsif reading.format == 'other' %}<i class="fa fa-file-text-o" aria-hidden="true"></i>{% endif %}
+                        </td>
+                        <td><a href="{{ reading.link_path }}">{{ reading.title }}</a></td>
+                        <td width="100px" class="grey tip" data-tip="{{ reading.note }}">pp. {{ reading.pages }}</td>
+                    </tr>{% endif %}{% endfor %}
+                </table>
             </div>
             </div>
         </div>

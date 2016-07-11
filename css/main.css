@@ -756,3 +756,38 @@ table td {
     border: 1px solid #aaa;
     width: 100%;
 }
+
+.subtle {
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.textbook-details {
+    padding-left: 20px;
+    vertical-align: top;
+}
+
+.textbook-details h5 {
+    border-bottom: 1px solid #ddd;
+}
+
+.by-line {
+    font-size: 0.8em;
+    color: #888;
+    line-height: 1em;
+}
+
+.textbook-details i {
+    color: #4e2a84;
+}
+
+.chapters {
+    padding-left: 20px;
+}
+
+.reading-table tr {
+    border-bottom: 1px dotted #999;
+}

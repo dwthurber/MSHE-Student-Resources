@@ -113,11 +113,13 @@ guides:
   - Executive Summary
 
 formats:
-  - book
+  - pdf
   - word
   - excel
   - powerpoint
-  - website
+  - video
+  - photo
+  - other
 
 consent: 
   - true

@@ -10,6 +10,7 @@ statuses:
   - current students
   - certificate students
 keywords:
+  - professional development
 comments: true
 ---
 

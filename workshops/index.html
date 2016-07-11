@@ -4,8 +4,8 @@ layout: default
 ---
     <section class="container">
         <h2>Workshops</h2>
-        <div class="flex-container">
-            {% for page in site.workshops %}<div class="resource">
+        <div class="flex-container group" id="Workshops">
+            {% for page in site.workshops %}<div class="resource" data-name="{{ page.order }}">
                 <img src="{{ page.icon_path | prepend: site.baseurl }}" alt="workshop icon" />
                 <div class="resource-content">
                     <h2>{{ page.title }}</h2>

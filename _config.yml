@@ -111,7 +111,14 @@ guides:
   - Data Interpretation
   - Conclusion
   - Executive Summary
-  
+
+formats:
+  - book
+  - word
+  - excel
+  - powerpoint
+  - website
+
 consent: 
   - true
   - false

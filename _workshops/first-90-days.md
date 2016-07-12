@@ -74,4 +74,3 @@ comments: false
 
 <iframe src="https://app.box.com/embed/preview/93zvbvtd4bh02kmpyj9e0zdb2a7ui70x?theme=dark" width="500" height="400" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen"></iframe>
 
-## Key Takeways

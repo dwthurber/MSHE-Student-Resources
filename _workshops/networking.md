@@ -66,6 +66,3 @@ Video recording of workshop conducted in conjunction with the Master of Science 
 **Slide content from workshop:**
 
 <iframe src="https://app.box.com/embed/preview/l4f681r68otlc5ik8zv1kltbmkkz6wz4?theme=dark" width="600" height="600" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen"></iframe>
-
-## Key Takeways
-

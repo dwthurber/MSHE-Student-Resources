@@ -30,5 +30,3 @@ The Myers Briggs Type Indicator (MBTI) is available free of charge to all MSHE s
 [Self-Assessment & Goal Setting Workbook](https://northwestern.box.com/shared/static/q32716lrw116kk24gz0dmcrnxz9ig7cj.doc)
 
 [Higher Ed MBTI, by Tracie Thomas, Director, Northwestern Career Advancement](https://northwestern.box.com/shared/static/iiq8sp70pmwqu3po989x3ls9cgsenyra.pptx)
-
-## Key Takeways

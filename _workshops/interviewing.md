@@ -44,5 +44,3 @@ comments: false
 ## Workshop Materials
 
 <iframe src="https://app.box.com/embed/preview/0gk3jg6j0wrsun86i7j4ljcki2ziwni9?theme=dark" width="500" height="400" frameborder="0" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>
-
-## Key Takeways

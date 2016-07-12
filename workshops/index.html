@@ -9,7 +9,7 @@ layout: default
                 <img src="{{ page.icon_path | prepend: site.baseurl }}" alt="workshop icon" />
                 <div class="resource-content">
                     <h2>{{ page.title }}</h2>
-                    <p>{{ page.facilitator }}</p>
+                    <p>{{ page.description | truncate: 30, ' ... ' }}</p>
                 </div>
                 <a href="{{ page.url | prepend: site.baseurl }}"><div class="mix-hover hidden text-left">
                     <p>{{ page.description | truncate: 200, ' ... ' }}</p>

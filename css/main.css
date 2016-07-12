@@ -791,3 +791,125 @@ table td {
 .reading-table tr {
     border-bottom: 1px dotted #999;
 }
+
+.meetup-hero {
+    width: 100%;
+    /*height: 75%;*/
+    min-height: 540px;
+    background-color: #4e2a84;
+    position: relative;
+}
+
+.meetup-hero h2, .meetup-hero h3, .meetup-hero h4, .meetup-hero p, .meetup-hero i {
+    color: #fff;
+}
+
+.half {
+    width: 40%;
+    padding: 5% 0 0 0;
+}
+
+.meetup-hero h2 {
+    border-bottom: 2px #fff solid;
+}
+
+.meetup-hero .image-container {
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-image: url("../img/students-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.fancy {
+  line-height: 0.5;
+  text-align: center;
+  margin: 10px 0;
+}
+.fancy span {
+  display: inline-block;
+  position: relative;  
+}
+.fancy span:before,
+.fancy span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 3px solid white;
+  /*border-top: 1px solid white;*/
+  top: 0;
+  width: 50px;
+}
+.fancy span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.fancy span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+
+.signup {
+    margin: 10px 0;
+    text-align: center;
+    padding-right: 20px;
+}
+
+.signup ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 30px 0;
+}
+
+.signup ul li {
+    display: inline-block;
+    margin: 10px;
+    vertical-align: middle
+}
+
+.signup ul li a {
+    padding: 10px;
+    border: 1px solid #B6ACD1;
+    color: #B6ACD1;
+    border-radius: 5px;
+}
+
+.signup h3 {
+    color: #eee;
+    margin: 0;
+    padding: 10px;
+    font-size: 6em;
+    line-height: 1;
+}
+
+.signup ul li a:hover {
+    background-color: #B6ACD1;
+    color: #333;
+}
+
+.scroll-more {
+    margin-top: 20px;
+    margin-bottom: -10px;
+    text-align: center;
+    padding-right: 20px;
+}
+
+.scroll-more p {
+    font-size: 0.8em;
+    line-height: 1em;
+    margin: 0;
+}
+
+.zengine {
+    width: 100%;
+    height: 2000px;
+}
+
+.testimonials {
+    background-color: #39393C;
+    margin: 0;
+    /*padding: 1px;*/
+}

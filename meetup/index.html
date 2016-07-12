@@ -1,0 +1,73 @@
+---
+layout: default
+title: "MSHE MeetUps"
+description: "A MeetUp is a one-time meeting (in-person or virtual) between an MSHE student and an alumna/us who is currently working in higher education or a related field."
+testimonials:
+  - "My alumni partner had a wealth of professional experience in my desired career field and drew upon that experience to offer me job search advice and other helpful knowledge about becoming a successful student affairs professional."
+  - "I was looking to change paths, and now know, with her help, what type of higher ed work I want to pursue."
+  - "My alum partner gave me many suggestions that I found useful, and I really admire that she takes on multiple roles and responsibilities."
+---
+<section class="meetup-hero">
+    <div class="container">
+        <div class="half">
+            <h2 class="meetup-header editable">{{ page.title }}</h2>
+            <p class="editable">{{ page.description }}</p>
+            <br>
+            <div class="signup">
+                <h4 class="fancy"><span>Sign up Now</span></h4>
+                <ul>
+                    <li><a href="https://webportalapp.com/webform/alumni-signup" target="_blank">Alumna/us</a></li>
+                    <li><a href="https://webportalapp.com/webform/student-signup" target="_blank">Students</a></li>
+                </ul>
+        </div>
+        <div class="image-container">
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container editable">
+        <h3>Why MeetUp?</h3>
+        <p>MeetUps are like an informational interview. Students will share their background and goals in advance, and come to the conversation with a clear learning objective. They will also share the latest MSHE developments. From the students' perspective, the purpose of the MeetUp is to learn—not to seek a job from Alumni. Alumni can learn about the exciting new career paths of MSHE students.</p>
+        <p>The engagement allows students and alumni to expand their networks by meeting someone with similar interests. Although the expectation is for only a single meeting, the relationship can be developed if both participants choose.</p>
+    </div>
+</section>
+<section class="testimonials">
+    <div class="cd-testimonials-wrapper cd-container">
+    	<ul class="cd-testimonials">
+    		{% for quote in page.testimonials %}<li>
+    			<p>{{ quote }}</p>
+    		</li>{% endfor %}
+    	</ul> <!-- cd-testimonials -->
+    
+    	<a href="#0" class="cd-see-all">See all</a>
+    </div> <!-- cd-testimonials-wrapper -->
+
+    <div class="cd-testimonials-all">
+    	<div class="cd-testimonials-all-wrapper">
+    		<ul>
+    			{% for quote in page.testimonials %}<li class="cd-testimonials-item">
+        			<p>{{ quote }}</p>
+        		</li>{% endfor %}
+    		</ul>
+    	</div>	<!-- cd-testimonials-all-wrapper -->
+    	<a href="#0" class="close-btn">Close</a>
+    </div> <!-- cd-testimonials-all -->
+</section>
+<section>
+    <div class="container editable">
+        <h3>How to Participate:</h3>
+        <p>Sign up by reading the MSHE MeetUp Rules of Engagement and completing the appropriate interest form below. Sign-ups will be honored on a first-come, first-served basis. We will do our best to match you with an alumni/student partner that meets the preferences you express when you sign up. While we cannot guarantee a perfect fit, we hope the opportunity to participate in multiple Meet-Ups will enable you to meet your learning objectives. </p>
+        <p>Once the matches are completed, you will be provided instructions for how to contact your MeetUp partner.</p>
+        <p>Lastly, at the end of the quarter, we will seek feedback regarding your MeetUp experience to help us continue to develop a MeetUp program that truly meets your needs. Please feel free to contact <a href="mailto:audra.nelson@northwetern.edu">Audra Nelson</a> with any questions. Thank you for your interest!</p>
+        <div class="signup">
+            <ul>
+                <li><a href="https://webportalapp.com/webform/alumni-signup" target="_blank">Alumna/us</a></li>
+                <li><h3>/</h3></li>
+                <li><a href="https://webportalapp.com/webform/student-signup" target="_blank">Students</a></li>
+            </ul>
+        </div>
+    </div>
+</section>
+<script src="{{ site.baseurl }}/js/jquery.flexslider-min.js"></script>
+<script src="{{ site.baseurl }}/js/masonry.pkgd.min.js"></script>
+<script src="{{ site.baseurl }}/js/cd-testimonials.js"></script>

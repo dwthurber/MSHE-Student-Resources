@@ -1,4 +1,5 @@
 var tipuesearch = {"pages": [
     {% for item in site.info %}{"title": "{{ item.title }}", "text": "{{ item.description }}", "tags": "{{ item.categories | join: ' ' }}", "url": "{{ item.url | prepend:site.baseurl }}"},{% endfor %}
     {% for item in site.workshops %}{"title": "{{ item.title }}", "text": "{{ item.description }}", "tags": "{{ item.categories | join: ' ' }}", "url": "{{ item.url | prepend:site.baseurl }}"},{% endfor %}
+    {"title": "MSHE MeetUps", "text": "A MeetUp is a one-time meeting (in-person or virtual) between an MSHE student and an alumna/us who is currently working in higher education or a related field.", "tags": "", "url": "{{ site.baseurl }}/meetup/"},
 ]};

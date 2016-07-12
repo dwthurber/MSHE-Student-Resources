@@ -1,7 +1,7 @@
 ---
 layout: meetup-page
 title: Frequently Asked Questions
-FAQs: 
+faqs: 
   - question: "Is the MSHE MeetUps program offered every quarter?"
     answer: "The MSHE MeetUp currently runs fall, winter, and spring quarters only."
     students: true
@@ -14,7 +14,7 @@ FAQs:
 </ul>
 
 <div class="FAQs">
-    {% for item in page.FAQs %}<div class="mix {% if item.students == true %}student{% endif %} {% if item.alumni == true %}alumni{% endif %}">
+    {% for item in page.faqs %}<div class="mix {% if item.students == true %}student{% endif %} {% if item.alumni == true %}alumni{% endif %}">
         <h4>{{ item.question }}</h4>
         <p>{{ item.answer }}</p>
     </div>{% endfor %}

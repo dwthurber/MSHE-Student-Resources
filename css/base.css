@@ -123,7 +123,7 @@ strong {
 	color: #4e2a84;
 }
 
-#Container .mix{
+#Container .mix, .FAQs .mix {
 	display: none;
 }
 

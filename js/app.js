@@ -211,6 +211,13 @@ var topicsApp = angular.module('topicsApp', ['ngRoute']);
             		target: '.resource'
             	}
             });
+            
+            $('.FAQs').mixItUp({
+                load: {
+            		filter: '.student',
+            		sort: 'name:asc',
+            	}
+            });
     
         });
 

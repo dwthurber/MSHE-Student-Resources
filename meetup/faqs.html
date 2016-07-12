@@ -31,7 +31,7 @@ faqs:
 
 <div class="FAQs">
     {% for item in page.faqs %}<div class="mix {% if item.students == true %}student{% endif %} {% if item.alumni == true %}alumni{% endif %}" data-name="{{ item.question }}">
-        <h4>{{ item.question }}</h4>
-        <p>{{ item.answer }}</p>
+        <h4>Q: {{ item.question }}</h4>
+        <p>A: {{ item.answer }}</p>
     </div>{% endfor %}
 </div>

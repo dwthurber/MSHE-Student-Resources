@@ -120,6 +120,10 @@ formats:
   - video
   - photo
   - other
+  
+submission_types:
+  - draft
+  - final
 
 consent: 
   - true

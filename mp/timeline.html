@@ -1,0 +1,34 @@
+---
+layout: default
+title: MP Timeline
+header: false
+timeline:
+  - title: Research Question
+    description: The guiding question that your MP is aimed at answering.
+    link_path: /mp/#/researchquestions
+    icon_path: /img/guide_icons/white_research_question.png
+    date: 
+    submission_type: 'draft'
+---
+      <div class="no-hero-header">
+          <h2>{{ page.title }}</h2>
+          <p>Key MP milestones for 406, 407, and 408</p>
+      </div>
+    <section id="cd-timeline" class="cd-container">
+        {% assign sorted_items = page.timeline | sort:"date" %}
+		{% for item in sorted_items %}<div class="cd-timeline-block">
+			<div class="cd-timeline-img {% if item.submission_type == 'final' %}cd-final{% elsif item.submission_type == 'draft' %}cd-draft{% endif %}">
+				<img src="{{ item.icon_path | prepend:site.baseurl }}" alt="{{ item.title }} icon">
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h2>{{ item.title }}</h2>
+				<p>{{ item.description }}</p>
+				<a href="{{ item.link_path | prepend:site.baseurl }}" class="cd-read-more">See Guide</a>
+				<span class="cd-date">{{ item.date }}</span>
+			</div> <!-- cd-timeline-content -->
+		</div> {% endfor %}<!-- cd-timeline-block -->
+	</section> <!-- cd-timeline -->
+<script src="{{ site.baseurl }}/js/cd-timeline.js"></script> <!-- Resource jQuery -->
+    <br>
+    

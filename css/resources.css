@@ -27,6 +27,7 @@
 
 .behind {
     visibility: hidden;
+    height: 0;
 }
 
 .tabs {

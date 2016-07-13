@@ -31,7 +31,7 @@ timeline:
 				<h2>{{ item.title }}</h2>
 				<p>{{ item.description }}</p>
 				<a href="{{ item.link_path | prepend:site.baseurl }}" class="cd-read-more">See Guide</a>
-				<span class="cd-date">{{ item.date }}</span>
+				<span class="cd-date">{{ item.date | date: "%a, %b %d, %Y" }}</span>
 			</div> <!-- cd-timeline-content -->
 		</div> {% endfor %}<!-- cd-timeline-block -->
 	</section> <!-- cd-timeline -->

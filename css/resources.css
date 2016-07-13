@@ -25,6 +25,10 @@
     margin: 20px auto;
 }
 
+.behind {
+    visibility: hidden;
+}
+
 .tabs {
     position: absolute;
     top: -32px;
@@ -198,6 +202,10 @@
 .group .resource {
 	display: none;
 }
+
+/*.group {*/
+/*    height: auto!important;*/
+/*}*/
 
 .resource {
     width: 150px;

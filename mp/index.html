@@ -526,15 +526,13 @@ templates:
     type: download
 ---
 
-
       <div class="no-hero-header" id="top">
           <h2>{{ page.title }}</h2>
           <p>Master's project aids, handouts, resources, rubrics, tools, templates and more.</p>
       </div>
-
     <section class="guide-section">
         <div class="container wide">
-            <a href="#/researchquestions" class="filter" data-filter=".researchquestions"><div class="guide" ng-click="selectGuide('Research Questions')" ng-class="{'active':guide == 'researchquestions'}">
+            <a href="#/researchquestions"><div class="guide" ng-click="selectGuide('Research Questions')" ng-class="{'active':guide == 'researchquestions'}">
                 <div class="icon"><img ng-if="guide != 'researchquestions'" src="{{ site.baseurl }}/img/guide_icons/research_question.png" /><img ng-if="guide == 'researchquestions'" src="{{ site.baseurl }}/img/guide_icons/white_research_question.png" /></div>
                 <div class="text">
                     <h3>Research Questions</h3>
@@ -542,7 +540,7 @@ templates:
                 </div>
                 <div class="arrow-right"></div>
             </div></a>
-            <a href="#/abstract" class="filter" data-filter=".abstract"><div class="guide" ng-click="selectGuide('Abstract')" ng-class="{active:guide == 'abstract'}">
+            <a href="#/abstract"><div class="guide" ng-click="selectGuide('Abstract')" ng-class="{active:guide == 'abstract'}">
                 <div class="icon"><img ng-if="guide != 'abstract'" src="{{ site.baseurl }}/img/guide_icons/abstract.png" /><img ng-if="guide == 'abstract'" src="{{ site.baseurl }}/img/guide_icons/white_abstract.png" /></div>
                 <div class="text">
                     <h3>Abstract</h3>
@@ -550,7 +548,7 @@ templates:
                 </div>
                 <div class="arrow-right"></div>
             </div></a>
-            <a href="#/introduction" class="filter" data-filter=".introduction"><div class="guide" ng-click="selectGuide('Introduction')" ng-class="{active:guide == 'introduction'}">
+            <a href="#/introduction"><div class="guide" ng-click="selectGuide('Introduction')" ng-class="{active:guide == 'introduction'}">
                 <div class="icon"><img ng-if="guide != 'introduction'" src="{{ site.baseurl }}/img/guide_icons/intro-background.png" /><img ng-if="guide == 'introduction'" src="{{ site.baseurl }}/img/guide_icons/white_intro-background.png" /></div>
                 <div class="text">
                     <h3>Introduction and Background</h3>
@@ -558,7 +556,7 @@ templates:
                 </div>
                 <div class="arrow-right"></div>
             </div></a>
-            <a href="#/literaturereview" class="filter" data-filter=".literaturereview"><div class="guide" ng-click="selectGuide('Literature Review')" ng-class="{active:guide == 'literaturereview'}">
+            <a href="#/literaturereview"><div class="guide" ng-click="selectGuide('Literature Review')" ng-class="{active:guide == 'literaturereview'}">
                 <div class="icon"><img ng-if="guide != 'literaturereview'" src="{{ site.baseurl }}/img/guide_icons/literature_review.png" /><img ng-if="guide == 'literaturereview'" src="{{ site.baseurl }}/img/guide_icons/white_literature_review.png" /></div>
                 <div class="text">
                     <h3>Literature Review</h3>
@@ -566,7 +564,7 @@ templates:
                 </div>
                 <div class="arrow-right"></div>
             </div></a>
-            <a href="#/datacollection" class="filter" data-filter=".datacollection"><div class="guide" ng-click="selectGuide('Data Collection')" ng-class="{active:guide == 'datacollection'}">
+            <a href="#/datacollection"><div class="guide" ng-click="selectGuide('Data Collection')" ng-class="{active:guide == 'datacollection'}">
                 <div class="icon"><img ng-if="guide != 'datacollection'" src="{{ site.baseurl }}/img/guide_icons/data_collection_methods.png" /><img ng-if="guide == 'datacollection'" src="{{ site.baseurl }}/img/guide_icons/white_data_collection_methods.png" /></div>
                 <div class="text">
                     <h3>Data Collection Methods</h3>
@@ -574,7 +572,7 @@ templates:
                 </div>
                 <div class="arrow-right"></div>
             </div></a>
-            <a href="#/datasummary" class="filter" data-filter=".datasummary"><div class="guide" ng-click="selectGuide('Data Summary')" ng-class="{active:guide == 'datasummary'}">
+            <a href="#/datasummary"><div class="guide" ng-click="selectGuide('Data Summary')" ng-class="{active:guide == 'datasummary'}">
                 <div class="icon"><img ng-if="guide != 'datasummary'" src="{{ site.baseurl }}/img/guide_icons/data_summary.png" /><img ng-if="guide == 'datasummary'" src="{{ site.baseurl }}/img/guide_icons/white_data_summary.png" /></div>
                 <div class="text">
                     <h3>Data Results Summary</h3>
@@ -582,7 +580,7 @@ templates:
                 </div>
                 <div class="arrow-right"></div>
             </div></a>
-            <a href="#/datainterpretation" class="filter" data-filter=".datainterpretation"><div class="guide" ng-click="selectGuide('Data Interpretation')" ng-class="{active:guide == 'datainterpretation'}">
+            <a href="#/datainterpretation"><div class="guide" ng-click="selectGuide('Data Interpretation')" ng-class="{active:guide == 'datainterpretation'}">
                 <div class="icon"><img ng-if="guide != 'datainterpretation'" src="{{ site.baseurl }}/img/guide_icons/data_interpretation.png" /><img ng-if="guide == 'datainterpretation'" src="{{ site.baseurl }}/img/guide_icons/white_data_interpretation.png" /></div>
                 <div class="text">
                     <h3>Data Interpretation</h3>
@@ -590,7 +588,7 @@ templates:
                 </div>
                 <div class="arrow-right"></div>
             </div></a>
-            <a href="#/conclusion" class="filter" data-filter=".conclusion"><div class="guide" ng-click="selectGuide('Conclusion')" ng-class="{active:guide == 'conclusion'}">
+            <a href="#/conclusion"><div class="guide" ng-click="selectGuide('Conclusion')" ng-class="{active:guide == 'conclusion'}">
                 <div class="icon"><img ng-if="guide != 'conclusion'" src="{{ site.baseurl }}/img/guide_icons/conclusion.png" /><img ng-if="guide == 'conclusion'" src="{{ site.baseurl }}/img/guide_icons/white_conclusion.png" /></div>
                 <div class="text">
                     <h3>Conclusion</h3>
@@ -598,7 +596,7 @@ templates:
                 </div>
                 <div class="arrow-right"></div>
             </div></a>
-            <a href="#/executivesummary" class="filter" data-filter=".executivesummary"><div class="guide" ng-click="selectGuide('Executive Summary')" ng-class="{active:guide == 'executivesummary'}">
+            <a href="#/executivesummary"><div class="guide" ng-click="selectGuide('Executive Summary')" ng-class="{active:guide == 'executivesummary'}">
                 <div class="icon"><img ng-if="guide != 'executivesummary'" src="{{ site.baseurl }}/img/guide_icons/executive_summary.png" /><img ng-if="guide == 'executivesummary'" src="{{ site.baseurl }}/img/guide_icons/white_executive_summary.png" /></div>
                 <div class="text">
                     <h3>Executive Summary</h3>
@@ -606,521 +604,522 @@ templates:
                 </div>
                 <div class="arrow-right"></div>
             </div></a>
-            
         </div>
     </section>
     <section class="main">
-    <div class="container wide light" ng-if="guide != ''">
+    <div class="container wide light">
         <div class="tabs">
             <ul>
-                <li ng-click="pickTab('details')" ng-class="{'active':tab == 'details'}">Details</li>
-                <li ng-click="pickTab('readings')" ng-class="{'active':tab == 'readings'}">Readings</li>
+                <li ng-click="pickTab('details')" ng-class="{'active':tab == 'details'}"  ng-show="guide != ''">Guide</li>
+                <li ng-click="pickTab('readings')" ng-class="{'active':tab == 'readings'}"  ng-show="guide != ''">Readings</li>
+                <li ng-click="pickTab('resources')" ng-class="{'active':tab == 'resources'}">Resources</li>
             </ul>
         </div>
-        <div class="guide-section" ng-if="guide == 'researchquestions'">
-            <a href="#/"><div class="close" ng-click="go()"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
-            <div class="guide-details" ng-show="tab == 'details'">
-            <div class="section-title">
-                <img src="{{ site.baseurl }}/img/guide_icons/research_question.png" /><h2>Research Questions</h2>
-                
+        <div class="guide-tab">
+            <div class="guide-section" ng-if="guide == 'researchquestions'">
+                <a href="#/"><div class="close" ng-click="go()"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
+                <div class="guide-details" ng-show="tab == 'details'">
+                <div class="section-title">
+                    <img src="{{ site.baseurl }}/img/guide_icons/research_question.png" /><h2>Research Questions</h2>
+                    
+                </div>
+                <div class="guide-content">
+                {% include research_questions.html %}
+                </div>
+                </div>
+                <div class="readings" ng-show="tab == 'readings'">
+                <div class="section-title">
+                    <h2><i class="fa fa-book" aria-hidden="true"></i> Research Questions Readings</h2>
+                </div>
+                <div class="guide-content">
+                    <h4>Textbook Readings</h4>
+                    <table width="100%">
+                        <tr>
+                            <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/merriam-tisdell.jpg" class="book"></td>
+                            <td class="textbook-details">
+                                <h5>Qualitative Research: A Guide to Design and Implementation (JOSSEY-BASS HIGHER & ADULT EDUCATION SERIES) <span class="by-line">4th Edition</span></h5>
+                                <p class="by-line"><strong>By Sharan B. Merriam, Elizabeth J. Tisdell</strong></p>
+                                <div class="chapters">
+                                <p>NONE</p>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <table width="100%">
+                        <tr>
+                            <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/savin-baden.jpg" class="book"></td>
+                            <td class="textbook-details">
+                                <h5>Qualitative Research: The essential guide to theory and practice</h5>
+                                <p class="by-line"><strong>By Maggi Savin-Baden, Claire Howell Major</strong></p>
+                                <div class="chapters">
+                                <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 7 <span class="by-line">research questions. Special note on p. 102 for forming research questions.</span></p>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <hr class="subtle">
+                    <h4>Other Readings</h4>
+                    <table width="100%" class="mp-table reading-table" >
+                        {% for reading in site.data.mp_readings %}{% if reading.guides contains 'Research Questions' %}<tr>
+                            <td width="25px">
+                                {% if reading.format == 'pdf' %}<i class="fa fa-file-pdf-o" aria-hidden="true"></i>{% elsif reading.format == 'word' %}<i class="fa fa-file-word-o" aria-hidden="true"></i>{% elsif reading.format == 'powerpoint' %}<i class="fa fa-file-powerpoint-o" aria-hidden="true"></i>{% elsif reading.format == 'excel' %}<i class="fa fa-file-excel-o" aria-hidden="true"></i>{% elsif reading.format == 'video' %}<i class="fa fa-file-movie-o" aria-hidden="true"></i>{% elsif reading.format == 'photo' %}<i class="fa fa-file-photo-o" aria-hidden="true"></i>{% elsif reading.format == 'other' %}<i class="fa fa-file-text-o" aria-hidden="true"></i>{% endif %}
+                            </td>
+                            <td><a href="{{ reading.link_path }}">{{ reading.title }}</a></td>
+                            <td width="100px" class="grey tip" data-tip="{{ reading.note }}">pp. {{ reading.pages }}</td>
+                        </tr>{% endif %}{% endfor %}
+                    </table>
+                </div>
+                </div>
             </div>
-            <div class="guide-content">
-            {% include research_questions.html %}
+            <div class="guide-section" ng-if="guide == 'abstract'">
+                <a href="#/"><div class="close" ng-click="go()"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
+                <div class="guide-details" ng-show="tab == 'details'">
+                <div class="section-title">
+                    <img src="{{ site.baseurl }}/img/guide_icons/abstract.png" /><h2>Abstract</h2>
+                </div>
+                <div class="guide-content">
+                {% include abstract.html %}
+                </div>
+                </div>
+                <div class="readings" ng-show="tab == 'readings'">
+                <div class="section-title">
+                    <h2><i class="fa fa-book" aria-hidden="true"></i> Abstract Readings</h2>
+                </div>
+                <div class="guide-content">
+                    <h4>Textbook Readings</h4>
+                    <table width="100%">
+                        <tr>
+                            <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/merriam-tisdell.jpg" class="book"></td>
+                            <td class="textbook-details">
+                                <h5>Qualitative Research: A Guide to Design and Implementation (JOSSEY-BASS HIGHER & ADULT EDUCATION SERIES) <span class="by-line">4th Edition</span></h5>
+                                <p class="by-line"><strong>By Sharan B. Merriam, Elizabeth J. Tisdell</strong></p>
+                                <div class="chapters">
+                                <p>NONE</p>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <table width="100%">
+                        <tr>
+                            <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/savin-baden.jpg" class="book"></td>
+                            <td class="textbook-details">
+                                <h5>Qualitative Research: The essential guide to theory and practice</h5>
+                                <p class="by-line"><strong>By Maggi Savin-Baden, Claire Howell Major</strong></p>
+                                <div class="chapters">
+                                <p>NONE</p>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <hr class="subtle">
+                    <h4>Other Readings</h4>
+                    <table width="100%" class="mp-table reading-table" >
+                        {% for reading in site.data.mp_readings %}{% if reading.guides contains 'Abstract' %}<tr>
+                            <td width="25px">
+                                {% if reading.format == 'pdf' %}<i class="fa fa-file-pdf-o" aria-hidden="true"></i>{% elsif reading.format == 'word' %}<i class="fa fa-file-word-o" aria-hidden="true"></i>{% elsif reading.format == 'powerpoint' %}<i class="fa fa-file-powerpoint-o" aria-hidden="true"></i>{% elsif reading.format == 'excel' %}<i class="fa fa-file-excel-o" aria-hidden="true"></i>{% elsif reading.format == 'video' %}<i class="fa fa-file-movie-o" aria-hidden="true"></i>{% elsif reading.format == 'photo' %}<i class="fa fa-file-photo-o" aria-hidden="true"></i>{% elsif reading.format == 'other' %}<i class="fa fa-file-text-o" aria-hidden="true"></i>{% endif %}
+                            </td>
+                            <td><a href="{{ reading.link_path }}">{{ reading.title }}</a></td>
+                            <td width="100px" class="grey tip" data-tip="{{ reading.note }}">pp. {{ reading.pages }}</td>
+                        </tr>{% endif %}{% endfor %}
+                    </table>
+                </div>
+                </div>
             </div>
+            <div class="guide-section" ng-if="guide == 'introduction'">
+                <a href="#/"><div class="close" ng-click="go()"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
+                <div class="guide-details" ng-show="tab == 'details'">
+                <div class="section-title">
+                    <img src="{{ site.baseurl }}/img/guide_icons/intro-background.png" /><h2>Introduction and Background</h2>
+                </div>
+                <div class="guide-content">
+                {% include introduction.html %}
+                </div>
+                </div>
+                <div class="readings" ng-show="tab == 'readings'">
+                <div class="section-title">
+                    <h2><i class="fa fa-book" aria-hidden="true"></i> Introduction and Background Readings</h2>
+                </div>
+                <div class="guide-content">
+                    <h4>Textbook Readings</h4>
+                    <table width="100%">
+                        <tr>
+                            <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/merriam-tisdell.jpg" class="book"></td>
+                            <td class="textbook-details">
+                                <h5>Qualitative Research: A Guide to Design and Implementation (JOSSEY-BASS HIGHER & ADULT EDUCATION SERIES) <span class="by-line">4th Edition</span></h5>
+                                <p class="by-line"><strong>By Sharan B. Merriam, Elizabeth J. Tisdell</strong></p>
+                                <div class="chapters">
+                                <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 4 <span class="by-line">(designing your study and selecting a sample, note problem statement worksheet on p. 83)</span></p>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <table width="100%">
+                        <tr>
+                            <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/savin-baden.jpg" class="book"></td>
+                            <td class="textbook-details">
+                                <h5>Qualitative Research: The essential guide to theory and practice</h5>
+                                <p class="by-line"><strong>By Maggi Savin-Baden, Claire Howell Major</strong></p>
+                                <div class="chapters">
+                                <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 6 <span class="by-line">“who” and “what” of study</span></p>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <hr class="subtle">
+                    <h4>Other Readings</h4>
+                    <table width="100%" class="mp-table reading-table" >
+                        {% for reading in site.data.mp_readings %}{% if reading.guides contains 'Introduction' %}<tr>
+                            <td width="25px">
+                                {% if reading.format == 'pdf' %}<i class="fa fa-file-pdf-o" aria-hidden="true"></i>{% elsif reading.format == 'word' %}<i class="fa fa-file-word-o" aria-hidden="true"></i>{% elsif reading.format == 'powerpoint' %}<i class="fa fa-file-powerpoint-o" aria-hidden="true"></i>{% elsif reading.format == 'excel' %}<i class="fa fa-file-excel-o" aria-hidden="true"></i>{% elsif reading.format == 'video' %}<i class="fa fa-file-movie-o" aria-hidden="true"></i>{% elsif reading.format == 'photo' %}<i class="fa fa-file-photo-o" aria-hidden="true"></i>{% elsif reading.format == 'other' %}<i class="fa fa-file-text-o" aria-hidden="true"></i>{% endif %}
+                            </td>
+                            <td><a href="{{ reading.link_path }}">{{ reading.title }}</a></td>
+                            <td width="100px" class="grey tip" data-tip="{{ reading.note }}">pp. {{ reading.pages }}</td>
+                        </tr>{% endif %}{% endfor %}
+                    </table>
+                </div>
+                </div>
             </div>
-            <div class="readings" ng-show="tab == 'readings'">
-            <div class="section-title">
-                <h2><i class="fa fa-book" aria-hidden="true"></i> Research Questions Readings</h2>
+            <div class="guide-section" ng-if="guide == 'literaturereview'">
+                <a href="#/"><div class="close" ng-click="go()"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
+                <div class="guide-details" ng-show="tab == 'details'">
+                <div class="section-title">
+                    <img src="{{ site.baseurl }}/img/guide_icons/literature_review.png" /><h2>Literature Review</h2>
+                </div>
+                <div class="guide-content editable">
+                    {% include literature_review.html %}
+                </div>
+                </div>
+                <div class="readings" ng-show="tab == 'readings'">
+                <div class="section-title">
+                    <h2><i class="fa fa-book" aria-hidden="true"></i> Literature Review Readings</h2>
+                </div>
+                <div class="guide-content">
+                    <h4>Textbook Readings</h4>
+                    <table width="100%">
+                        <tr>
+                            <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/merriam-tisdell.jpg" class="book"></td>
+                            <td class="textbook-details">
+                                <h5>Qualitative Research: A Guide to Design and Implementation (JOSSEY-BASS HIGHER & ADULT EDUCATION SERIES) <span class="by-line">4th Edition</span></h5>
+                                <p class="by-line"><strong>By Sharan B. Merriam, Elizabeth J. Tisdell</strong></p>
+                                <div class="chapters">
+                                <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> PP. 89-95 <span class="by-line"></span></p>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <table width="100%">
+                        <tr>
+                            <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/savin-baden.jpg" class="book"></td>
+                            <td class="textbook-details">
+                                <h5>Qualitative Research: The essential guide to theory and practice</h5>
+                                <p class="by-line"><strong>By Maggi Savin-Baden, Claire Howell Major</strong></p>
+                                <div class="chapters">
+                                <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 8 <span class="by-line">Literature Review</span></p>
+                                <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 9 <span class="by-line">Theoretical and conceptual frameworks</span></p>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <hr class="subtle">
+                    <h4>Other Readings</h4>
+                    <table width="100%" class="mp-table reading-table" >
+                        {% for reading in site.data.mp_readings %}{% if reading.guides contains 'Literature Review' %}<tr>
+                            <td width="25px">
+                                {% if reading.format == 'pdf' %}<i class="fa fa-file-pdf-o" aria-hidden="true"></i>{% elsif reading.format == 'word' %}<i class="fa fa-file-word-o" aria-hidden="true"></i>{% elsif reading.format == 'powerpoint' %}<i class="fa fa-file-powerpoint-o" aria-hidden="true"></i>{% elsif reading.format == 'excel' %}<i class="fa fa-file-excel-o" aria-hidden="true"></i>{% elsif reading.format == 'video' %}<i class="fa fa-file-movie-o" aria-hidden="true"></i>{% elsif reading.format == 'photo' %}<i class="fa fa-file-photo-o" aria-hidden="true"></i>{% elsif reading.format == 'other' %}<i class="fa fa-file-text-o" aria-hidden="true"></i>{% endif %}
+                            </td>
+                            <td><a href="{{ reading.link_path }}">{{ reading.title }}</a></td>
+                            <td width="100px" class="grey tip" data-tip="{{ reading.note }}">pp. {{ reading.pages }}</td>
+                        </tr>{% endif %}{% endfor %}
+                    </table>
+                </div>
+                </div>
             </div>
-            <div class="guide-content">
-                <h4>Textbook Readings</h4>
-                <table width="100%">
-                    <tr>
-                        <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/merriam-tisdell.jpg" class="book"></td>
-                        <td class="textbook-details">
-                            <h5>Qualitative Research: A Guide to Design and Implementation (JOSSEY-BASS HIGHER & ADULT EDUCATION SERIES) <span class="by-line">4th Edition</span></h5>
-                            <p class="by-line"><strong>By Sharan B. Merriam, Elizabeth J. Tisdell</strong></p>
-                            <div class="chapters">
-                            <p>NONE</p>
-                            </div>
-                        </td>
-                    </tr>
-                </table>
-                <table width="100%">
-                    <tr>
-                        <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/savin-baden.jpg" class="book"></td>
-                        <td class="textbook-details">
-                            <h5>Qualitative Research: The essential guide to theory and practice</h5>
-                            <p class="by-line"><strong>By Maggi Savin-Baden, Claire Howell Major</strong></p>
-                            <div class="chapters">
-                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 7 <span class="by-line">research questions. Special note on p. 102 for forming research questions.</span></p>
-                            </div>
-                        </td>
-                    </tr>
-                </table>
-                <hr class="subtle">
-                <h4>Other Readings</h4>
-                <table width="100%" class="mp-table reading-table" >
-                    {% for reading in site.data.mp_readings %}{% if reading.guides contains 'Research Questions' %}<tr>
-                        <td width="25px">
-                            {% if reading.format == 'pdf' %}<i class="fa fa-file-pdf-o" aria-hidden="true"></i>{% elsif reading.format == 'word' %}<i class="fa fa-file-word-o" aria-hidden="true"></i>{% elsif reading.format == 'powerpoint' %}<i class="fa fa-file-powerpoint-o" aria-hidden="true"></i>{% elsif reading.format == 'excel' %}<i class="fa fa-file-excel-o" aria-hidden="true"></i>{% elsif reading.format == 'video' %}<i class="fa fa-file-movie-o" aria-hidden="true"></i>{% elsif reading.format == 'photo' %}<i class="fa fa-file-photo-o" aria-hidden="true"></i>{% elsif reading.format == 'other' %}<i class="fa fa-file-text-o" aria-hidden="true"></i>{% endif %}
-                        </td>
-                        <td><a href="{{ reading.link_path }}">{{ reading.title }}</a></td>
-                        <td width="100px" class="grey tip" data-tip="{{ reading.note }}">pp. {{ reading.pages }}</td>
-                    </tr>{% endif %}{% endfor %}
-                </table>
+            <div class="guide-section" ng-if="guide == 'datacollection'">
+                <a href="#/"><div class="close" ng-click="go()"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
+                <div class="guide-details" ng-show="tab == 'details'">
+                <div class="section-title">
+                    <img src="{{ site.baseurl }}/img/guide_icons/data_collection_methods.png" /><h2>Data Collection Methods</h2>
+                </div>
+                <div class="guide-content">
+                {% include data_collection.html %}
+                </div>
+                </div>
+                <div class="readings" ng-show="tab == 'readings'">
+                <div class="section-title">
+                    <h2><i class="fa fa-book" aria-hidden="true"></i> Data Collection Readings</h2>
+                </div>
+                <div class="guide-content">
+                    <h4>Textbook Readings</h4>
+                    <table width="100%">
+                        <tr>
+                            <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/merriam-tisdell.jpg" class="book"></td>
+                            <td class="textbook-details">
+                                <h5>Qualitative Research: A Guide to Design and Implementation (JOSSEY-BASS HIGHER & ADULT EDUCATION SERIES) <span class="by-line">4th Edition</span></h5>
+                                <p class="by-line"><strong>By Sharan B. Merriam, Elizabeth J. Tisdell</strong></p>
+                                <div class="chapters">
+                                <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 3 <span class="by-line">Expanding the Qualitative Paradigm: Mixed Methods, Action, Critical, and Arts Based Research</span></p>
+                                <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 4 <span class="by-line">Six Common Qualitative Research Designs</span></p>
+                                <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 5 <span class="by-line">Conducting Effective Interviews</span></p>
+                                <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 6 <span class="by-line">Being a mindful observer</span></p>
+                                <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 7 <span class="by-line">Mining data from documents/using artifacts</span></p>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <table width="100%">
+                        <tr>
+                            <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/savin-baden.jpg" class="book"></td>
+                            <td class="textbook-details">
+                                <h5>Qualitative Research: The essential guide to theory and practice</h5>
+                                <p class="by-line"><strong>By Maggi Savin-Baden, Claire Howell Major</strong></p>
+                                <div class="chapters">
+                                <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 23 <span class="by-line">Interviews</span></p>
+                                <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 24 <span class="by-line">Focus Group Interviews</span></p>
+                                <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 25 <span class="by-line">Observation</span></p>
+                                <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 26 <span class="by-line">Documents</span></p>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <hr class="subtle">
+                    <h4>Other Readings</h4>
+                    <table width="100%" class="mp-table reading-table" >
+                        {% for reading in site.data.mp_readings %}{% if reading.guides contains 'Data Collection' %}<tr>
+                            <td width="25px">
+                                {% if reading.format == 'pdf' %}<i class="fa fa-file-pdf-o" aria-hidden="true"></i>{% elsif reading.format == 'word' %}<i class="fa fa-file-word-o" aria-hidden="true"></i>{% elsif reading.format == 'powerpoint' %}<i class="fa fa-file-powerpoint-o" aria-hidden="true"></i>{% elsif reading.format == 'excel' %}<i class="fa fa-file-excel-o" aria-hidden="true"></i>{% elsif reading.format == 'video' %}<i class="fa fa-file-movie-o" aria-hidden="true"></i>{% elsif reading.format == 'photo' %}<i class="fa fa-file-photo-o" aria-hidden="true"></i>{% elsif reading.format == 'other' %}<i class="fa fa-file-text-o" aria-hidden="true"></i>{% endif %}
+                            </td>
+                            <td><a href="{{ reading.link_path }}">{{ reading.title }}</a></td>
+                            <td width="100px" class="grey tip" data-tip="{{ reading.note }}">pp. {{ reading.pages }}</td>
+                        </tr>{% endif %}{% endfor %}
+                    </table>
+                </div>
+                </div>
             </div>
+            <div class="guide-section" ng-if="guide == 'datasummary'">
+                <a href="#/"><div class="close" ng-click="go()"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
+                <div class="guide-details" ng-show="tab == 'details'">
+                <div class="section-title">
+                    <img src="{{ site.baseurl }}/img/guide_icons/data_summary.png" /><h2>Data Results Summary</h2>
+                </div>
+                <div class="guide-content">
+                {% include data_summary.html %}
+                </div>
+                </div>
+                <div class="readings" ng-show="tab == 'readings'">
+                <div class="section-title">
+                    <h2><i class="fa fa-book" aria-hidden="true"></i> Data Summary Readings</h2>
+                </div>
+                <div class="guide-content">
+                    <h4>Textbook Readings</h4>
+                    <table width="100%">
+                        <tr>
+                            <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/merriam-tisdell.jpg" class="book"></td>
+                            <td class="textbook-details">
+                                <h5>Qualitative Research: A Guide to Design and Implementation (JOSSEY-BASS HIGHER & ADULT EDUCATION SERIES) <span class="by-line">4th Edition</span></h5>
+                                <p class="by-line"><strong>By Sharan B. Merriam, Elizabeth J. Tisdell</strong></p>
+                                <div class="chapters">
+                                <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 8 <span class="by-line">on data analysis</span></p>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <table width="100%">
+                        <tr>
+                            <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/savin-baden.jpg" class="book"></td>
+                            <td class="textbook-details">
+                                <h5>Qualitative Research: The essential guide to theory and practice</h5>
+                                <p class="by-line"><strong>By Maggi Savin-Baden, Claire Howell Major</strong></p>
+                                <div class="chapters">
+                                <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 27 <span class="by-line">Data handling and coding</span></p>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <hr class="subtle">
+                    <h4>Other Readings</h4>
+                    <table width="100%" class="mp-table reading-table" >
+                        {% for reading in site.data.mp_readings %}{% if reading.guides contains 'Data Summary' %}<tr>
+                            <td width="25px">
+                                {% if reading.format == 'pdf' %}<i class="fa fa-file-pdf-o" aria-hidden="true"></i>{% elsif reading.format == 'word' %}<i class="fa fa-file-word-o" aria-hidden="true"></i>{% elsif reading.format == 'powerpoint' %}<i class="fa fa-file-powerpoint-o" aria-hidden="true"></i>{% elsif reading.format == 'excel' %}<i class="fa fa-file-excel-o" aria-hidden="true"></i>{% elsif reading.format == 'video' %}<i class="fa fa-file-movie-o" aria-hidden="true"></i>{% elsif reading.format == 'photo' %}<i class="fa fa-file-photo-o" aria-hidden="true"></i>{% elsif reading.format == 'other' %}<i class="fa fa-file-text-o" aria-hidden="true"></i>{% endif %}
+                            </td>
+                            <td><a href="{{ reading.link_path }}">{{ reading.title }}</a></td>
+                            <td width="100px" class="grey tip" data-tip="{{ reading.note }}">pp. {{ reading.pages }}</td>
+                        </tr>{% endif %}{% endfor %}
+                    </table>
+                </div>
+                </div>
+            </div>
+            <div class="guide-section" ng-if="guide == 'datainterpretation'">
+                <a href="#/"><div class="close" ng-click="go()"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
+                <div class="guide-details" ng-show="tab == 'details'">
+                <div class="section-title">
+                    <img src="{{ site.baseurl }}/img/guide_icons/data_interpretation.png" /><h2>Data Interpretation</h2>
+                </div>
+                <div class="guide-content">
+                {% include data_interpretation.html %}
+                </div>
+                </div>
+                <div class="readings" ng-show="tab == 'readings'">
+                <div class="section-title">
+                    <h2><i class="fa fa-book" aria-hidden="true"></i> Data Interpretation Readings</h2>
+                </div>
+                <div class="guide-content">
+                    <h4>Textbook Readings</h4>
+                    <table width="100%">
+                        <tr>
+                            <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/merriam-tisdell.jpg" class="book"></td>
+                            <td class="textbook-details">
+                                <h5>Qualitative Research: A Guide to Design and Implementation (JOSSEY-BASS HIGHER & ADULT EDUCATION SERIES) <span class="by-line">4th Edition</span></h5>
+                                <p class="by-line"><strong>By Sharan B. Merriam, Elizabeth J. Tisdell</strong></p>
+                                <div class="chapters">
+                                <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 8 <span class="by-line">on data analysis</span></p>
+                                <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 10 <span class="by-line">Writing up Qualitative Research</span></p>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <table width="100%">
+                        <tr>
+                            <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/savin-baden.jpg" class="book"></td>
+                            <td class="textbook-details">
+                                <h5>Qualitative Research: The essential guide to theory and practice</h5>
+                                <p class="by-line"><strong>By Maggi Savin-Baden, Claire Howell Major</strong></p>
+                                <div class="chapters">
+                                <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 28 <span class="by-line">Data analysis</span></p>
+                                <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 29 <span class="by-line">Data interpretation</span></p>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <hr class="subtle">
+                    <h4>Other Readings</h4>
+                    <table width="100%" class="mp-table reading-table" >
+                        {% for reading in site.data.mp_readings %}{% if reading.guides contains 'Data Interpretation' %}<tr>
+                            <td width="25px">
+                                {% if reading.format == 'pdf' %}<i class="fa fa-file-pdf-o" aria-hidden="true"></i>{% elsif reading.format == 'word' %}<i class="fa fa-file-word-o" aria-hidden="true"></i>{% elsif reading.format == 'powerpoint' %}<i class="fa fa-file-powerpoint-o" aria-hidden="true"></i>{% elsif reading.format == 'excel' %}<i class="fa fa-file-excel-o" aria-hidden="true"></i>{% elsif reading.format == 'video' %}<i class="fa fa-file-movie-o" aria-hidden="true"></i>{% elsif reading.format == 'photo' %}<i class="fa fa-file-photo-o" aria-hidden="true"></i>{% elsif reading.format == 'other' %}<i class="fa fa-file-text-o" aria-hidden="true"></i>{% endif %}
+                            </td>
+                            <td><a href="{{ reading.link_path }}">{{ reading.title }}</a></td>
+                            <td width="100px" class="grey tip" data-tip="{{ reading.note }}">pp. {{ reading.pages }}</td>
+                        </tr>{% endif %}{% endfor %}
+                    </table>
+                </div>
+                </div>
+            </div>
+            <div class="guide-section" ng-if="guide == 'conclusion'">
+                <a href="#/"><div class="close" ng-click="go()"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
+                <div class="guide-details" ng-show="tab == 'details'">
+                <div class="section-title">
+                    <img src="{{ site.baseurl }}/img/guide_icons/conclusion.png" /><h2>Conclusion</h2>
+                </div>
+                <div class="guide-content">
+                {% include conclusion.html %}
+                </div>
+                </div>
+                <div class="readings" ng-show="tab == 'readings'">
+                <div class="section-title">
+                    <h2><i class="fa fa-book" aria-hidden="true"></i> Conclusion Readings</h2>
+                </div>
+                <div class="guide-content">
+                    <h4>Textbook Readings</h4>
+                    <table width="100%">
+                        <tr>
+                            <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/merriam-tisdell.jpg" class="book"></td>
+                            <td class="textbook-details">
+                                <h5>Qualitative Research: A Guide to Design and Implementation (JOSSEY-BASS HIGHER & ADULT EDUCATION SERIES) <span class="by-line">4th Edition</span></h5>
+                                <p class="by-line"><strong>By Sharan B. Merriam, Elizabeth J. Tisdell</strong></p>
+                                <div class="chapters">
+                                <p>NONE</p>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <table width="100%">
+                        <tr>
+                            <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/savin-baden.jpg" class="book"></td>
+                            <td class="textbook-details">
+                                <h5>Qualitative Research: The essential guide to theory and practice</h5>
+                                <p class="by-line"><strong>By Maggi Savin-Baden, Claire Howell Major</strong></p>
+                                <div class="chapters">
+                                <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 31 <span class="by-line">Researcher voice</span></p>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <hr class="subtle">
+                    <h4>Other Readings</h4>
+                    <table width="100%" class="mp-table reading-table" >
+                        {% for reading in site.data.mp_readings %}{% if reading.guides contains 'Conclusion' %}<tr>
+                            <td width="25px">
+                                {% if reading.format == 'pdf' %}<i class="fa fa-file-pdf-o" aria-hidden="true"></i>{% elsif reading.format == 'word' %}<i class="fa fa-file-word-o" aria-hidden="true"></i>{% elsif reading.format == 'powerpoint' %}<i class="fa fa-file-powerpoint-o" aria-hidden="true"></i>{% elsif reading.format == 'excel' %}<i class="fa fa-file-excel-o" aria-hidden="true"></i>{% elsif reading.format == 'video' %}<i class="fa fa-file-movie-o" aria-hidden="true"></i>{% elsif reading.format == 'photo' %}<i class="fa fa-file-photo-o" aria-hidden="true"></i>{% elsif reading.format == 'other' %}<i class="fa fa-file-text-o" aria-hidden="true"></i>{% endif %}
+                            </td>
+                            <td><a href="{{ reading.link_path }}">{{ reading.title }}</a></td>
+                            <td width="100px" class="grey tip" data-tip="{{ reading.note }}">pp. {{ reading.pages }}</td>
+                        </tr>{% endif %}{% endfor %}
+                    </table>
+                </div>
+                </div>
+            </div>
+            <div class="guide-section" ng-if="guide == 'executivesummary'">
+                <a href="#/"><div class="close" ng-click="go()"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
+                <div class="guide-details" ng-show="tab == 'details'">
+                <div class="section-title">
+                    <img src="{{ site.baseurl }}/img/guide_icons/executive_summary.png" /><h2>Executive Summary</h2>
+                </div>
+                <div class="guide-content">
+                {% include executive_summary.html %}
+                </div>
+                </div>
+                <div class="readings" ng-show="tab == 'readings'">
+                <div class="section-title">
+                    <h2><i class="fa fa-book" aria-hidden="true"></i> Executive Summary Readings</h2>
+                </div>
+                <div class="guide-content">
+                    <h4>Textbook Readings</h4>
+                    <table width="100%">
+                        <tr>
+                            <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/merriam-tisdell.jpg" class="book"></td>
+                            <td class="textbook-details">
+                                <h5>Qualitative Research: A Guide to Design and Implementation (JOSSEY-BASS HIGHER & ADULT EDUCATION SERIES) <span class="by-line">4th Edition</span></h5>
+                                <p class="by-line"><strong>By Sharan B. Merriam, Elizabeth J. Tisdell</strong></p>
+                                <div class="chapters">
+                                <p>NONE</p>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <table width="100%">
+                        <tr>
+                            <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/savin-baden.jpg" class="book"></td>
+                            <td class="textbook-details">
+                                <h5>Qualitative Research: The essential guide to theory and practice</h5>
+                                <p class="by-line"><strong>By Maggi Savin-Baden, Claire Howell Major</strong></p>
+                                <div class="chapters">
+                                <p>NONE</p>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <hr class="subtle">
+                    <h4>Other Readings</h4>
+                    <table width="100%" class="mp-table reading-table" >
+                        {% for reading in site.data.mp_readings %}{% if reading.guides contains 'Executive Summary' %}<tr>
+                            <td width="25px">
+                                {% if reading.format == 'pdf' %}<i class="fa fa-file-pdf-o" aria-hidden="true"></i>{% elsif reading.format == 'word' %}<i class="fa fa-file-word-o" aria-hidden="true"></i>{% elsif reading.format == 'powerpoint' %}<i class="fa fa-file-powerpoint-o" aria-hidden="true"></i>{% elsif reading.format == 'excel' %}<i class="fa fa-file-excel-o" aria-hidden="true"></i>{% elsif reading.format == 'video' %}<i class="fa fa-file-movie-o" aria-hidden="true"></i>{% elsif reading.format == 'photo' %}<i class="fa fa-file-photo-o" aria-hidden="true"></i>{% elsif reading.format == 'other' %}<i class="fa fa-file-text-o" aria-hidden="true"></i>{% endif %}
+                            </td>
+                            <td><a href="{{ reading.link_path }}">{{ reading.title }}</a></td>
+                            <td width="100px" class="grey tip" data-tip="{{ reading.note }}">pp. {{ reading.pages }}</td>
+                        </tr>{% endif %}{% endfor %}
+                    </table>
+                </div>
+                </div>
             </div>
         </div>
-        <div class="guide-section" ng-if="guide == 'abstract'">
-            <a href="#/"><div class="close" ng-click="go()"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
-            <div class="guide-details" ng-show="tab == 'details'">
+        <div class="resources-tab" ng-class="{behind: tab != 'resources'}">
             <div class="section-title">
-                <img src="{{ site.baseurl }}/img/guide_icons/abstract.png" /><h2>Abstract</h2>
-            </div>
-            <div class="guide-content">
-            {% include abstract.html %}
-            </div>
-            </div>
-            <div class="readings" ng-show="tab == 'readings'">
-            <div class="section-title">
-                <h2><i class="fa fa-book" aria-hidden="true"></i> Abstract Readings</h2>
-            </div>
-            <div class="guide-content">
-                <h4>Textbook Readings</h4>
-                <table width="100%">
-                    <tr>
-                        <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/merriam-tisdell.jpg" class="book"></td>
-                        <td class="textbook-details">
-                            <h5>Qualitative Research: A Guide to Design and Implementation (JOSSEY-BASS HIGHER & ADULT EDUCATION SERIES) <span class="by-line">4th Edition</span></h5>
-                            <p class="by-line"><strong>By Sharan B. Merriam, Elizabeth J. Tisdell</strong></p>
-                            <div class="chapters">
-                            <p>NONE</p>
-                            </div>
-                        </td>
-                    </tr>
-                </table>
-                <table width="100%">
-                    <tr>
-                        <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/savin-baden.jpg" class="book"></td>
-                        <td class="textbook-details">
-                            <h5>Qualitative Research: The essential guide to theory and practice</h5>
-                            <p class="by-line"><strong>By Maggi Savin-Baden, Claire Howell Major</strong></p>
-                            <div class="chapters">
-                            <p>NONE</p>
-                            </div>
-                        </td>
-                    </tr>
-                </table>
-                <hr class="subtle">
-                <h4>Other Readings</h4>
-                <table width="100%" class="mp-table reading-table" >
-                    {% for reading in site.data.mp_readings %}{% if reading.guides contains 'Abstract' %}<tr>
-                        <td width="25px">
-                            {% if reading.format == 'pdf' %}<i class="fa fa-file-pdf-o" aria-hidden="true"></i>{% elsif reading.format == 'word' %}<i class="fa fa-file-word-o" aria-hidden="true"></i>{% elsif reading.format == 'powerpoint' %}<i class="fa fa-file-powerpoint-o" aria-hidden="true"></i>{% elsif reading.format == 'excel' %}<i class="fa fa-file-excel-o" aria-hidden="true"></i>{% elsif reading.format == 'video' %}<i class="fa fa-file-movie-o" aria-hidden="true"></i>{% elsif reading.format == 'photo' %}<i class="fa fa-file-photo-o" aria-hidden="true"></i>{% elsif reading.format == 'other' %}<i class="fa fa-file-text-o" aria-hidden="true"></i>{% endif %}
-                        </td>
-                        <td><a href="{{ reading.link_path }}">{{ reading.title }}</a></td>
-                        <td width="100px" class="grey tip" data-tip="{{ reading.note }}">pp. {{ reading.pages }}</td>
-                    </tr>{% endif %}{% endfor %}
-                </table>
-            </div>
-            </div>
-        </div>
-        <div class="guide-section" ng-if="guide == 'introduction'">
-            <a href="#/"><div class="close" ng-click="go()"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
-            <div class="guide-details" ng-show="tab == 'details'">
-            <div class="section-title">
-                <img src="{{ site.baseurl }}/img/guide_icons/intro-background.png" /><h2>Introduction and Background</h2>
-            </div>
-            <div class="guide-content">
-            {% include introduction.html %}
-            </div>
-            </div>
-            <div class="readings" ng-show="tab == 'readings'">
-            <div class="section-title">
-                <h2><i class="fa fa-book" aria-hidden="true"></i> Introduction and Background Readings</h2>
-            </div>
-            <div class="guide-content">
-                <h4>Textbook Readings</h4>
-                <table width="100%">
-                    <tr>
-                        <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/merriam-tisdell.jpg" class="book"></td>
-                        <td class="textbook-details">
-                            <h5>Qualitative Research: A Guide to Design and Implementation (JOSSEY-BASS HIGHER & ADULT EDUCATION SERIES) <span class="by-line">4th Edition</span></h5>
-                            <p class="by-line"><strong>By Sharan B. Merriam, Elizabeth J. Tisdell</strong></p>
-                            <div class="chapters">
-                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 4 <span class="by-line">(designing your study and selecting a sample, note problem statement worksheet on p. 83)</span></p>
-                            </div>
-                        </td>
-                    </tr>
-                </table>
-                <table width="100%">
-                    <tr>
-                        <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/savin-baden.jpg" class="book"></td>
-                        <td class="textbook-details">
-                            <h5>Qualitative Research: The essential guide to theory and practice</h5>
-                            <p class="by-line"><strong>By Maggi Savin-Baden, Claire Howell Major</strong></p>
-                            <div class="chapters">
-                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 6 <span class="by-line">“who” and “what” of study</span></p>
-                            </div>
-                        </td>
-                    </tr>
-                </table>
-                <hr class="subtle">
-                <h4>Other Readings</h4>
-                <table width="100%" class="mp-table reading-table" >
-                    {% for reading in site.data.mp_readings %}{% if reading.guides contains 'Introduction' %}<tr>
-                        <td width="25px">
-                            {% if reading.format == 'pdf' %}<i class="fa fa-file-pdf-o" aria-hidden="true"></i>{% elsif reading.format == 'word' %}<i class="fa fa-file-word-o" aria-hidden="true"></i>{% elsif reading.format == 'powerpoint' %}<i class="fa fa-file-powerpoint-o" aria-hidden="true"></i>{% elsif reading.format == 'excel' %}<i class="fa fa-file-excel-o" aria-hidden="true"></i>{% elsif reading.format == 'video' %}<i class="fa fa-file-movie-o" aria-hidden="true"></i>{% elsif reading.format == 'photo' %}<i class="fa fa-file-photo-o" aria-hidden="true"></i>{% elsif reading.format == 'other' %}<i class="fa fa-file-text-o" aria-hidden="true"></i>{% endif %}
-                        </td>
-                        <td><a href="{{ reading.link_path }}">{{ reading.title }}</a></td>
-                        <td width="100px" class="grey tip" data-tip="{{ reading.note }}">pp. {{ reading.pages }}</td>
-                    </tr>{% endif %}{% endfor %}
-                </table>
-            </div>
-            </div>
-        </div>
-        <div class="guide-section" ng-if="guide == 'literaturereview'">
-            <a href="#/"><div class="close" ng-click="go()"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
-            <div class="guide-details" ng-show="tab == 'details'">
-            <div class="section-title">
-                <img src="{{ site.baseurl }}/img/guide_icons/literature_review.png" /><h2>Literature Review</h2>
-            </div>
-            <div class="guide-content editable">
-                {% include literature_review.html %}
-            </div>
-            </div>
-            <div class="readings" ng-show="tab == 'readings'">
-            <div class="section-title">
-                <h2><i class="fa fa-book" aria-hidden="true"></i> Literature Review Readings</h2>
-            </div>
-            <div class="guide-content">
-                <h4>Textbook Readings</h4>
-                <table width="100%">
-                    <tr>
-                        <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/merriam-tisdell.jpg" class="book"></td>
-                        <td class="textbook-details">
-                            <h5>Qualitative Research: A Guide to Design and Implementation (JOSSEY-BASS HIGHER & ADULT EDUCATION SERIES) <span class="by-line">4th Edition</span></h5>
-                            <p class="by-line"><strong>By Sharan B. Merriam, Elizabeth J. Tisdell</strong></p>
-                            <div class="chapters">
-                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> PP. 89-95 <span class="by-line"></span></p>
-                            </div>
-                        </td>
-                    </tr>
-                </table>
-                <table width="100%">
-                    <tr>
-                        <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/savin-baden.jpg" class="book"></td>
-                        <td class="textbook-details">
-                            <h5>Qualitative Research: The essential guide to theory and practice</h5>
-                            <p class="by-line"><strong>By Maggi Savin-Baden, Claire Howell Major</strong></p>
-                            <div class="chapters">
-                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 8 <span class="by-line">Literature Review</span></p>
-                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 9 <span class="by-line">Theoretical and conceptual frameworks</span></p>
-                            </div>
-                        </td>
-                    </tr>
-                </table>
-                <hr class="subtle">
-                <h4>Other Readings</h4>
-                <table width="100%" class="mp-table reading-table" >
-                    {% for reading in site.data.mp_readings %}{% if reading.guides contains 'Literature Review' %}<tr>
-                        <td width="25px">
-                            {% if reading.format == 'pdf' %}<i class="fa fa-file-pdf-o" aria-hidden="true"></i>{% elsif reading.format == 'word' %}<i class="fa fa-file-word-o" aria-hidden="true"></i>{% elsif reading.format == 'powerpoint' %}<i class="fa fa-file-powerpoint-o" aria-hidden="true"></i>{% elsif reading.format == 'excel' %}<i class="fa fa-file-excel-o" aria-hidden="true"></i>{% elsif reading.format == 'video' %}<i class="fa fa-file-movie-o" aria-hidden="true"></i>{% elsif reading.format == 'photo' %}<i class="fa fa-file-photo-o" aria-hidden="true"></i>{% elsif reading.format == 'other' %}<i class="fa fa-file-text-o" aria-hidden="true"></i>{% endif %}
-                        </td>
-                        <td><a href="{{ reading.link_path }}">{{ reading.title }}</a></td>
-                        <td width="100px" class="grey tip" data-tip="{{ reading.note }}">pp. {{ reading.pages }}</td>
-                    </tr>{% endif %}{% endfor %}
-                </table>
-            </div>
-            </div>
-        </div>
-        <div class="guide-section" ng-if="guide == 'datacollection'">
-            <a href="#/"><div class="close" ng-click="go()"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
-            <div class="guide-details" ng-show="tab == 'details'">
-            <div class="section-title">
-                <img src="{{ site.baseurl }}/img/guide_icons/data_collection_methods.png" /><h2>Data Collection Methods</h2>
-            </div>
-            <div class="guide-content">
-            {% include data_collection.html %}
-            </div>
-            </div>
-            <div class="readings" ng-show="tab == 'readings'">
-            <div class="section-title">
-                <h2><i class="fa fa-book" aria-hidden="true"></i> Data Collection Readings</h2>
-            </div>
-            <div class="guide-content">
-                <h4>Textbook Readings</h4>
-                <table width="100%">
-                    <tr>
-                        <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/merriam-tisdell.jpg" class="book"></td>
-                        <td class="textbook-details">
-                            <h5>Qualitative Research: A Guide to Design and Implementation (JOSSEY-BASS HIGHER & ADULT EDUCATION SERIES) <span class="by-line">4th Edition</span></h5>
-                            <p class="by-line"><strong>By Sharan B. Merriam, Elizabeth J. Tisdell</strong></p>
-                            <div class="chapters">
-                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 3 <span class="by-line">Expanding the Qualitative Paradigm: Mixed Methods, Action, Critical, and Arts Based Research</span></p>
-                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 4 <span class="by-line">Six Common Qualitative Research Designs</span></p>
-                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 5 <span class="by-line">Conducting Effective Interviews</span></p>
-                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 6 <span class="by-line">Being a mindful observer</span></p>
-                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 7 <span class="by-line">Mining data from documents/using artifacts</span></p>
-                            </div>
-                        </td>
-                    </tr>
-                </table>
-                <table width="100%">
-                    <tr>
-                        <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/savin-baden.jpg" class="book"></td>
-                        <td class="textbook-details">
-                            <h5>Qualitative Research: The essential guide to theory and practice</h5>
-                            <p class="by-line"><strong>By Maggi Savin-Baden, Claire Howell Major</strong></p>
-                            <div class="chapters">
-                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 23 <span class="by-line">Interviews</span></p>
-                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 24 <span class="by-line">Focus Group Interviews</span></p>
-                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 25 <span class="by-line">Observation</span></p>
-                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 26 <span class="by-line">Documents</span></p>
-                            </div>
-                        </td>
-                    </tr>
-                </table>
-                <hr class="subtle">
-                <h4>Other Readings</h4>
-                <table width="100%" class="mp-table reading-table" >
-                    {% for reading in site.data.mp_readings %}{% if reading.guides contains 'Data Collection' %}<tr>
-                        <td width="25px">
-                            {% if reading.format == 'pdf' %}<i class="fa fa-file-pdf-o" aria-hidden="true"></i>{% elsif reading.format == 'word' %}<i class="fa fa-file-word-o" aria-hidden="true"></i>{% elsif reading.format == 'powerpoint' %}<i class="fa fa-file-powerpoint-o" aria-hidden="true"></i>{% elsif reading.format == 'excel' %}<i class="fa fa-file-excel-o" aria-hidden="true"></i>{% elsif reading.format == 'video' %}<i class="fa fa-file-movie-o" aria-hidden="true"></i>{% elsif reading.format == 'photo' %}<i class="fa fa-file-photo-o" aria-hidden="true"></i>{% elsif reading.format == 'other' %}<i class="fa fa-file-text-o" aria-hidden="true"></i>{% endif %}
-                        </td>
-                        <td><a href="{{ reading.link_path }}">{{ reading.title }}</a></td>
-                        <td width="100px" class="grey tip" data-tip="{{ reading.note }}">pp. {{ reading.pages }}</td>
-                    </tr>{% endif %}{% endfor %}
-                </table>
-            </div>
-            </div>
-        </div>
-        <div class="guide-section" ng-if="guide == 'datasummary'">
-            <a href="#/"><div class="close" ng-click="go()"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
-            <div class="guide-details" ng-show="tab == 'details'">
-            <div class="section-title">
-                <img src="{{ site.baseurl }}/img/guide_icons/data_summary.png" /><h2>Data Results Summary</h2>
-            </div>
-            <div class="guide-content">
-            {% include data_summary.html %}
-            </div>
-            </div>
-            <div class="readings" ng-show="tab == 'readings'">
-            <div class="section-title">
-                <h2><i class="fa fa-book" aria-hidden="true"></i> Data Summary Readings</h2>
-            </div>
-            <div class="guide-content">
-                <h4>Textbook Readings</h4>
-                <table width="100%">
-                    <tr>
-                        <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/merriam-tisdell.jpg" class="book"></td>
-                        <td class="textbook-details">
-                            <h5>Qualitative Research: A Guide to Design and Implementation (JOSSEY-BASS HIGHER & ADULT EDUCATION SERIES) <span class="by-line">4th Edition</span></h5>
-                            <p class="by-line"><strong>By Sharan B. Merriam, Elizabeth J. Tisdell</strong></p>
-                            <div class="chapters">
-                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 8 <span class="by-line">on data analysis</span></p>
-                            </div>
-                        </td>
-                    </tr>
-                </table>
-                <table width="100%">
-                    <tr>
-                        <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/savin-baden.jpg" class="book"></td>
-                        <td class="textbook-details">
-                            <h5>Qualitative Research: The essential guide to theory and practice</h5>
-                            <p class="by-line"><strong>By Maggi Savin-Baden, Claire Howell Major</strong></p>
-                            <div class="chapters">
-                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 27 <span class="by-line">Data handling and coding</span></p>
-                            </div>
-                        </td>
-                    </tr>
-                </table>
-                <hr class="subtle">
-                <h4>Other Readings</h4>
-                <table width="100%" class="mp-table reading-table" >
-                    {% for reading in site.data.mp_readings %}{% if reading.guides contains 'Data Summary' %}<tr>
-                        <td width="25px">
-                            {% if reading.format == 'pdf' %}<i class="fa fa-file-pdf-o" aria-hidden="true"></i>{% elsif reading.format == 'word' %}<i class="fa fa-file-word-o" aria-hidden="true"></i>{% elsif reading.format == 'powerpoint' %}<i class="fa fa-file-powerpoint-o" aria-hidden="true"></i>{% elsif reading.format == 'excel' %}<i class="fa fa-file-excel-o" aria-hidden="true"></i>{% elsif reading.format == 'video' %}<i class="fa fa-file-movie-o" aria-hidden="true"></i>{% elsif reading.format == 'photo' %}<i class="fa fa-file-photo-o" aria-hidden="true"></i>{% elsif reading.format == 'other' %}<i class="fa fa-file-text-o" aria-hidden="true"></i>{% endif %}
-                        </td>
-                        <td><a href="{{ reading.link_path }}">{{ reading.title }}</a></td>
-                        <td width="100px" class="grey tip" data-tip="{{ reading.note }}">pp. {{ reading.pages }}</td>
-                    </tr>{% endif %}{% endfor %}
-                </table>
-            </div>
-            </div>
-        </div>
-        <div class="guide-section" ng-if="guide == 'datainterpretation'">
-            <a href="#/"><div class="close" ng-click="go()"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
-            <div class="guide-details" ng-show="tab == 'details'">
-            <div class="section-title">
-                <img src="{{ site.baseurl }}/img/guide_icons/data_interpretation.png" /><h2>Data Interpretation</h2>
-            </div>
-            <div class="guide-content">
-            {% include data_interpretation.html %}
-            </div>
-            </div>
-            <div class="readings" ng-show="tab == 'readings'">
-            <div class="section-title">
-                <h2><i class="fa fa-book" aria-hidden="true"></i> Data Interpretation Readings</h2>
-            </div>
-            <div class="guide-content">
-                <h4>Textbook Readings</h4>
-                <table width="100%">
-                    <tr>
-                        <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/merriam-tisdell.jpg" class="book"></td>
-                        <td class="textbook-details">
-                            <h5>Qualitative Research: A Guide to Design and Implementation (JOSSEY-BASS HIGHER & ADULT EDUCATION SERIES) <span class="by-line">4th Edition</span></h5>
-                            <p class="by-line"><strong>By Sharan B. Merriam, Elizabeth J. Tisdell</strong></p>
-                            <div class="chapters">
-                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 8 <span class="by-line">on data analysis</span></p>
-                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 10 <span class="by-line">Writing up Qualitative Research</span></p>
-                            </div>
-                        </td>
-                    </tr>
-                </table>
-                <table width="100%">
-                    <tr>
-                        <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/savin-baden.jpg" class="book"></td>
-                        <td class="textbook-details">
-                            <h5>Qualitative Research: The essential guide to theory and practice</h5>
-                            <p class="by-line"><strong>By Maggi Savin-Baden, Claire Howell Major</strong></p>
-                            <div class="chapters">
-                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 28 <span class="by-line">Data analysis</span></p>
-                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 29 <span class="by-line">Data interpretation</span></p>
-                            </div>
-                        </td>
-                    </tr>
-                </table>
-                <hr class="subtle">
-                <h4>Other Readings</h4>
-                <table width="100%" class="mp-table reading-table" >
-                    {% for reading in site.data.mp_readings %}{% if reading.guides contains 'Data Interpretation' %}<tr>
-                        <td width="25px">
-                            {% if reading.format == 'pdf' %}<i class="fa fa-file-pdf-o" aria-hidden="true"></i>{% elsif reading.format == 'word' %}<i class="fa fa-file-word-o" aria-hidden="true"></i>{% elsif reading.format == 'powerpoint' %}<i class="fa fa-file-powerpoint-o" aria-hidden="true"></i>{% elsif reading.format == 'excel' %}<i class="fa fa-file-excel-o" aria-hidden="true"></i>{% elsif reading.format == 'video' %}<i class="fa fa-file-movie-o" aria-hidden="true"></i>{% elsif reading.format == 'photo' %}<i class="fa fa-file-photo-o" aria-hidden="true"></i>{% elsif reading.format == 'other' %}<i class="fa fa-file-text-o" aria-hidden="true"></i>{% endif %}
-                        </td>
-                        <td><a href="{{ reading.link_path }}">{{ reading.title }}</a></td>
-                        <td width="100px" class="grey tip" data-tip="{{ reading.note }}">pp. {{ reading.pages }}</td>
-                    </tr>{% endif %}{% endfor %}
-                </table>
-            </div>
-            </div>
-        </div>
-        <div class="guide-section" ng-if="guide == 'conclusion'">
-            <a href="#/"><div class="close" ng-click="go()"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
-            <div class="guide-details" ng-show="tab == 'details'">
-            <div class="section-title">
-                <img src="{{ site.baseurl }}/img/guide_icons/conclusion.png" /><h2>Conclusion</h2>
-            </div>
-            <div class="guide-content">
-            {% include conclusion.html %}
-            </div>
-            </div>
-            <div class="readings" ng-show="tab == 'readings'">
-            <div class="section-title">
-                <h2><i class="fa fa-book" aria-hidden="true"></i> Conclusion Readings</h2>
-            </div>
-            <div class="guide-content">
-                <h4>Textbook Readings</h4>
-                <table width="100%">
-                    <tr>
-                        <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/merriam-tisdell.jpg" class="book"></td>
-                        <td class="textbook-details">
-                            <h5>Qualitative Research: A Guide to Design and Implementation (JOSSEY-BASS HIGHER & ADULT EDUCATION SERIES) <span class="by-line">4th Edition</span></h5>
-                            <p class="by-line"><strong>By Sharan B. Merriam, Elizabeth J. Tisdell</strong></p>
-                            <div class="chapters">
-                            <p>NONE</p>
-                            </div>
-                        </td>
-                    </tr>
-                </table>
-                <table width="100%">
-                    <tr>
-                        <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/savin-baden.jpg" class="book"></td>
-                        <td class="textbook-details">
-                            <h5>Qualitative Research: The essential guide to theory and practice</h5>
-                            <p class="by-line"><strong>By Maggi Savin-Baden, Claire Howell Major</strong></p>
-                            <div class="chapters">
-                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Chapter 31 <span class="by-line">Researcher voice</span></p>
-                            </div>
-                        </td>
-                    </tr>
-                </table>
-                <hr class="subtle">
-                <h4>Other Readings</h4>
-                <table width="100%" class="mp-table reading-table" >
-                    {% for reading in site.data.mp_readings %}{% if reading.guides contains 'Conclusion' %}<tr>
-                        <td width="25px">
-                            {% if reading.format == 'pdf' %}<i class="fa fa-file-pdf-o" aria-hidden="true"></i>{% elsif reading.format == 'word' %}<i class="fa fa-file-word-o" aria-hidden="true"></i>{% elsif reading.format == 'powerpoint' %}<i class="fa fa-file-powerpoint-o" aria-hidden="true"></i>{% elsif reading.format == 'excel' %}<i class="fa fa-file-excel-o" aria-hidden="true"></i>{% elsif reading.format == 'video' %}<i class="fa fa-file-movie-o" aria-hidden="true"></i>{% elsif reading.format == 'photo' %}<i class="fa fa-file-photo-o" aria-hidden="true"></i>{% elsif reading.format == 'other' %}<i class="fa fa-file-text-o" aria-hidden="true"></i>{% endif %}
-                        </td>
-                        <td><a href="{{ reading.link_path }}">{{ reading.title }}</a></td>
-                        <td width="100px" class="grey tip" data-tip="{{ reading.note }}">pp. {{ reading.pages }}</td>
-                    </tr>{% endif %}{% endfor %}
-                </table>
-            </div>
-            </div>
-        </div>
-        <div class="guide-section" ng-if="guide == 'executivesummary'">
-            <a href="#/"><div class="close" ng-click="go()"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
-            <div class="guide-details" ng-show="tab == 'details'">
-            <div class="section-title">
-                <img src="{{ site.baseurl }}/img/guide_icons/executive_summary.png" /><h2>Executive Summary</h2>
-            </div>
-            <div class="guide-content">
-            {% include executive_summary.html %}
-            </div>
-            </div>
-            <div class="readings" ng-show="tab == 'readings'">
-            <div class="section-title">
-                <h2><i class="fa fa-book" aria-hidden="true"></i> Executive Summary Readings</h2>
-            </div>
-            <div class="guide-content">
-                <h4>Textbook Readings</h4>
-                <table width="100%">
-                    <tr>
-                        <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/merriam-tisdell.jpg" class="book"></td>
-                        <td class="textbook-details">
-                            <h5>Qualitative Research: A Guide to Design and Implementation (JOSSEY-BASS HIGHER & ADULT EDUCATION SERIES) <span class="by-line">4th Edition</span></h5>
-                            <p class="by-line"><strong>By Sharan B. Merriam, Elizabeth J. Tisdell</strong></p>
-                            <div class="chapters">
-                            <p>NONE</p>
-                            </div>
-                        </td>
-                    </tr>
-                </table>
-                <table width="100%">
-                    <tr>
-                        <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/savin-baden.jpg" class="book"></td>
-                        <td class="textbook-details">
-                            <h5>Qualitative Research: The essential guide to theory and practice</h5>
-                            <p class="by-line"><strong>By Maggi Savin-Baden, Claire Howell Major</strong></p>
-                            <div class="chapters">
-                            <p>NONE</p>
-                            </div>
-                        </td>
-                    </tr>
-                </table>
-                <hr class="subtle">
-                <h4>Other Readings</h4>
-                <table width="100%" class="mp-table reading-table" >
-                    {% for reading in site.data.mp_readings %}{% if reading.guides contains 'Executive Summary' %}<tr>
-                        <td width="25px">
-                            {% if reading.format == 'pdf' %}<i class="fa fa-file-pdf-o" aria-hidden="true"></i>{% elsif reading.format == 'word' %}<i class="fa fa-file-word-o" aria-hidden="true"></i>{% elsif reading.format == 'powerpoint' %}<i class="fa fa-file-powerpoint-o" aria-hidden="true"></i>{% elsif reading.format == 'excel' %}<i class="fa fa-file-excel-o" aria-hidden="true"></i>{% elsif reading.format == 'video' %}<i class="fa fa-file-movie-o" aria-hidden="true"></i>{% elsif reading.format == 'photo' %}<i class="fa fa-file-photo-o" aria-hidden="true"></i>{% elsif reading.format == 'other' %}<i class="fa fa-file-text-o" aria-hidden="true"></i>{% endif %}
-                        </td>
-                        <td><a href="{{ reading.link_path }}">{{ reading.title }}</a></td>
-                        <td width="100px" class="grey tip" data-tip="{{ reading.note }}">pp. {{ reading.pages }}</td>
-                    </tr>{% endif %}{% endfor %}
-                </table>
-            </div>
-            </div>
-        </div>
-    </div>
-    <div class="container wide light">
-        <div class="section-title">
-        <h2><i class="fa fa-th" aria-hidden="true"></i> <span ng-if="guide == ''">All</span><span ng-if="guide != ''">{% raw %}{{ guideText }}{% endraw %}</span> Content</h2>
+        <h2><i class="fa fa-th" aria-hidden="true"></i> <span ng-if="guide == ''">All</span><span ng-if="guide != ''">{% raw %}{{ guideText }}{% endraw %}</span> Resources</h2>
         <div class="resource-input-filter" ng-show="guide == ''"><i class="fa fa-search input-filter-icon"></i><input class="input-filter input-short" id-"input-filter" ng-model="inputFilter" ng-change="inputChange()" placeholder="Start typing to filter..."></div>
         </div>
-        <div id="category" class="categories" ng-show="guide == ''">
+            <div id="category" class="categories" ng-show="guide == ''">
                 <div class="filter" data-filter="all">Show All</div>
                 <div class="filter class-filter" data-filter=".406">406</div>
                 <div class="filter class-filter" data-filter=".407">407</div>
@@ -1141,115 +1140,116 @@ templates:
                 <div class="filter type-filter" data-filter=".surveys">Surveys</div>
                 <div class="filter type-filter" data-filter=".writingandapa">Writing and APA</div>
             </div>
-        <div class="flex-container group">
-            <h3 class="flex-header editable" id="aids">Aids and Handouts</h3>
-            {% for item in page.aids %}
-            <div class="resource {{ item.filters | join: ',' | remove: ' ' | split: ',' | join: ' '  | downcase }} {{ item.guides | join: ',' | remove: ' ' | split: ',' | join: ' ' | downcase }}" data-name="{{ item.title }}">
-                {% if item.icon_path != null %}<img src="{{ item.icon_path | prepend: site.baseurl }}" alt="resource type icon" />{% endif %}
-                <div class="resource-content">
-                    <h2>{{ item.title }}</h2>
-                    <p>{{ item.subtitle }}</p>
-                </div>
-                {% if item.type == 'external link' %}<a href="{{ item.link_path }}" target="_blank">{% else %}<a href="{{ item.link_path | prepend: site.baseurl }}">{% endif %}
-                    <div class="mix-hover hidden">
-                        <p class="resource-tags"><i class="fa fa-tags"></i> {{ item.filters | join:', ' }}</p>
-                        {% if item.type == 'external link' %}<i class="fa fa-external-link fa-3x action"></i>{% endif %}
-                        {% if item.type == 'download' %}<i class="fa fa-download fa-3x action"></i>{% endif %}
+            <div class="flex-container group">
+                <h3 class="flex-header editable" id="aids">Aids and Handouts</h3>
+                {% for item in page.aids %}
+                <div class="resource {{ item.filters | join: ',' | remove: ' ' | split: ',' | join: ' '  | downcase }} {{ item.guides | join: ',' | remove: ' ' | split: ',' | join: ' ' | downcase }}" data-name="{{ item.title }}">
+                    {% if item.icon_path != null %}<img src="{{ item.icon_path | prepend: site.baseurl }}" alt="resource type icon" />{% endif %}
+                    <div class="resource-content">
+                        <h2>{{ item.title }}</h2>
+                        <p>{{ item.subtitle }}</p>
                     </div>
-                </a>
-                <div class="meta hidden">
-                    <p>{{ item.filters }}</p>
-                </div>
-            </a></div>
-            {% endfor %}
-        </div>
-        <div class="flex-container group">
-            <h3 class="flex-header editable" id="resources">External Resources</h3>
-            {% for item in page.resources %}
-            <div class="resource {{ item.filters | join: ',' | remove: ' ' | split: ',' | join: ' ' | downcase }} {{ item.guides | join: ',' | remove: ' ' | split: ',' | join: ' ' | downcase }}" data-name="{{ item.title }}">
-                {% if item.icon_path != null %}<img src="{{ item.icon_path | prepend: site.baseurl }}" alt="resource type icon" />{% endif %}
-                <div class="resource-content">
-                    <h2>{{ item.title }}</h2>
-                    <p>{{ item.subtitle }}</p>
-                </div>
-                {% if item.type == 'external link' %}<a href="{{ item.link_path }}" target="_blank">{% else %}<a href="{{ item.link_path | prepend: site.baseurl }}">{% endif %}
-                    <div class="mix-hover hidden">
-                        <p class="resource-tags"><i class="fa fa-tags"></i> {{ item.filters | join:', ' }}</p>
-                        {% if item.type == 'external link' %}<i class="fa fa-external-link fa-3x action"></i>{% endif %}
-                        {% if item.type == 'download' %}<i class="fa fa-download fa-3x action"></i>{% endif %}
+                    {% if item.type == 'external link' %}<a href="{{ item.link_path }}" target="_blank">{% else %}<a href="{{ item.link_path | prepend: site.baseurl }}">{% endif %}
+                        <div class="mix-hover hidden">
+                            <p class="resource-tags"><i class="fa fa-tags"></i> {{ item.filters | join:', ' }}</p>
+                            {% if item.type == 'external link' %}<i class="fa fa-external-link fa-3x action"></i>{% endif %}
+                            {% if item.type == 'download' %}<i class="fa fa-download fa-3x action"></i>{% endif %}
+                        </div>
+                    </a>
+                    <div class="meta hidden">
+                        <p>{{ item.filters }}</p>
                     </div>
-                </a>
-                <div class="meta hidden">
-                    <p>{{ item.filters }}</p>
-                </div>
-            </a></div>
-            {% endfor %}
-        </div>
-        <div class="flex-container group">
-            <h3 class="flex-header editable" id="rubrics">Rubrics</h3>
-            {% for item in page.rubrics %}
-            <div class="resource {{ item.filters | join: ',' | remove: ' ' | split: ',' | join: ' ' | downcase }} {{ item.guides | join: ',' | remove: ' ' | split: ',' | join: ' ' | downcase }}" data-name="{{ item.title }}">
-                {% if item.icon_path != null %}<img src="{{ item.icon_path | prepend: site.baseurl }}" alt="resource type icon" />{% endif %}
-                <div class="resource-content">
-                    <h2>{{ item.title }}</h2>
-                    <p>{{ item.subtitle }}</p>
-                </div>
-                {% if item.type == 'external link' %}<a href="{{ item.link_path }}" target="_blank">{% else %}<a href="{{ item.link_path | prepend: site.baseurl }}">{% endif %}
-                    <div class="mix-hover hidden">
-                        <p class="resource-tags"><i class="fa fa-tags"></i> {{ item.filters | join:', ' }}</p>
-                        {% if item.type == 'external link' %}<i class="fa fa-external-link fa-3x action"></i>{% endif %}
-                        {% if item.type == 'download' %}<i class="fa fa-download fa-3x action"></i>{% endif %}
+                </a></div>
+                {% endfor %}
+            </div>
+            <div class="flex-container group">
+                <h3 class="flex-header editable" id="resources">External Resources</h3>
+                {% for item in page.resources %}
+                <div class="resource {{ item.filters | join: ',' | remove: ' ' | split: ',' | join: ' ' | downcase }} {{ item.guides | join: ',' | remove: ' ' | split: ',' | join: ' ' | downcase }}" data-name="{{ item.title }}">
+                    {% if item.icon_path != null %}<img src="{{ item.icon_path | prepend: site.baseurl }}" alt="resource type icon" />{% endif %}
+                    <div class="resource-content">
+                        <h2>{{ item.title }}</h2>
+                        <p>{{ item.subtitle }}</p>
                     </div>
-                </a>
-                <div class="meta hidden">
-                    <p>{{ item.filters }}</p>
-                </div>
-            </a></div>
-            {% endfor %}
-        </div>
-        <div class="flex-container group">
-            <h3 class="flex-header editable" id="technology">Technology Tools</h3>
-            {% for item in page.tools %}
-            <div class="resource {{ item.filters | join: ',' | remove: ' ' | split: ',' | join: ' ' | downcase }} {{ item.guides | join: ',' | remove: ' ' | split: ',' | join: ' ' | downcase }}" data-name="{{ item.title }}">
-                {% if item.icon_path != null %}<img src="{{ item.icon_path | prepend: site.baseurl }}" alt="resource type icon" />{% endif %}
-                <div class="resource-content">
-                    <h2>{{ item.title }}</h2>
-                    <p>{{ item.subtitle }}</p>
-                </div>
-                {% if item.type == 'external link' %}<a href="{{ item.link_path }}" target="_blank">{% else %}<a href="{{ item.link_path | prepend: site.baseurl }}">{% endif %}
-                    <div class="mix-hover hidden">
-                        <p class="resource-tags"><i class="fa fa-tags"></i> {{ item.filters | join:', ' }}</p>
-                        {% if item.type == 'external link' %}<i class="fa fa-external-link fa-3x action"></i>{% endif %}
-                        {% if item.type == 'download' %}<i class="fa fa-download fa-3x action"></i>{% endif %}
+                    {% if item.type == 'external link' %}<a href="{{ item.link_path }}" target="_blank">{% else %}<a href="{{ item.link_path | prepend: site.baseurl }}">{% endif %}
+                        <div class="mix-hover hidden">
+                            <p class="resource-tags"><i class="fa fa-tags"></i> {{ item.filters | join:', ' }}</p>
+                            {% if item.type == 'external link' %}<i class="fa fa-external-link fa-3x action"></i>{% endif %}
+                            {% if item.type == 'download' %}<i class="fa fa-download fa-3x action"></i>{% endif %}
+                        </div>
+                    </a>
+                    <div class="meta hidden">
+                        <p>{{ item.filters }}</p>
                     </div>
-                </a>
-                <div class="meta hidden">
-                    <p>{{ item.filters }}</p>
-                </div>
-            </a></div>
-            {% endfor %}
-        </div>
-        <div class="flex-container group">
-            <h3 class="flex-header editable" id="templates">Templates</h3>
-            {% for item in page.templates %}
-            <div class="resource {{ item.filters | join: ',' | remove: ' ' | split: ',' | join: ' ' | downcase }} {{ item.guides | join: ',' | remove: ' ' | split: ',' | join: ' ' | downcase }}" data-name="{{ item.title }}">
-                {% if item.icon_path != null %}<img src="{{ item.icon_path | prepend: site.baseurl }}" alt="resource type icon" />{% endif %}
-                <div class="resource-content">
-                    <h2>{{ item.title }}</h2>
-                    <p>{{ item.subtitle }}</p>
-                </div>
-                {% if item.type == 'external link' %}<a href="{{ item.link_path }}" target="_blank">{% else %}<a href="{{ item.link_path | prepend: site.baseurl }}">{% endif %}
-                    <div class="mix-hover hidden">
-                        <p class="resource-tags"><i class="fa fa-tags"></i> {{ item.filters | join:', ' }}</p>
-                        {% if item.type == 'external link' %}<i class="fa fa-external-link fa-3x action"></i>{% endif %}
-                        {% if item.type == 'download' %}<i class="fa fa-download fa-3x action"></i>{% endif %}
+                </a></div>
+                {% endfor %}
+            </div>
+            <div class="flex-container group">
+                <h3 class="flex-header editable" id="rubrics">Rubrics</h3>
+                {% for item in page.rubrics %}
+                <div class="resource {{ item.filters | join: ',' | remove: ' ' | split: ',' | join: ' ' | downcase }} {{ item.guides | join: ',' | remove: ' ' | split: ',' | join: ' ' | downcase }}" data-name="{{ item.title }}">
+                    {% if item.icon_path != null %}<img src="{{ item.icon_path | prepend: site.baseurl }}" alt="resource type icon" />{% endif %}
+                    <div class="resource-content">
+                        <h2>{{ item.title }}</h2>
+                        <p>{{ item.subtitle }}</p>
                     </div>
-                </a>
-                <div class="meta hidden">
-                    <p>{{ item.filters }}</p>
-                </div>
-            </a></div>
-            {% endfor %}
+                    {% if item.type == 'external link' %}<a href="{{ item.link_path }}" target="_blank">{% else %}<a href="{{ item.link_path | prepend: site.baseurl }}">{% endif %}
+                        <div class="mix-hover hidden">
+                            <p class="resource-tags"><i class="fa fa-tags"></i> {{ item.filters | join:', ' }}</p>
+                            {% if item.type == 'external link' %}<i class="fa fa-external-link fa-3x action"></i>{% endif %}
+                            {% if item.type == 'download' %}<i class="fa fa-download fa-3x action"></i>{% endif %}
+                        </div>
+                    </a>
+                    <div class="meta hidden">
+                        <p>{{ item.filters }}</p>
+                    </div>
+                </a></div>
+                {% endfor %}
+            </div>
+            <div class="flex-container group">
+                <h3 class="flex-header editable" id="technology">Technology Tools</h3>
+                {% for item in page.tools %}
+                <div class="resource {{ item.filters | join: ',' | remove: ' ' | split: ',' | join: ' ' | downcase }} {{ item.guides | join: ',' | remove: ' ' | split: ',' | join: ' ' | downcase }}" data-name="{{ item.title }}">
+                    {% if item.icon_path != null %}<img src="{{ item.icon_path | prepend: site.baseurl }}" alt="resource type icon" />{% endif %}
+                    <div class="resource-content">
+                        <h2>{{ item.title }}</h2>
+                        <p>{{ item.subtitle }}</p>
+                    </div>
+                    {% if item.type == 'external link' %}<a href="{{ item.link_path }}" target="_blank">{% else %}<a href="{{ item.link_path | prepend: site.baseurl }}">{% endif %}
+                        <div class="mix-hover hidden">
+                            <p class="resource-tags"><i class="fa fa-tags"></i> {{ item.filters | join:', ' }}</p>
+                            {% if item.type == 'external link' %}<i class="fa fa-external-link fa-3x action"></i>{% endif %}
+                            {% if item.type == 'download' %}<i class="fa fa-download fa-3x action"></i>{% endif %}
+                        </div>
+                    </a>
+                    <div class="meta hidden">
+                        <p>{{ item.filters }}</p>
+                    </div>
+                </a></div>
+                {% endfor %}
+            </div>
+            <div class="flex-container group">
+                <h3 class="flex-header editable" id="templates">Templates</h3>
+                {% for item in page.templates %}
+                <div class="resource {{ item.filters | join: ',' | remove: ' ' | split: ',' | join: ' ' | downcase }} {{ item.guides | join: ',' | remove: ' ' | split: ',' | join: ' ' | downcase }}" data-name="{{ item.title }}">
+                    {% if item.icon_path != null %}<img src="{{ item.icon_path | prepend: site.baseurl }}" alt="resource type icon" />{% endif %}
+                    <div class="resource-content">
+                        <h2>{{ item.title }}</h2>
+                        <p>{{ item.subtitle }}</p>
+                    </div>
+                    {% if item.type == 'external link' %}<a href="{{ item.link_path }}" target="_blank">{% else %}<a href="{{ item.link_path | prepend: site.baseurl }}">{% endif %}
+                        <div class="mix-hover hidden">
+                            <p class="resource-tags"><i class="fa fa-tags"></i> {{ item.filters | join:', ' }}</p>
+                            {% if item.type == 'external link' %}<i class="fa fa-external-link fa-3x action"></i>{% endif %}
+                            {% if item.type == 'download' %}<i class="fa fa-download fa-3x action"></i>{% endif %}
+                        </div>
+                    </a>
+                    <div class="meta hidden">
+                        <p>{{ item.filters }}</p>
+                    </div>
+                </a></div>
+                {% endfor %}
+            </div>
         </div>
     </div>
     <div class="scrolltop">

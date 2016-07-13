@@ -1,22 +1,11 @@
 var topicsApp = angular.module('topicsApp', ['ngRoute']);
 
     // create the controller and inject Angular's $scope
-    topicsApp.controller('mainController', function($scope, $route, $routeParams, $location, $http, $filter) {
+    topicsApp.controller('mainController', function($scope, $route, $routeParams, $location, $http, $filter, $timeout) {
         
-        $scope.tab = 'details';
+        $scope.tab = 'resources';
         
         $scope.guide = '';
-        
-        $scope.selectGuide = function(val){
-            $scope.guideText = val;
-            $scope.guide = $filter('lowercase')(val.replace(/[\s]/g, ''));
-            $scope.tab = 'details';
-        };
-        
-        $scope.pickTab = function(val) {
-            $scope.tab = val;  
-            console.log($scope.tab);
-        };
         
         $scope.show = 'false';
         
@@ -34,9 +23,18 @@ var topicsApp = angular.module('topicsApp', ['ngRoute']);
         var currentPage = $location.path();
         
         $scope.go = function() {
+            $scope.guide = '';
+            $scope.tab = 'resources';
             $('#Container').mixItUp('filter', 'all');
             $('.group').mixItUp('filter', 'all');
-            $scope.guide = '';
+        };
+        
+        $scope.selectGuide = function(val){
+            $scope.guideText = val;
+            $scope.guide = $filter('lowercase')(val.replace(/[\s]/g, ''));
+            $('.group').mixItUp('filter', '.' + $scope.guide);
+            $scope.tab = 'details';
+            console.log($scope.guide);
         };
          
          if (currentPage != '') {
@@ -48,6 +46,10 @@ var topicsApp = angular.module('topicsApp', ['ngRoute']);
              var mixitup = "all";
          }
          
+         $scope.pickTab = function(val) {
+            $scope.tab = val;  
+        };
+        
          $scope.sortOrder = 'year';
          $scope.reverse = true;
          $scope.sort = function(val) {

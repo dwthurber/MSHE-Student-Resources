@@ -2,7 +2,7 @@
 layout: default
 title: MP Timeline
 header: false
-timeline:
+timeline_entries:
   - title: Research Question
     description: The guiding question that your MP is aimed at answering.
     link_path: '/mp/#/researchquestions'
@@ -21,7 +21,7 @@ timeline:
           <p>Key MP milestones for 406, 407, and 408</p>
       </div>
     <section id="cd-timeline" class="cd-container">
-        {% assign sorted_items = page.timeline | sort:"date" %}
+        {% assign sorted_items = page.timeline_entries | sort:"date" %}
 		{% for item in sorted_items %}<div class="cd-timeline-block">
 			<div class="cd-timeline-img {% if item.submission_type == 'final' %}cd-final{% elsif item.submission_type == 'draft' %}cd-draft{% endif %}">
 				<img src="{{ item.icon_path | prepend:site.baseurl }}" alt="{{ item.title }} icon">

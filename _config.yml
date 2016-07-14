@@ -125,6 +125,11 @@ submission_types:
   - draft
   - final
 
+quarters:
+  - fall
+  - winter
+  - spring
+
 consent: 
   - true
   - false

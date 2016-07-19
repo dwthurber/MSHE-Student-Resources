@@ -60,24 +60,48 @@ Main components
 
 -------------------------------- */
 header {
-  height: 80px;
-  line-height: 80px;
+  margin: 0;
+  height: 30px;
+  line-height: 30px;
   text-align: center;
-  background: #303e49;
+  position: relative;
 }
 header h2 {
+  width: 50%;
+  max-width: 180px;
   color: #fff;
-  font-size: 20px;
+  font-size: 14px;
   font-size: 1.13rem;
+  background-color: #303e49;
+
 }
+
+.arrow-left {
+  position: absolute;
+  bottom: -12px;
+  left: 0;
+  width: 0; 
+  height: 0; 
+  border-top: 0px solid transparent;
+  border-bottom: 12px solid transparent; 
+  border-right:18px solid #999; 
+}
+
 @media only screen and (min-width: 950px) {
   header {
-    height: 100px;
-    line-height: 100px;
+    height: 50px;
+    line-height: 50px;
   }
   header h2 {
-    font-size: 24px;
-    font-size: 1.5rem;
+    max-width: 350px;
+    margin: 0 auto;
+    font-size: 18px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    box-shadow: 0 3px 3px #999;
+  }
+  .arrow-left {
+    display: none;
   }
 }
 

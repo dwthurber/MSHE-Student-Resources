@@ -99,66 +99,8 @@ timeline_entries:
           <h2>{{ page.title }}</h2>
           <p>Key MP milestones for 406, 407, and 408</p>
       </div>
-      <div class="jump-to">
-          <ul>
-              <li><a href="#fall" class="smoothScroll">Fall Quarter</a></li>
-              <li><a href="#winter" class="smoothScroll">Winter Quarter</a></li>
-              <li><a href="#spring" class="smoothScroll">Spring Quarter</a></li>
-          </ul>
-      </div>
-      {% assign sorted_items = page.timeline_entries | sort:"date" %}
-      
-    <section id="cd-timeline" class="cd-container">
-    	<header id="fall" class="tip" data-tip="<ul class='no-padding'><li>Develop a research question </li><li>Form peer research support group(s) – instructors, coaches, peers, and other experts </li><li>Read in the topic area of your question </li><li>Acquire research knowledge and methods/skills – qualitative, quantitative, and mixed methods – through researchers, practitioners, and research examples  </li><li>Complete a rationale for MP </li><li>Define the domains of your question and reduce/synthesize the existing literature on your research question </li><li>Present preliminary literature findings and ideas to collect data  </li><li>Complete drafts of introduction and background of MP, literature review, and plan for collecting data Refine your research question</li></ul>">
-            <h2 >Fall Quarter</h2>
-            <div class="arrow-left"></div>
-        </header>
-		{% for item in sorted_items %}{% if item.quarter == 'fall'%}<div class="cd-timeline-block">
-			<div class="cd-timeline-img {% if item.submission_type == 'final' %}cd-final{% elsif item.submission_type == 'draft' %}cd-draft{% endif %}">
-				<img src="{{ item.icon_path | prepend:site.baseurl }}" alt="{{ item.title }} icon">
-			</div> <!-- cd-timeline-img -->
-
-			<div class="cd-timeline-content">
-				<h2>{{ item.title }}</h2>
-				<p>{{ item.description }}</p>
-				<a href="{{ item.link_path | prepend:site.baseurl }}" class="cd-read-more">See Guide</a>
-				<span class="cd-date">{{ item.date | date: "%a, %b %d, %Y" }}</span>
-			</div> <!-- cd-timeline-content -->
-		</div> {% endif %}{% endfor %}<!-- cd-timeline-block -->
-		<header id="winter" class="tip" data-tip="<ul class='no-padding'><li>Continue collaboration with instructors, coaches, peers, and experts for feedback</li><li>Continue to learn data collection methods and techniques – surveys, interviews, artifact analysis, observation – including constructing instruments/protocols used and how to analyze the data, using classroom examples</li><li>Complete plan for ethical, field-based and/or existing data collection; submit for approval to Institutional Review Board, including appropriate recruitment and consent forms</li><li>Learn about analyzing data and writing an executive summary</li><li>Begin to collect and analyze data</li><li>Present at a poster session on research</li><li>Revise MPQ, introduction/background, and literature review</li></ul>">
-            <h2>Winter Quarter</h2>
-            <div class="arrow-left"></div>
-        </header>
-		{% for item in sorted_items %}{% if item.quarter == 'winter'%}<div class="cd-timeline-block">
-			<div class="cd-timeline-img {% if item.submission_type == 'final' %}cd-final{% elsif item.submission_type == 'draft' %}cd-draft{% endif %}">
-				<img src="{{ item.icon_path | prepend:site.baseurl }}" alt="{{ item.title }} icon">
-			</div> <!-- cd-timeline-img -->
-
-			<div class="cd-timeline-content">
-				<h2>{{ item.title }}</h2>
-				<p>{{ item.description }}</p>
-				<a href="{{ item.link_path | prepend:site.baseurl }}" class="cd-read-more">See Guide</a>
-				<span class="cd-date">{{ item.date | date: "%a, %b %d, %Y" }}</span>
-			</div> <!-- cd-timeline-content -->
-		</div> {% endif %}{% endfor %}<!-- cd-timeline-block -->
-		<header id="spring" class="tip" data-tip="<ul class='no-padding'><li>Complete data collection by start of course</li><li>Continue collaboration with instructors, coaches, peers, and other experts</li><li>Analyze and summarize data – learn to display and reduce data</li><li>Interpret findings and integrate them with the literature review</li><li>Write conclusions</li><li>Present research to an audience</li><li>Prepare/organized finished copy of MP, including executive summary </li></ul>">
-            <h2>Spring Quarter</h2>
-            	<div class="arrow-left"></div>
-        </header>
-		{% for item in sorted_items %}{% if item.quarter == 'spring'%}<div class="cd-timeline-block">
-			<div class="cd-timeline-img {% if item.submission_type == 'final' %}cd-final{% elsif item.submission_type == 'draft' %}cd-draft{% endif %}">
-				<img src="{{ item.icon_path | prepend:site.baseurl }}" alt="{{ item.title }} icon">
-			</div> <!-- cd-timeline-img -->
-
-			<div class="cd-timeline-content">
-				<h2>{{ item.title }}</h2>
-				<p>{{ item.description }}</p>
-				<a href="{{ item.link_path | prepend:site.baseurl }}" class="cd-read-more">See Guide</a>
-				<span class="cd-date">{{ item.date | date: "%a, %b %d, %Y" }}</span>
-			</div> <!-- cd-timeline-content -->
-		</div> {% endif %}{% endfor %}<!-- cd-timeline-block -->
-	</section> <!-- cd-timeline -->
-	<div class="scrolltop">
-        <p><a href="#top" class="smoothScroll"><i class="fa fa-arrow-up fa-lg"></i></a></p>
-    </div>
-<script src="{{ site.baseurl }}/js/cd-timeline.js"></script> <!-- Resource jQuery -->
+      <section class="container">
+      <div class="piktowrapper-embed" pikto-uid="14938306-mp-timeline-copy" style="height: 300px; position: relative;"><div class="embed-loading-overlay" style="width: 100%; height: 100%; position: absolute; text-align: center;"><img width="60px" alt="Loading..." style="margin-top: 100px" src="https://magic.piktochart.com/loading.gif"/><p style="margin: 0; padding: 0; font-family: Lato, Helvetica, Arial, sans-serif; font-weight: 600; font-size: 16px">Loading...</p></div><div class="pikto-canvas-wrap"><div class="pikto-canvas"></div></div></div><script>(function(d){var js, id="pikto-embed-js", ref=d.getElementsByTagName("script")[0];if (d.getElementById(id)) { return;}js=d.createElement("script"); js.id=id; js.async=true;js.src="https://magic.piktochart.com/assets/embedding/embed.js";ref.parentNode.insertBefore(js, ref);}(document));</script>
+      </section>
+      <br>
+      <br>

@@ -90,13 +90,11 @@
     <!--mixitup jquery plugin library-->
     <script src="https://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
     <!--site js files-->
-    {% unless page.layout == 'mp-guide-page' or page.title == 'MP Timeline' %}<script src="{{ site.baseurl }}/js/app.js"></script>{% endunless %}
+    {% unless page.layout == 'mp-guide-page' %}<script src="{{ site.baseurl }}/js/app.js"></script>{% endunless %}
      {% if page.search %}
      <!--tipue search js files-->
     <script src="{{ site.baseurl }}/tipuesearch/tipuesearch_set.js"></script>
     <script src="{{ site.baseurl }}/tipuesearch/tipuesearch.min.js"></script>
-    <!--smoothscroll.js files-->
-    <script src="{{ site.baseurl }}/js/smoothscroll.js"></script>
     {% endif %}
     {% if page.comments %}
     <!--Disqus js-->
@@ -104,6 +102,8 @@
     {% endif %}
     <!--featherlight js-->
     <script src="//cdn.rawgit.com/noelboss/featherlight/1.4.1/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+    <!--smoothscroll.js files-->
+    <script src="{{ site.baseurl }}/js/smoothscroll.js"></script>
     <!--tipr-->
     <script src="{{ site.baseurl }}/js/tipr.min.js" type="text/javascript" charset="utf-8"></script>
     <script>

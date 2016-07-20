@@ -1,66 +1,63 @@
-header {
-    width: 100%;
-    position: relative;
-}
+/*header {*/
+/*    width: 100%;*/
+/*    position: relative;*/
+/*}*/
 
-header img {
-    width: 350px;
-    margin: 25px 5px 75px 5%;
-    vertical-align: middle;
-    display: inline-block;
-}
+/*header img {*/
+/*    width: 350px;*/
+/*    margin: 25px 5px 75px 5%;*/
+/*    vertical-align: middle;*/
+/*    display: inline-block;*/
+/*}*/
 
-header input {
-    width: 200px;
-    color: #333;
-    padding: 5px;
-    font-size: 1em;
-    position: absolute;
-    right: 5%;
-    top: 35px;
-}
+/*header input {*/
+/*    width: 200px;*/
+/*    color: #333;*/
+/*    padding: 5px;*/
+/*    font-size: 1em;*/
+/*    position: absolute;*/
+/*    right: 5%;*/
+/*    top: 35px;*/
+/*}*/
 
-nav {
-    width: 100%;
-    min-height: 40px;
-    position: absolute;
-    bottom: 0;
-    background-color: #eee;
-}
+/*nav {*/
+/*    width: 100%;*/
+/*    min-height: 40px;*/
+/*    position: absolute;*/
+/*    bottom: 0;*/
+/*    background-color: #eee;*/
+/*}*/
 
-nav ul {
-    list-style-type: none;
+nav ul,header ul {
     margin: 0;
     padding: 0;
-    width: 80%;
-    margin: 0 auto;
 }
 
-nav ul li {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    margin-left: -5px;
-}
+/*nav ul li {*/
+/*    display: inline-block;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    margin-left: -5px;*/
+/*}*/
 
-nav ul li a {
-    padding: 5px 20px;
-    display: block;
-    color: #333;
-    border-bottom: #eee 3px solid;
-}
+/*nav ul li a {*/
+/*    padding: 5px 20px;*/
+/*    display: block;*/
+/*    color: #333;*/
+/*    border-bottom: #eee 3px solid;*/
+/*}*/
 
-nav ul li a:hover {
-    background-color: #fff;
-    color: #4e2a84;
-    border-bottom: #4e2a84 3px solid;
-}
+/*nav ul li a:hover {*/
+/*    background-color: #fff;*/
+/*    color: #4e2a84;*/
+/*    border-bottom: #4e2a84 3px solid;*/
+/*}*/
 
-nav ul li a.active {
-    background-color: #fff;
-    color: #4e2a84;
-    border-bottom: #4e2a84 3px solid;
-}
+/*nav ul li a.active {*/
+/*    background-color: #fff;*/
+/*    color: #4e2a84;*/
+/*    border-bottom: #4e2a84 3px solid;*/
+/*}*/
 
 .hero {
     height: 450px;
@@ -345,7 +342,7 @@ aside ul li a.active {
 
 .info-page-header {
     line-height: 1.7;
-    padding: 10px 0;
+    padding: 10px;
     width: 100%;
     text-align: center;
     color: #fff;

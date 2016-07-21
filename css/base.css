@@ -12,12 +12,12 @@ html, body, input, textarea, select {
 	font-size: 18px;
 }
 
-/*h1,*/
-/*h2,*/
-/*h3 {*/
-/*	margin-top: 20px;*/
-/*	margin-bottom: 10px;*/
-/*}*/
+h1,
+h2,
+h3 {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
 
 h4,
 h5,
@@ -36,9 +36,14 @@ h2 {
 	font-size: 35px;
 }
 
-/*h3 {*/
-/*	font-size: 32px;*/
-/*}*/
+h3 {
+	font-size: 32px;
+}
+
+header h3, nav h3 {
+	font-size: initial;
+	margin: initial;
+}
 
 h4 {
 	font-size: 24px;
@@ -146,6 +151,11 @@ hr {
 
 ul, ol {
 	padding-left: 40px;
+	list-style-type: initial;
+}
+
+header ol,header ul {
+	list-style-type: none;
 }
 
 .left {

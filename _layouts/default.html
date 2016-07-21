@@ -29,14 +29,14 @@
     <script async="" defer="" src="//survey.g.doubleclick.net/async_survey?site=l5uivyigcjgba"></script>
 </head>
 {% if page.mp_guide == true %}<body class="grey-background" ng-controller="mainController">{% endif %}<body ng-controller="mainController">
-    <header class="cd-main-header">
+    {% unless page.header == false %}<header class="cd-main-header">
 		<a class="cd-logo" href="/"><img src="{{ site.baseurl }}/img/MSHE-horizontal-option1-02.png" alt="Logo"></a>
 
 		<ul class="cd-header-buttons">
 			<li><a class="cd-search-trigger" href="#cd-search"><span></span></a></li>
 			<li><a class="cd-nav-trigger" href="#cd-primary-nav"><span></span></a></li>
 		</ul> <!-- cd-header-buttons -->
-	</header>
+	</header>{% endunless %}
 
 	<main class="cd-main-content">
 		{{ content }}

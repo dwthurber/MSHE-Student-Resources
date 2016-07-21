@@ -40,7 +40,7 @@ categories:
             <article class="mixing" id="Container">
                 <table width="100%" class="sorter-table">
                     <tr>
-                        <td class="sort tip" data-tip="Sort by Year" ng-click="sort('year')" width="50px">Year <i ng-if="sortOrder == 'year'" class="fa fa-caret-down" ng-class="{flip:reverse}" aria-hidden="true"></i></td>
+                        <td class="sort tip" data-tip="Sort by Year" ng-click="sort('year')" width="60px">Year <i ng-if="sortOrder == 'year'" class="fa fa-caret-down" ng-class="{flip:reverse}" aria-hidden="true"></i></td>
                         <td class="sort tip" data-tip="Sort By Author" ng-click="sort('name')">Project Details <i ng-if="sortOrder == 'name'" class="fa fa-caret-down" ng-class="{flip:reverse}" aria-hidden="true"></i></td>
                         <td width="150px">Categories</td>
                     </tr>
@@ -51,7 +51,7 @@ categories:
                 <table width="100%" class="mp-table" >
                    
                     <tr>
-                        <td width="50px" class="year">{{ project.year }}</td>
+                        <td width="60px" class="year">{{ project.year }}</td>
                         <td class="mp-title">
                             <p><strong>{{ project.title }}</strong></p>
                             <p class="author">By {{ project.first_name }} {{ project.last_name }} </p>

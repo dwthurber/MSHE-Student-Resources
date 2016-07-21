@@ -10,6 +10,7 @@ statuses:
 keywords:
   - 
 comments: true
+section: student life
 ---
 
 #### On-Campus Graduate Student Housing

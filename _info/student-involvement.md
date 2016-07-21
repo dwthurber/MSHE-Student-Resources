@@ -4,11 +4,13 @@ description: There are a number of ways for students to get involved on campus a
 topics: 
   - student life
 actions:
+  - find a place to live
 statuses:
   - newly admitted students
   - current students
 keywords:
 comments: true
+section: student life
 ---
 
 [Civic Engagement Center](http://www.engage.northwestern.edu/)

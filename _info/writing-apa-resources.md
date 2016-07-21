@@ -16,6 +16,7 @@ keywords:
   - NU Employee Tuition Benefit
   - Purdue OWL
 comments: true
+section: academics
 ---
 
 [The Writing Place (for help with writing and editing papers)](http://www.writing.northwestern.edu/) Northwestern University's [writing center](http://www.writing.northwestern.edu/) can assist students with editing papers, including the Master's Project paper. Appointments are required and students can make up to 2 hours of appointments per week.

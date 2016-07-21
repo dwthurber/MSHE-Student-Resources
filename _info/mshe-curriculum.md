@@ -21,6 +21,7 @@ keywords:
   - Medill courses
   - Authorization for Dual Registration Form
 comments: true
+section: registration
 ---
 
 #### Required Courses:

@@ -12,6 +12,7 @@ statuses:
 keywords:
   - accommodations
 comments: true
+section: policies
 ---
 
 Students with disabilities seeking accommodations are encouraged to contact the office of Services for Students with Disabilities (SSD) at 467-5530 or [ssd@northwestern.edu](mailto:ssd@northwestern.edu). SSD is located in the basement of Scott Hall. The SSD weblink is: [http://www.stuaff.northwestern.edu/ssd/](http://www.stuaff.northwestern.edu/ssd/).

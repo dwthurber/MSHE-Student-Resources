@@ -81,6 +81,7 @@ glossary-term:
     definition: "Weinberg College of Arts and Sciences, the largest of Northwestern's 12 schools/colleges."
   - term: Wildcard
     definition: "The name for the ID cards held by Northwestern students, faculty and staff. You will need to use your Wildcard to enter the library, to ride the intercampus shuttle and to access a number of other services that are restricted to members of the NU community."
+section: academics
 ---
 
   {% for item in page.glossary-term %}

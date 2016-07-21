@@ -12,6 +12,7 @@ statuses:
 keywords:
   - register for courses
 comments: true
+section: registration
 ---
 
 ## Creating Your First Plan

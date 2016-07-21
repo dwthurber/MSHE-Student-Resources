@@ -1,0 +1,15 @@
+<div class="info-page-hero">
+  <div class="info-page-header">
+    <h2>Academic Resources</h2>
+  </div>
+  <div class="info-page-nav">
+  <nav>
+    <ul>
+      <li {% if page.section == "registration" %}class="active"{% endif %}><a href="{{ site.baseurl }}/info/register-for-courses.html">Registration</a></li>
+      {% for item in site.info %}{% if item.section == "academics" %}{% if item.title == page.title %}<li class="active"><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></li>
+      {% else %}<li><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></li>{% endif %}{% endif %}{% endfor %}
+      <li {% if page.section == "mp" %}class="active"{% endif %}><a href="{{ site.baseurl }}/info/mp.html">Master's Project</a></li>
+    </ul>
+  </nav>
+  </div>
+</div>

@@ -13,6 +13,7 @@ statuses:
 keywords:
   - 
 comments: true
+section: student life
 ---
 
 Restaurant Suggestions in Evanston

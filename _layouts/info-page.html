@@ -1,26 +1,61 @@
 ---
 layout: default
 ---
-<div class="info-page-hero">
-  <div class="info-page-header">
-      <h2>{{ page.title }}</h2>
-  </div>
-</div>
-<section class="container">
-  
+{%if page.section == "career" %}
+  {% include career_hero.html %}
+{% elsif page.section == "student experience" %}
+  {% include student-experience_hero.html %}
+{% elsif page.section == "student life" %}
+  {% include student-experience_hero.html %}
+{% elsif page.section == "internships" %}
+  {% include student-experience_hero.html %}
+{% elsif page.section == "academics" %}
+  {% include academics_hero.html %}
+{% elsif page.section == "mp" %}
+  {% include academics_hero.html %}
+{% elsif page.section == "registration" %}
+  {% include academics_hero.html %}
+{% elsif page.section == "policies" %}
+  {% include policies_hero.html %}
+{% elsif page.section == "academic policies" %}
+  {% include policies_hero.html %}
+{% elsif page.section == "student status" %}
+  {% include policies_hero.html %}
+{% endif %}
+<section class="main-page-container">
+<div class="corso-left">
     <div class="breadcrumbs">
         <p>You are here: &nbsp;&nbsp;&nbsp; <a href="{{ site.baseurl }}/info/">Topics</a> > {{ page.title }}</p>
     </div>
-    
+    <h2>{{ page.title }}</h2>
     <p>{{ page.description }}</p>
     {{ page.content }}
-</section>
-<div class="related-container">
-  <div class="container">
+    <div id="disqus_thread"></div>
+    <script>
+    /**
+    * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+    */
+    // var disqus_developer = 1; // Comment out when the site is live
+    var disqus_config = function () {
+    // this.page.url = "{{ page.url }}"; // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = "{{ page.url }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    
+    s.src = '//mshestudentresources.disqus.com/embed.js';
+    
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+</div>
+<div class="corso-right">
     <h5>You might also like...</h5>
     <div class="three-columns related">
-      {% assign maxRelated = 3 %}
-      {% assign maxRelatedCounter = 0 %}
       {% for item in site.info %}
         {% assign sameTagCount = 0 %}
         {% for tag in item.topics %}
@@ -46,43 +81,14 @@ layout: default
         {% endfor %}
         {% if sameTagCount >= 2 %}
         
-            <div class="column related-info">
+            <div class="related-info">
                 <h5><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></h5>
                 <p class="subheader"><a href="{{ item.url }}">{{ item.url }} </a></p>
                 <p>{{ item.description | truncate: 150, ' ... ' }}</p>
                 <div class="related-info-hover"><a href="{{ item.url | prepend:site.baseurl }}"></a><i class=""></i></div>
             </div>
-          {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
-          {% if maxRelatedCounter >= maxRelated %}
-            {% break %}
-          {% endif %}
         {% endif %}
        {% endfor %}
     </div>
-    </div>
 </div>
-<section class="container">
-    <div id="disqus_thread"></div>
-    <script>
-    /**
-    * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-    * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
-    */
-    // var disqus_developer = 1; // Comment out when the site is live
-    var disqus_config = function () {
-    // this.page.url = "{{ page.url }}"; // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = "{{ page.url }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
-    
-    (function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    
-    s.src = '//mshestudentresources.disqus.com/embed.js';
-    
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-    
 </section>

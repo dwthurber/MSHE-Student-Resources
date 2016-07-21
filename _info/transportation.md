@@ -11,6 +11,7 @@ statuses:
   - certificate students
 keywords:
 comments: true
+student: student life
 ---
 
 #### Inter-campus Shuttle

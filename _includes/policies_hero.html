@@ -1,0 +1,15 @@
+<div class="info-page-hero">
+  <div class="info-page-header">
+    <h2>Policies and Procedures</h2>
+  </div>
+  <div class="info-page-nav">
+  <nav>
+    <ul>
+      <li {% if page.section == "academic policies" %}class="active"{% endif %}><a href="{{ site.baseurl }}/info/academic-policies.html">Academic Policies</a></li>
+      {% for item in site.info %}{% if item.section == "policies" %}{% if item.title == page.title %}<li class="active"><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></li>
+      {% else %}<li><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></li>{% endif %}{% endif %}{% endfor %}
+      <li {% if page.section == "student status" %}class="active"{% endif %}><a href="{{ site.baseurl }}/info/student-status.html">Student Status</a></li>
+    </ul>
+  </nav>
+  </div>
+</div>

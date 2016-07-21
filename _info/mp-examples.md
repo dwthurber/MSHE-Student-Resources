@@ -9,6 +9,7 @@ statuses:
   - current students
 keywords:
 comments: true
+section: mp
 ---
 
 #### Examples of Master's Projects

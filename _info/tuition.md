@@ -16,7 +16,9 @@ keywords:
   - NU Employee Tuition Benefit
   - Tax Documents 
   - 1098T
+  - loans
 comments: true
+section: policies
 ---
 
 The tuition rate for the 2015-16 academic year is $3,753 per course. If a student took all 15 course units required for the master's degree at the 2015-16 tuition rate, the total cost of tuition would be $56,295\. 

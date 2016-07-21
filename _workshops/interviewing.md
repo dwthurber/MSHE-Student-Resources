@@ -11,11 +11,12 @@ upcoming_workshop:
   end_time:
   location:
 comments: false
+section: workshops
 ---
 
-## About {{ page.title }}
+#### About {{ page.title }}
 
-#### Before the Interview:
+##### Before the Interview:
 
 **Prepare, prepare, prepare**
 
@@ -25,7 +26,7 @@ comments: false
 4. Plan logistics
 5. Practice
 
-#### During the Interview:
+##### During the Interview:
 
 * Turn off your cell phone
 * Listen well
@@ -33,7 +34,7 @@ comments: false
 * "Tell the truth, and make it sound great." *-Josh Adland*
 * Keep your sense of humor
 
-#### After the Interview:
+##### After the Interview:
 
 1. Reflect on the experience. 
 2. Send thoughtful, individual thank you notes within 48 hours. 
@@ -41,6 +42,6 @@ comments: false
 4. Call the departmental contact to follow up at the appropriate time, based on stated next steps. You’re not pestering; you’re being professional.
 5. **Persevere, persevere, persevere!**
 
-## Workshop Materials
+#### Workshop Materials
 
 <iframe src="https://app.box.com/embed/preview/0gk3jg6j0wrsun86i7j4ljcki2ziwni9?theme=dark" width="500" height="400" frameborder="0" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>

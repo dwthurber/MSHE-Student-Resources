@@ -11,11 +11,12 @@ upcoming_workshop:
   end_time:
   location:
 comments: false
+section: workshops
 ---
 
-## About {{ page.title }}
+#### About {{ page.title }}
 
-#### What do you do when you get an offer? 
+##### What do you do when you get an offer? 
 
 1. Say, “Thank you!” Show enthusiasm. **(Do not accept immediately!)**
 2. If you receive a verbal offer, ask for it in writing.
@@ -26,13 +27,13 @@ comments: false
   * Review benefits information online, if you haven’t already.
   * Evaluate the offer, and, if appropriate, prepare to negotiate.
 
-#### Negotiate for the Win/Win!
+##### Negotiate for the Win/Win!
 
 * It’s not a conflict; it’s a conversation. At its best, it is a collaborative, problem-solving endeavor.
 * The goal is not to win, but to seek an elegant,win-win agreement.
 * Consider this your first project with your future colleagues. Strengthening relationships is paramount to your success.
 
-##### Do’s and Don’ts
+###### Do’s and Don’ts
 
 **DO:**
 
@@ -51,7 +52,7 @@ comments: false
 * disregard an employer’s feedback during the negotiation
 process
 
-## Workshop Materials
+#### Workshop Materials
 
 <iframe src="https://app.box.com/embed/preview/lc9uqffmpj0mmz8tpt896ncbh8pptj3d?theme=dark" width="500" height="400" frameborder="0" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>
 

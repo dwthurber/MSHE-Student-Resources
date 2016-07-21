@@ -12,6 +12,7 @@ keywords:
   - get ready for graduate school
   - orientation
 comments: true
+section: student experience
 ---
 
 #### Connecting to the Northwestern Wireless Network

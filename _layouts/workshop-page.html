@@ -1,27 +1,17 @@
 ---
 layout: default
 ---
-<div class="info-page-hero">
-  <div class="info-page-header">
-      <h2>{{ page.title }}</h2>
-  </div>
-</div>
-<section class="container">
-  
+{% include career_hero.html %}
+<section class="main-page-container">
+    <div class="corso-left">
     <div class="breadcrumbs">
         <p>You are here: &nbsp;&nbsp;&nbsp; <a href="{{ site.baseurl }}/workshops/">Workshops</a> > {{ page.title }}</p>
     </div>
     
-    
-    {% if page.upcoming_workshop.scheduled == true %}<blockquote>
-        <p class="upcoming-date"><i class="fa fa-calendar" aria-hidden="true"></i> <strong>Next workshop:</strong> {{ page.upcoming_workshop.upcoming_date | date: "%a, %b %-d, %Y" }} at {{ page.upcoming_workshop.start_time }} - {{ page.upcoming_workshop.end_time }} // {{ page.upcoming_workshop.location }}</p>
-    </blockquote>{% endif %}
-    
+    <h2>{{ page.title }}</h2>
     <p>{{ page.description }}</p>
     {{ page.content }}
-</section>
-<br /><br />
-<section class="container">
+
     <div id="disqus_thread"></div>
     <script>
     /**
@@ -44,7 +34,22 @@ layout: default
     })();
     </script>
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-    
+    </div>
+    <div class="corso-right">
+        {% if page.upcoming_workshop.scheduled == true %}<blockquote>
+        <p class="upcoming-date"><i class="fa fa-calendar" aria-hidden="true"></i> <strong>Next workshop:</strong> {{ page.upcoming_workshop.upcoming_date | date: "%a, %b %-d, %Y" }} at {{ page.upcoming_workshop.start_time }} - {{ page.upcoming_workshop.end_time }} // {{ page.upcoming_workshop.location }}</p>
+    </blockquote>{% endif %}
+        <h5>Other workshops</h5>
+        <div class="three-columns related">
+            {% assign sorted_workshops = site.workshops | sort:"order" %}
+            {% for item in sorted_workshops %}
+            {% if item.url != page.url %}
+            <div class="related-info">
+                <h5><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></h5>
+                <p class="subheader"><a href="{{ item.url }}">{{ item.url }} </a></p>
+                <p>{{ item.description | truncate: 150, ' ... ' }}</p>
+                <div class="related-info-hover"><a href="{{ item.url | prepend:site.baseurl }}"></a><i class=""></i></div>
+            </div>{% endif %}{% endfor %}
+        </div>
+    </div>
 </section>
-
-<br /><br />

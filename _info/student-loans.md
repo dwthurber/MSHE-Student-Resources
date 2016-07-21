@@ -11,7 +11,9 @@ statuses:
 keywords:
   - register for courses
   - fafsa
+  - loans
 comments: true
+section: policies
 ---
 
 The contact person for MSHE students in SFS is [Colleen Delaney](mailto:c-delaney@northwestern.edu). [Please visit the Student Financial Services web site for full details.](http://www.northwestern.edu/sfs)

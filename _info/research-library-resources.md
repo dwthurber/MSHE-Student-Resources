@@ -11,6 +11,7 @@ statuses:
   - certificate students
 keywords:
 comments: true
+section: academics
 ---
 
 #### General Introduction to the Library's Resources

@@ -11,13 +11,14 @@ upcoming_workshop:
   end_time:
   location:
 comments: false
+section: workshops
 ---
 
-## About {{ page.title }}
+#### About {{ page.title }}
 
 Networking is sharing purposeful information about yourself: experiences, accomplishments, and career interests. It's developing mutually beneﬁcial relationships to exchange information, ideas, support, and resources. And it's a powerful strategy to seek employment and to tap into the hidden job market. For example, 50-75% of Northwestern students report ﬁnding their jobs/internships through networking on annual graduation surveys and 29% of recent graduates reported that they wish they had spent more time networking while in college.
 
-#### How to prepare to Network
+##### How to prepare to Network
 
 **Deﬁne your goals:**
 
@@ -29,7 +30,7 @@ Networking is sharing purposeful information about yourself: experiences, accomp
 * Know how to ar*culate your skills, interests, and industry/ﬁeld knowledge.
 * Develop a professional introduction. Create a list of potential questions to ask the contact.
 
-#### When/Where to network
+##### When/Where to network
 
 **Formal Settings**
 
@@ -51,7 +52,7 @@ Additionally, the MSHE MeetUp program, which runs during fall, winter, and sprin
 
 For additional resources on networking, see below.
 
-## Workshop Materials
+#### Workshop Materials
 
 **Fall 2015 Networking Workshop Video**
 

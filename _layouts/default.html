@@ -15,6 +15,7 @@
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/reset.css"></link>
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/base.css"></link>
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/main.css"></link>
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/beaty.css"></link>
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/tipr.css"></link>
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/cd-header.css"></link>
     {% if page.title == 'MSHE MeetUps' %}<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/cd-testimonials.css"></link>{% endif %}
@@ -56,59 +57,54 @@
 
 						<ul class="is-hidden">
 							<li class="go-back"><a href="#0">Academics</a></li>
-							<li class="see-all"><a href="{{ site.baseurl }}/info/">All Academics</a></li>
+							<li class="see-all"><a href="{{ site.baseurl }}/info/#/academics">All Academics</a></li>
 							<li class="has-children">
-								<a href="#0">Curriculum</a>
+								<a href="#0">Registration</a>
 
 								<ul class="is-hidden">
-									<li class="go-back"><a href="#0">Curriculum</a></li>
-									<li class="see-all"><a href="http://codyhouse.co/?p=409">All Curriculum</a></li>
-									<li><a href="http://codyhouse.co/?p=409">Caps &amp; Hats</a></li>
-									<li><a href="http://codyhouse.co/?p=409">Gifts</a></li>
-									<li><a href="http://codyhouse.co/?p=409">Scarves &amp; Snoods</a></li>
+									<li class="go-back"><a href="#0">Registration</a></li>
+									<li class="see-all"><a href="#0">All Academics</a></li>
+									{% for item in site.info %}{% if item.section == "registration" %}<li><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></li>{% endif %}{% endfor %}
 								</ul>
 							</li>
+							{% for item in site.info %}{% if item.section == "academics" %}<li><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></li>{% endif %}{% endfor %}
 							<li class="has-children">
-								<a href="#0">Caps &amp; Hats</a>
+								<a href="#0">Master's Project</a>
 
 								<ul class="is-hidden">
-									<li class="go-back"><a href="#0">Accessories</a></li>
-									<li class="see-all"><a href="http://codyhouse.co/?p=409">All Caps &amp; Hats</a></li>
-									<li><a href="http://codyhouse.co/?p=409">Beanies</a></li>
-									<li><a href="http://codyhouse.co/?p=409">Caps</a></li>
-									<li><a href="http://codyhouse.co/?p=409">Hats</a></li>
+									<li class="go-back"><a href="#0">Master's Project</a></li>
+									<li class="see-all"><a href="#0">All Academics</a></li>
+									{% for item in site.info %}{% if item.section == "mp" %}<li><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></li>{% endif %}{% endfor %}
 								</ul>
 							</li>
-							<li><a href="http://codyhouse.co/?p=409">Glasses</a></li>
-							<li><a href="http://codyhouse.co/?p=409">Gloves</a></li>
-							<li><a href="http://codyhouse.co/?p=409">Jewellery</a></li>
-							<li><a href="http://codyhouse.co/?p=409">Scarves</a></li>
-							<li><a href="http://codyhouse.co/?p=409">Wallets</a></li>
-							<li><a href="http://codyhouse.co/?p=409">Watches</a></li>
 						</ul>
 					</li>
 
 					<li class="has-children">
-						<a href="{{ site.baseurl }}/info/">Internships</a>
+						<a href="{{ site.baseurl }}/info/#/studentlife">Student Experience</a>
 
 						<ul class="is-hidden">
-							<li class="go-back"><a href="#0">Clothing</a></li>
-							<li class="see-all"><a href="http://codyhouse.co/?p=409">All Bottoms</a></li>
-							<li><a href="http://codyhouse.co/?p=409">Casual Trousers</a></li>
+							<li class="go-back"><a href="#0">Student Experience</a></li>
+							<li class="see-all"><a href="http://codyhouse.co/?p=409">All Student Resources</a></li>
 							<li class="has-children">
-								<a href="#0">Jeans</a>
+								<a href="#0">Internships</a>
 
 								<ul class="is-hidden">
-									<li class="go-back"><a href="#0">Bottoms</a></li>
-									<li class="see-all"><a href="http://codyhouse.co/?p=409">All Jeans</a></li>
-									<li><a href="http://codyhouse.co/?p=409">Ripped</a></li>
-									<li><a href="http://codyhouse.co/?p=409">Skinny</a></li>
-									<li><a href="http://codyhouse.co/?p=409">Slim</a></li>
-									<li><a href="http://codyhouse.co/?p=409">Straight</a></li>
+									<li class="go-back"><a href="#0">Internships</a></li>
+									<li class="see-all"><a href="{{ site.baseurl }}/info/#/internships">All Internship Resources</a></li>
+									{% for item in site.info %}{% if item.section == "internships" %}<li><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></li>{% endif %}{% endfor %}
 								</ul>
 							</li>
-							<li><a href="#0">Leggings</a></li>
-							<li><a href="#0">Shorts</a></li>
+							<li class="has-children">
+								<a href="#0">Student Life</a>
+
+								<ul class="is-hidden">
+									<li class="go-back"><a href="#0">Student Life</a></li>
+									<li class="see-all"><a href="{{ site.baseurl }}/info/#/studentlife">All Student Life Resources</a></li>
+									{% for item in site.info %}{% if item.section == "student life" %}<li><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></li>{% endif %}{% endfor %}
+								</ul>
+							</li>
+							{% for item in site.info %}{% if item.section == "student experience" %}<li><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></li>{% endif %}{% endfor %}
 						</ul>
 					</li>
 
@@ -116,42 +112,46 @@
 						<a href="{{ site.baseurl }}/info/">Career Resources</a>
 
 						<ul class="is-hidden">
-							<li class="go-back"><a href="#0">Clothing</a></li>
-							<li class="see-all"><a href="http://codyhouse.co/?p=409">All Jackets</a></li>
-							<li><a href="http://codyhouse.co/?p=409">Blazers</a></li>
-							<li><a href="http://codyhouse.co/?p=409">Bomber jackets</a></li>
-							<li><a href="http://codyhouse.co/?p=409">Denim Jackets</a></li>
-							<li><a href="http://codyhouse.co/?p=409">Duffle Coats</a></li>
-							<li><a href="http://codyhouse.co/?p=409">Leather Jackets</a></li>
-							<li><a href="http://codyhouse.co/?p=409">Parkas</a></li>
+							<li class="go-back"><a href="{{ site.baseurl }}/info/#/careerresources">Career Resources</a></li>
+							<li class="see-all"><a href="{{ site.baseurl }}/info/#/careerresources">All Career Resources</a></li>
+							{% for item in site.info %}{% if item.section == "career" %}<li><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></li>{% endif %}{% endfor %}
+							<li class="has-children">
+								<a href="#0">Professional Development</a>
+
+								<ul class="is-hidden">
+									<li class="go-back"><a href="#0">Career Resources</a></li>
+									<li class="see-all"><a href="{{ site.baseurl }}/workshops/">All Workshops</a></li>{% assign sorted_workshops = site.workshops | sort:"order" %}
+									{% for item in sorted_workshops %}<li><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></li>{% endfor %}
+								</ul>
+							</li>
 						</ul>
 					</li>
 
 					<li class="has-children">
-						<a href="http://codyhouse.co/?p=409">Policies and Procedures</a>
+						<a href="{{ site.baseurl }}/info/#/policies">Policies and Procedures</a>
 
 						<ul class="is-hidden">
-							<li class="go-back"><a href="#0">Clothing</a></li>
-							<li class="see-all"><a href="http://codyhouse.co/?p=409">All Tops</a></li>
-							<li><a href="http://codyhouse.co/?p=409">Cardigans</a></li>
-							<li><a href="http://codyhouse.co/?p=409">Coats</a></li>
-							<li><a href="http://codyhouse.co/?p=409">Hoodies &amp; Sweatshirts</a></li>
-							<li><a href="http://codyhouse.co/?p=409">Jumpers</a></li>
-							<li><a href="http://codyhouse.co/?p=409">Polo Shirts</a></li>
-							<li><a href="http://codyhouse.co/?p=409">Shirts</a></li>
+							<li class="go-back"><a href="#0">Policies and Procedures</a></li>
+							<li class="see-all"><a href="{{ site.baseurl }}/info/#/policies">All Policies and Procedures</a></li>
 							<li class="has-children">
-								<a href="#0">T-Shirts</a>
+								<a href="#0">Academic Policies</a>
 
 								<ul class="is-hidden">
-									<li class="go-back"><a href="#0">Tops</a></li>
-									<li class="see-all"><a href="http://codyhouse.co/?p=409">All T-shirts</a></li>
-									<li><a href="http://codyhouse.co/?p=409">Plain</a></li>
-									<li><a href="http://codyhouse.co/?p=409">Print</a></li>
-									<li><a href="http://codyhouse.co/?p=409">Striped</a></li>
-									<li><a href="http://codyhouse.co/?p=409">Long sleeved</a></li>
+									<li class="go-back"><a href="#0">Academic Policies</a></li>
+									<li class="see-all"><a href="{{ site.baseurl }}/info/#/policies">All Academic Policies</a></li>
+									{% for item in site.info %}{% if item.section == "academic policies" %}<li><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></li>{% endif %}{% endfor %}
 								</ul>
 							</li>
-							<li><a href="http://codyhouse.co/?p=409">Vests</a></li>
+							{% for item in site.info %}{% if item.section == "policies" %}<li><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></li>{% endif %}{% endfor %}
+							<li class="has-children">
+								<a href="#0">Student Status</a>
+
+								<ul class="is-hidden">
+									<li class="go-back"><a href="#0">Student Status</a></li>
+									<li class="see-all"><a href="{{ site.baseurl }}/info/#/policies">All Policies</a></li>
+									{% for item in site.info %}{% if item.section == "student status" %}<li><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></li>{% endif %}{% endfor %}
+								</ul>
+							</li>
 						</ul>
 					</li>
 				</ul>

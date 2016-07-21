@@ -438,6 +438,7 @@ general-reading:
     image_path: /img/suggested_reading/great_brain_race.jpg
     author: By Ben Wildavsky
     link: "http://www.amazon.com/The-Great-Brain-Race-Universities/dp/0691146896/ref=pd_sim_b_96"
+section: academics
 --- 
 
 These resources were suggested by instructors and alumni. If you have additional resources you think we should add please contact [ms-highered@northwestern.edu](mailto:ms-highered@northwestern.edu) and let us know!

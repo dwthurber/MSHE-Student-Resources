@@ -12,6 +12,7 @@ statuses:
 keywords:
   - register for courses
 comments: true
+section: registration
 ---
 Dr. Kristin McCann will process your enrollment appointment after receiving the Intention to Register form and the tuition deposit. Depending on when you applied and were accepted, enrollment for your starting quarter may not yet be open (e.g. if you were accepted in January and planning to start in the fall you wouldn't be able to register for courses until fall enrollment opened in late spring.) You will get an email from Kristin letting you know when your enrollment appointment has been set.
 

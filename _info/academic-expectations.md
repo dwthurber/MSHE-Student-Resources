@@ -12,6 +12,7 @@ statuses:
 keywords:
   - 
 comments: true
+section: academic policies
 ---
 #### Academic Integrity
 

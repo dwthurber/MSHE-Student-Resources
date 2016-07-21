@@ -10,6 +10,7 @@ statuses:
   - non-matriculated students
 keywords:
 comments: true
+section: student status
 ---
 
 #### Non-Matriculated Status 

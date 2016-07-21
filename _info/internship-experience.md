@@ -8,6 +8,7 @@ statuses:
   - newly admitted students
 keywords:
 comments: true
+section: internships
 ---
 
 

@@ -12,6 +12,7 @@ statuses:
 keywords:
   - accommodations
 comments: true
+section: academic policies
 ---
 #### Transfer Credit
 

@@ -15,6 +15,7 @@ keywords:
   - gym
   - beach
 comments: true
+section: student life
 ---
 
 

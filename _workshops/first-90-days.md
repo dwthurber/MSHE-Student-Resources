@@ -10,11 +10,12 @@ upcoming_workshop:
   end_time:
   location:
 comments: false
+section: workshops
 ---
 
-## About {{ page.title }}
+#### About {{ page.title }}
 
-#### 10 Success Strategies for the First 90 Days of a New Job 
+##### 10 Success Strategies for the First 90 Days of a New Job 
 
 (adapted from The First 90 Days by Michael Watkins)
 
@@ -64,7 +65,7 @@ comments: false
   * Ask others how they got up to speed. 
   * If there are areas where you can start contributing early, go for it!
 
-## Workshop Materials
+#### Workshop Materials
 
 **Workshop presentation:**
 

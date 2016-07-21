@@ -162,6 +162,7 @@ nav ul,header ul {
     font-size: 1em;
     line-height: 1.2em;
     color: #555;
+    margin-top: 10px;
 }
 
 .explore {
@@ -191,6 +192,10 @@ nav ul,header ul {
     /*min-height: 250px;*/
 }
 
+.sitemap a {
+    color: #4e2a84;
+}
+
 .contact-block {
     margin-bottom: 15px;
 }
@@ -209,6 +214,10 @@ footer {
 footer p {
     margin: 0;
     font-size: 0.8em;
+}
+
+footer a {
+    color: #4e2a84;
 }
 
 .listby {

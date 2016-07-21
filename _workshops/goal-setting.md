@@ -12,6 +12,8 @@ upcoming_workshop:
   location: Anneberg G02
 comments: false
 section: workshops
+topics: 
+  - career resources
 ---
 
 #### About {{ page.title }}

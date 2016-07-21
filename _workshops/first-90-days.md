@@ -11,6 +11,8 @@ upcoming_workshop:
   location:
 comments: false
 section: workshops
+topics: 
+  - career resources
 ---
 
 #### About {{ page.title }}

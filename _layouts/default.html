@@ -42,7 +42,7 @@
 		{{ content }}
 	</main>
 
-	<div class="cd-overlay"></div>
+	{% unless page.header == false %}<div class="cd-overlay"></div>
 
 	<nav class="cd-nav">
 		<ul id="cd-primary-nav" class="cd-primary-nav is-fixed">
@@ -221,7 +221,7 @@
 	</div>
     
     
-    {% unless page.header == false %}<section class="sitemap">
+    <section class="sitemap">
         <div class="three-columns">
             <div class="column">
                 <h4>Explore</h4>

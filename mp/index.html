@@ -1268,7 +1268,7 @@ templates:
                         <h2>{{ item.title }}</h2>
                         <p>{{ item.subtitle }}</p>
                     </div>
-                    {% if item.type == 'external link' or 'download' %}<a href="{{ item.link_path }}" target="_blank">{% else %}<a href="{{ item.link_path | prepend: site.baseurl }}">{% endif %}
+                    {% if item.type == 'internal pages' %}<a href="{{ item.link_path | prepend: site.baseurl }}">{% else %}<a href="{{ item.link_path }}" target="_blank">{% endif %}
                         <div class="mix-hover hidden">
                             <p class="resource-tags"><i class="fa fa-tags"></i> {{ item.filters | join:', ' }}</p>
                             {% if item.type == 'external link' %}<i class="fa fa-external-link fa-3x action"></i>{% endif %}
@@ -1290,7 +1290,7 @@ templates:
                         <h2>{{ item.title }}</h2>
                         <p>{{ item.subtitle }}</p>
                     </div>
-                    {% if item.type == 'external link' or 'download' %}<a href="{{ item.link_path }}" target="_blank">{% else %}<a href="{{ item.link_path | prepend: site.baseurl }}">{% endif %}
+                    {% if item.type == 'internal pages' %}<a href="{{ item.link_path | prepend: site.baseurl }}">{% else %}<a href="{{ item.link_path }}" target="_blank">{% endif %}
                         <div class="mix-hover hidden">
                             <p class="resource-tags"><i class="fa fa-tags"></i> {{ item.filters | join:', ' }}</p>
                             {% if item.type == 'external link' %}<i class="fa fa-external-link fa-3x action"></i>{% endif %}
@@ -1312,7 +1312,7 @@ templates:
                         <h2>{{ item.title }}</h2>
                         <p>{{ item.subtitle }}</p>
                     </div>
-                    {% if item.type == 'external link' or 'download' %}<a href="{{ item.link_path }}" target="_blank">{% else %}<a href="{{ item.link_path | prepend: site.baseurl }}">{% endif %}
+                    {% if item.type == 'internal pages' %}<a href="{{ item.link_path | prepend: site.baseurl }}">{% else %}<a href="{{ item.link_path }}" target="_blank">{% endif %}
                         <div class="mix-hover hidden">
                             <p class="resource-tags"><i class="fa fa-tags"></i> {{ item.filters | join:', ' }}</p>
                             {% if item.type == 'external link' %}<i class="fa fa-external-link fa-3x action"></i>{% endif %}
@@ -1334,7 +1334,7 @@ templates:
                         <h2>{{ item.title }}</h2>
                         <p>{{ item.subtitle }}</p>
                     </div>
-                    {% if item.type == 'external link' or 'download' %}<a href="{{ item.link_path }}" target="_blank">{% else %}<a href="{{ item.link_path | prepend: site.baseurl }}">{% endif %}
+                    {% if item.type == 'internal pages' %}<a href="{{ item.link_path | prepend: site.baseurl }}">{% else %}<a href="{{ item.link_path }}" target="_blank">{% endif %}
                         <div class="mix-hover hidden">
                             <p class="resource-tags"><i class="fa fa-tags"></i> {{ item.filters | join:', ' }}</p>
                             {% if item.type == 'external link' %}<i class="fa fa-external-link fa-3x action"></i>{% endif %}
@@ -1356,7 +1356,7 @@ templates:
                         <h2>{{ item.title }}</h2>
                         <p>{{ item.subtitle }}</p>
                     </div>
-                    {% if item.type == 'external link' or 'download' %}<a href="{{ item.link_path }}" target="_blank">{% else %}<a href="{{ item.link_path | prepend: site.baseurl }}">{% endif %}
+                    {% if item.type == 'internal pages' %}<a href="{{ item.link_path | prepend: site.baseurl }}">{% else %}<a href="{{ item.link_path }}" target="_blank">{% endif %}
                         <div class="mix-hover hidden">
                             <p class="resource-tags"><i class="fa fa-tags"></i> {{ item.filters | join:', ' }}</p>
                             {% if item.type == 'external link' %}<i class="fa fa-external-link fa-3x action"></i>{% endif %}

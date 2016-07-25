@@ -394,6 +394,17 @@
     color: #333;
 }
 
+.guide h5 {
+    font-size: 0.6em;
+    line-height: 1em;
+    margin: 7px 0;
+    color: green;
+}
+
+.guide.active h5 {
+    color: #B6ACD1;
+}
+
 .guide:hover {
     background-color: #ddd;
     cursor: pointer;

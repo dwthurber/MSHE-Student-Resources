@@ -51,7 +51,7 @@ section: registration
         <tr>
             <td></td>
             <td colspan="2" class="details">
-                <p class="subheader"><em>Typically Offered: </em>{% unless elective.Typically_offered_FALL == null %}<span class="quarter-pill">Fall</span> {% endunless %}{% unless elective.Typically_offered_WINTER == null %}<span class="quarter-pill">Winter</span> {% endunless %}{% unless elective.Typically_offered_SPRING == null %}<span class="quarter-pill">Spring</span> {% endunless %}{% unless elective.Typically_offered_SUMMER == null %}<span class="quarter-pill">Summer</span> {% endunless %}</p>
+                <p class="subheader"><em>Typically Offered: </em>{% unless elective.Typically_offered_FALL == false %}<span class="quarter-pill">Fall</span> {% endunless %}{% unless elective.Typically_offered_WINTER == false %}<span class="quarter-pill">Winter</span> {% endunless %}{% unless elective.Typically_offered_SPRING == false %}<span class="quarter-pill">Spring</span> {% endunless %}{% unless elective.Typically_offered_SUMMER == false %}<span class="quarter-pill">Summer</span> {% endunless %}</p>
                 <p>{{ elective.Course_Description }}</p>
             </td>
         </tr>

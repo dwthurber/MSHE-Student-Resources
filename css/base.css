@@ -133,7 +133,7 @@ strong {
 	color: #4e2a84;
 }
 
-#Container .mix, .FAQs .mix {
+#Container .mix,#Electives .mix, .FAQs .mix {
 	display: none;
 }
 

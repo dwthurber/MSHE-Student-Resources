@@ -63,6 +63,7 @@ var topicsApp = angular.module('topicsApp', ['ngRoute']);
              }
              
              $('#Container').mixItUp('sort', val + ':' + ascdesc);
+             $('#Electives').mixItUp('sort', val + ':' + ascdesc);
          };
          
         //  $scope.catChecked = null;
@@ -85,7 +86,7 @@ var topicsApp = angular.module('topicsApp', ['ngRoute']);
             $('.mix').each(function(){
                var $this = $(this);
                if (
-                ($this.find('.title').text().toLowerCase().indexOf(searchString) > -1) ||
+                ($this.find('.mp-title').text().toLowerCase().indexOf(searchString) > -1) ||
                 ($this.find('.category').text().toLowerCase().indexOf(searchString) > -1) ||
                 ($this.find('.year').text().toLowerCase().indexOf(searchString) > -1) ||
                 ($this.find('.details').text().toLowerCase().indexOf(searchString) > -1)
@@ -105,6 +106,7 @@ var topicsApp = angular.module('topicsApp', ['ngRoute']);
             });
             $('.group').mixItUp('filter', $matching);
             $('#Container').mixItUp('filter', $matching);
+            $('#Electives').mixItUp('filter', $matching);
          };
          
          var availIncludes = [];
@@ -201,6 +203,13 @@ var topicsApp = angular.module('topicsApp', ['ngRoute']);
             	load: {
             		filter: mixitup,
             		sort: 'year:desc name:asc',
+            	}, 
+            });
+            
+            $('#Electives').mixItUp({
+            	load: {
+            		filter: mixitup,
+            		sort: 'department:asc number:asc',
             	}, 
             });
             

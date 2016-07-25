@@ -991,3 +991,11 @@ table td {
     margin: 0;
     /*padding: 1px;*/
 }
+
+.quarter-pill {
+    text-transform: uppercase;
+    border: 1px dotted green;
+    border-radius: 5px;
+    padding: 1px 3px;
+    font-size: 0.9em;
+}

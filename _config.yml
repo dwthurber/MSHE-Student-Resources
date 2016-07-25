@@ -133,9 +133,3 @@ quarters:
 consent: 
   - true
   - false
-  
-Typically_offered:
-  - fall
-  - winter
-  - spring 
-  - summer

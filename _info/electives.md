@@ -39,7 +39,6 @@ section: registration
             <td width="150px" class="sort tip" data-tip="Sort by Department" ng-click="sort('department')">Course Department <i ng-if="sortOrder == 'department'" class="fa fa-caret-down" ng-class="{flip:reverse}" aria-hidden="true"></i></td>
         </tr>
     </table>
-    
     {% for elective in site.data.electives %} 
        <div class="mix" data-name="{{ elective.Course_Title }}" data-number="{{ elective.Course_Number }}" data-department="{{ elective.Course_Dept }}">
     <table width="100%" class="mp-table" >
@@ -52,7 +51,7 @@ section: registration
         <tr>
             <td></td>
             <td colspan="2" class="details">
-                <p class="subheader"><em>Typically Offered: </em>{% if elective.Typically_offered_FALL == true %}<span class="quarter-pill">Fall</span> {% endif %}{% if elective.Typically_offered_WINTER == true %}<span class="quarter-pill">Winter</span> {% endif %}{% if elective.Typically_offered_SPRING == true %}<span class="quarter-pill">Spring</span> {% endif %}{% if elective.Typically_offered_SUMMER == true %}<span class="quarter-pill">Summer</span> {% endif %}</p>
+                <p class="subheader"><em>Typically Offered: </em>{% unless elective.Typically_offered_FALL == null %}<span class="quarter-pill">Fall</span> {% endunless %}{% unless elective.Typically_offered_WINTER == null %}<span class="quarter-pill">Winter</span> {% endunless %}{% unless elective.Typically_offered_SPRING == null %}<span class="quarter-pill">Spring</span> {% endunless %}{% unless elective.Typically_offered_SUMMER == null %}<span class="quarter-pill">Summer</span> {% endunless %}</p>
                 <p>{{ elective.Course_Description }}</p>
             </td>
         </tr>

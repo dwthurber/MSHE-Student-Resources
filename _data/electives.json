@@ -1,9 +1,9 @@
 [
  {
    "Typically_offered_FALL": true,
-   "Typically_offered_WINTER": "",
+   "Typically_offered_WINTER": false,
    "Typically_offered_SPRING": true,
-   "Typically_offered_SUMMER": "",
+   "Typically_offered_SUMMER": false,
    "Course_Dept": "TGS",
    "Course_Number": "CFS 495",
    "Course_Title": "Civic Engagement and Graduate Education",
@@ -11,10 +11,10 @@
    "Course_Description": "The curriculum element of the Center for Civic Engagments'  GEO practicum program. The GEO Community Practicum provides interested graduate students with the opportunity to undertake a quarter-long, internship or field study in the overlapping areas of civic engagement, social justice, or community studies. STUDENTS MUST APPLY TO AND BE ACCEPTED TO THE GEO PROGRAM TO PARTICIPATE. THIS OPTION WAS NEW AS OF SPRING 2014. "
  },
  {
-   "Typically_offered_FALL": "",
-   "Typically_offered_WINTER": "",
+   "Typically_offered_FALL": false,
+   "Typically_offered_WINTER": false,
    "Typically_offered_SPRING": true,
-   "Typically_offered_SUMMER": "",
+   "Typically_offered_SUMMER": false,
    "Course_Dept": "SCS ",
    "Course_Number": "CLIN_RES 401",
    "Course_Title": "Research Conduct",
@@ -22,10 +22,10 @@
    "Course_Description": ""
  },
  {
-   "Typically_offered_FALL": "",
+   "Typically_offered_FALL": false,
    "Typically_offered_WINTER": true,
-   "Typically_offered_SPRING": "",
-   "Typically_offered_SUMMER": "",
+   "Typically_offered_SPRING": false,
+   "Typically_offered_SUMMER": false,
    "Course_Dept": "Communications Grad",
    "Course_Number": "COMM 525 ",
    "Course_Title": "Seminar-Problems in Comm Studies",
@@ -34,9 +34,9 @@
  },
  {
    "Typically_offered_FALL": true,
-   "Typically_offered_WINTER": "",
-   "Typically_offered_SPRING": "",
-   "Typically_offered_SUMMER": "",
+   "Typically_offered_WINTER": false,
+   "Typically_offered_SPRING": false,
+   "Typically_offered_SUMMER": false,
    "Course_Dept": "Communications Grad",
    "Course_Number": "COMM_ST 405",
    "Course_Title": "Seminar in Pursuasion",
@@ -44,10 +44,10 @@
    "Course_Description": ""
  },
  {
-   "Typically_offered_FALL": "",
-   "Typically_offered_WINTER": "",
+   "Typically_offered_FALL": false,
+   "Typically_offered_WINTER": false,
    "Typically_offered_SPRING": true,
-   "Typically_offered_SUMMER": "",
+   "Typically_offered_SUMMER": false,
    "Course_Dept": "Communications Grad",
    "Course_Number": "COMM_ST 455 ",
    "Course_Title": "Current Issues in Audience Studies",
@@ -56,9 +56,9 @@
  },
  {
    "Typically_offered_FALL": true,
-   "Typically_offered_WINTER": "",
-   "Typically_offered_SPRING": "",
-   "Typically_offered_SUMMER": "",
+   "Typically_offered_WINTER": false,
+   "Typically_offered_SPRING": false,
+   "Typically_offered_SUMMER": false,
    "Course_Dept": "Communications Grad",
    "Course_Number": "COMM_ST 465",
    "Course_Title": "Lit of Organizational Comm",
@@ -67,9 +67,9 @@
  },
  {
    "Typically_offered_FALL": true,
-   "Typically_offered_WINTER": "",
-   "Typically_offered_SPRING": "",
-   "Typically_offered_SUMMER": "",
+   "Typically_offered_WINTER": false,
+   "Typically_offered_SPRING": false,
+   "Typically_offered_SUMMER": false,
    "Course_Dept": "TGS",
    "Course_Number": "COUN 411",
    "Course_Title": "Individuals and Systems: Psychodynamic Viewpoints",
@@ -77,10 +77,10 @@
    "Course_Description": ""
  },
  {
-   "Typically_offered_FALL": "",
-   "Typically_offered_WINTER": "",
+   "Typically_offered_FALL": false,
+   "Typically_offered_WINTER": false,
    "Typically_offered_SPRING": true,
-   "Typically_offered_SUMMER": "",
+   "Typically_offered_SUMMER": false,
    "Course_Dept": "TGS",
    "Course_Number": "COUN 412",
    "Course_Title": "Group and Organizational Dynamics",
@@ -88,10 +88,10 @@
    "Course_Description": "Social psychology of groups and social systems focusing on group dynamics and intergroup relations. Application to decision-making groups, educational groups, and human-service delivery groups and systems. Participation in a weekend group relations conference. Prerequisites: COUN_PSY 411 – may be able to be waived"
  },
  {
-   "Typically_offered_FALL": "",
+   "Typically_offered_FALL": false,
    "Typically_offered_WINTER": true,
-   "Typically_offered_SPRING": "",
-   "Typically_offered_SUMMER": "",
+   "Typically_offered_SPRING": false,
+   "Typically_offered_SUMMER": false,
    "Course_Dept": "TGS",
    "Course_Number": "COUN 414",
    "Course_Title": "Human Growth & Development (Adult or Child & Adolescent Focus)",
@@ -99,10 +99,10 @@
    "Course_Description": "Provides an understanding of the nature and needs of persons at all developmental levels and in a\nmulticultural context. Implications for assessment and preventive and/or supportive intervention strategies."
  },
  {
-   "Typically_offered_FALL": "",
-   "Typically_offered_WINTER": "",
-   "Typically_offered_SPRING": "",
-   "Typically_offered_SUMMER": "",
+   "Typically_offered_FALL": false,
+   "Typically_offered_WINTER": false,
+   "Typically_offered_SPRING": false,
+   "Typically_offered_SUMMER": false,
    "Course_Dept": "TGS",
    "Course_Number": "COUN 414",
    "Course_Title": "Psychology of Adult Development - Theory and Research",
@@ -110,10 +110,10 @@
    "Course_Description": ""
  },
  {
-   "Typically_offered_FALL": "",
-   "Typically_offered_WINTER": "",
+   "Typically_offered_FALL": false,
+   "Typically_offered_WINTER": false,
    "Typically_offered_SPRING": true,
-   "Typically_offered_SUMMER": "",
+   "Typically_offered_SUMMER": false,
    "Course_Dept": "",
    "Course_Number": "COUN 416",
    "Course_Title": "Theories of Counseling & Psychotherapy",
@@ -122,9 +122,9 @@
  },
  {
    "Typically_offered_FALL": true,
-   "Typically_offered_WINTER": "",
-   "Typically_offered_SPRING": "",
-   "Typically_offered_SUMMER": "",
+   "Typically_offered_WINTER": false,
+   "Typically_offered_SPRING": false,
+   "Typically_offered_SUMMER": false,
    "Course_Dept": "TGS",
    "Course_Number": "COUN 416",
    "Course_Title": "Theories of Counseling and Psychotherapy",
@@ -132,10 +132,10 @@
    "Course_Description": ""
  },
  {
-   "Typically_offered_FALL": "",
+   "Typically_offered_FALL": false,
    "Typically_offered_WINTER": true,
-   "Typically_offered_SPRING": "",
-   "Typically_offered_SUMMER": "",
+   "Typically_offered_SPRING": false,
+   "Typically_offered_SUMMER": false,
    "Course_Dept": "TGS",
    "Course_Number": "COUN 426",
    "Course_Title": "Assessment in Counseling (Adult Focus) ",
@@ -143,10 +143,10 @@
    "Course_Description": "Understanding of individual approaches to assessment in a multicultural society across the lifespan, Review of commonly used assessments in counseling including rationale,characteristics, administration and interpretation. This course has an additional specific focus on adult development. "
  },
  {
-   "Typically_offered_FALL": "",
-   "Typically_offered_WINTER": "",
+   "Typically_offered_FALL": false,
+   "Typically_offered_WINTER": false,
    "Typically_offered_SPRING": true,
-   "Typically_offered_SUMMER": "",
+   "Typically_offered_SUMMER": false,
    "Course_Dept": "TGS",
    "Course_Number": "COUN 427",
    "Course_Title": "Career Development",
@@ -154,10 +154,10 @@
    "Course_Description": ""
  },
  {
-   "Typically_offered_FALL": "",
+   "Typically_offered_FALL": false,
    "Typically_offered_WINTER": true,
-   "Typically_offered_SPRING": "",
-   "Typically_offered_SUMMER": "",
+   "Typically_offered_SPRING": false,
+   "Typically_offered_SUMMER": false,
    "Course_Dept": "TGS",
    "Course_Number": "COUN 430",
    "Course_Title": "Vocational Assessment",
@@ -165,10 +165,10 @@
    "Course_Description": "Major measures of career development, vocational interests, and occupational aptitudes. Principles and practice in developing vocational appraisals."
  },
  {
-   "Typically_offered_FALL": "",
+   "Typically_offered_FALL": false,
    "Typically_offered_WINTER": true,
-   "Typically_offered_SPRING": "",
-   "Typically_offered_SUMMER": "",
+   "Typically_offered_SPRING": false,
+   "Typically_offered_SUMMER": false,
    "Course_Dept": "TGS",
    "Course_Number": "COUN 452",
    "Course_Title": "Theory & Technique of Substance Abuse Counseling",
@@ -176,10 +176,10 @@
    "Course_Description": "Introduction to substance abuse and\naddiction; effects of addictions on relationships, jobs, and\ncommunity; current treatment options and the counselor’s role in recovery."
  },
  {
-   "Typically_offered_FALL": "",
+   "Typically_offered_FALL": false,
    "Typically_offered_WINTER": true,
-   "Typically_offered_SPRING": "",
-   "Typically_offered_SUMMER": "",
+   "Typically_offered_SPRING": false,
+   "Typically_offered_SUMMER": false,
    "Course_Dept": "TGS",
    "Course_Number": "COUN 483",
    "Course_Title": "Cultural Diversity in Counseling",
@@ -187,10 +187,10 @@
    "Course_Description": "Introduction to the process of providing counseling from a multi-cultural perspective; understanding of issues and trends in a multicultural and diverse society. "
  },
  {
-   "Typically_offered_FALL": "",
-   "Typically_offered_WINTER": "",
-   "Typically_offered_SPRING": "",
-   "Typically_offered_SUMMER": "",
+   "Typically_offered_FALL": false,
+   "Typically_offered_WINTER": false,
+   "Typically_offered_SPRING": false,
+   "Typically_offered_SUMMER": false,
    "Course_Dept": "",
    "Course_Number": "COUN 483",
    "Course_Title": "Ethical and Legal Issues in Mental Health Practice",
@@ -198,10 +198,10 @@
    "Course_Description": ""
  },
  {
-   "Typically_offered_FALL": "",
+   "Typically_offered_FALL": false,
    "Typically_offered_WINTER": true,
    "Typically_offered_SPRING": true,
-   "Typically_offered_SUMMER": "",
+   "Typically_offered_SUMMER": false,
    "Course_Dept": "TGS",
    "Course_Number": "GNDR_ST  490-20 ",
    "Course_Title": "Sociology of Sexuality",
@@ -210,9 +210,9 @@
  },
  {
    "Typically_offered_FALL": true,
-   "Typically_offered_WINTER": "",
-   "Typically_offered_SPRING": "",
-   "Typically_offered_SUMMER": "",
+   "Typically_offered_WINTER": false,
+   "Typically_offered_SPRING": false,
+   "Typically_offered_SUMMER": false,
    "Course_Dept": "EdGrad",
    "Course_Number": "HDSP 410",
    "Course_Title": "Quantitative Methods I: Probability and Statistics",
@@ -220,10 +220,10 @@
    "Course_Description": "This course serves as an introduction to the quantitative methods sequence and will cover applied statistical methods. The course will provide useful tools for students who intend to conduct their own statistical analyses, as well as those who want to become critical consumers of others' analyses. Topics to be covered include descriptive measures; basic probability; sampling and sample size estimation; hypothesis testing; techniques for analyzing categorical data; ANOVA; presenting and describing statistical results. This course is part of a 2-course sequence. Qualitative Methods II is taught in the winter. "
  },
  {
-   "Typically_offered_FALL": "",
-   "Typically_offered_WINTER": "",
+   "Typically_offered_FALL": false,
+   "Typically_offered_WINTER": false,
    "Typically_offered_SPRING": true,
-   "Typically_offered_SUMMER": "",
+   "Typically_offered_SUMMER": false,
    "Course_Dept": "EdGrad",
    "Course_Number": "HDSP 413",
    "Course_Title": "Theories of Human Development",
@@ -231,10 +231,10 @@
    "Course_Description": ""
  },
  {
-   "Typically_offered_FALL": "",
+   "Typically_offered_FALL": false,
    "Typically_offered_WINTER": true,
-   "Typically_offered_SPRING": "",
-   "Typically_offered_SUMMER": "",
+   "Typically_offered_SPRING": false,
+   "Typically_offered_SUMMER": false,
    "Course_Dept": "EdGrad",
    "Course_Number": "HDSP 427",
    "Course_Title": "Sociology of Education",
@@ -242,10 +242,10 @@
    "Course_Description": "How does educational research affect social policy? This course examines theories of the relationship between schools and society, research on educational outcomes and the mechanisms by which schooling accomplishes these outcomes, and policy responses to research findings. How does social research clarify the operation of schooling and policy options? What kinds of research are most useful to policy? How can qualitative and quantitative studies be designed to address theoretical and policy concerns? How can studies of institutions be integrated with studies using national surveys? Kate's note: This course pays special attention to underserved populations (racial minorities, the poor) and urban school systems. Takes a K-16 approach. Instructor's research focuses on community colleges and for-profit colleges and universities. Coures is highly recommended. "
  },
  {
-   "Typically_offered_FALL": "",
+   "Typically_offered_FALL": false,
    "Typically_offered_WINTER": true,
-   "Typically_offered_SPRING": "",
-   "Typically_offered_SUMMER": "",
+   "Typically_offered_SPRING": false,
+   "Typically_offered_SUMMER": false,
    "Course_Dept": "",
    "Course_Number": "HDSP 428",
    "Course_Title": "Education Policy: Design, Implementation and Effects",
@@ -253,10 +253,10 @@
    "Course_Description": " (cross listed as LS 451 Educational Policy)"
  },
  {
-   "Typically_offered_FALL": "",
+   "Typically_offered_FALL": false,
    "Typically_offered_WINTER": true,
-   "Typically_offered_SPRING": "",
-   "Typically_offered_SUMMER": "",
+   "Typically_offered_SPRING": false,
+   "Typically_offered_SUMMER": false,
    "Course_Dept": "EdGrad",
    "Course_Number": "HDSP 451",
    "Course_Title": "Educational Policy",
@@ -264,10 +264,10 @@
    "Course_Description": "School reform has become a regular fixture in public, professional, and academic deliberations about our nation's schools. In the past couple of decades, educational reform proposals have grown significantly as both state and federal governments have become increasingly interested in developing education policies. This course will provide students with an introduction to key issues in K-12 educational policy. The course is designed to develop students' abilities to examine, analyze and critique education policies, education policy-making, and education policy implementation. Further, students will develop an appreciation for issues relating to policy effects. Given the vastness of the terrain, the course will be grounded in three education policy/reform initiatives that have gained considerable currency over the past decade: (1) Standards and Accountability (2) Teacher Quality& (3) School Choice - Vouchers and Charter Schools"
  },
  {
-   "Typically_offered_FALL": "",
+   "Typically_offered_FALL": false,
    "Typically_offered_WINTER": true,
-   "Typically_offered_SPRING": "",
-   "Typically_offered_SUMMER": "",
+   "Typically_offered_SPRING": false,
+   "Typically_offered_SUMMER": false,
    "Course_Dept": "EdGrad",
    "Course_Number": "HDSP 451-0",
    "Course_Title": "Special Topics - Topic Varies",
@@ -275,10 +275,10 @@
    "Course_Description": ""
  },
  {
-   "Typically_offered_FALL": "",
+   "Typically_offered_FALL": false,
    "Typically_offered_WINTER": true,
-   "Typically_offered_SPRING": "",
-   "Typically_offered_SUMMER": "",
+   "Typically_offered_SPRING": false,
+   "Typically_offered_SUMMER": false,
    "Course_Dept": "EdGrad",
    "Course_Number": "HDSP 451-0",
    "Course_Title": "Topics: Quantitative Methods II*",
@@ -286,10 +286,10 @@
    "Course_Description": ""
  },
  {
-   "Typically_offered_FALL": "",
+   "Typically_offered_FALL": false,
    "Typically_offered_WINTER": true,
    "Typically_offered_SPRING": true,
-   "Typically_offered_SUMMER": "",
+   "Typically_offered_SUMMER": false,
    "Course_Dept": "Journalism Grad",
    "Course_Number": "IMC 454",
    "Course_Title": "Communication Skills -Special Topics Courses",
@@ -297,10 +297,10 @@
    "Course_Description": "Communications and Content Marketing is designed to help students understand how communications affect consumers and other audiences, and how communications can be developed and executed to accomplish organizational objectives.  The course begins with communications theory and the ways communications content and messages influence human behavior. The course then addresses the evaluation and development of specific marketing communications content in advertising and other areas of marketing communications with an emphasis on the creativity and storytelling.  The course includes a series of hands-on exercises in writing and oral presentations. Students will be expected to employ the skills developed in this class in written assignments and presentations through the rest of the IMC program.\n\nFaculty Advisory Note for online course: Prior coursework recommended would be IMC 455 Consumer Insight"
  },
  {
-   "Typically_offered_FALL": "",
+   "Typically_offered_FALL": false,
    "Typically_offered_WINTER": true,
-   "Typically_offered_SPRING": "",
-   "Typically_offered_SUMMER": "",
+   "Typically_offered_SPRING": false,
+   "Typically_offered_SUMMER": false,
    "Course_Dept": "Journalism Grad",
    "Course_Number": "IMC 475",
    "Course_Title": "Crisis Communications",
@@ -309,9 +309,9 @@
  },
  {
    "Typically_offered_FALL": true,
-   "Typically_offered_WINTER": "",
-   "Typically_offered_SPRING": "",
-   "Typically_offered_SUMMER": "",
+   "Typically_offered_WINTER": false,
+   "Typically_offered_SPRING": false,
+   "Typically_offered_SUMMER": false,
    "Course_Dept": "TGS",
    "Course_Number": "LRN_SCI 451",
    "Course_Title": "Topics in Learning Sciences (Section 22-LEC)",
@@ -319,10 +319,10 @@
    "Course_Description": ""
  },
  {
-   "Typically_offered_FALL": "",
+   "Typically_offered_FALL": false,
    "Typically_offered_WINTER": true,
-   "Typically_offered_SPRING": "",
-   "Typically_offered_SUMMER": "",
+   "Typically_offered_SPRING": false,
+   "Typically_offered_SUMMER": false,
    "Course_Dept": "TGS",
    "Course_Number": "LRN_SCI 451 - 26",
    "Course_Title": "Organizations, Institutions and Society",
@@ -330,10 +330,10 @@
    "Course_Description": "This graduate seminar will introduce theories of institutional persistence and change in the context of public, private, and nonprofit settings. The course is organized as a seminar and will blend foundational studies in institutional theory with contemporary work, from sociology, organization sciences, education and nonprofit studies. An overarching theme of the course addresses how new practices and organizational forms spread (diffusion), how they stick (institutionalization) and how they take the form that they do (emergence). Topics covered will include accountability and performance; organizational learning; contemporary debates about social mechanisms, and micro-foundations of institutional theory. Ideally, this course will provide a platform for students to develop and advance their own research projects, in the form of a research proposal, for beginning doctoral students, or an empirical analysis for more advanced students."
  },
  {
-   "Typically_offered_FALL": "",
-   "Typically_offered_WINTER": "",
+   "Typically_offered_FALL": false,
+   "Typically_offered_WINTER": false,
    "Typically_offered_SPRING": true,
-   "Typically_offered_SUMMER": "",
+   "Typically_offered_SUMMER": false,
    "Course_Dept": "TGS",
    "Course_Number": "LRN_SCI 477",
    "Course_Title": "Philosophical and Historical Foundations of Education Reform",
@@ -342,7 +342,7 @@
  },
  {
    "Typically_offered_FALL": true,
-   "Typically_offered_WINTER": "",
+   "Typically_offered_WINTER": false,
    "Typically_offered_SPRING": true,
    "Typically_offered_SUMMER": true,
    "Course_Dept": "SCS",
@@ -353,7 +353,7 @@
  },
  {
    "Typically_offered_FALL": true,
-   "Typically_offered_WINTER": "",
+   "Typically_offered_WINTER": false,
    "Typically_offered_SPRING": true,
    "Typically_offered_SUMMER": true,
    "Course_Dept": "SCS",
@@ -407,10 +407,10 @@
    "Course_Description": "The course emphasizes research and writing skills and affords students the opportunity to discover the various approaches to designed research as well as recognize and address the strengths and weaknesses in their own critical thinking and writing skills. To reinforce the concepts covered in the course, students will be asked to produce assignments essential to successful research projects as well as written pieces designed to demonstrate knowledge of topics and proficiency in writing skills. Topics vary."
  },
  {
-   "Typically_offered_FALL": "",
-   "Typically_offered_WINTER": "",
+   "Typically_offered_FALL": false,
+   "Typically_offered_WINTER": false,
    "Typically_offered_SPRING": true,
-   "Typically_offered_SUMMER": "",
+   "Typically_offered_SUMMER": false,
    "Course_Dept": "SCS",
    "Course_Number": "MPPA 411",
    "Course_Title": "The Legislative Process ",
@@ -419,9 +419,9 @@
  },
  {
    "Typically_offered_FALL": true,
-   "Typically_offered_WINTER": "",
+   "Typically_offered_WINTER": false,
    "Typically_offered_SPRING": true,
-   "Typically_offered_SUMMER": "",
+   "Typically_offered_SUMMER": false,
    "Course_Dept": "SCS",
    "Course_Number": "MPPA 419",
    "Course_Title": "Strategic Policy Implementation",
@@ -429,10 +429,10 @@
    "Course_Description": "Writing policy is one thing. Executing it is quite another challenge. The purpose of this course is to provide students an opportunity to explore the essential world of policy implementation against the back-drop of topical, significant events that may be classified as policy execution successes, or failures. Students engage in aliterature supported case-study examination of the broad historical, legal,political, and administrative complexities of policy implementation, i.e., public administration."
  },
  {
-   "Typically_offered_FALL": "",
-   "Typically_offered_WINTER": "",
+   "Typically_offered_FALL": false,
+   "Typically_offered_WINTER": false,
    "Typically_offered_SPRING": true,
-   "Typically_offered_SUMMER": "",
+   "Typically_offered_SUMMER": false,
    "Course_Dept": "SCS",
    "Course_Number": "MPPA 435",
    "Course_Title": "Regulatory Policy ",
@@ -451,9 +451,9 @@
    "Course_Description": "This class examines several prominent international organizations, including the United Nations, NATO, the European Union, and the World Trade Organization. The course will focus on both policy controversies and broader theoretical analysis. Students will address why each organization was created, its institutional structure, and current problems confronting each organization. The effects of international organizations on world politics will also be examined. Some of the key questions that will be addressed are: How do IOs foster interstate cooperation and state compliance? How do IOs shape state interests and identities? Why do IOs often fail? How should we think about the pathologies of IOs as global bureaucracies? How do IOs influence NGOs and their strategies? Particular emphasis will be placed on students' ability to think critically, both about the nature of problems that face states as well as development of global governance mechanisms."
  },
  {
-   "Typically_offered_FALL": "",
+   "Typically_offered_FALL": false,
    "Typically_offered_WINTER": true,
-   "Typically_offered_SPRING": "",
+   "Typically_offered_SPRING": false,
    "Typically_offered_SUMMER": true,
    "Course_Dept": "SCS",
    "Course_Number": "MPPA 452",
@@ -462,9 +462,9 @@
    "Course_Description": "Why do cities persist? The last decade has seen a resurgence in the economies of some major cities -- especially the global cities of this course's title -- while other post-industrial cities continue a long decline. Cities are now being transformed by the information revolution much as cities were transformed by the industrial revolution two centuries ago. In this course, students will develop an understanding of urbanization, including how city form differs depending on when a city experiences its greatest growth, and how globalization produces increasing disparity (in many ways) between rich and poor. The course will cover concepts in economic geography, transportation, environment, governance, development, poverty and inequality, and limits to growth. Readings will include recent studies on the effect of globalization on cities, including Saskia Sassen's Cities in a World Economy."
  },
  {
-   "Typically_offered_FALL": "",
+   "Typically_offered_FALL": false,
    "Typically_offered_WINTER": true,
-   "Typically_offered_SPRING": "",
+   "Typically_offered_SPRING": false,
    "Typically_offered_SUMMER": true,
    "Course_Dept": "EdGrad",
    "Course_Number": "MS_ED 402",
@@ -474,9 +474,9 @@
  },
  {
    "Typically_offered_FALL": true,
-   "Typically_offered_WINTER": "",
+   "Typically_offered_WINTER": false,
    "Typically_offered_SPRING": true,
-   "Typically_offered_SUMMER": "",
+   "Typically_offered_SUMMER": false,
    "Course_Dept": "EdGrad",
    "Course_Number": "MS_LOC 420",
    "Course_Title": "Accelerated Learning & Performance",
@@ -486,8 +486,8 @@
  {
    "Typically_offered_FALL": true,
    "Typically_offered_WINTER": true,
-   "Typically_offered_SPRING": "",
-   "Typically_offered_SUMMER": "",
+   "Typically_offered_SPRING": false,
+   "Typically_offered_SUMMER": false,
    "Course_Dept": "EdGrad",
    "Course_Number": "MS_LOC 421",
    "Course_Title": "Advancing Learning and Performance Solutions",
@@ -495,10 +495,10 @@
    "Course_Description": "This course will introduce students to methods and tools used in multiple business functions that are designed to increase individual, group and organizational performance. Using their knowledge of learning and performance, students will learn how to design effective solutions, evaluate those solutions, adapt and redesign them to improve their effectiveness. Learning will be defined not only as a specific role or function commonly associated with training but also as an implicit process within the structure and culture of competitive global organizations.This course will help students select and use tools to make that process more deliberate, systematic and applicable in a wide range of situations."
  },
  {
-   "Typically_offered_FALL": "",
+   "Typically_offered_FALL": false,
    "Typically_offered_WINTER": true,
    "Typically_offered_SPRING": true,
-   "Typically_offered_SUMMER": "",
+   "Typically_offered_SUMMER": false,
    "Course_Dept": "EdGrad",
    "Course_Number": "MS_LOC 430",
    "Course_Title": "Creating and Sharing Knowledge",
@@ -506,8 +506,8 @@
    "Course_Description": "In this course, students will develop an understanding of how to define “knowledge” within organizational settings and – based on the perspective offered by different definitions – assess how knowledge is created, shared and leveraged in organizations. The course will introduce theory, concepts and frameworks to enable students to understand knowledge as it applies to individuals, to communities or networks of practitioners, and toorganizations. Students will also learn the role of Web 2.0 technologies inenabling knowledge sharing and creation practices in organizational settings. Finally, students will learn to apply course concepts to current organizational issues through business cases and course projects."
  },
  {
-   "Typically_offered_FALL": "",
-   "Typically_offered_WINTER": "",
+   "Typically_offered_FALL": false,
+   "Typically_offered_WINTER": false,
    "Typically_offered_SPRING": true,
    "Typically_offered_SUMMER": true,
    "Course_Dept": "EdGrad",
@@ -520,7 +520,7 @@
    "Typically_offered_FALL": true,
    "Typically_offered_WINTER": true,
    "Typically_offered_SPRING": true,
-   "Typically_offered_SUMMER": "",
+   "Typically_offered_SUMMER": false,
    "Course_Dept": "SCS",
    "Course_Number": "MSA 403",
    "Course_Title": "Organization of Sports",
@@ -539,7 +539,7 @@
    "Course_Description": "This course introduces the theories and concepts of applied ethics by focusing on legal questions, race and gender issues, public relations, budgeting, recruiting (in the collegiate context), evaluations, personnel, exploitation, and athletic reform in both the corporate and collegiate sport industries. Awareness of legal implications for the industry reduces the probability of litigation.    "
  },
  {
-   "Typically_offered_FALL": "",
+   "Typically_offered_FALL": false,
    "Typically_offered_WINTER": true,
    "Typically_offered_SPRING": true,
    "Typically_offered_SUMMER": true,
@@ -550,10 +550,10 @@
    "Course_Description": "This course examines the implications and mitigation of crisis and risk in"
  },
  {
-   "Typically_offered_FALL": "",
-   "Typically_offered_WINTER": "",
+   "Typically_offered_FALL": false,
+   "Typically_offered_WINTER": false,
    "Typically_offered_SPRING": true,
-   "Typically_offered_SUMMER": "",
+   "Typically_offered_SUMMER": false,
    "Course_Dept": "SCS",
    "Course_Number": "MSC 488",
    "Course_Title": "Organizational Behavior",
@@ -561,9 +561,9 @@
    "Course_Description": "The purpose of this course is to increase students’ understanding of the various components of an organization such that they may identify, analyze, and solve organizational problems. Students will learn how components of an organization—such as leadership, organizational design, motivation, informal networks, and culture—interact to facilitate organizational effectiveness. Throughout the course we will apply theories and research findings in the analysis of case studies and “real-world” organizational examples."
  },
  {
-   "Typically_offered_FALL": "",
+   "Typically_offered_FALL": false,
    "Typically_offered_WINTER": true,
-   "Typically_offered_SPRING": "",
+   "Typically_offered_SPRING": false,
    "Typically_offered_SUMMER": true,
    "Course_Dept": "SCS",
    "Course_Number": "MSA 490",
@@ -572,10 +572,10 @@
    "Course_Description": ""
  },
  {
-   "Typically_offered_FALL": "",
+   "Typically_offered_FALL": false,
    "Typically_offered_WINTER": true,
-   "Typically_offered_SPRING": "",
-   "Typically_offered_SUMMER": "",
+   "Typically_offered_SPRING": false,
+   "Typically_offered_SUMMER": false,
    "Course_Dept": "Communications Grad",
    "Course_Number": "MSC 490",
    "Course_Title": "Strategy in the Global Economy",
@@ -584,9 +584,9 @@
  },
  {
    "Typically_offered_FALL": true,
-   "Typically_offered_WINTER": "",
-   "Typically_offered_SPRING": "",
-   "Typically_offered_SUMMER": "",
+   "Typically_offered_WINTER": false,
+   "Typically_offered_SPRING": false,
+   "Typically_offered_SUMMER": false,
    "Course_Dept": "School of Comm",
    "Course_Number": "MSC 496",
    "Course_Title": "Leadership and Decision Making",
@@ -595,9 +595,9 @@
  },
  {
    "Typically_offered_FALL": true,
-   "Typically_offered_WINTER": "",
-   "Typically_offered_SPRING": "",
-   "Typically_offered_SUMMER": "",
+   "Typically_offered_WINTER": false,
+   "Typically_offered_SPRING": false,
+   "Typically_offered_SUMMER": false,
    "Course_Dept": "School of Comm",
    "Course_Number": "MSC 528",
    "Course_Title": "Managing Global Teams",
@@ -605,10 +605,10 @@
    "Course_Description": "Globalization, information, and technology access have transformed the face of the business world. Whole industries have been re-defined, i.e. impact on cost structure by foreign manufacturing, speed of product development, and ability to leverage global resources for almost any business need. These opportunities also create new challenges for today's managers. This course uses an action-oriented approach to develop a good understanding of international management and their practical implications when leading and managing multicultural teams in the new global economy."
  },
  {
-   "Typically_offered_FALL": "",
-   "Typically_offered_WINTER": "",
-   "Typically_offered_SPRING": "",
-   "Typically_offered_SUMMER": "",
+   "Typically_offered_FALL": false,
+   "Typically_offered_WINTER": false,
+   "Typically_offered_SPRING": false,
+   "Typically_offered_SUMMER": false,
    "Course_Dept": "School of Comm",
    "Course_Number": "MSC 531",
    "Course_Title": "Change Managment",
@@ -628,9 +628,9 @@
  },
  {
    "Typically_offered_FALL": true,
-   "Typically_offered_WINTER": "",
-   "Typically_offered_SPRING": "",
-   "Typically_offered_SUMMER": "",
+   "Typically_offered_WINTER": false,
+   "Typically_offered_SPRING": false,
+   "Typically_offered_SUMMER": false,
    "Course_Dept": "TGS",
    "Course_Number": "SOCIOL 400",
    "Course_Title": "Introduction to Statistics and Statistical Software",
@@ -638,10 +638,10 @@
    "Course_Description": "        "
  },
  {
-   "Typically_offered_FALL": "",
+   "Typically_offered_FALL": false,
    "Typically_offered_WINTER": true,
    "Typically_offered_SPRING": true,
-   "Typically_offered_SUMMER": "",
+   "Typically_offered_SUMMER": false,
    "Course_Dept": "TGS",
    "Course_Number": "SOCIOL 401",
    "Course_Title": " Statistical Analysis of Social Data: Applied Regression Methods I",
@@ -649,10 +649,10 @@
    "Course_Description": "Introduction to the theory, methods, and practice of linear regression analysis: descriptive statistics, analysis of variance, ordinary least squares (OLS), regression diagnostics. STATA used for computation. For first-year graduate students in sociology."
  },
  {
-   "Typically_offered_FALL": "",
-   "Typically_offered_WINTER": "",
+   "Typically_offered_FALL": false,
+   "Typically_offered_WINTER": false,
    "Typically_offered_SPRING": true,
-   "Typically_offered_SUMMER": "",
+   "Typically_offered_SUMMER": false,
    "Course_Dept": "TGS",
    "Course_Number": "SOCIOL 476",
    "Course_Title": "Topics in Sociology – Social Inequality",
@@ -660,10 +660,10 @@
    "Course_Description": ""
  },
  {
-   "Typically_offered_FALL": "",
-   "Typically_offered_WINTER": "",
+   "Typically_offered_FALL": false,
+   "Typically_offered_WINTER": false,
    "Typically_offered_SPRING": true,
-   "Typically_offered_SUMMER": "",
+   "Typically_offered_SUMMER": false,
    "Course_Dept": "TGS",
    "Course_Number": "SOCIOL 476",
    "Course_Title": "Topics in Sociology- Comp. Hist. Economic Sociology",
@@ -671,10 +671,10 @@
    "Course_Description": ""
  },
  {
-   "Typically_offered_FALL": "",
-   "Typically_offered_WINTER": "",
+   "Typically_offered_FALL": false,
+   "Typically_offered_WINTER": false,
    "Typically_offered_SPRING": true,
-   "Typically_offered_SUMMER": "",
+   "Typically_offered_SUMMER": false,
    "Course_Dept": "TGS",
    "Course_Number": "SOCIOL 476 - 22",
    "Course_Title": "Topics in Sociological Analysis: Theories of Race and Ethnicity",

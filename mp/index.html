@@ -648,9 +648,14 @@ templates:
           <h2>{{ page.title }}</h2>
           <p>Master's project aids, handouts, resources, rubrics, tools, templates and more.</p>
       </div>
+      <br>
+      <section class="container wide">
+          
+          <p>The following guides encompass the major milestones in completion of the final Master's Project. They are presented in the order in which they will appear on your final project; however, some sections may be completed in the three quarter sequence out of order from what is presented below. Those highlighted in <span style="color: #B6ACD1;">light purple</span> are relevant for this quarter of the MP sequence. See the <a href="{{ site.baseurl }}/mp/timeline.html">timeline</a> for more details on when each milestone below will be due throughout the 3 course sequence.</p>
+      </section>
     <section class="guide-section">
         <div class="container wide">
-            <a href="#/researchquestions"><div class="guide" ng-click="selectGuide('Research Questions')" ng-class="{'active':guide == 'researchquestions'}">
+            <a href="#/researchquestions"><div class="guide purple-outline" ng-click="selectGuide('Research Questions')" ng-class="{'active':guide == 'researchquestions'}">
                 <div class="icon"><img ng-if="guide != 'researchquestions'" src="{{ site.baseurl }}/img/guide_icons/research_question.png" /><img ng-if="guide == 'researchquestions'" src="{{ site.baseurl }}/img/guide_icons/white_research_question.png" /></div>
                 <div class="text">
                     <h3>Research Question</h3>
@@ -668,7 +673,7 @@ templates:
                 </div>
                 <div class="arrow-right"></div>
             </div></a>
-            <a href="#/introduction"><div class="guide" ng-click="selectGuide('Introduction')" ng-class="{active:guide == 'introduction'}">
+            <a href="#/introduction"><div class="guide purple-outline" ng-click="selectGuide('Introduction')" ng-class="{active:guide == 'introduction'}">
                 <div class="icon"><img ng-if="guide != 'introduction'" src="{{ site.baseurl }}/img/guide_icons/intro-background.png" /><img ng-if="guide == 'introduction'" src="{{ site.baseurl }}/img/guide_icons/white_intro-background.png" /></div>
                 <div class="text">
                     <h3>Introduction and Background</h3>
@@ -677,7 +682,7 @@ templates:
                 </div>
                 <div class="arrow-right"></div>
             </div></a>
-            <a href="#/literaturereview"><div class="guide" ng-click="selectGuide('Literature Review')" ng-class="{active:guide == 'literaturereview'}">
+            <a href="#/literaturereview"><div class="guide purple-outline" ng-click="selectGuide('Literature Review')" ng-class="{active:guide == 'literaturereview'}">
                 <div class="icon"><img ng-if="guide != 'literaturereview'" src="{{ site.baseurl }}/img/guide_icons/literature_review.png" /><img ng-if="guide == 'literaturereview'" src="{{ site.baseurl }}/img/guide_icons/white_literature_review.png" /></div>
                 <div class="text">
                     <h3>Literature Review</h3>
@@ -686,7 +691,7 @@ templates:
                 </div>
                 <div class="arrow-right"></div>
             </div></a>
-            <a href="#/datacollection"><div class="guide" ng-click="selectGuide('Data Collection')" ng-class="{active:guide == 'datacollection'}">
+            <a href="#/datacollection"><div class="guide purple-outline" ng-click="selectGuide('Data Collection')" ng-class="{active:guide == 'datacollection'}">
                 <div class="icon"><img ng-if="guide != 'datacollection'" src="{{ site.baseurl }}/img/guide_icons/data_collection_methods.png" /><img ng-if="guide == 'datacollection'" src="{{ site.baseurl }}/img/guide_icons/white_data_collection_methods.png" /></div>
                 <div class="text">
                     <h3>Data Collection Methods</h3>
@@ -746,6 +751,15 @@ templates:
                     <h3>Executive Summary</h3>
                     <h5>408</h5>
                     <p>A concise, yet thorough, overview of your study.</p>
+                </div>
+                <div class="arrow-right"></div>
+            </div></a>
+            <a href="#/beyondthemp"><div class="guide" ng-click="selectGuide('Beyond the MP')" ng-class="{active:guide == 'beyondthemp'}">
+                <div class="icon"><img ng-if="guide != 'beyondthemp'" src="{{ site.baseurl }}/img/guide_icons/beyond_mp.png" /><img ng-if="guide == 'beyondthemp'" src="{{ site.baseurl }}/img/guide_icons/white_beyond_mp.png" /></div>
+                <div class="text">
+                    <h3>Beyond the Master's Project</h3>
+                    <h5>408</h5>
+                    <p>What to do when your done with your project.</p>
                 </div>
                 <div class="arrow-right"></div>
             </div></a>
@@ -1325,6 +1339,60 @@ templates:
                 <div class="readings" ng-show="tab == 'readings'">
                 <div class="section-title">
                     <h2><i class="fa fa-book" aria-hidden="true"></i> Presentations Readings</h2>
+                </div>
+                <div class="guide-content">
+                    <h4>Textbook Readings</h4>
+                    <table width="100%">
+                        <tr>
+                            <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/merriam-tisdell.jpg" class="book" /></td>
+                            <td class="textbook-details">
+                                <h5>Qualitative Research: A Guide to Design and Implementation (JOSSEY-BASS HIGHER & ADULT EDUCATION SERIES) <span class="by-line">4th Edition</span></h5>
+                                <p class="by-line"><strong>By Sharan B. Merriam, Elizabeth J. Tisdell</strong></p>
+                                <div class="chapters">
+                                <p>NONE</p>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <table width="100%">
+                        <tr>
+                            <td width="150px"><img src="{{ site.baseurl }}/img/suggested_reading/savin-baden.jpg" class="book" /></td>
+                            <td class="textbook-details">
+                                <h5>Qualitative Research: The essential guide to theory and practice</h5>
+                                <p class="by-line"><strong>By Maggi Savin-Baden, Claire Howell Major</strong></p>
+                                <div class="chapters">
+                                <p>NONE</p>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <hr class="subtle" />
+                    <h4>Other Readings</h4>
+                    <table width="100%" class="mp-table reading-table">
+                        {% for reading in site.data.mp_readings %}{% if reading.guides contains 'Executive Summary' %}<tr>
+                            <td width="25px">
+                                {% if reading.format == 'pdf' %}<i class="fa fa-file-pdf-o" aria-hidden="true"></i>{% elsif reading.format == 'word' %}<i class="fa fa-file-word-o" aria-hidden="true"></i>{% elsif reading.format == 'powerpoint' %}<i class="fa fa-file-powerpoint-o" aria-hidden="true"></i>{% elsif reading.format == 'excel' %}<i class="fa fa-file-excel-o" aria-hidden="true"></i>{% elsif reading.format == 'video' %}<i class="fa fa-file-movie-o" aria-hidden="true"></i>{% elsif reading.format == 'photo' %}<i class="fa fa-file-photo-o" aria-hidden="true"></i>{% elsif reading.format == 'other' %}<i class="fa fa-file-text-o" aria-hidden="true"></i>{% endif %}
+                            </td>
+                            <td><a href="{{ reading.link_path }}">{{ reading.title }}</a></td>
+                            <td width="100px" class="grey tip" data-tip="{{ reading.note }}">pp. {{ reading.pages }}</td>
+                        </tr>{% endif %}{% endfor %}
+                    </table>
+                </div>
+                </div>
+            </div>
+            <div class="guide-section" ng-if="guide == 'beyondthemp'">
+                <a href="#/"><div class="close" ng-click="go()"><i class="fa fa-times-circle-o hover-over" aria-hidden="true"><i class="fa fa-times-circle hover-hidden" aria-hidden="true"></i></i></div></a>
+                <div class="guide-details" ng-show="tab == 'details'">
+                <div class="section-title">
+                    <img src="{{ site.baseurl }}/img/guide_icons/beyond_mp.png" /><h2>Beyond the MP</h2>
+                </div>
+                <div class="guide-content">
+                {% include beyondthemp.html %}
+                </div>
+                </div>
+                <div class="readings" ng-show="tab == 'readings'">
+                <div class="section-title">
+                    <h2><i class="fa fa-book" aria-hidden="true"></i> Beyond the MP Readings</h2>
                 </div>
                 <div class="guide-content">
                     <h4>Textbook Readings</h4>

@@ -318,7 +318,7 @@
 
 .categories .filter:hover {
     cursor: pointer;
-    box-shadow: 0px 0px 6px 0px #333;
+    box-shadow: 0px 0px 6px 0px #999;
 }
 
 .class-filter {
@@ -439,4 +439,13 @@
 
 .input-short {
     width: 200px!important;
+}
+
+
+.purple-outline {
+    background-color: #E4E0EE;
+}
+
+.purple-outline .arrow-right {
+    border-left-color: #E4E0EE;
 }

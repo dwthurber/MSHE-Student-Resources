@@ -1,26 +1,57 @@
 jQuery(document).ready(function($){
-	var timelineBlocks = $('.cd-timeline-block'),
-		offset = 0.8;
+	var	scrolling = false;
+	var contentSections = $('.cd-section'),
+		verticalNavigation = $('.cd-vertical-nav'),
+		navigationItems = verticalNavigation.find('a'),
+		navTrigger = $('.cd-nav-trigger'),
+		scrollArrow = $('.cd-scroll-down');
 
-	//hide timeline blocks which are outside the viewport
-	hideBlocks(timelineBlocks, offset);
+	$(window).on('scroll', checkScroll);
 
-	//on scolling, show/animate timeline blocks when enter the viewport
-	$(window).on('scroll', function(){
-		(!window.requestAnimationFrame) 
-			? setTimeout(function(){ showBlocks(timelineBlocks, offset); }, 100)
-			: window.requestAnimationFrame(function(){ showBlocks(timelineBlocks, offset); });
-	});
+	//smooth scroll to the selected section
+	verticalNavigation.on('click', 'a', function(event){
+        event.preventDefault();
+        smoothScroll($(this.hash));
+        verticalNavigation.removeClass('open');
+    });
 
-	function hideBlocks(blocks, offset) {
-		blocks.each(function(){
-			( $(this).offset().top > $(window).scrollTop()+$(window).height()*offset ) && $(this).find('.cd-timeline-img, .cd-timeline-content').addClass('is-hidden');
-		});
+    //smooth scroll to the second section
+    scrollArrow.on('click', function(event){
+    	event.preventDefault();
+        smoothScroll($(this.hash));
+    });
+
+	// open navigation if user clicks the .cd-nav-trigger - small devices only
+    navTrigger.on('click', function(event){
+    	event.preventDefault();
+    	verticalNavigation.toggleClass('open');
+    });
+
+	function checkScroll() {
+		if( !scrolling ) {
+			scrolling = true;
+			(!window.requestAnimationFrame) ? setTimeout(updateSections, 300) : window.requestAnimationFrame(updateSections);
+		}
 	}
 
-	function showBlocks(blocks, offset) {
-		blocks.each(function(){
-			( $(this).offset().top <= $(window).scrollTop()+$(window).height()*offset && $(this).find('.cd-timeline-img').hasClass('is-hidden') ) && $(this).find('.cd-timeline-img, .cd-timeline-content').removeClass('is-hidden').addClass('bounce-in');
+	function updateSections() {
+		var halfWindowHeight = $(window).height()/2,
+			scrollTop = $(window).scrollTop();
+		contentSections.each(function(){
+			var section = $(this),
+				sectionId = section.attr('id'),
+				navigationItem = navigationItems.filter('[href^="#'+ sectionId +'"]');
+			( (section.offset().top - halfWindowHeight < scrollTop ) && ( section.offset().top + section.height() - halfWindowHeight > scrollTop) )
+				? navigationItem.addClass('active')
+				: navigationItem.removeClass('active');
 		});
+		scrolling = false;
+	}
+
+	function smoothScroll(target) {
+        $('body,html').animate(
+        	{'scrollTop':target.offset().top},
+        	300
+        );
 	}
 });

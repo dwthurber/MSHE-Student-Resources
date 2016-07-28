@@ -72,11 +72,11 @@ Main components
 }
 @media only screen and (max-width: 979px) {
   .cd-main-content.nav-is-visible, .cd-main-header.nav-is-visible {
-    /*-webkit-transform: translateX(-260px);*/
-    /*-moz-transform: translateX(-260px);*/
-    /*-ms-transform: translateX(-260px);*/
-    /*-o-transform: translateX(-260px);*/
-    /*transform: translateX(-260px);*/
+    -webkit-transform: translateX(-260px);
+    -moz-transform: translateX(-260px);
+    -ms-transform: translateX(-260px);
+    -o-transform: translateX(-260px);
+    transform: translateX(-260px);
   }
   .nav-on-left .cd-main-content.nav-is-visible, .nav-on-left .cd-main-header.nav-is-visible {
     -webkit-transform: translateX(260px);

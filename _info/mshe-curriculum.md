@@ -1,5 +1,5 @@
 ---
-title: MSHE Curriculum and Registering for Electives
+title: MSHE Curriculum
 description: "To earn the master's degree in Higher Education Administration and Policy students must complete 15 graduate level courses, including core courses and electives."
 topics:
   - academics
@@ -45,8 +45,6 @@ section: registration
 
 *\*Students who have significant full-time work experience in higher education administration can petition to waive the internship course and take an elective in its place.*
 
-Course descriptions, syllabi, and information about the dates and times that courses are offered are available on the [curriculum page of the MSHE website](http://www.sesp.northwestern.edu/higher-education/curriculum/index.html).
-
 #### Elective Courses
 
 MSHE students take three elective courses (four if they waive the internship requirement.) Each year the MSHE Program offers at least three elective courses in the spring and summer terms (typically one course in spring and 2 courses in summer.) Some MSHE elective courses are offered every other year, and the program often offers new elective course on timely topics in higher education. To see what elective courses will be offered this academic year see the [curriculum page on the MSHE website](http://www.sesp.northwestern.edu/higher-education/curriculum/index.html). MSHE elective courses include:
@@ -67,64 +65,8 @@ You can search through the table on the [suggested electives page](/info/suggest
 
 It is a good idea to consult with your advisor about elective courses, and **you must gain approval from your advisor if you want to take a course that is not on the suggested electives list.**&nbsp; The MSHE program does collect feedback from students about their experiences in courses offered through other programs at NU, and this feedback can help your advisor steer you towards electives that will be most useful. It is important to keep in mind, however, that courses can change from year to year, especially if the course is being taught by a different instructor. It is the student's responsibility to investigate the course's content and requirements by reviewing the course description and syllabus before enrolling. Course descriptions and syllabi are often available on the web page of the program offering the course, or on the [course descriptions page of the Registrar's website](http://www.northwestern.edu/class-descriptions/).
 
-#### Registering for elective courses outside MSHE
-
-##### [School of professional Studies (SPS) Courses](http://sps.northwestern.edu/program-areas/graduate/)
-
-MSHE students often take graduate-level courses offered through the School of professional Studies (SPS)–especially in the Master of Public Policy (MPPA) and Master of Sports Administration (MSA) programs. These courses are offered at the Chicago campus. &nbsp;MSHE students cannot register themselves for SPS courses. If you want to take an SPS course please complete the [Authorization for Dual Registration Form](https://northwestern.box.com/shared/static/oidimwjx3scahj5lqm1l.pdf) and send it to Dr. Kristin McCann. &nbsp;If the SPS administrator gives permission Kristin will ask the SPS Registrar to register you for the class. SPS will not register you for the class until one week before the class begins and will only register you if the course is not already full. &nbsp;
-
-##### SPS "DL" Courses and Scheduling
-
-You may notice that some SPS courses have a "DL" in their title. DL means “distance learning”, so the course is online. In some DL sections the days/times listed don’t matter – the instructor has “sync sessions” where you can watch a lecture live, but recordings of those sessions are also posted for students to watch later. In other DL courses students may need to be available during the posted class times.This varies from course to course and instructor to instructor, so the only way to find out is to contact the instructor and ask.
-
-##### [MS in Learning and Organizational Change (MSLOC) Courses](https://www.sesp.northwestern.edu/masters-learning-and-organizational-change/curriculum.html)
-
-1. Read ["Policies and Procedures for non-MSLOC students to take MSLOC course"](https://northwestern.box.com/shared/static/tupdjs36s320xfp69gtp.pdf)
-2. Ask Kristin for the course syllabus. Please note that the syllabi are intellectual property - please do not forward to others.
-3. If you want to take the course ask Kristin to contact the MSLOC program administrators to put you on the waitlist for the course.
-4. You will be registered for the course one week before the class begins if the class is not full.
-
-
-##### [Learning Sciences (LRN_SCI) Courses](http://www.sesp.northwestern.edu/learning-sciences/masters/index.html)
-
-If you are interested in taking a Learning Sciences course contact your advisor. She may have an old syllabus for the course and/or feedback from past MSHE students who have taken the course. Generally, MSHE students can take Learning Sciences courses, but they need to ask the course instructor professor directly for permission. In your message to the instructor be sure to copy your advisor.
-
-If the instructor grants permission forward that message to the Learning Sciences Program Assistant, Guillermo Munoz ([gmunoz@northwestern.edu](MAILTO:gmunoz@northwestern.edu)) and ask for a permission number to register. Again, be sure to copy your advisor on the message.
-
-##### [Human Development and Social Policy (HDSP) Courses](http://www.sesp.northwestern.edu/hdsp/curriculum/index.html)
-
-MSHE students can sometimes&nbsp; register themselves in CAESAR for HDSP courses, but some HDSP courses require instructor approval. If you are interested in taking a HDSP course contact your advisor. She may have an old syllabus for the course and/or feedback from past MSHE students who have taken the course. If required, you can contact the course instructor to request permission to take the course
-
-##### [MS in Education (MS_Ed) courses](http://www.sesp.northwestern.edu/msed/index.html)
-
-The MS_Ed program prepares people to teach at the K-12 level. MSHE students can typically register themselves in CAESAR for graduate-level courses in the&nbsp; Master of Science in Education program. There are some courses in these programs that are not open to outside students (this will be noted in CAESAR.)
-
-##### [Counseling Courses](http://www.tgs.northwestern.edu/academics/programs/counseling/index.html)
-
-If you are interested in taking counseling courses, please contact Dr. Kristin McCann as soon as possible to discuss potential options. Outside students are admitted to counseling courses on a case-by-case basis by the Counseling program's Director.
-
-##### [Kellogg Part-Time MBA Courses](http://www.kellogg.northwestern.edu/programs/parttimemba/academics.aspx)
-
-If you are interested in taking courses through Kellogg's part-time MBA program (located on the Chicago campus), please contact Dr. Kristin McCann as soon as possible to discuss potential options. &nbsp;[\*Note: Students cannot add OR drop Kellogg courses in Caesar - it has to be handled through the Kellogg registrar.]
-
-##### [Medill IMC Courses](http://www.tgs.northwestern.edu/academics/programs/counseling/index.html)
-
-If you are interested in taking counseling courses, please contact Dr. Kristin McCann as soon as possible to discuss potential options. Enrolling in an IMC course requires the permission of the Director and course instructor.&nbsp;
-
-##### [The Graduate School (TGS) Courses](http://www.tgs.northwestern.edu/academics/programs/counseling/index.html)
-
-In general MSHE students can register themselves for TGS courses.Some courses say that outside students need to get instructor permission, in which case you can contact the instructor directly to request permission to take the course. Contact Dr. Kristin McCann if you are having trouble with the registration process.
-
-#### Course Descriptions
-
-Course descriptions for MSHE courses are available on the [curriculum page of the MSHE website](http://www.sesp.northwestern.edu/higher-education/curriculum/index.html). Click the correct academic year on the right column and then click on the name of the course. The description will appear.
-
-Course descriptions are included (when possible) on the quarterly "suggested electives" email (read more about this below). In addition, descriptions for courses offered through other programs at Northwestern University are often available on the listing program's website. The Registrar's office also maintains a list of course descriptions which can be accessed [here](http://www.registrar.northwestern.edu/courses/index.html).
-
 #### Course Syllabi
 
 Each course has a syllabus which contains information about all of the assignments and expectations for the course. Course syllabi are available in a few places. The first (and easiest) place to find the syllabus for a course you are already enrolled in is in the course's Canvas site.&nbsp;
-
-Another place that syllabi are available is on the [curriculum page of the MSHE website](http://www.sesp.northwestern.edu/higher-education/curriculum/index.html). You can access syllabi on this page whether or not you are enrolled in a class (and whether or not the course's Blackboard site is available) but be aware that the syllabus may be changed or updated before the class starts. Also, if a syllabus is not yet available for the course we will post the previous year's syllabus, so be sure to look carefully at the date on the syllabus. If you are unsure whether a course will use the same texts that it has in the past we encourage you to contact the instructor before ordering your books.
 
 Some instructors want students to have done some work or preparation before the first class meeting. Therefore, it is a good idea to consult the course syllabus before the first day of class.

@@ -1,10 +1,9 @@
 ---
-title: Suggested Electives
-description: Many electives are offered by other programs and schools within SESP and Northwetern. This page includes a list of suggested electives by the MSHE program because of their relatedness in subject matter and preferences of our students. Many of these have been take by MSHE students in the past and have their feedback included below. 
-topics: 
+title: Suggested Electives Outside MSHE
+description: Many electives are offered by other programs and schools within SESP and Northwestern. This page includes a list of suggested electives by the MSHE program because of their relatedness in subject matter and preferences of our students. Many of these have been taken by MSHE students in the past and have their feedback included below.
+topics:
   - academics
 actions:
-  - register for courses
   - choose an elective
 statuses:
   - current students

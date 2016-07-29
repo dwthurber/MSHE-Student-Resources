@@ -152,6 +152,11 @@ hr {
 ul, ol {
 	padding-left: 40px;
 	list-style-type: initial;
+	margin: 0 0 10px;
+}
+
+ol {
+	list-style-type: decimal;
 }
 
 header ol,header ul {

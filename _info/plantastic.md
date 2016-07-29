@@ -1,6 +1,6 @@
 ---
 title: Plantastic Course Planner
-description: 'This website is a tool that will allow you and your advisor to plan out the courses you will take to complete your degree program. Once your initial program plan has been created and approved, you will be able to refer to it later when registering for classes. Should your plans change you will be able to modify your program plan and your advisor will work with you along the way to make sure your program plan fulfills all degree requirements.'
+description: 'This website is a tool that allows you and your advisor to plan out the courses you will take to complete your degree program. Once your initial program plan has been created and approved, you will be able to refer to it later when registering for classes. Should your plans change you will be able to modify your program plan and your advisor will work with you along the way to make sure your program plan fulfills all degree requirements.'
 topics:
   - academics
 actions:

@@ -34,8 +34,6 @@ Once you have saved your plan, your advisor will be notified and will look at it
 
 Additionally, at any time before your advisor approves your plan, you can log in and make further changes to it by clicking the "View or revise my proposed plan" button on the [My Plan](http://plan.northwestern.edu/highered/planner/student/) page.
 
-![](http://thundarr.sesp.northwestern.edu/plan-images/course-help-screen.jpg)
-
 #### Making Changes
 
 After your plan has been approved by your advisor, you will be able to view it on your [My Plan](http://plan.northwestern.edu/highered/planner/student/) page. Note that only your current, active plan is displayed on this page – this is the plan that your advisor has approved. Any changes to this plan will not be considered "official" until approved by your advisor. If you would like to make changes to your approved plan, click the "Revise my plan" button at the bottom of the [My Plan](http://plan.northwestern.edu/highered/planner/student/) page. Note that you will not be able to save this new proposed plan until it passes all validation rules and any changes must go through the same approval process as your original plan.

@@ -932,7 +932,7 @@ templates:
                                 {% if reading.format == 'pdf' %}<i class="fa fa-file-pdf-o" aria-hidden="true"></i>{% elsif reading.format == 'word' %}<i class="fa fa-file-word-o" aria-hidden="true"></i>{% elsif reading.format == 'powerpoint' %}<i class="fa fa-file-powerpoint-o" aria-hidden="true"></i>{% elsif reading.format == 'excel' %}<i class="fa fa-file-excel-o" aria-hidden="true"></i>{% elsif reading.format == 'video' %}<i class="fa fa-file-movie-o" aria-hidden="true"></i>{% elsif reading.format == 'photo' %}<i class="fa fa-file-photo-o" aria-hidden="true"></i>{% elsif reading.format == 'other' %}<i class="fa fa-file-text-o" aria-hidden="true"></i>{% endif %}
                             </td>
                             <td><a href="{{ reading.link_path }}">{{ reading.title }}</a></td>
-                            <td width="100px" class="grey tip" data-tip="{{ reading.note }}">pp. {{ reading.pages }}</td>
+                            <td width="100px" class="grey">pp. {{ reading.pages }}</td>
                         </tr>{% endif %}{% endfor %}
                     </table>
                 </div>
@@ -1369,7 +1369,7 @@ templates:
                     <hr class="subtle" />
                     <h4>Other Readings</h4>
                     <table width="100%" class="mp-table reading-table">
-                        {% for reading in site.data.mp_readings %}{% if reading.guides contains 'Executive Summary' %}<tr>
+                        {% for reading in site.data.mp_readings %}{% if reading.guides contains 'Presentations' %}<tr>
                             <td width="25px">
                                 {% if reading.format == 'pdf' %}<i class="fa fa-file-pdf-o" aria-hidden="true"></i>{% elsif reading.format == 'word' %}<i class="fa fa-file-word-o" aria-hidden="true"></i>{% elsif reading.format == 'powerpoint' %}<i class="fa fa-file-powerpoint-o" aria-hidden="true"></i>{% elsif reading.format == 'excel' %}<i class="fa fa-file-excel-o" aria-hidden="true"></i>{% elsif reading.format == 'video' %}<i class="fa fa-file-movie-o" aria-hidden="true"></i>{% elsif reading.format == 'photo' %}<i class="fa fa-file-photo-o" aria-hidden="true"></i>{% elsif reading.format == 'other' %}<i class="fa fa-file-text-o" aria-hidden="true"></i>{% endif %}
                             </td>
@@ -1423,7 +1423,7 @@ templates:
                     <hr class="subtle" />
                     <h4>Other Readings</h4>
                     <table width="100%" class="mp-table reading-table">
-                        {% for reading in site.data.mp_readings %}{% if reading.guides contains 'Executive Summary' %}<tr>
+                        {% for reading in site.data.mp_readings %}{% if reading.guides contains 'Beyond the MP' %}<tr>
                             <td width="25px">
                                 {% if reading.format == 'pdf' %}<i class="fa fa-file-pdf-o" aria-hidden="true"></i>{% elsif reading.format == 'word' %}<i class="fa fa-file-word-o" aria-hidden="true"></i>{% elsif reading.format == 'powerpoint' %}<i class="fa fa-file-powerpoint-o" aria-hidden="true"></i>{% elsif reading.format == 'excel' %}<i class="fa fa-file-excel-o" aria-hidden="true"></i>{% elsif reading.format == 'video' %}<i class="fa fa-file-movie-o" aria-hidden="true"></i>{% elsif reading.format == 'photo' %}<i class="fa fa-file-photo-o" aria-hidden="true"></i>{% elsif reading.format == 'other' %}<i class="fa fa-file-text-o" aria-hidden="true"></i>{% endif %}
                             </td>
@@ -1446,7 +1446,7 @@ templates:
                 <div class="filter class-filter" data-filter=".407">407</div>
                 <div class="filter class-filter" data-filter=".408">408</div>
                 <div class="filter mp-filter" data-filter=".irb">IRB</div>
-                <!--<div class="filter mp-filter" data-fi?lter=".posters">Posters</div>-->
+                <!--<div class="filter mp-filter" data-filter=".posters">Posters</div>-->
                 <!--<div class="filter mp-filter" data-filter=".presentations">Presentations</div>-->
                 <div class="filter mp-filter" data-filter=".rationale">Rationale</div>
                 <div class="filter type-filter" data-filter=".artifactanalysis">Artifact Analysis</div>

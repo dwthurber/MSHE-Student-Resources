@@ -877,6 +877,7 @@ table td {
 
 .reading-table tr {
     border-bottom: 1px dotted #999;
+    position: relative;
 }
 
 .meetup-hero {

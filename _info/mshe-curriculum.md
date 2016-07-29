@@ -8,17 +8,8 @@ actions:
 statuses:
   - current students
 keywords:
-  - Registering for elective courses outside MSHE
-  - School of professional Studies (SPS)
-  - MS in Learning and Organizational Change (MSLOC)
-  - Learning Sciences (LRN_SCI)
-  - MS in Education (MS_Ed)
-  - Human Development and Social Policy (HDSP)
-  - Counseling Courses
-  - Kellogg MBA
-  - The Graduate School (TGS)
-  - Medill courses
-  - Authorization for Dual Registration Form
+  - syllabi
+  - syllabus
 comments: true
 section: registration
 ---

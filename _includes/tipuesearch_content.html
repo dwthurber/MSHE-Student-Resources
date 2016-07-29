@@ -1,5 +1,5 @@
 var tipuesearch = {"pages": [
-    {% for item in site.info %}{"title": "{{ item.title }}", "text": "{{ item.description }}", "tags": "{{ item.categories | join: ' ' }}", "url": "{{ item.url | prepend:site.baseurl }}"},{% endfor %}
-    {% for item in site.workshops %}{"title": "{{ item.title }}", "text": "{{ item.description }}", "tags": "{{ item.categories | join: ' ' }}", "url": "{{ item.url | prepend:site.baseurl }}"},{% endfor %}
+    {% for item in site.info %}{"title": "{{ item.title }}", "text": "{{ item.description }}", "tags": "{{ item.topics | join: ' ' }} {{ item.actions | join: ' ' }} {{ item.keywords | join: ' ' }}", "url": "{{ item.url | prepend:site.baseurl }}"},{% endfor %}
+    {% for item in site.workshops %}{"title": "{{ item.title }}", "text": "{{ item.description }}", "tags": "{{ item.topics | join: ' ' }}", "url": "{{ item.url | prepend:site.baseurl }}"},{% endfor %}
     {"title": "MSHE MeetUps", "text": "A MeetUp is a one-time meeting (in-person or virtual) between an MSHE student and an alumna/us who is currently working in higher education or a related field. MeetUps are like an informational interview. Students will share their background and goals in advance, and come to the conversation with a clear learning objective. They will also share the latest MSHE developments. From the students' perspective, the purpose of the MeetUp is to learn—not to seek a job from Alumni. Alumni can learn about the exciting new career paths of MSHE students.", "tags": "", "url": "{{ site.baseurl }}/meetup/"},
 ]};

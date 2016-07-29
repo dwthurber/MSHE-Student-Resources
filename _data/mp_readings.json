@@ -1,10 +1,13 @@
 [
- {
-   "title": "Merriam & Tisdell, Chapters 4",
-   "link_path": "",
-   "pages": "73-103",
-   "guides": "Introduction,Literature Review",
-   "format": "pdf",
-   "notes": "designing your study and selecting a sample"
- }
+	{
+		"title": "Merriam & Tisdell, Chapters 4",
+		"link_path": "",
+		"pages": "73-103",
+		"guides": [
+			"Introduction",
+			"Literature Review"
+		],
+		"format": "pdf",
+		"notes": "designing your study and selecting a sample"
+	}
 ]

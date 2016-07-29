@@ -402,24 +402,28 @@ aside ul li a.active {
 }
 
 @media only screen and (max-width: 979px) {
+    .info-page-nav {
+        height: 35px;
+    }
     .info-page-nav ul {
         width: 100%;
     }
-    .info-page-nav li a, .info-page-nav li a:hover {
-        height: 20px;
-        line-height: 20px;
+    .info-page-nav li a, .info-page-nav li a:hover, .info-page-nav li.active a {
+        height: 32px;
+        line-height: 32px;
         padding: 0 5px;
     }
     .info-page-hero {
         height: 230px;
     }
     .info-page-header {
-        bottom: 45px;
+        bottom: 35px;
     }
 }
 
 @media only screen and (max-width: 800px) {
     .info-page-nav {
+        height: 0;
         display: none;
     }
     .info-page-hero {
@@ -431,6 +435,9 @@ aside ul li a.active {
         line-height: 70px;
         margin: 0;
         padding: 0;
+    }
+    .info-page-header h2 {
+        margin-top: 0;
     }
 }
 

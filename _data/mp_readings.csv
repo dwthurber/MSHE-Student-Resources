@@ -1,2 +1,10 @@
-title,link_path,pages,guides,format,notes
-"Merriam & Tisdell, Chapters 4",,73-103,"Introduction,Literature Review",pdf,designing your study and selecting a sample
+[
+ {
+   "title": "Merriam & Tisdell, Chapters 4",
+   "link_path": "",
+   "pages": "73-103",
+   "guides": "Introduction,Literature Review",
+   "format": "pdf",
+   "notes": "designing your study and selecting a sample"
+ }
+]

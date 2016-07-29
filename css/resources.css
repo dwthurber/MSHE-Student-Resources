@@ -449,3 +449,7 @@
 .purple-outline .arrow-right {
     border-left-color: #E4E0EE;
 }
+
+.method-box {
+    display: inline-block;
+}

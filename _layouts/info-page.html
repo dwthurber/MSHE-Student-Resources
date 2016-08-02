@@ -55,7 +55,7 @@ layout: default
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 </div>
 <div class="corso-right">
-    <h5>You might also like...</h5>
+    <h5 class="column-header">You might also like...</h5>
     <div class="three-columns related">
       {% for item in site.info %}
         {% assign sameTagCount = 0 %}
@@ -86,7 +86,6 @@ layout: default
                 <h5><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></h5>
                 <p class="subheader"><a href="{{ item.url }}">{{ item.url }} </a></p>
                 <p>{{ item.description | truncate: 150, ' ... ' }}</p>
-                <div class="related-info-hover"><a href="{{ item.url | prepend:site.baseurl }}"></a><i class=""></i></div>
             </div>
         {% endif %}
        {% endfor %}

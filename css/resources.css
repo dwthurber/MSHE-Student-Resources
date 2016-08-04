@@ -28,6 +28,8 @@
 .behind {
     visibility: hidden;
     height: 0;
+    max-height: 0;
+    overflow: hidden;
 }
 
 .tabs {

@@ -298,5 +298,35 @@
 		],
 		"format": "pdf",
 		"notes": ""
+	},
+	{
+		"title": "Risk and Benefit to Subjects of Fieldwork",
+		"link_path": "https://northwestern.box.com/shared/static/qmsnl3ffwk1i2hqazp1w8eg3xpppqlt6.pdf",
+		"author": "Cassell, Joan",
+		"guides": [
+			"Data Collection"
+		],
+		"format": "pdf",
+		"notes": ""
+	},
+	{
+		"title": "Identifying a Research Problem",
+		"link_path": "https://northwestern.box.com/shared/static/bhxq6rryf6txr0alko8ceh29fq0o2zqz.pdf",
+		"author": "Creswell, John",
+		"guides": [
+			"Research Questions"
+		],
+		"format": "pdf",
+		"notes": ""
+	},
+	{
+		"title": "Writing Qualitative Research Questions",
+		"link_path": "https://northwestern.box.com/shared/static/wiy7wcvoh1zwm0cc2pscvc4bejavp6ew.pdf",
+		"author": "Creswell, John",
+		"guides": [
+			"Research Questions"
+		],
+		"format": "pdf",
+		"notes": ""
 	}
 ]

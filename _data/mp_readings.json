@@ -276,5 +276,35 @@
 		],
 		"format": "pdf",
 		"notes": ""
+	},
+	{
+		"title": "Statistical Methods for the Social Sciences",
+		"link_path": "https://northwestern.box.com/shared/static/kr3u72e3f70cw6lu6rs6ssd666y6w8jm.pdf",
+		"author": "Agresti, Alan and Barbara Finlay",
+		"guides": [
+			"Data Summary",
+			"Data Interpretation"
+		],
+		"format": "pdf",
+		"notes": ""
+	},
+	{
+		"title": "Why is my evil lecturer forcing me to learn statistics",
+		"link_path": "https://northwestern.box.com/shared/static/vq69p0k551s17bfxkca84i0s5g5yfsu2.pdf",
+		"author": "Field, Andy",
+		"guides": [
+			"Data Interpretation",
+			"Data Summary"
+		],
+		"format": "pdf",
+		"notes": ""
+	},
+	{
+		"title": "",
+		"link_path": "",
+		"author": "",
+		"guides": "",
+		"format": "",
+		"notes": ""
 	}
 ]

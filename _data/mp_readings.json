@@ -2,7 +2,7 @@
 	{
 		"title": "Creswell Interviewing",
 		"link_path": "https://northwestern.box.com/shared/static/fy3n4emnjdhygu9l5rv8g752eacamt99.pdf",
-		"pages": "",
+		"author": "",
 		"guides": [
 			"Data Collection"
 		],
@@ -12,7 +12,7 @@
 	{
 		"title": "Creswell Literature Review",
 		"link_path": "https://northwestern.box.com/shared/static/qudrky7iafrp9xyjdklfba0x9s3pmbyj.pdf",
-		"pages": "",
+		"author": "",
 		"guides": [
 			"Literature Review"
 		],
@@ -22,7 +22,7 @@
 	{
 		"title": "Drug Abuse Coding Example",
 		"link_path": "https://northwestern.box.com/shared/static/xn3p4rme7iw4rdr4l742ihcp9zrbgbpr.pdf",
-		"pages": "",
+		"author": "",
 		"guides": [
 			"Data Interpretation",
 			"Data Summary"
@@ -33,7 +33,7 @@
 	{
 		"title": "Glesne Make Words Fly",
 		"link_path": "https://northwestern.box.com/shared/static/cdft0lvdo0rna7hl9q3l1j9q3s5v8g6j.pdf",
-		"pages": "Ch. 4",
+		"author": "Ch. 4",
 		"guides": [
 			"Data Collection"
 		],
@@ -43,7 +43,7 @@
 	{
 		"title": "Krueger & Casey - Focus Groups",
 		"link_path": "https://northwestern.box.com/shared/static/6nuxrxmcc7adj69wi29gomwimmsvyk0x.pdf",
-		"pages": "",
+		"author": "",
 		"guides": [
 			"Data Collection"
 		],
@@ -53,7 +53,7 @@
 	{
 		"title": "Manning - Conducting Constructivist Inquiry",
 		"link_path": "https://northwestern.box.com/shared/static/tirh92omx12oebwl5yk5a8i14pmzli2d.pdf",
-		"pages": "Ch. 2",
+		"author": "Ch. 2",
 		"guides": [
 			"Data Collection"
 		],
@@ -63,7 +63,7 @@
 	{
 		"title": "Mathison - Why Triangulate",
 		"link_path": "https://northwestern.box.com/shared/static/icbqrzd402m55zg47cfgrolmnoiw0v98.pdf",
-		"pages": "",
+		"author": "",
 		"guides": [
 			"Data Collection"
 		],
@@ -73,7 +73,7 @@
 	{
 		"title": "Glesne - Writing up Your Story: What Your Data Say",
 		"link_path": "https://northwestern.box.com/shared/static/6wcvt3tgqassfh9zddi7p19h1j93xisw.pdf",
-		"pages": "Ch. 8",
+		"author": "Ch. 8",
 		"guides": [
 			"Data Summary"
 		],
@@ -83,7 +83,7 @@
 	{
 		"title": "Hahn",
 		"link_path": "",
-		"pages": "",
+		"author": "",
 		"guides": "",
 		"format": "",
 		"notes": ""

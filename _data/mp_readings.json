@@ -183,11 +183,23 @@
 		"notes": ""
 	},
 	{
-		"title": "",
-		"link_path": "",
-		"author": "",
-		"guides": "",
-		"format": "",
+		"title": "Writing up Fieldnotes I: From Field to Desk (Observations)",
+		"link_path": "https://northwestern.box.com/shared/static/e1ex0jyaufv1l43itnzcgqibm7c8g4sc.pdf",
+		"author": "Emerson, Robert M., Rachel I. Fretz, and Linda L. Shaw",
+		"guides": [
+			"Data Summary"
+		],
+		"format": "pdf",
+		"notes": ""
+	},
+	{
+		"title": "Using Ethnographic Fieldwork and Case Studies to Guide Student Affairs Practice",
+		"link_path": "https://northwestern.box.com/shared/static/r0qb772u3uqjlwlku07v1gf3g6aszrnu.pdf",
+		"author": "Magolda, Peter M.",
+		"guides": [
+			"Data Collection"
+		],
+		"format": "pdf",
 		"notes": ""
 	}
 ]

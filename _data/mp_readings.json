@@ -90,5 +90,55 @@
 		],
 		"format": "pdf",
 		"notes": ""
+	},
+	{
+		"title": "Basics of Qualitative Research, Analyzing Data for Concepts",
+		"link_path": "https://northwestern.box.com/shared/static/lyh6pi999konx8zt0q3pxp5zmdgx8qj0.pdf",
+		"author": "Corbin, Juliet and Anselm Strauss",
+		"guides": [
+			"Data Interpretation"
+		],
+		"format": "pdf",
+		"notes": ""
+	},
+	{
+		"title": "Basics of Qualitative Research, Strategies for Qualitative Data Analysis",
+		"link_path": "https://northwestern.box.com/shared/static/kcpcc4y3vqbzyl7zbfr4sjh765vqz8mq.pdf",
+		"author": "Corbin, Juliet and Anselm Strauss",
+		"guides": [
+			"Data Interpretation"
+		],
+		"format": "pdf",
+		"notes": ""
+	},
+	{
+		"title": "Finding Your Story: Data Analysis",
+		"link_path": "https://northwestern.box.com/shared/static/qn3gt6bk8mkjwwep5ka10es9xf4pqqcm.pdf",
+		"author": "Glesne, Corrine",
+		"guides": [
+			"Data Interpretation"
+		],
+		"format": "pdf",
+		"notes": ""
+	},
+	{
+		"title": "Mapping the Process: An Exemplar of Process and Challenge in Grounded Theory Analysis",
+		"link_path": "https://northwestern.box.com/shared/static/jtqhu4b216ot0blk117zjj58w18bn9la.pdf",
+		"author": "Harry, Beth, Keith M. Sturges, and Janette K. Klinger",
+		"guides": [
+			"Data Interpretation"
+		],
+		"format": "pdf",
+		"notes": ""
+	},
+	{
+		"title": "Analyzing Interview Data: The Development and Evolution of a Coding System",
+		"link_path": "https://northwestern.box.com/shared/static/urc3brdk6raa7nkpyfys7e3y63todk94.pdf",
+		"author": "Weston, Cynthia, et. al.",
+		"guides": [
+			"Data Interpretation"
+		],
+		"format": "pdf",
+		"notes": ""
 	}
 ]

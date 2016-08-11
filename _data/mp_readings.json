@@ -234,5 +234,47 @@
 		],
 		"format": "pdf",
 		"notes": ""
+	},
+	{
+		"title": "Subquestions",
+		"link_path": "https://northwestern.box.com/shared/static/quk4on77k2mlbhss3fco5ko38mk1lwbp.pdf",
+		"author": "Creswell, John W.",
+		"guides": [
+			"Research Questions"
+		],
+		"format": "pdf",
+		"notes": ""
+	},
+	{
+		"title": "Being There: Developing Understanding through Participant Observation",
+		"link_path": "https://northwestern.box.com/shared/static/n6i0nilefarirogrzxvmsx1i9rmkegmy.pdf",
+		"author": "Glesne, Corrine",
+		"guides": [
+			"Data Collection"
+		],
+		"format": "pdf",
+		"notes": ""
+	},
+	{
+		"title": "Getting to Know Your Data: Evaluating Measurement and Variations",
+		"link_path": "https://northwestern.box.com/shared/static/tbb83bs1ilah36148o90a6h00ljju5sg.pdf",
+		"author": "Kellstedt, Paul and Guy Whitten",
+		"guides": [
+			"Data Summary",
+			"Data Interpretation"
+		],
+		"format": "pdf",
+		"notes": ""
+	},
+	{
+		"title": "Fundamentals of Behavioral Statistics",
+		"link_path": "https://northwestern.box.com/shared/static/z583ihp6ecpv1pmciydn6nr0hrhgamkr.pdf",
+		"author": "Runyon, Richard P., Kay A. Coleman, and David J. Pittenger",
+		"guides": [
+			"Data Interpretation",
+			"Data Summary"
+		],
+		"format": "pdf",
+		"notes": ""
 	}
 ]

@@ -201,5 +201,38 @@
 		],
 		"format": "pdf",
 		"notes": ""
+	},
+	{
+		"title": "Defining Surveys and Experiments",
+		"link_path": "https://northwestern.box.com/shared/static/wqkq4pek0szo6qzfg7rfi8wvfklkzije.pdf",
+		"author": "Creswell, John W.",
+		"guides": [
+			"Data Collection",
+			"Data Summary",
+			"Data Interpretation"
+		],
+		"format": "pdf",
+		"notes": ""
+	},
+	{
+		"title": "What Good Is Polarizing Research Into Qualitative and Quantitative?",
+		"link_path": "https://northwestern.box.com/shared/static/oatw49p110x0tbwwo1jy02rkjdpa2ows.pdf",
+		"author": "Ercikan, Kadriye and Wolff-Michael Roth",
+		"guides": [
+			"Data Collection"
+		],
+		"format": "pdf",
+		"notes": ""
+	},
+	{
+		"title": "Using Qualitative Methods for Causal Explanation",
+		"link_path": "https://northwestern.box.com/shared/static/qwlhc56alqm76a2q4vsnn0afh9zr09pt.pdf",
+		"author": "Maxwell, Joseph A.",
+		"guides": [
+			"Data Collection",
+			"Data Interpretation"
+		],
+		"format": "pdf",
+		"notes": ""
 	}
 ]

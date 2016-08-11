@@ -1,8 +1,8 @@
 [
 	{
-		"title": "Creswell Interviewing",
+		"title": "Collecting Qualitative Data: Interviews",
 		"link_path": "https://northwestern.box.com/shared/static/fy3n4emnjdhygu9l5rv8g752eacamt99.pdf",
-		"author": "",
+		"author": "Creswell, John",
 		"guides": [
 			"Data Collection"
 		],
@@ -10,9 +10,9 @@
 		"notes": ""
 	},
 	{
-		"title": "Creswell Literature Review",
+		"title": "Reviewing the Literature",
 		"link_path": "https://northwestern.box.com/shared/static/qudrky7iafrp9xyjdklfba0x9s3pmbyj.pdf",
-		"author": "",
+		"author": "Creswell, John",
 		"guides": [
 			"Literature Review"
 		],
@@ -20,20 +20,9 @@
 		"notes": ""
 	},
 	{
-		"title": "Drug Abuse Coding Example",
-		"link_path": "https://northwestern.box.com/shared/static/xn3p4rme7iw4rdr4l742ihcp9zrbgbpr.pdf",
-		"author": "",
-		"guides": [
-			"Data Interpretation",
-			"Data Summary"
-		],
-		"format": "pdf",
-		"notes": "Analysis and interpretation in class"
-	},
-	{
-		"title": "Glesne Make Words Fly",
+		"title": "Making Words Fly: Developing Understanding through Interviewing",
 		"link_path": "https://northwestern.box.com/shared/static/cdft0lvdo0rna7hl9q3l1j9q3s5v8g6j.pdf",
-		"author": "Ch. 4",
+		"author": "Glesne, Corrine",
 		"guides": [
 			"Data Collection"
 		],
@@ -41,9 +30,9 @@
 		"notes": ""
 	},
 	{
-		"title": "Krueger & Casey - Focus Groups",
+		"title": "Focus Groups - Developing a Questioning Route",
 		"link_path": "https://northwestern.box.com/shared/static/6nuxrxmcc7adj69wi29gomwimmsvyk0x.pdf",
-		"author": "",
+		"author": "Krueger, Richard and Mary Anne Casey",
 		"guides": [
 			"Data Collection"
 		],
@@ -51,9 +40,9 @@
 		"notes": ""
 	},
 	{
-		"title": "Manning - Conducting Constructivist Inquiry",
+		"title": "Conducting Constructivist Inquiry",
 		"link_path": "https://northwestern.box.com/shared/static/tirh92omx12oebwl5yk5a8i14pmzli2d.pdf",
-		"author": "Ch. 2",
+		"author": "Manning, Kathleen",
 		"guides": [
 			"Data Collection"
 		],
@@ -61,9 +50,9 @@
 		"notes": ""
 	},
 	{
-		"title": "Mathison - Why Triangulate",
+		"title": "Why Triangulate?",
 		"link_path": "https://northwestern.box.com/shared/static/icbqrzd402m55zg47cfgrolmnoiw0v98.pdf",
-		"author": "",
+		"author": "Mathison, Sandra",
 		"guides": [
 			"Data Collection"
 		],
@@ -71,9 +60,9 @@
 		"notes": ""
 	},
 	{
-		"title": "Glesne - Writing up Your Story: What Your Data Say",
+		"title": "Writing up Your Story: What Your Data Say",
 		"link_path": "https://northwestern.box.com/shared/static/6wcvt3tgqassfh9zddi7p19h1j93xisw.pdf",
-		"author": "Ch. 8",
+		"author": "Glesne, Corrine",
 		"guides": [
 			"Data Summary"
 		],

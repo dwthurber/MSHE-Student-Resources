@@ -358,5 +358,45 @@
 		],
 		"format": "pdf",
 		"notes": ""
+	},
+	{
+		"title": "Survey Research Methods",
+		"link_path": "https://northwestern.box.com/shared/static/dfqzdy96cnfucb40nfya5ziqvjmvi34r.pdf",
+		"author": "Babbie, Earl",
+		"guides": [
+			"Data Collection"
+		],
+		"format": "pdf",
+		"notes": ""
+	},
+	{
+		"title": "Survey Designs",
+		"link_path": "https://northwestern.box.com/shared/static/gsd9xmbplnnf0ol8vp0ko7s1zckh9exy.pdf",
+		"author": "Creswell, John",
+		"guides": [
+			"Data Collection"
+		],
+		"format": "pdf",
+		"notes": ""
+	},
+	{
+		"title": "Collecting and Using Documents (Artifact Analysis)",
+		"link_path": "https://northwestern.box.com/shared/static/x2ocyuu44b7xoh057fs76s7nigirha2c.pdf",
+		"author": "Creswell, John",
+		"guides": [
+			"Data Collection"
+		],
+		"format": "pdf",
+		"notes": ""
+	},
+	{
+		"title": "Document Analysis",
+		"link_path": "https://northwestern.box.com/shared/static/zfdqpfydowcrixgqnu0mrzhphhjxrldc.pdf",
+		"author": "Whitt, Elizabeth J.",
+		"guides": [
+			"Data Collection"
+		],
+		"format": "pdf",
+		"notes": ""
 	}
 ]

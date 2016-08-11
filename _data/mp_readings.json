@@ -81,11 +81,25 @@
 		"notes": ""
 	},
 	{
-		"title": "Hahn",
-		"link_path": "",
-		"author": "",
-		"guides": "",
-		"format": "",
+		"title": "Doing Qualitative Research Using Your Computer, Level 2 Coding",
+		"link_path": "https://northwestern.box.com/shared/static/bmigtu29zcm0k7yaglohvf8lf08wjmdo.pdf",
+		"author": "Hahn, Christopher",
+		"guides": [
+			"Data Summary",
+			"Data Interpretation"
+		],
+		"format": "pdf",
+		"notes": ""
+	},
+	{
+		"title": "Doing Qualitative Research Using Your Computer, Level 3 & 4 Coding",
+		"link_path": "https://northwestern.box.com/shared/static/a49c5xkfs9spuahs5neh5zb8yhsf2wz6.pdf",
+		"author": "Hahn, Christopher",
+		"guides": [
+			"Data Summary",
+			"Data Interpretation"
+		],
+		"format": "pdf",
 		"notes": ""
 	}
 ]

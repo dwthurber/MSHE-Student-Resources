@@ -1,13 +1,73 @@
 [
 	{
-		"title": "Merriam & Tisdell, Chapters 4",
-		"link_path": "",
-		"pages": "73-103",
+		"title": "Creswell Interviewing",
+		"link_path": "https://northwestern.box.com/shared/static/fy3n4emnjdhygu9l5rv8g752eacamt99.pdf",
+		"pages": "",
 		"guides": [
-			"Introduction",
+			"Data Collection"
+		],
+		"format": "pdf",
+		"notes": ""
+	},
+	{
+		"title": "Creswell Literature Review",
+		"link_path": "https://northwestern.box.com/shared/static/qudrky7iafrp9xyjdklfba0x9s3pmbyj.pdf",
+		"pages": "",
+		"guides": [
 			"Literature Review"
 		],
 		"format": "pdf",
-		"notes": "designing your study and selecting a sample"
+		"notes": ""
+	},
+	{
+		"title": "Drug Abuse Coding Example",
+		"link_path": "https://northwestern.box.com/shared/static/xn3p4rme7iw4rdr4l742ihcp9zrbgbpr.pdf",
+		"pages": "",
+		"guides": [
+			"Data Interpretation",
+			"Data Summary"
+		],
+		"format": "pdf",
+		"notes": "Analysis and interpretation in class"
+	},
+	{
+		"title": "Glesne Make Words Fly",
+		"link_path": "https://northwestern.box.com/shared/static/cdft0lvdo0rna7hl9q3l1j9q3s5v8g6j.pdf",
+		"pages": "Ch. 4",
+		"guides": [
+			"Data Collection"
+		],
+		"format": "pdf",
+		"notes": ""
+	},
+	{
+		"title": "Krueger & Casey - Focus Groups",
+		"link_path": "https://northwestern.box.com/shared/static/6nuxrxmcc7adj69wi29gomwimmsvyk0x.pdf",
+		"pages": "",
+		"guides": [
+			"Data Collection"
+		],
+		"format": "pdf",
+		"notes": ""
+	},
+	{
+		"title": "Manning - Conducting Constructivist Inquiry",
+		"link_path": "https://northwestern.box.com/shared/static/tirh92omx12oebwl5yk5a8i14pmzli2d.pdf",
+		"pages": "Ch. 2",
+		"guides": [
+			"Data Collection"
+		],
+		"format": "pdf",
+		"notes": ""
+	},
+	{
+		"title": "Mathison - Why Triangulate",
+		"link_path": "https://northwestern.box.com/shared/static/icbqrzd402m55zg47cfgrolmnoiw0v98.pdf",
+		"pages": "",
+		"guides": [
+			"Data Collection"
+		],
+		"format": "pdf",
+		"notes": ""
 	}
 ]

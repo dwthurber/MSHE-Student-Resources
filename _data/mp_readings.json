@@ -328,5 +328,25 @@
 		],
 		"format": "pdf",
 		"notes": ""
+	},
+	{
+		"title": "Finding and Selecting an Instrument",
+		"link_path": "https://northwestern.box.com/shared/static/i2hka1wcuenx4fgnpmbg850naeoikj6c.pdf",
+		"author": "Creswell, John",
+		"guides": [
+			"Data Collection"
+		],
+		"format": "pdf",
+		"notes": ""
+	},
+	{
+		"title": "Informal Theory: The Ignored Link in Theory-to-Practice",
+		"link_path": "https://northwestern.box.com/shared/static/umj1utumab5qzq68bqe717s6bd68b8fb.pdf",
+		"author": "Love, Patrick",
+		"guides": [
+			"Literature Review"
+		],
+		"format": "pdf",
+		"notes": ""
 	}
 ]

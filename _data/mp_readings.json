@@ -140,5 +140,54 @@
 		],
 		"format": "pdf",
 		"notes": ""
+	},
+	{
+		"title": "Analyzing Focus Group Results",
+		"link_path": "https://northwestern.box.com/shared/static/hf3un1x46puill0317inxoee78r65gly.pdf",
+		"author": "Krueger, Richard and Mary Anne Casey",
+		"guides": [
+			"Data Summary",
+			"Data Interpretation"
+		],
+		"format": "pdf",
+		"notes": ""
+	},
+	{
+		"title": "Choosing a Mixed Methods Design",
+		"link_path": "https://northwestern.box.com/shared/static/doab2dhpwhv3ct2hslvdirhvzo1bwsye.pdf",
+		"author": "Creswell, John W. and Vicki L. Plano Clark",
+		"guides": [
+			"Data Collection"
+		],
+		"format": "pdf",
+		"notes": ""
+	},
+	{
+		"title": "Mixing Methods on Purpose",
+		"link_path": "https://northwestern.box.com/shared/static/lkaxfkinbu4d95hy2ctf8lp3bjy8kn9e.pdf",
+		"author": "Greene, Jennifer C.",
+		"guides": [
+			"Data Collection"
+		],
+		"format": "pdf",
+		"notes": ""
+	},
+	{
+		"title": "Mixed Methods Research: A Research Paradigm Whose Time Has Come",
+		"link_path": "https://northwestern.box.com/shared/static/e920b4mc095e5y1t8nz5s5twh4leapza.pdf",
+		"author": "Johnson, Burke R. and Anthony J. Onwuegbuzie",
+		"guides": [
+			"Data Collection"
+		],
+		"format": "pdf",
+		"notes": ""
+	},
+	{
+		"title": "",
+		"link_path": "",
+		"author": "",
+		"guides": "",
+		"format": "",
+		"notes": ""
 	}
 ]

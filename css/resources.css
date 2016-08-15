@@ -456,3 +456,8 @@
 .method-box {
     display: inline-block;
 }
+
+.fa-sm {
+    font-size: 0.6em!important;
+    color: #999;
+}

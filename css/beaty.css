@@ -24,7 +24,7 @@ http://www.tipue.com/beaty
      box-sizing: border-box;
      width: 400px;
      height: 100%;
-     /*background-color: #f9f9f9;*/
+     background-color: #f9f9f9;
      padding: 30px;
      z-index: 100;
 }
@@ -142,5 +142,5 @@ http://www.tipue.com/beaty
 }
 
 .corso-right {
-     padding-top: 60px;
+     padding-top: 30px;
 }

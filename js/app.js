@@ -231,5 +231,9 @@ var topicsApp = angular.module('topicsApp', ['ngRoute']);
             });
     
         });
+        
+        $('.mini-nav').click(function() {
+           $('.info-page-nav').toggleClass("show-info-nav"); 
+        });
 
      })

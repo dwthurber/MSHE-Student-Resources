@@ -5,6 +5,7 @@
   <div class="info-page-nav">
   <nav>
     <ul>
+      <li class="mini-nav"><a href="#/">Section Navigation <i class="fa fa-bars" aria-hidden="true"></i></a></li>
       <li {% if page.section == "registration" %}class="active"{% endif %}><a href="{{ site.baseurl }}/info/register-for-courses.html">Registration</a></li>
       {% for item in site.info %}{% if item.section == "academics" %}{% if item.title == page.title %}<li class="active"><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></li>
       {% else %}<li><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></li>{% endif %}{% endif %}{% endfor %}

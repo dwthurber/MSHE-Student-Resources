@@ -379,7 +379,7 @@ aside ul li a.active {
 .info-page-nav li {
     display: inline-block;
     border-bottom: 3px solid #333;
-    margin: 0 3px;
+    margin: 0;
 }
 
 .info-page-nav li a {
@@ -401,17 +401,43 @@ aside ul li a.active {
     color: #B6ACD1;
 }
 
+.info-page-nav .mini-nav {
+    display: none;
+    position: relative;
+}
+
+.mini-nav i {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.show-info-nav {
+    height: auto!important;
+}
+
 @media only screen and (max-width: 979px) {
     .info-page-nav {
-        height: 35px;
+        height: 36px;
+        top: 100%;
+        transform: translate(0px, -36px);
+        z-index: 2000;
+        bottom: initial;
     }
     .info-page-nav ul {
         width: 100%;
     }
+    .info-page-nav li:hover,.info-page-nav li.active {
+        border-bottom: 3px solid #666;
+    }
     .info-page-nav li a, .info-page-nav li a:hover, .info-page-nav li.active a {
-        height: 32px;
-        line-height: 32px;
+        height: 36px;
+        line-height: 36px;
         padding: 0 5px;
+    }
+    .info-page-nav li {
+        display: block;
+        border-bottom: 3px solid #666;
     }
     .info-page-hero {
         height: 230px;
@@ -419,26 +445,33 @@ aside ul li a.active {
     .info-page-header {
         bottom: 35px;
     }
+    .info-page-nav .mini-nav {
+        display: block;
+        background-color: #333;
+    }
+    .info-page-nav {
+        background-color: #666;
+    }
 }
 
 @media only screen and (max-width: 800px) {
-    .info-page-nav {
-        height: 0;
-        display: none;
-    }
-    .info-page-hero {
-        height: 70px;
-    }
-    .info-page-header {
-        top: 0;
-        height: 70px;
-        line-height: 70px;
-        margin: 0;
-        padding: 0;
-    }
-    .info-page-header h2 {
-        margin-top: 0;
-    }
+    /*.info-page-nav {*/
+    /*    height: 0;*/
+    /*    display: none;*/
+    /*}*/
+    /*.info-page-hero {*/
+    /*    height: 70px;*/
+    /*}*/
+    /*.info-page-header {*/
+    /*    top: 0;*/
+    /*    height: 70px;*/
+    /*    line-height: 70px;*/
+    /*    margin: 0;*/
+    /*    padding: 0;*/
+    /*}*/
+    /*.info-page-header h2 {*/
+    /*    margin-top: 0;*/
+    /*}*/
 }
 
 .no-hero-header {

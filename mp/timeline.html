@@ -133,7 +133,7 @@ timeline_entries:
       </div>
       <a href="{{ item.link_path | prepend:site.baseurl }}"><h3>{{ item.title }}<i class="fa fa-chevron-right" aria-hidden="true"></i></h3></a>
       <div class="cd-timeline-item-details">
-        {% if item.submission_type == 'draft' %}<p class="subheader"><i class="fa fa-file-o" aria-hidden="true"></i> DRAFT</p>{% endif %}
+        <p class="subheader">{{ item.date | date: "%a, %b %d, %Y" }} {% if item.submission_type == 'draft' %}&nbsp;|&nbsp;  <i class="fa fa-file-o" aria-hidden="true"></i> DRAFT</p>{% endif %}
         <p>{{ item.description }}</p>
       </div>
     </div>
@@ -163,7 +163,7 @@ timeline_entries:
       </div>
       <a href="{{ item.link_path | prepend:site.baseurl }}"><h3>{{ item.title }}<i class="fa fa-chevron-right" aria-hidden="true"></i></h3></a>
       <div class="cd-timeline-item-details">
-        {% if item.submission_type == 'draft' %}<p class="subheader"><i class="fa fa-file-o" aria-hidden="true"></i> DRAFT</p>{% endif %}
+        <p class="subheader">{{ item.date | date: "%a, %b %d, %Y" }} {% if item.submission_type == 'draft' %}&nbsp;|&nbsp;  <i class="fa fa-file-o" aria-hidden="true"></i> DRAFT</p>{% endif %}
         <p>{{ item.description }}</p>
       </div>
     </div>
@@ -194,7 +194,7 @@ timeline_entries:
       </div>
       <a href="{{ item.link_path | prepend:site.baseurl }}"><h3>{{ item.title }}<i class="fa fa-chevron-right" aria-hidden="true"></i></h3></a>
       <div class="cd-timeline-item-details">
-        {% if item.submission_type == 'draft' %}<p class="subheader"><i class="fa fa-file-o" aria-hidden="true"></i> DRAFT</p>{% endif %}
+        <p class="subheader">{{ item.date | date: "%a, %b %d, %Y" }} {% if item.submission_type == 'draft' %}&nbsp;|&nbsp;  <i class="fa fa-file-o" aria-hidden="true"></i> DRAFT</p>{% endif %}
         <p>{{ item.description }}</p>
       </div>
     </div>
@@ -220,7 +220,7 @@ timeline_entries:
       </div>
       <a href="{{ item.link_path | prepend:site.baseurl }}"><h3>{{ item.title }}<i class="fa fa-chevron-right" aria-hidden="true"></i></h3></a>
       <div class="cd-timeline-item-details">
-        {% if item.submission_type == 'draft' %}<p class="subheader"><i class="fa fa-file-o" aria-hidden="true"></i> DRAFT</p>{% endif %}
+        <p class="subheader">{{ item.date | date: "%a, %b %d, %Y" }} {% if item.submission_type == 'draft' %}&nbsp;|&nbsp;  <i class="fa fa-file-o" aria-hidden="true"></i> DRAFT</p>{% endif %}
         <p>{{ item.description }}</p>
       </div>
     </div>

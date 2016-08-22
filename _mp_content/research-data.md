@@ -2,6 +2,7 @@
 title: Research Data
 header: false
 mp_guide: true
+no-js: true
 ---
 * TOC
 {:toc}

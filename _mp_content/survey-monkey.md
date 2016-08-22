@@ -2,6 +2,7 @@
 title: Survey Monkey
 header: false
 mp_guide: true
+no-js: true
 ---
 * TOC
 {:toc}

@@ -2,6 +2,7 @@
 title: Artifact/Archival Analysis
 header: false
 mp_guide: true
+no-js: true
 ---
 * TOC
 {:toc}

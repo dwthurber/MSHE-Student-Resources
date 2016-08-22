@@ -2,6 +2,7 @@
 title: Creating Presentations
 header: false
 mp_guide: true
+no-js: true
 ---
 * TOC
 {:toc}

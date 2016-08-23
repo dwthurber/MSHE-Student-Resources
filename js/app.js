@@ -209,7 +209,7 @@ var topicsApp = angular.module('topicsApp', ['ngRoute']);
             $('#Electives').mixItUp({
             	load: {
             		filter: mixitup,
-            		sort: 'department:asc number:asc',
+            		sort: 'source:asc name:asc',
             	}, 
             });
             

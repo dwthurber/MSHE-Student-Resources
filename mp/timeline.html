@@ -8,63 +8,63 @@ timeline_entries:
     link_path: '/mp/#/researchquestions'
     icon_path: /img/guide_icons/research_question.png
     quarter: fall
-    date: 2016-10-06T00:00:00.000Z
+    date: 2016-10-13T00:00:00.000Z
     submission_type: final
-  - title: 'Literature Review'
+  - title: Literature Review
     description: Analysis of existing literature including gaps and shortcomings.
     link_path: '/mp/#/literaturereview'
     icon_path: /img/guide_icons/literature_review.png
     quarter: fall
     date: 2016-11-17T00:00:00.000Z
     submission_type: draft
-  - title: 'Introduction and Background'
+  - title: Introduction and Background
     description: Overview and introduction to the MP including rationale.
     link_path: '/mp/#/introduction'
     icon_path: /img/guide_icons/intro-background.png
     quarter: fall
     date: 2016-11-17T00:00:00.000Z
     submission_type: draft
-  - title: 'Data Collection Methods'
+  - title: Data Collection Methods
     description: Data collection strategies and triangulation of data.
     link_path: '/mp/#/datacollection'
     icon_path: /img/guide_icons/data_collection_methods.png
     quarter: fall
-    date: 2016-12-01T00:00:00.000Z
+    date: 2016-12-03T00:00:00.000Z
     submission_type: draft
   - title: IRB Protocol
     description: Official research consent and ethics approval from Northwestern for data collection.
     link_path: '/mp/#/irb'
     icon_path: /img/guide_icons/irb_protocol.png
     quarter: winter
-    date: 2017-01-12T00:00:00.000Z
+    date:
     submission_type: final
   - title: Revised Data Collection Methods
     description: Data collection strategies and triangulation of data.
     link_path: '/mp/#/datacollection'
     icon_path: /img/guide_icons/data_collection_methods.png
     quarter: winter
-    date: 2017-01-26T00:00:00.000Z
+    date:
     submission_type: final
   - title: Revised Literature Review
     description: Analysis of existing literature including gabs and shortcomings.
     link_path: '/mp/#/literaturereview'
     icon_path: /img/guide_icons/literature_review.png
     quarter: winter
-    date: 2017-02-23T00:00:00.000Z
+    date:
     submission_type: final
-  - title: 'DRAFT: Data Results Summary'
+  - title: Data Results Summary
     description: Summary of data collected.
     link_path: '/mp/#/datasummary'
     icon_path: /img/guide_icons/data_summary.png
     quarter: winter
-    date: 2017-03-09T00:00:00.000Z
+    date:
     submission_type: draft
-  - title: 'DRAFT: Data Interpretation'
+  - title: Data Interpretation
     description: 'Analysis of data collected, especially as it relates to MPQ and Literature'
     link_path: '/mp/#/datainterpretation'
     icon_path: /img/guide_icons/data_interpretation.png
     quarter: spring
-    date: 2017-04-06T00:00:00.000Z
+    date:
     submission_type: draft
   - title: Poster Session
     description: Research poster of MP sections so far.
@@ -73,50 +73,50 @@ timeline_entries:
     quarter: winter
     date: 2017-03-02T00:00:00.000Z
     submission_type: final
-  - title: 'DRAFT: Conclusion'
+  - title: Conclusion
     description: "Summary of findings/master's project."
     link_path: '/mp/#/conclusion'
     icon_path: /img/guide_icons/conclusion.png
     quarter: spring
-    date: 2017-04-20T00:00:00.000Z
+    date:
     submission_type: draft
   - title: Presentation
     description: "Final Presentation of Master's Project."
     link_path: '/mp/#/presentation'
     icon_path: /img/guide_icons/presentation.png
     quarter: spring
-    date: 2017-05-25T00:00:00.000Z
+    date:
     submission_type: final
   - title: Executive Summary
     description: 'A concise, yet thorough, overview of your study.'
     link_path: '/mp/#/executivesummary'
     icon_path: /img/guide_icons/executive_summary.png
     quarter: spring
-    date: 2017-06-01T00:00:00.000Z
+    date:
     submission_type: final
-  - title: Beyond the Master's Project
-    description: 'What to do when you are done with your project.'
+  - title: "Beyond the Master's Project"
+    description: What to do when you are done with your project.
     link_path: '/mp/#/beyondthemp'
     icon_path: /img/guide_icons/beyond_mp.png
-    quarter: beyond mp
-    date: 2017-06-01T00:00:00.000Z
+    quarter:
+    date:
     submission_type: final
 ---
 <div class="no-hero-header" id="top">
     <h2>{{ page.title }}</h2>
     <p>A Description & Chronology</p>
 </div>
-<br>
+<br />
 <section class="container wide">
   <p>The Master’s Project is an opportunity to pursue resolution of a question about which you have genuine concern. The question may grow out of an interest that you have had for some time or one that has arisen recently through course work or personal experience in a work setting or internship. As you identify and pursue resolution of your question, you will learn a great deal about your topic and about yourself. During this process you will acquire tools for inquiry, assessment, and self-reflection that will be useful throughout your career. The Master’s Project is a major undertaking and is usually completed across the span of a year. It involves three courses: MSHE 406: Research and Analysis I, MSHE 407: Research and Analysis II, and MSHE 408: Research and Analysis III.</p>
   </section>
-  <br>
+  <br />
   <section class="container wide">
   <div class="cd-timeline cd-active">
     <div class="cd-timeline-arrow-after"></div>
       <div class="cd-timeline-section-content editable">
            <h4>Fall Quarter</h4>
-           <p class="subtitle">MSHE 406: Research and Analysis I: Question Development, Literature Review, Data Collection Planning<p>
+           <p class="subtitle">MSHE 406: Research and Analysis I: Question Development, Literature Review, Data Collection Planning</p><p>
            <ul>
             <li>Develop and refine a research question</li>
             <li>Form peer research support group(s) &ndash; instructors, coaches, peers, and other experts</li>
@@ -128,11 +128,11 @@ timeline_entries:
             <li>Complete introduction and background of MP and literature review</li>
             <li>Complete preliminary plan for collecting data and submitting to IRB</li>
             </ul>
-      </div>
+      </p></div>
     {% for item in page.timeline_entries %}{% if item.quarter == 'fall' %}
     <div class="cd-timeline-item">
       <div class="cd-timeline-item-marker">
-        <img src="{{ item.icon_path | prepend:site.baseurl }}">
+        <img src="{{ item.icon_path | prepend:site.baseurl }}" />
         <div class="cd-marker-arrow"></div>
       </div>
       <a href="{{ item.link_path | prepend:site.baseurl }}"><h3>{{ item.title }}<i class="fa fa-chevron-right" aria-hidden="true"></i></h3></a>
@@ -148,7 +148,7 @@ timeline_entries:
     <div class="cd-timeline-arrow-before"></div>
       <div class="cd-timeline-section-content editable">
            <h4>Winter Quarter</h4>
-           <p class="subtitle">MSHE 407: Research and Analysis II: Research Methodology and Data Collection<p>
+           <p class="subtitle">MSHE 407: Research and Analysis II: Research Methodology and Data Collection</p><p>
            <ul>
             <li>Continue collaboration with instructors, coaches, peers, and experts for feedback</li>
             <li>Continue to learn data collection methods and techniques &ndash; surveys, interviews, artifact analysis, observation &ndash; including constructing instruments/protocols used and how to analyze the data, using classroom examples</li>
@@ -158,11 +158,11 @@ timeline_entries:
             <li>Present at a poster session on research in class</li>
             <li>Revise MPQ, introduction/background, and literature review</li>
             </ul>
-      </div>
+      </p></div>
     {% for item in page.timeline_entries %}{% if item.quarter == 'winter' %}
     <div class="cd-timeline-item">
       <div class="cd-timeline-item-marker">
-        <img src="{{ item.icon_path | prepend:site.baseurl }}">
+        <img src="{{ item.icon_path | prepend:site.baseurl }}" />
         <div class="cd-marker-arrow"></div>
       </div>
       <a href="{{ item.link_path | prepend:site.baseurl }}"><h3>{{ item.title }}<i class="fa fa-chevron-right" aria-hidden="true"></i></h3></a>
@@ -178,7 +178,7 @@ timeline_entries:
     <div class="cd-timeline-arrow-before"></div>
       <div class="cd-timeline-section-content editable">
            <h4>Spring Quarter</h4>
-           <p class="subtitle">MSHE 408: Research and Analysis III: Analysis, Interpretation, and Dissemination<p>
+           <p class="subtitle">MSHE 408: Research and Analysis III: Analysis, Interpretation, and Dissemination</p><p>
            <ul>
             <li>Complete data collection and coding by start of course</li>
             <li>Continue collaboration with instructors, coaches, peers, and other experts</li>
@@ -189,11 +189,11 @@ timeline_entries:
             <li>Prepare/organized finished copy of MP</li>
             <li>Complete executive summary</li>
             </ul>
-      </div>
+      </p></div>
     {% for item in page.timeline_entries %}{% if item.quarter == 'spring' %}
     <div class="cd-timeline-item">
       <div class="cd-timeline-item-marker">
-        <img src="{{ item.icon_path | prepend:site.baseurl }}">
+        <img src="{{ item.icon_path | prepend:site.baseurl }}" />
         <div class="cd-marker-arrow"></div>
       </div>
       <a href="{{ item.link_path | prepend:site.baseurl }}"><h3>{{ item.title }}<i class="fa fa-chevron-right" aria-hidden="true"></i></h3></a>
@@ -219,7 +219,7 @@ timeline_entries:
     {% for item in page.timeline_entries %}{% if item.quarter == 'beyond mp' %}
     <div class="cd-timeline-item">
       <div class="cd-timeline-item-marker">
-        <img src="{{ item.icon_path | prepend:site.baseurl }}">
+        <img src="{{ item.icon_path | prepend:site.baseurl }}" />
         <div class="cd-marker-arrow"></div>
       </div>
       <a href="{{ item.link_path | prepend:site.baseurl }}"><h3>{{ item.title }}<i class="fa fa-chevron-right" aria-hidden="true"></i></h3></a>
@@ -229,10 +229,10 @@ timeline_entries:
       </div>
     </div>
     {% endif %}{% endfor %}
-    <br>
-    <br>
+    <br />
+    <br />
   </div>
-  <br>
+  <br />
   <p style="float:right;"><a href="https://northwestern.box.com/shared/static/r65fjrov547ewi38hmoey5zy63djmo21.doc"><i class="fa fa-file-text-o" aria-hidden="true"></i> Download Word Version <i class="fa fa-download fa-sm" aria-hidden="true"></i></a></p>
 </section>
-<br>
+<br />

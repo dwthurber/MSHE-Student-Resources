@@ -5,26 +5,27 @@ facilitator: 'Audra Nelson, Career Coach'
 icon_path: /img/workshop_icons/icon_assessment.png
 order: '1'
 upcoming_workshop:
-  scheduled: true
+  scheduled: false
   upcoming_date: 2016-10-06T00:00:00.000Z
   start_time: '6:00 pm'
   end_time: '8:00 pm'
   location: Anneberg G02
 comments: false
 section: workshops
-topics: 
+topics:
   - career resources
 ---
 
+
 #### About {{ page.title }}
 
-##### <a name="TOC-StrengthsQuest-"></a><span>[StrengthsQuest ](http://www.strengthsquest.com/content/141728/index.aspx)</span>
+##### []()[StrengthsQuest](http://www.strengthsquest.com/content/141728/index.aspx)
 
-<a name="TOC-StrengthsQuest-is-used-at-more-than-600-schools-and-universities-in-North-America.-More-than-1-million-people-have-used-StrengthsQuest-to-gain-insights-into-how-to-use-their-talents-to-achieve-academic-success-to-explore-careers-and-in-leadership-developme"></a><span><span>"StrengthsQuest is used at more than 600 schools and universities in North America. More than 1 million people have used StrengthsQuest to gain insights into how to use their talents to achieve academic success, to explore careers, and in leadership development." Additionally, in Spring 2015, Dr. Adam Goodman's Leadership Coaching course required that students complete a StrengthsQuest Assessment. StrengthsQuest is very common among student affairs professionals (some even list their strengths in their signature lines), and it is highly recommended that students consider completing an assessment.</span></span>
+[]()"StrengthsQuest is used at more than 600 schools and universities in North America. More than 1 million people have used StrengthsQuest to gain insights into how to use their talents to achieve academic success, to explore careers, and in leadership development." Additionally, in Spring 2015, Dr. Adam Goodman's Leadership Coaching course required that students complete a StrengthsQuest Assessment. StrengthsQuest is very common among student affairs professionals (some even list their strengths in their signature lines), and it is highly recommended that students consider completing an assessment.
 
-##### <a name="TOC-Myers-Briggs-Type-Indicator-MBTI-"></a><span>Myers-Briggs Type Indicator (MBTI)</span>
+##### []()Myers-Briggs Type Indicator (MBTI)
 
-The Myers Briggs Type Indicator (MBTI) is available free of charge to all MSHE students who want to take it.  Interested students should contact either Tracie Thomas ([t-thomas8@northwestern.edu](mailto:t-thomas8@northwestern.edu)) or Christina Siders ([c-siders@northwestern.edu](mailto:c-siders@northwestern.edu)) at Northwestern Career Advancement to schedule some time to do the MBTI assessment and have a coaching session about your results.  
+The Myers Briggs Type Indicator (MBTI) is available free of charge to all MSHE students who want to take it.  Interested students should contact either Tracie Thomas ([&#116;&#045;&#116;&#104;&#111;&#109;&#097;&#115;&#056;&#064;&#110;&#111;&#114;&#116;&#104;&#119;&#101;&#115;&#116;&#101;&#114;&#110;&#046;&#101;&#100;&#117;](&#109;&#097;&#105;&#108;&#116;&#111;:&#116;&#045;&#116;&#104;&#111;&#109;&#097;&#115;&#056;&#064;&#110;&#111;&#114;&#116;&#104;&#119;&#101;&#115;&#116;&#101;&#114;&#110;&#046;&#101;&#100;&#117;)) or Christina Siders ([&#099;&#045;&#115;&#105;&#100;&#101;&#114;&#115;&#064;&#110;&#111;&#114;&#116;&#104;&#119;&#101;&#115;&#116;&#101;&#114;&#110;&#046;&#101;&#100;&#117;](&#109;&#097;&#105;&#108;&#116;&#111;:&#099;&#045;&#115;&#105;&#100;&#101;&#114;&#115;&#064;&#110;&#111;&#114;&#116;&#104;&#119;&#101;&#115;&#116;&#101;&#114;&#110;&#046;&#101;&#100;&#117;)) at Northwestern Career Advancement to schedule some time to do the MBTI assessment and have a coaching session about your results.
 
 #### Workshop Materials
 

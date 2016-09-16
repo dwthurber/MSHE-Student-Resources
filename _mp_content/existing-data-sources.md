@@ -5,7 +5,7 @@ mp_guide: true
 no-js: false
 data_sources:
 -
-    display_name: Admitted Student Survey
+    display_name: Northwestern Admitted Student Survey
     link_path: 
     source: The Graduate School @ Northwestern
     focus_areas: academic quality, financial support, student life, recruiting methods
@@ -13,7 +13,7 @@ data_sources:
     contact_person_email: w-artz@northwestern.edu
     description: For 32 facutors in enfrollment decisions, respondents rank importance and compare to other schools.
 -
-    display_name: Exit survey
+    display_name: Northwestern Exit survey
     link_path: 
     source: The Graduate School @ Northwestern
     focus_areas: academic quality, professional development, social climate, intellectual climate, support, career aspirations, student life, advisors
@@ -21,7 +21,7 @@ data_sources:
     contact_person_email: w-artz@northwestern.edu
     description: Respondents are asked questions on a number of different areas of their experiences during their graduate education at Northwestern University
 -
-    display_name: Graduate Leadership Advisory Council (GLAC)
+    display_name: Northwestern Graduate Leadership Advisory Council (GLAC)
     link_path: 
     source: The Graduate School @ Northwestern
     focus_areas: financial support, family situations, demographics, transportation, student life, career aspirations, housing, academic life
@@ -29,7 +29,7 @@ data_sources:
     contact_person_email: w-artz@northwestern.edu
     description: 'Survey of current PhD and Master''s students. Survey is conduced annually, though some questions are put forward on alternate years. Respondents are asked questions on a number of different areas of their experiences during their graduate education at Northwestern. Permission to use this information must be secured from the GLAC.'
 -
-    display_name: The Almanac of Higher Education
+    display_name: The Almanac of Higher Education (The Chronicle)
     link_path: http://chronicle.com/specialreport/The-Almanac-of-Higher/51
     source: The Chronicle of Higher Education
     focus_areas: 
@@ -77,7 +77,7 @@ data_sources:
     contact_person_email: a-prachand@northwestern.edu
     description: Administered to Northwestern incoming freshmen annually from 1971-2011, odd years beginning in 2011 (conducting COFHE New Student Survey in even-years)
 -
-    display_name: Survey of New Students (SNS)
+    display_name: COFHI Survey of New Students (SNS)
     link_path: 
     source: COFHE
     focus_areas: choosing college, college expectations, professional expectations, demographics, secondary school achievements, financial support, academic preparation
@@ -85,7 +85,7 @@ data_sources:
     contact_person_email: a-prachand@northwestern.edu
     description: Initially administered in 2012 and conducted in 2014 and 2015. Alternative to CIRP designed to better match up with other COFHE surveys. 
 -
-    display_name: Enrolled Student Survey (ESS)
+    display_name: COFHI Enrolled Student Survey (ESS)
     link_path: 
     source: COFHE
     focus_areas: skill development, engagement, satisfaction, paying for college, advising and support, health and well-being, academic life
@@ -93,7 +93,7 @@ data_sources:
     contact_person_email: a-prachand@northwestern.edu
     description: Condcuted Spring of odd years. Some overlap in content with NSSE but focused on our peer group. 
 -
-    display_name: Graduating Senior Survey
+    display_name: COFHI Graduating Senior Survey
     link_path: 
     source: COFHE
     focus_areas: skill development, engagement, career and advising services, paying for college, experience in major, future plans, professional expextations, satisfaction
@@ -101,7 +101,7 @@ data_sources:
     contact_person_email: a-prachand@northwestern.edu
     description: Conducted Spring of even years. Evaluation of undergraduate experience, future plans, financing education, activities. 
 -
-    display_name: Parent Survey
+    display_name: COFHI Parent Survey
     link_path: 
     source: COFHE
     focus_areas: paying for college, involvement with college life, demographics, satisfaction, choosing college
@@ -109,7 +109,7 @@ data_sources:
     contact_person_email: a-prachand@northwestern.edu
     description: Conducted spring of every fourth year. Survey parents of enrolled undergraduates
 -
-    display_name: Alumni Survey
+    display_name: COFHI Alumni Survey
     link_path: 
     source: COFHE
     focus_areas: community and family, alumni engagement, demographics, professional expectations, jobs and careers, satisfaction

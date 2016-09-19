@@ -9,7 +9,7 @@ upcoming_workshop:
   upcoming_date: 2016-10-12T00:00:00.000Z
   start_time: '5:00 pm'
   end_time: '6:00 pm'
-  location: TBD
+  location: Annenberg 303
 comments: false
 section: workshops
 topics:

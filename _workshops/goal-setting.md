@@ -5,11 +5,11 @@ facilitator: 'Audra Nelson, Career Coach'
 icon_path: /img/workshop_icons/icon_assessment.png
 order: '1'
 upcoming_workshop:
-  scheduled: false
-  upcoming_date: 2016-10-06T00:00:00.000Z
-  start_time: '6:00 pm'
-  end_time: '8:00 pm'
-  location: Anneberg G02
+  scheduled: true
+  upcoming_date: 2016-10-12T00:00:00.000Z
+  start_time: '5:00 pm'
+  end_time: '6:00 pm'
+  location: TBD
 comments: false
 section: workshops
 topics:
@@ -25,7 +25,7 @@ topics:
 
 ##### []()Myers-Briggs Type Indicator (MBTI)
 
-The Myers Briggs Type Indicator (MBTI) is available free of charge to all MSHE students who want to take it.  Interested students should contact either Tracie Thomas ([&#116;&#045;&#116;&#104;&#111;&#109;&#097;&#115;&#056;&#064;&#110;&#111;&#114;&#116;&#104;&#119;&#101;&#115;&#116;&#101;&#114;&#110;&#046;&#101;&#100;&#117;](&#109;&#097;&#105;&#108;&#116;&#111;:&#116;&#045;&#116;&#104;&#111;&#109;&#097;&#115;&#056;&#064;&#110;&#111;&#114;&#116;&#104;&#119;&#101;&#115;&#116;&#101;&#114;&#110;&#046;&#101;&#100;&#117;)) or Christina Siders ([&#099;&#045;&#115;&#105;&#100;&#101;&#114;&#115;&#064;&#110;&#111;&#114;&#116;&#104;&#119;&#101;&#115;&#116;&#101;&#114;&#110;&#046;&#101;&#100;&#117;](&#109;&#097;&#105;&#108;&#116;&#111;:&#099;&#045;&#115;&#105;&#100;&#101;&#114;&#115;&#064;&#110;&#111;&#114;&#116;&#104;&#119;&#101;&#115;&#116;&#101;&#114;&#110;&#046;&#101;&#100;&#117;)) at Northwestern Career Advancement to schedule some time to do the MBTI assessment and have a coaching session about your results.
+The Myers Briggs Type Indicator (MBTI) is available free of charge to all MSHE students who want to take it.  Interested students should contact either Tracie Thomas ([t-thomas8@northwestern.edu](&#109;&#097;&#105;&#108;&#116;&#111;:&#116;&#045;&#116;&#104;&#111;&#109;&#097;&#115;&#056;&#064;&#110;&#111;&#114;&#116;&#104;&#119;&#101;&#115;&#116;&#101;&#114;&#110;&#046;&#101;&#100;&#117;)) or Christina Siders ([c-siders@northwestern.edu](&#109;&#097;&#105;&#108;&#116;&#111;:&#099;&#045;&#115;&#105;&#100;&#101;&#114;&#115;&#064;&#110;&#111;&#114;&#116;&#104;&#119;&#101;&#115;&#116;&#101;&#114;&#110;&#046;&#101;&#100;&#117;)) at Northwestern Career Advancement to schedule some time to do the MBTI assessment and have a coaching session about your results.
 
 #### Workshop Materials
 

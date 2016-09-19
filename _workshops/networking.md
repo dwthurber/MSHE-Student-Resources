@@ -5,14 +5,14 @@ facilitator: 'Audra Nelson, Career Coach'
 icon_path: /img/workshop_icons/icon_networking.png
 order: '2'
 upcoming_workshop:
-  scheduled: false
-  upcoming_date:
-  start_time:
-  end_time:
-  location:
+  scheduled: true
+  upcoming_date: 2016-12-08T00:00:00.000Z
+  start_time: '6:00 pm'
+  end_time: '8:00 pm'
+  location: Abbott Hall
 comments: false
 section: workshops
-topics: 
+topics:
   - career resources
 ---
 

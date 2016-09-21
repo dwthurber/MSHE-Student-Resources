@@ -49,17 +49,17 @@ The MSLOC program put together this helpful [10-minute video](https://nwuniversi
 
 More registration tips and troubleshooting are available [here](http://www.registrar.northwestern.edu/registration/CAESAR_help.html). If you get stuck feel free to contact [Dr. Kristin McCann](mailto:kristin.mccann1@northwestern.edu).
 
-#### How do I find an elective?
+### How do I find an elective?
 
 Take a look at the following infographic to get started on how to find an elective. A more detailed explanation of how to register for electives outside of MSHE follows. If you have questions, contact [Dr. Kristin McCann](mailto:kristin.mccann1@northwestern.edu).
 
-<iframe src="https://app.box.com/embed/preview/22mvqf3yz6w3dz7ozmbeticdzikz55gm?theme=dark" width="500" height="400" frameborder="0" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>
+<iframe src="https://app.box.com/embed/preview/22mvqf3yz6w3dz7ozmbeticdzikz55gm?theme=dark" width="500" height="400" frameborder="0" allowfullscreen="" webkitallowfullscreen="" msallowfullscreen=""></iframe>
 
 #### Registering for elective courses outside MSHE
 
 ##### [School of professional Studies (SPS) Courses](http://sps.northwestern.edu/program-areas/graduate/)
 
-MSHE students often take graduate-level courses offered through the School of professional Studies (SPS)–especially in the Master of Public Policy (MPPA) and Master of Sports Administration (MSA) programs. These courses are offered at the Chicago campus.  MSHE students cannot register themselves for SPS courses. If you want to take an SPS course please complete the [Authorization for Dual Registration Form](https://northwestern.box.com/shared/static/oidimwjx3scahj5lqm1l.pdf) and send it to Dr. Kristin McCann.  If the SPS administrator gives permission Kristin will ask the SPS Registrar to register you for the class. SPS will not register you for the class until one week before the class begins and will only register you if the course is not already full.
+MSHE students often take graduate-level courses offered through the School of professional Studies (SPS)–especially in the Master of Public Policy (MPPA) and Master of Sports Administration (MSA) programs. These courses are offered at the Chicago campus. &nbsp;MSHE students cannot register themselves for SPS courses. If you want to take an SPS course please complete the [Authorization for Dual Registration Form](https://northwestern.box.com/shared/static/oidimwjx3scahj5lqm1l.pdf) and send it to Dr. Kristin McCann. &nbsp;If the SPS administrator gives permission Kristin will ask the SPS Registrar to register you for the class. SPS will not register you for the class until one week before the class begins and will only register you if the course is not already full.
 
 ##### SPS "DL" Courses and Scheduling
 
@@ -81,11 +81,11 @@ If the instructor grants permission forward that message to the Learning Science
 
 ##### [Human Development and Social Policy (HDSP) Courses](http://www.sesp.northwestern.edu/hdsp/curriculum/index.html)
 
-MSHE students can sometimes  register themselves in CAESAR for HDSP courses, but some HDSP courses require instructor approval. If you are interested in taking a HDSP course contact your advisor. She may have an old syllabus for the course and/or feedback from past MSHE students who have taken the course. If required, you can contact the course instructor to request permission to take the course
+MSHE students can sometimes&nbsp; register themselves in CAESAR for HDSP courses, but some HDSP courses require instructor approval. If you are interested in taking a HDSP course contact your advisor. She may have an old syllabus for the course and/or feedback from past MSHE students who have taken the course. If required, you can contact the course instructor to request permission to take the course
 
 ##### [MS in Education (MS_Ed) courses](http://www.sesp.northwestern.edu/msed/index.html)
 
-The MS_Ed program prepares people to teach at the K-12 level. MSHE students can typically register themselves in CAESAR for graduate-level courses in the  Master of Science in Education program. There are some courses in these programs that are not open to outside students (this will be noted in CAESAR.)
+The MS_Ed program prepares people to teach at the K-12 level. MSHE students can typically register themselves in CAESAR for graduate-level courses in the&nbsp; Master of Science in Education program. There are some courses in these programs that are not open to outside students (this will be noted in CAESAR.)
 
 ##### [Counseling Courses](http://www.tgs.northwestern.edu/academics/programs/counseling/index.html)
 
@@ -93,7 +93,7 @@ If you are interested in taking counseling courses, please contact Dr. Kristin M
 
 ##### [Kellogg Part-Time MBA Courses](http://www.kellogg.northwestern.edu/programs/parttimemba/academics.aspx)
 
-If you are interested in taking courses through Kellogg's part-time MBA program (located on the Chicago campus), please contact Dr. Kristin McCann as soon as possible to discuss potential options.  [\*Note: Students cannot add OR drop Kellogg courses in Caesar - it has to be handled through the Kellogg registrar.]
+If you are interested in taking courses through Kellogg's part-time MBA program (located on the Chicago campus), please contact Dr. Kristin McCann as soon as possible to discuss potential options. &nbsp;[\*Note: Students cannot add OR drop Kellogg courses in Caesar - it has to be handled through the Kellogg registrar.]
 
 ##### [Medill IMC Courses](http://www.tgs.northwestern.edu/academics/programs/counseling/index.html)
 
@@ -119,7 +119,7 @@ Courses dropped after the first five days of classes (add/drop week) but before 
 
 ##### Cancellation (dropping all of your courses in a quarter)
 
-If you will be dropping all of your courses in a quarter you will not be able to do so in CAESAR. You should contact Dr. Kristin McCann at [&#107;&#114;&#105;&#115;&#116;&#105;&#110;&#046;&#109;&#099;&#099;&#097;&#110;&#110;&#049;&#064;&#110;&#111;&#114;&#116;&#104;&#119;&#101;&#115;&#116;&#101;&#114;&#110;&#046;&#101;&#100;&#117;](&#109;&#097;&#105;&#108;&#116;&#111;:&#107;&#114;&#105;&#115;&#116;&#105;&#110;&#046;&#109;&#099;&#099;&#097;&#110;&#110;&#049;&#064;&#110;&#111;&#114;&#116;&#104;&#119;&#101;&#115;&#116;&#101;&#114;&#110;&#046;&#101;&#100;&#117;) and she will fill out a paper form to drop you from your courses. This includes cases where students were signed up for only one course and then needed to drop the course.
+If you will be dropping all of your courses in a quarter you will not be able to do so in CAESAR. You should contact Dr. Kristin McCann at [kristin.mccann1@northwestern.edu](mailto:kristin.mccann1@northwestern.edu) and she will fill out a paper form to drop you from your courses. This includes cases where students were signed up for only one course and then needed to drop the course.
 
 #### Course Evaluations (CTEC) and Feedback
 

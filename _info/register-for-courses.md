@@ -47,7 +47,13 @@ The MSLOC program put together this helpful [10-minute video](https://nwuniversi
 * Once you've registered for a course it will show up on the main landing page (the "student center") in CAESAR. The course may also appear in Blackboard, but it is not uncommon for instructors to wait to make courses visible to students until closer to the start of the term, so don't assume that you aren't registered just because a course isn't appearing in blackboard.
 
 
-More registration tips and troubleshooting are available [here](http://www.registrar.northwestern.edu/registration/CAESAR_help.html). If you get stuck feel free to contact [Dr. Kristin McCann](&#109;&#097;&#105;&#108;&#116;&#111;:&#107;&#114;&#105;&#115;&#116;&#105;&#110;&#046;&#109;&#099;&#099;&#097;&#110;&#110;&#049;&#064;&#110;&#111;&#114;&#116;&#104;&#119;&#101;&#115;&#116;&#101;&#114;&#110;&#046;&#101;&#100;&#117;).
+More registration tips and troubleshooting are available [here](http://www.registrar.northwestern.edu/registration/CAESAR_help.html). If you get stuck feel free to contact [Dr. Kristin McCann](mailto:kristin.mccann1@northwestern.edu).
+
+#### How do I find an elective?
+
+Take a look at the following infographic to get started on how to find an elective. A more detailed explanation of how to register for electives outside of MSHE follows. If you have questions, contact [Dr. Kristin McCann](mailto:kristin.mccann1@northwestern.edu).
+
+<iframe src="https://app.box.com/embed/preview/22mvqf3yz6w3dz7ozmbeticdzikz55gm?theme=dark" width="500" height="400" frameborder="0" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>
 
 #### Registering for elective courses outside MSHE
 

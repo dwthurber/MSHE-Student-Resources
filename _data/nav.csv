@@ -1,3 +1,5 @@
 name,link,layout
-Home,/,
-Topics,/info/,info-page
+Home,/,default
+Resources,/info/,info-page
+Workshops,/workshop/,workshop-page
+MeetUps,/meetups/,meetup-page

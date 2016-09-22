@@ -1,5 +1,5 @@
 name,link,layout
 Home,/,default
 Resources,/info/,info-page
-Workshops,/workshop/,workshop-page
-MeetUps,/meetups/,meetup-page
+Workshops,/workshops/,workshop-page
+MeetUps,/meetup/,meetup-page

@@ -26,6 +26,12 @@ topics:
 ##### []()Myers-Briggs Type Indicator (MBTI)
 
 The Myers Briggs Type Indicator (MBTI) is available free of charge to all MSHE students who want to take it.  Interested students should contact either Tracie Thomas ([t-thomas8@northwestern.edu](&#109;&#097;&#105;&#108;&#116;&#111;:&#116;&#045;&#116;&#104;&#111;&#109;&#097;&#115;&#056;&#064;&#110;&#111;&#114;&#116;&#104;&#119;&#101;&#115;&#116;&#101;&#114;&#110;&#046;&#101;&#100;&#117;)) or Christina Siders ([c-siders@northwestern.edu](&#109;&#097;&#105;&#108;&#116;&#111;:&#099;&#045;&#115;&#105;&#100;&#101;&#114;&#115;&#064;&#110;&#111;&#114;&#116;&#104;&#119;&#101;&#115;&#116;&#101;&#114;&#110;&#046;&#101;&#100;&#117;)) at Northwestern Career Advancement to schedule some time to do the MBTI assessment and have a coaching session about your results.
+#### Pre Workshop Preparation
+
+<!-- Change the width and height values to suit you best -->
+<div class="typeform-widget" data-url="https://mshighered.typeform.com/to/cYN0Hk" data-text="Goal Setting Workshop" style="width:100%;height:500px;"></div>
+<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
+<div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;">Powered by<a href="https://www.typeform.com/examples/?utm_campaign=cYN0Hk&amp;utm_source=typeform.com-4800891-Basic&amp;utm_medium=typeform&amp;utm_content=typeform-embedded-poweredbytypeform&amp;utm_term=EN" style="color: #999" target="_blank">Typeform</a></div>
 
 #### Workshop Materials
 

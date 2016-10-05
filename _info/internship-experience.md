@@ -20,7 +20,8 @@ section: internships
 <br>The internship search, like any job search, can take some time and effort. The Higher Education Administration and Policy faculty and staff are here to help and guide you through the process. University Career Services, along with your personal contacts, can also be useful sources of information, providing internship listings and advice.
 
 <br>Remember to keep the Master of Science in Higher Education Administration and Policy office in the loop about your internship search process. If you are interested in an internship posting contact Lois Trautvetter before you apply to the position or copy her on your e-mail requesting an interview.
-<br>Though there are sometimes cases where we encourage students to reach out to new departments/ organizations about a possible internship, keep in mind that the Master of Science in Higher Education Administration and Policy program has established relationships with many people and institutions, and they can leverage those relationships to help students find internships. There may be an internship opportunity that is available but has not been on the listserv. It is important to let Lois know of your interests in order to assist you in finding an appropriate internship, especially if your interests have changed.
+
+<br>Though there are sometimes cases where we encourage students to reach out to new departments/organizations about a possible internship, keep in mind that the Master of Science in Higher Education Administration and Policy program has established relationships with many people and institutions, and they can leverage those relationships to help students find internships. There may be an internship opportunity that is available but has not been on the listserv. It is important to let Lois know of your interests in order to assist you in finding an appropriate internship, especially if your interests have changed.
 
 <br>**Interview Preparation**
 
@@ -31,6 +32,7 @@ section: internships
 <br>During the interview, listen to the questions that the employer is asking. Structure your answers so that it is easy for the interviewer to relate the answers to the internship and understand why you would be a good fit for that particular department. Be ready to ask thoughtful questions at the end of the interview based on your research.
 
 <br>Students may interview with a number of employers before finding the right internship. It is about making the right match. It’s always a good idea to send thank you notes after each interview. Besides being the polite thing to do, nicely written thank you notes help applicants stand out among other interviewees and even if one position does not work out, employers will remember the professional kindness when hiring for other roles.
+
 <br>In some cases, students will be directly notified by the departments that are hiring that they have been selected. Please let Lois Trautvetter know that you have been notified and if you have taken the offer or not. Please do not turn down an offer until discussing the matter with your academic advisor or the Program Director. In other cases, someone in the Master of Science in Higher Education Administration and Policy Office will contact you that you have been offered a position. Please feel free to discuss your offers with the Program Director or your advisor at any time.
 
 <br>**Before Starting an Internship**

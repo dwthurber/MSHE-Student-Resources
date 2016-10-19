@@ -15,7 +15,7 @@ comments: true
 section: career
 professional_organizations:
   - name:
-    website_path:
+    website_link_path:
     functional_areas:
 ---
 

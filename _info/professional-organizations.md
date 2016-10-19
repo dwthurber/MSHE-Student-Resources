@@ -1,7 +1,7 @@
 ---
 title: Professional Organizations
-description: There are a variety of higher education professional organizations with which you should familiarize yourself and in which you should consider more substantial involvement. 
-topics: 
+description: There are a variety of higher education professional organizations with which you should familiarize yourself and in which you should consider more substantial involvement.
+topics:
   - career resources
 actions:
   - attend a conference
@@ -16,12 +16,8 @@ section: career
 professional_organizations:
   - name: Test
     website_link_path: www.testing.com
-    functional_areas: 
-      - "Student Affairs"
-  - name: Test
-    website_link_path: www.testing.com
-    functional_areas: 
-      - "Student Affairs"
+    functional_areas:
+      - Student Affairs
 ---
 
 Some of your internship sites may offer opportunities to be involved in professional organizations by becoming a member, attending a local/regional/national conference, or being a part of leadership efforts. Regardless, as a MSHE student you are eligible for student-rates for organizations' membership fees and are able to tap-into the many resources that these organizations have to offer. As well, professional organizations are a fantastic way to better-discern your career path, be up-to-date on relevant topics in the field, network with peers and senior colleagues, apply for jobs, among other benefits. Take some time to peruse the following websites to see if any pique your interest. If you have any questions about these, please contact Assistant Director, Dr. Kristin McCann.

@@ -77,7 +77,7 @@ data_sources:
     contact_person_email: a-prachand@northwestern.edu
     description: Administered to Northwestern incoming freshmen annually from 1971-2011, odd years beginning in 2011 (conducting COFHE New Student Survey in even-years)
 -
-    display_name: COFHI Survey of New Students (SNS)
+    display_name: COFHE Survey of New Students (SNS)
     link_path: 
     source: COFHE
     focus_areas: choosing college, college expectations, professional expectations, demographics, secondary school achievements, financial support, academic preparation
@@ -85,7 +85,7 @@ data_sources:
     contact_person_email: a-prachand@northwestern.edu
     description: Initially administered in 2012 and conducted in 2014 and 2015. Alternative to CIRP designed to better match up with other COFHE surveys. 
 -
-    display_name: COFHI Enrolled Student Survey (ESS)
+    display_name: COFHE Enrolled Student Survey (ESS)
     link_path: 
     source: COFHE
     focus_areas: skill development, engagement, satisfaction, paying for college, advising and support, health and well-being, academic life
@@ -93,7 +93,7 @@ data_sources:
     contact_person_email: a-prachand@northwestern.edu
     description: Condcuted Spring of odd years. Some overlap in content with NSSE but focused on our peer group. 
 -
-    display_name: COFHI Graduating Senior Survey
+    display_name: COFHE Graduating Senior Survey
     link_path: 
     source: COFHE
     focus_areas: skill development, engagement, career and advising services, paying for college, experience in major, future plans, professional expextations, satisfaction
@@ -101,7 +101,7 @@ data_sources:
     contact_person_email: a-prachand@northwestern.edu
     description: Conducted Spring of even years. Evaluation of undergraduate experience, future plans, financing education, activities. 
 -
-    display_name: COFHI Parent Survey
+    display_name: COFHE Parent Survey
     link_path: 
     source: COFHE
     focus_areas: paying for college, involvement with college life, demographics, satisfaction, choosing college
@@ -109,7 +109,7 @@ data_sources:
     contact_person_email: a-prachand@northwestern.edu
     description: Conducted spring of every fourth year. Survey parents of enrolled undergraduates
 -
-    display_name: COFHI Alumni Survey
+    display_name: COFHE Alumni Survey
     link_path: 
     source: COFHE
     focus_areas: community and family, alumni engagement, demographics, professional expectations, jobs and careers, satisfaction

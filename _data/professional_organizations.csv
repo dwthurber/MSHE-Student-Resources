@@ -1,50 +1,50 @@
-name,link_path,functional_areas,
-HBCU Faculty Development Network,http://www.hbcufdn.org/,"Academic Affairs,Policy, Government, and Other Organizations",
-University Council for Educational Administration,http://www.ucea.org,"Policy, Government, and Other Organizations",
-National Association for Colleges and University Business Officers (NACUBO),http://www.nacubo.org/,,
-Association of American Colleges and Universities (AAC&U),http://www.aacu.org/,,
-Council for Advancement and Support of Education (CASE),http://www.case.org/,,
-Consortium on Financing Higher Education (COFHE),http://web.mit.edu/cofhe/,,
-National Association of Independent Colleges and Universities (NAICU),http://www.naicu.edu/,,
-Association of Governing Boards (AGB),http://agb.org/,,
-The Global Community for Academic Advising (NACADA),http://www.nacada.ksu.edu/,,
-American Educational Research Association (AERA),http://www.aera.net/,,
-EDUCAUSE,http://www.educause.edu/,,
-Carnegie Foundation for the Advancement of Teaching,http://www.carnegiefoundation.org/,,
-ACPA (College Student Educators International),http://www.myacpa.org/,,
-Commision for Academic Support in Higher Education (CASHE),http://www.myacpa.org/commashe,,
-NASPA: Student Affairs Administrators in Higher Education (NASPA),http://www.naspa.org/,,
-The National Center for Public Policy and Higher Education,http://highereducation.org/,,
-ACE The American Council on Education,http://www.acenet.edu/Pages/default.aspx,,
-National Association for Graduate Enrollment Management (NAGAP),http://www.nagap.org/about-nagap,,
-National Association for College Admission Counseling (NACAC),http://www.nacacnet.org/Pages/default.aspx,,
-American Association of Collegiate Registrars and Admissions (AACRAO),http://www.aacrao.org/,,
-National Association of Colleges and Employers (NACE),http://www.naceweb.org/,,
-National Association of Student Affairs Professionals (NASAP),http://www.nasap.net/,,
-National Association of Collegiate Directors of Athletics (NACDA),http://www.nacda.com/,,
-National Association of Collegiate Women (NACWAA),https://www.nacwaa.org/,,
-National Career Development Association (NCDA),http://www.ncda.org/aws/NCDA/pt/sp/home_page,,
-Institute of International Education,http://www.iie.org/,,
-NAFSA: Association of International Educators (NAFSA),http://www.nafsa.org/,,
-The Forum on Education Abroad,https://forumea.org/,,
-International Educators of Illinois (IEI),http://ieillinois.org/iei/,,
-National Association of College and University Residence Halls,http://www.nacurh.org/,,
-American Association of Community Colleges (AACC),http://www.aacc.nche.edu/Pages/default.aspx,,
-American Association of University Women (AAUW),http://www.aauw.org/,,
-American Counseling Association (ACA),https://www.counseling.org/,,
-Association of College Unions (ACUI),http://www.acui.org/,,
-Association of College and University Housing Officers--International (ACUHO),http://www.acuho-i.org/home/portalid/0,,
-American College Counseling Association (ACCA),http://www.collegecounseling.org/,,
-American College Health Association (ACHA),http://www.acha.org/,,
-Association of Fraternity Advisors (AFA),http://www.afa1976.org/,,
-Association of Higher Education and Disability (AHEAD),https://www.ahead.org/,,
-Association of Public and Land-grant Universities (APLU),http://www.aplu.org/,,
-Association for Student Conduct Administration (ASCA),http://www.theasca.org/,,
-Association for the Study of Higher Education (ASHE),http://www.ashe.ws/,,
-Association for University and College Counseling Center Directors (AUCCCD),http://www.aucccd.org/,,
-Jesuit Association of Student Personnel Administrators (JASPA),http://jaspa.orgsync.com/,,
-National Association of Campus Activities (NACA),https://www.naca.org/Pages/default.aspx,,
-National Academic Advising Association (NACADA),https://www.nacada.ksu.edu/,,
-National Association of Student Financial Aid Administrators (NASFAA),https://www.nasfaa.org/,,
-National Intramural-Recreational Sports Association (NIRSA),http://nirsa.net/nirsa/,,
-National Orientation Directors Association (NODA),http://www.nodaweb.org/,,
+name,link_path,functional_areas
+HBCU Faculty Development Network,http://www.hbcufdn.org/,"Academic Affairs,Policy, Government, and Other Organizations"
+University Council for Educational Administration,http://www.ucea.org,"Policy, Government, and Other Organizations"
+National Association for Colleges and University Business Officers (NACUBO),http://www.nacubo.org/
+Association of American Colleges and Universities (AAC&U),http://www.aacu.org/
+Council for Advancement and Support of Education (CASE),http://www.case.org/
+Consortium on Financing Higher Education (COFHE),http://web.mit.edu/cofhe/
+National Association of Independent Colleges and Universities (NAICU),http://www.naicu.edu/
+Association of Governing Boards (AGB),http://agb.org/
+The Global Community for Academic Advising (NACADA),http://www.nacada.ksu.edu/
+American Educational Research Association (AERA),http://www.aera.net/
+EDUCAUSE,http://www.educause.edu/
+Carnegie Foundation for the Advancement of Teaching,http://www.carnegiefoundation.org/
+ACPA (College Student Educators International),http://www.myacpa.org/
+Commision for Academic Support in Higher Education (CASHE),http://www.myacpa.org/commashe
+NASPA: Student Affairs Administrators in Higher Education (NASPA),http://www.naspa.org/
+The National Center for Public Policy and Higher Education,http://highereducation.org/
+ACE The American Council on Education,http://www.acenet.edu/Pages/default.aspx
+National Association for Graduate Enrollment Management (NAGAP),http://www.nagap.org/about-nagap
+National Association for College Admission Counseling (NACAC),http://www.nacacnet.org/Pages/default.aspx
+American Association of Collegiate Registrars and Admissions (AACRAO),http://www.aacrao.org/
+National Association of Colleges and Employers (NACE),http://www.naceweb.org/
+National Association of Student Affairs Professionals (NASAP),http://www.nasap.net/
+National Association of Collegiate Directors of Athletics (NACDA),http://www.nacda.com/
+National Association of Collegiate Women (NACWAA),https://www.nacwaa.org/
+National Career Development Association (NCDA),http://www.ncda.org/aws/NCDA/pt/sp/home_page
+Institute of International Education,http://www.iie.org/
+NAFSA: Association of International Educators (NAFSA),http://www.nafsa.org/
+The Forum on Education Abroad,https://forumea.org/
+International Educators of Illinois (IEI),http://ieillinois.org/iei/
+National Association of College and University Residence Halls,http://www.nacurh.org/
+American Association of Community Colleges (AACC),http://www.aacc.nche.edu/Pages/default.aspx
+American Association of University Women (AAUW),http://www.aauw.org/
+American Counseling Association (ACA),https://www.counseling.org/
+Association of College Unions (ACUI),http://www.acui.org/
+Association of College and University Housing Officers--International (ACUHO),http://www.acuho-i.org/home/portalid/0
+American College Counseling Association (ACCA),http://www.collegecounseling.org/
+American College Health Association (ACHA),http://www.acha.org/
+Association of Fraternity Advisors (AFA),http://www.afa1976.org/
+Association of Higher Education and Disability (AHEAD),https://www.ahead.org/
+Association of Public and Land-grant Universities (APLU),http://www.aplu.org/
+Association for Student Conduct Administration (ASCA),http://www.theasca.org/
+Association for the Study of Higher Education (ASHE),http://www.ashe.ws/
+Association for University and College Counseling Center Directors (AUCCCD),http://www.aucccd.org/
+Jesuit Association of Student Personnel Administrators (JASPA),http://jaspa.orgsync.com/
+National Association of Campus Activities (NACA),https://www.naca.org/Pages/default.aspx
+National Academic Advising Association (NACADA),https://www.nacada.ksu.edu/
+National Association of Student Financial Aid Administrators (NASFAA),https://www.nasfaa.org/
+National Intramural-Recreational Sports Association (NIRSA),http://nirsa.net/nirsa/
+National Orientation Directors Association (NODA),http://www.nodaweb.org/

@@ -21,10 +21,10 @@ Some of your internship sites may offer opportunities to be involved in professi
        
 <table width="100%" class="mp-table">
    
-    <tr style="background-color:#cdcdcd;" valign="bottom">
+    <tr style="background-color:#555;color:#fff;" valign="bottom">
         <td><strong>Professional Organization</strong></td>
         <td><strong>Website</strong></td>
-        <td width="100px"><strong>Focus Areas</strong></td>
+        <td width="100px" style="text-align:right;"><strong>Focus Areas</strong></td>
     </tr>
     {% for org in site.data.professional_organizations %} 
     <tr>

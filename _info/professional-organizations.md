@@ -30,7 +30,7 @@ Some of your internship sites may offer opportunities to be involved in professi
     <tr>
         <td>{{ org.name }}</td>
         <td class="subtitle">{{ org.link_path }}</td>
-        <td class="category">{{ org.funcational_areas }}</td>
+        <td class="category">{{ org.funcational_areas | join:', ' }}</td>
     </tr>
     {% endfor %}
 </table>

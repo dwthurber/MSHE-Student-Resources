@@ -29,7 +29,7 @@ Some of your internship sites may offer opportunities to be involved in professi
     {% for org in site.data.professional_organizations %} 
     <tr>
         <td>{{ org.name }}</td>
-        <td class="subtitle">{{ org.link_path }}</td>
+        <td class="subtitle"><a href="{{ org.link_path }}" target="_blank">{{ org.link_path }}</a></td>
         <td class="category">{{ org.functional_areas | join:', ' }}</td>
     </tr>
     {% endfor %}

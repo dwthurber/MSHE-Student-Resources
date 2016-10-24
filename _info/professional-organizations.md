@@ -26,3 +26,34 @@ professional_organizations:
     website_link_path: 'http://www.nacubo.org/'
     functional_areas:
       - 'Policy, Government, and Other Organizations'
+---
+
+Some of your internship sites may offer opportunities to be involved in professional organizations by becoming a member, attending a local/regional/national conference, or being a part of leadership efforts. Regardless, as a MSHE student you are eligible for student-rates for organizations' membership fees and are able to tap-into the many resources that these organizations have to offer. As well, professional organizations are a fantastic way to better-discern your career path, be up-to-date on relevant topics in the field, network with peers and senior colleagues, apply for jobs, among other benefits. Take some time to peruse the following websites to see if any pique your interest. If you have any questions about these, please contact Assistant Director, Dr. Kristin McCann.
+
+{% for org in page.professional_organizations %}
+
+#### Student Affairs
+
+{% if org.functional_areas contains "Student Affairs" %}- **{{ org.name }}**  [{{ org.website_link_path }}]({{ org.website_link_path }}){% endif %}
+
+#### Academic Affairs
+
+{% if org.functional_areas contains "Academic Affairs" %}- **{{ org.name }}**  [{{ org.website_link_path }}]({{ org.website_link_path }}){% endif %}
+
+#### Central Administration
+
+{% if org.functional_areas contains "Central Administration" %}- **{{ org.name }}**  [{{ org.website_link_path }}]({{ org.website_link_path }}){% endif %}
+
+#### Enrollment Management
+
+{% if org.functional_areas contains "Enrollment Management" %}- **{{ org.name }}**  [{{ org.website_link_path }}]({{ org.website_link_path }}){% endif %}
+
+#### Alumni Relations and Development
+
+{% if org.functional_areas contains "Alumni Relations & Development" %}- **{{ org.name }}**  [{{ org.website_link_path }}]({{ org.website_link_path }}){% endif %}
+
+#### Policy, Government, and Other Organizations
+
+{% if org.functional_areas contains "Policy, Government, and Other Organizations" %}- **{{ org.name }}**  [{{ org.website_link_path }}]({{ org.website_link_path }}){% endif %}
+
+{% endfor %}

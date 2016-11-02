@@ -43,7 +43,7 @@ section: registration
     <table width="100%" class="mp-table" >
        
         <tr>
-            <td width="100px" class="year">{{ elective.Course_Number }}</td>
+            <td width="100px" class="year">{{ elective.Course_Num }}</td>
             <td class="mp-title"><strong>{{ elective.Course_Title }}</strong></td>
             <td width="100px" class="category">{{ elective.Course_Dept }}</td>
         </tr>

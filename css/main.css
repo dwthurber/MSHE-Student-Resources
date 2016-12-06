@@ -1028,3 +1028,16 @@ table td {
     padding: 1px 3px;
     font-size: 0.9em;
 }
+
+.networking-table td {
+    padding: 5px;
+    vertical-align: middle;
+}
+
+.networking-table img {
+    vertical-align: middle;
+}
+
+.networking-table thead {
+    font-weight: bold;
+}

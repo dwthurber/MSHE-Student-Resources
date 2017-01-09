@@ -40,6 +40,8 @@ var topicsApp = angular.module('topicsApp', ['ngRoute']);
          if (currentPage != '') {
             var mixitup = "." + currentPage.replace(/\//g, "");
             $scope.guide = currentPage.replace(/\//g, "");
+            $scope.tab = 'details';
+            console.log($scope.tab);
          } else if (currentPage == "/") {
              var mixitup = "all";
          } else {

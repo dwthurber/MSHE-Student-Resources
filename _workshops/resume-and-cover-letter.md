@@ -17,4 +17,4 @@ topics:
 ---
 
 
-[![](/MSHE-Student-Resources/MSHE-Student-Resources/uploads/versions/job-search-276893-960-720---x----960-640x---.png)](https://dwthurber.github.io/resume-coverletter/)
+[![]({{ site.baseurl }}/MSHE-Student-Resources/MSHE-Student-Resources/uploads/versions/job-search-276893-960-720---x----960-640x---.png)](https://dwthurber.github.io/resume-coverletter/)

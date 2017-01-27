@@ -16,4 +16,4 @@ topics:
   - career resources
 ---
 
-<iframe class="frameborder" src="https://dwthurber.github.io/resume-coverletter/" width="100%" height="1000px" frameborder="1"></iframe>
+

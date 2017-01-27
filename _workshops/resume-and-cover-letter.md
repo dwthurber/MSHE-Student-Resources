@@ -17,4 +17,4 @@ topics:
 ---
 
 
-<a href="https://dwthurber.github.io/resume-coverletter/" target="_blank"><img src="{{ site.baseurl }}/uploads/versions/job-search-276893-960-720---x----960-640x---.png"></a>
+<a href="https://dwthurber.github.io/resume-coverletter/" target="_blank"><img src="{{ site.baseurl }}/img/resume_cover_link.jpg" alt="Resume and Cover Letter Interactive Workshop Link"></a>

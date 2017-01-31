@@ -5435,7 +5435,7 @@
 		"consent": "Y",
 		"file_path": "",
 		"presentation_file_path": "",
-		"poster_file_path": "",
+		"poster_file_path": "https://app.box.com/embed/preview/j3b3pd08vshd1jlpaq0zulsd0ngtw03d?theme=dark",
 		"executive_summary_file_path": "",
 	},
 	{
@@ -6001,7 +6001,7 @@
 		"consent": "?",
 		"file_path": "",
 		"presentation_file_path": "",
-		"poster_file_path": "",
+		"poster_file_path": "https://app.box.com/embed/preview/dnlfl6bfwihxluyo38wp4v35yaobi4r5?theme=dark",
 		"executive_summary_file_path": "",
 	}
 ]

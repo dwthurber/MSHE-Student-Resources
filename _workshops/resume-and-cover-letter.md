@@ -24,7 +24,7 @@ Resumes are marketing documents, which means that, to be effective, they need to
 
 * * *
 
-### **Activity: Keep an Ongoing, Comprehensive Resume**
+##### **Activity: Keep an Ongoing, Comprehensive Resume**
 
 <span style="color: #808080;">When to start: Upon enrolling in the MSHE program</span>
 
@@ -38,7 +38,7 @@ You probably wrote a resume when you applied to the MSHE program. Don’t delete
 
 * * *
 
-### **Activity: Write a _Targeted_ Resume**
+##### **Activity: Write a _Targeted_ Resume**
 
 <span style="color: #808080;">When to start: When you begin actively searching for a job (i.e. three to six months prior to graduation)</span>
 
@@ -57,11 +57,32 @@ Explore the sample resume below and think critically about what makes this resum
 
 <iframe src="https://dwthurber.github.io/resumegraphic/" width="100%" height="1100px;"></iframe>
 
+### Tailor a cover letter to the job
+
+Cover letters are a way to stand out from the pile. A writing sample and marketing tool, the cover letter shows that you understand the needs of the open position and convinces an employer you can fulfill those needs with your particular skill set and experience.
+
+Cover letters should be three to five paragraphs in length and no longer than one page. Be sure to use a business letter format, as indicated in the sample, and know that the more you can tailor letters to each specific position for which you apply, the better.
+
+Hiring managers expect to see specific experience in your cover letter related to the job description. To accomplish this, you might want to start by going through a job description and looking for the key areas you can highlight (literally highlighting can help) in your cover letter. 
+
+Start by looking at the following job description for a fictional higher education job.
+
+
+<iframe src="https://dwthurber.github.io/resumegraphic/description.html" width="100%" height="1440;"></iframe>
+
+### Sample Cover Letter
+
+Now look at how the following sample cover letter is tailored to that job description. Notice how the highlighting matches the highlighted sections of the job description.
+
+<iframe src="https://dwthurber.github.io/resumegraphic/coverletter.html" width="100%" height="1044;"></iframe>
+
 ### More Resources
 
 [Resume and Cover Letter Checklist](https://northwestern.box.com/shared/static/2t0j9oqrxv2vx8o31ir3ppt24dlxa7us.docx)
 
-[Sample Action Words](https://northwestern.box.com/shared/static/lv5qesxcjmtg4jrx9lm7b1eh0bouloe2.docx) 
+[Sample Action Words](https://northwestern.box.com/shared/static/lv5qesxcjmtg4jrx9lm7b1eh0bouloe2.docx)
 
 [Sample Resume](https://northwestern.box.com/shared/static/dgca1x53lkcf042vlauqb8x2gwwwf46l.pdf)
+
+[Sample Cover Letter With Job Description](https://northwestern.box.com/shared/static/b406hv3lfpnkzc4l6i56t8p2nghur09a.pdf)
 

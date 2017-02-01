@@ -17,8 +17,6 @@ topics:
 ---
 
 
-Your resume and cover letter are the marketing documents you’ll need for a successful job search. Together, they tell your professional story – the goals you want to help an employer achieve, and the skills, experience, and values you possess that will help you do so.
-
 As you craft your cover letters and resume, please keep the following, general tips in mind:
 
 * **The resume and cover letter must be complementary**, but each must also be strong enough to stand on its own. You never know which document recruiters and hiring managers will scan first.

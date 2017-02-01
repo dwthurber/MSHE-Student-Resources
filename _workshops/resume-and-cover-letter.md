@@ -21,35 +21,28 @@ topics:
 
 Resumes are marketing documents, which means that, to be effective, they need to resonate with your desired audience. To find out what will speak to your target higher education employer, review job descriptions in your area of career interest prior to writing your resume.
 
-
-* * *
-
-##### **Activity: Keep an Ongoing, Comprehensive Resume**
-
-<span style="color: #808080;">When to start: Upon enrolling in the MSHE program</span>
-
+> ##### **Activity: Keep an Ongoing, Comprehensive Resume**
+>
+> When to start: Upon enrolling in the MSHE program
 
 You probably wrote a resume when you applied to the MSHE program. Don’t delete it! A comprehensive, all-encompassing resume is a great thing to have on hand.
 
-1.  As you complete class projects, internships, and job projects, add them to your comprehensive resume.
-2.  Do a search on higheredjobs.com, and identify a few jobs of interest to you. Scan the requirements and the verbs used in the job descriptions.
-3.  How many of the requirements and verbs in your desired job descriptions are incorporated into your resume? Are there skills you need to grow during your time as a graduate student in order to make yourself more competitive for these positions? Now is the time to do so!
+1. As you complete class projects, internships, and job projects, add them to your comprehensive resume.
+2. Do a search on higheredjobs.com, and identify a few jobs of interest to you. Scan the requirements and the verbs used in the job descriptions.
+3. How many of the requirements and verbs in your desired job descriptions are incorporated into your resume? Are there skills you need to grow during your time as a graduate student in order to make yourself more competitive for these positions? Now is the time to do so!
 
-
-* * *
-
-##### **Activity: Write a _Targeted_ Resume**
-
-<span style="color: #808080;">When to start: When you begin actively searching for a job (i.e. three to six months prior to graduation)</span>
+> ##### **Activity: Write a *Targeted* Resume**
+>
+> When to start: When you begin actively searching for a job (i.e. three to six months prior to graduation)
 
 While the comprehensive resume is good to keep in your files, the resume you distribute should be targeted to your specific career goal. This activity will help you write a more targeted resume.
 
-1.  Do a search on higheredjobs.com, and identify a few jobs of interest to you.
-2.  Highlight action verbs used in the position description and in the required and preferred qualifications.
-3.  Circle any repeated verbs.
-4.  Make a list of field-specific terminology or jargon included in the description.
-5.  Now, take a look at your resume. Have you used the verbs you highlighted and circled in your lists of duties and achievements? If not, how can you re-write the bullets to incorporate these skills?
-6.  What details have you included in your resume that now seem extraneous or distracting, given the requirements and needs of the positions you’re seeking? Remember that an employer may spend only 30 seconds to a minute scanning your resume. Make sure all the details you include are either relevant to his/her needs and the requirements of the position or important for conveying your unique qualities as a person and professional.
+1. Do a search on higheredjobs.com, and identify a few jobs of interest to you.
+2. Highlight action verbs used in the position description and in the required and preferred qualifications.
+3. Circle any repeated verbs.
+4. Make a list of field-specific terminology or jargon included in the description.
+5. Now, take a look at your resume. Have you used the verbs you highlighted and circled in your lists of duties and achievements? If not, how can you re-write the bullets to incorporate these skills?
+6. What details have you included in your resume that now seem extraneous or distracting, given the requirements and needs of the positions you’re seeking? Remember that an employer may spend only 30 seconds to a minute scanning your resume. Make sure all the details you include are either relevant to his/her needs and the requirements of the position or important for conveying your unique qualities as a person and professional.
 
 ### Sample Resume
 
@@ -63,10 +56,9 @@ Cover letters are a way to stand out from the pile. A writing sample and marketi
 
 Cover letters should be three to five paragraphs in length and no longer than one page. Be sure to use a business letter format, as indicated in the sample, and know that the more you can tailor letters to each specific position for which you apply, the better.
 
-Hiring managers expect to see specific experience in your cover letter related to the job description. To accomplish this, you might want to start by going through a job description and looking for the key areas you can highlight (literally highlighting can help) in your cover letter. 
+Hiring managers expect to see specific experience in your cover letter related to the job description. To accomplish this, you might want to start by going through a job description and looking for the key areas you can highlight (literally highlighting can help) in your cover letter.&nbsp;
 
 Start by looking at the following job description for a fictional higher education job.
-
 
 <iframe src="https://dwthurber.github.io/resumegraphic/description.html" width="100%" height="1440;"></iframe>
 
@@ -85,4 +77,3 @@ Now look at how the following sample cover letter is tailored to that job descri
 [Sample Resume](https://northwestern.box.com/shared/static/dgca1x53lkcf042vlauqb8x2gwwwf46l.pdf)
 
 [Sample Cover Letter With Job Description](https://northwestern.box.com/shared/static/b406hv3lfpnkzc4l6i56t8p2nghur09a.pdf)
-

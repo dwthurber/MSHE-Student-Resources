@@ -165,6 +165,7 @@ timeline_entries:
             <li>Present at a poster session on research in class</li>
             <li>Revise MPQ, introduction/background, and literature review</li>
             </ul>
+            <br>
       </div>
     {% for item in page.timeline_entries %}{% if item.quarter == 'winter' %}
     <div class="cd-timeline-item">
@@ -178,7 +179,7 @@ timeline_entries:
         <p>{{ item.description }}</p>
       </div>
     </div>
-    {% endif %}{% endfor %}<br>
+    {% endif %}{% endfor %}
   </div>
   <div class="cd-timeline">
     <div class="cd-timeline-arrow-after"></div>

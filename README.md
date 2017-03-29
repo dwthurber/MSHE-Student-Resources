@@ -9,4 +9,4 @@ Copyright 2017, Northwestern University.
 
 All Rights Reserved. 
 
-Designed by [Derek Thurber](dwthurber.com)
+Designed by [Derek Thurber](https://www.dwthurber.com)

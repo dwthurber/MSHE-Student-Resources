@@ -9,10 +9,7 @@ no-js: true
 
 #### Presentation Formatting
 
-Presentations will be happening in two rooms. Depending on what room you present in, you might want to consider changing your presentation formatting to best fit the display for that room. Below are the specifications for each room:
-
-1.  **Annenberg G02:** Widescreen (16:9)
-2.  **Annenberg 345:** Standard (4:3)
+Presentations will be happening in two rooms. Regardless of the room you present in, you should set up your presentation in widescreen format (16:9).
 
 #### What to Include on your Presentation
 

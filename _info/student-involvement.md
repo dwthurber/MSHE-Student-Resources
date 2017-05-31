@@ -1,7 +1,7 @@
 ---
 title: Student Involvement
 description: There are a number of ways for students to get involved on campus and in the community. The following is an incomplete list of some of the opportunities through Northwestern.
-topics: 
+topics:
   - student life
 actions:
   - find a place to live
@@ -13,9 +13,14 @@ comments: true
 section: student life
 ---
 
+
 [Civic Engagement Center](http://www.engage.northwestern.edu/)
 
 Northwestern University's Center for Civic Engagement promotes a lifelong commitment to active citizenship and social responsibility. The center coordinates volunteer experiences for students, faculty and staff and advertises internships and fellowships related to civil service. See the center's website for upcoming events and to sign up for the listserv.
+
+<u>International Graduate Student Association</u>
+
+The Northwestern Graduate International Student Association (G-ISA) serves all international graduate students and aims to promote cross-cultural understanding and feeling of inclusion among its members. G-ISA sponsors a number of events throughout the year, including some orientation events for new students. [Connect with G-ISA here](https://www.facebook.com/gisanorthwestern) and learn more about their work!
 
 [Graduate Student Association](http://nugsa.wordpress.com/)
 

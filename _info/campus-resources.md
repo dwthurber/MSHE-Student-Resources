@@ -147,9 +147,13 @@ Plays
 <br>South Campus&nbsp;
 <br>Late night milkshakes, sliders, flatbreads, salads, tater tots, and waffle fries.&nbsp;
 
+#### International Student Resources
+
+* [International Office](http://www.northwestern.edu/international/index.html)- First point of contact for any visa or housing issues and site of many helpful resources.
+* [Graduate Sidekicks](http://www.northwestern.edu/international/forms/io-advising/graduate-sidekicks.html)- Peer resource for advice on academics, culture, and other aspects of life as a graduate student at Northwestern!
+
 #### Other Campus Resources
 
-* [International Office](http://www.northwestern.edu/international/)
 * [Multicultural Student Affairs](http://www.northwestern.edu/msa/)
 * [Religious Life - University Chaplain](http://www.northwestern.edu/religious-life/)
 * [Services for Students with Disabilities](http://www.northwestern.edu/disability/)

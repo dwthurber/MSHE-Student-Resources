@@ -264,7 +264,7 @@ aside {
     background-color: #eee;
     margin-right: 10px;
     margin-left: 0;
-    
+
 }
 
 .topics-filters ul {
@@ -274,11 +274,11 @@ aside {
 }
 
 .triangle {
-    width: 0; 
-	height: 0; 
+    width: 0;
+	height: 0;
 	border-top: 20px solid transparent;
 	border-bottom: 20px solid transparent;
-	
+
 	border-left: 10px solid #4e2a84;
 	position: absolute;
 	right: -10px;
@@ -346,7 +346,7 @@ aside ul li a.active {
     width: 100%;
     height: 250px;
     background-image: url("../img/strange_bullseyes.png");
-    
+
 }
 
 .info-page-header {
@@ -358,7 +358,7 @@ aside ul li a.active {
     position: absolute;
     bottom: 50px;
     background-color: rgba(64,31,104, 0.6);
-    
+
 }
 
 .info-page-nav {
@@ -684,12 +684,12 @@ table td {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  
+
   -webkit-flex-flow: row wrap;
   justify-content: flex-start;
-  
+
   align-items: flex-start;
-  
+
   height: auto;
   margin: 0 auto;
 }
@@ -716,14 +716,14 @@ table td {
   width: 140px;
   height: 215px;
   padding: 5px;
-    
+
   color: white;
   text-align: center;
-  
+
   position: absolute;
   top: 0;
   left: 0;
-  
+
   display: none;
 }
 
@@ -938,7 +938,7 @@ table td {
 }
 .fancy span {
   display: inline-block;
-  position: relative;  
+  position: relative;
 }
 .fancy span:before,
 .fancy span:after {
@@ -1040,4 +1040,7 @@ table td {
 
 .networking-table thead {
     font-weight: bold;
+}
+.newsletter-form-wrapper {
+  height: 700px;
 }

@@ -33,7 +33,7 @@
 </head>
 {% if page.mp_guide == true %}<body class="grey-background" ng-controller="mainController">{% endif %}<body ng-controller="mainController">
     {% unless page.header == false %}<header class="cd-main-header">
-		<a class="cd-logo" href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/img/MSHE-horizontal-option1-02.png" alt="Logo"></a>
+		<a class="cd-logo" href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/img/MSHE-vertical-template-02.png" alt="Logo"></a>
 
 		<ul class="cd-header-buttons">
 			<li><a class="cd-search-trigger" href="#cd-search"><span></span></a></li>
@@ -50,7 +50,7 @@
 	<nav class="cd-nav">
 		<ul id="cd-primary-nav" class="cd-primary-nav is-fixed">
 			<li class="has-children">
-				<a href="{{ site.baseurl }}/info/">Resources</a>
+				<a href="{{ site.baseurl }}/info/">Student Resources</a>
 
 				<ul class="cd-secondary-nav is-hidden">
 					<li class="go-back"><a href="#0">Menu</a></li>
@@ -210,7 +210,8 @@
 				</ul>
 			</li>
 
-			<li><a href="{{ site.baseurl }}/meetup/">MSHE MeetUps</a></li>
+      <li><a href="{{ site.baseurl }}/newsletters/">Newsletters</a></li>
+      <li><a href="{{ site.baseurl }}/meetup/">MSHE MeetUps</a></li>
 		</ul> <!-- primary-nav -->
 	</nav> <!-- cd-nav -->
 
@@ -222,8 +223,8 @@
     <!--    <input type="text" name="q" id="tipue_search_input" autocomplete="off" placeholder="Search" required>-->
     <!--    </form>-->
 	</div>
-    
-    
+
+
     <section class="sitemap">
         <div class="three-columns">
             <div class="column">
@@ -253,14 +254,14 @@
                     <p><a href="mailto:audra.nelson@northwestern.edu">audra.nelson@northwestern.edu</a></p>
                 </div>
             </div>
-            
+
         </div>
     </section>{% endunless %}
     <footer>
         <p><span class="purple"><strong>Copyright </strong></span><i class="fa fa-copyright" aria-hidden="true"></i> 2016</p>
         <p>Designed by <strong>Derek Thurber </strong></p>
     </footer>
-    
+
     <!--angularjs libraries-->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
         <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>

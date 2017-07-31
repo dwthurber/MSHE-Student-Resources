@@ -1,0 +1,39 @@
+---
+layout: default
+title: Newsletters
+description: Archive of past MSHE Newsletters
+archives:
+  - name: Fall 2013 Newsletter
+    link: https://sites.google.com/a/u.northwestern.edu/mshe/_/rsrc/1444070259208/home/resources-for-alumni/alumni-news/2013%20alum%20newsletter.jpg
+  - name: Fall 2012 Newsletter
+    link: https://sites.google.com/a/u.northwestern.edu/mshe/_/rsrc/1444070259555/home/resources-for-alumni/alumni-news/newsletter2012-700.jpg
+  - name: Fall 2011 Newsletter
+    link: https://sites.google.com/a/u.northwestern.edu/mshe/_/rsrc/1444070259208/home/resources-for-alumni/alumni-news/2011alumninewsletter700.jpg
+  - name: Fall 2010 Newsletter
+    link: https://sites.google.com/a/u.northwestern.edu/mshe/_/rsrc/1444070259207/home/resources-for-alumni/alumni-news/2010-alumni-newsletter700.jpg
+---
+
+<div class="info-page-hero">
+  <div class="info-page-header">
+    <h2>MSHE Newsletters Archive</h2>
+  </div>
+  <div class="info-page-nav">
+
+  </div>
+</div>
+<section class="main-page-container" style="min-height:2000px">
+<div class="corso-left">
+    <h2>{{ page.title }}</h2>
+    <p>{{ page.description }}</p>
+    <hr>
+    {% for newsletter in page.archives %}
+    <h4><a href="{{ newsletter.link }}" target="_blank">{{ newsletter.name }}</a></h4>
+    {% endfor %}
+    <br><br>
+</div>
+<div class="corso-right">
+    <h5 class="column-header">Have news to share?</h5>
+    <p>We would love to feature you in our next newsletter! Please fill out the form below and we will be in touch.</p>
+    <div class="newsletter-form-wrapper"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd5S8drdq10w0KjmFBqaEyzHrn0W8quyrPjdfkfZoL2Us5fTA/viewform?embedded=true" width="340" height="1700" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></div>
+</div>
+</section>

@@ -26,10 +26,15 @@ archives:
     <h2>{{ page.title }}</h2>
     <p>{{ page.description }}</p>
     <hr>
-    {% for newsletter in page.archives %}
-    <h4><a href="{{ newsletter.link }}" target="_blank">{{ newsletter.name }}</a></h4>
-    {% endfor %}
-    <br><br>
+    <table width="100%" class="mp-table" >
+       {% for newsletter in page.archives %}
+        <tr style="border-bottom: solid 1px #cfcfcf">
+            <td class="mp-title" style="padding: 12px; vertical-align:bottom"><strong>{{ newsletter.name }}</strong></td>
+            <td width="100px" class="category" style="padding: 12px; vertical-align:bottom"><a href="{{ newsletter.link }}" target="_blank">View</a></td>
+        </tr>
+        {% endfor %}
+    </table>
+
 </div>
 <div class="corso-right">
     <h5 class="column-header">Have news to share?</h5>

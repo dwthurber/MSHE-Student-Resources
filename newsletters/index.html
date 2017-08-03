@@ -2,6 +2,7 @@
 layout: default
 title: Newsletters
 description: Archive of past MSHE Newsletters
+current_path: ''
 archives:
   - name: Winter/Spring 2016 Newsletter
     link: >-
@@ -28,7 +29,7 @@ archives:
 
 <div class="info-page-hero">
   <div class="info-page-header">
-    <h2>MSHE Newsletters Archive</h2>
+    <h2>MSHE Newsletters</h2>
   </div>
   <div class="info-page-nav">
 
@@ -38,6 +39,10 @@ archives:
 <div class="corso-left">
     <h2>{{ page.title }}</h2>
     <p>{{ page.description }}</p>
+    <!-- <p><strong>Most Recent Newsletter:</strong></p>
+    <div>
+      <iframe width="760px" height="500px" src="{{page.current_path}}" frameborder="0" marginheight="0" marginwidth="0" max-width="100%" sandbox="allow-forms allow-modals allow-orientation-lock allow-popups allow-same-origin allow-scripts" scrolling="no" style="border: none; max-width: 100%; max-height: 100vh" allowfullscreen mozallowfullscreen msallowfullscreen webkitallowfullscreen></iframe>
+    </div> -->
     <hr>
     <table width="100%" class="mp-table" >
        {% for newsletter in page.archives %}

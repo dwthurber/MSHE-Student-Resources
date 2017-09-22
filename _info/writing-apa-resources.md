@@ -46,7 +46,7 @@ You can also get updates by liking the [Writing Place's Facebook page](https://w
 
 #### APA Style Resources
 
-[Sample APA paper](https://northwestern.box.com/s/xd1cdszuvc4zqz1bc4xsj1c4bj76ttji)
+[Sample APA paper](https://northwestern.box.com/shared/static/xd1cdszuvc4zqz1bc4xsj1c4bj76ttji.pdf)
 
 All MSHE courses require students to cite sources using APA (American Psychological Association) style. Students are expected to follow the citation guidelines of the most recent version of the APA publication manual. The APA manual is listed as a required text for the Proseminar and for all three courses of the Master's Project Sequence.
 

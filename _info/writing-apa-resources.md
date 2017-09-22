@@ -1,7 +1,12 @@
 ---
 title: Writing/APA Resources
-description: In your time as a student in the MSHE program you will have several occasions to search for research articles and write papers about those articles. The most obvious example of this is the Master's Project literature review, but you'll likely use the resources outlined on this page in every course you take.
-topics: 
+description: >-
+  In your time as a student in the MSHE program you will have several occasions
+  to search for research articles and write papers about those articles. The
+  most obvious example of this is the Master's Project literature review, but
+  you'll likely use the resources outlined on this page in every course you
+  take.
+topics:
   - academics
   - master project
 actions:
@@ -19,6 +24,7 @@ comments: true
 section: academics
 ---
 
+
 [The Writing Place (for help with writing and editing papers)](http://www.writing.northwestern.edu/) Northwestern University's [writing center](http://www.writing.northwestern.edu/) can assist students with editing papers, including the Master's Project paper. Appointments are required and students can make up to 2 hours of appointments per week.
 
 Graduate students may make an appointment either at the main Writing Place or request an appointment at the Graduate Writing Place, with more limited hours. To make an appointment at the Graduate Writing Place, write to [writingplace@northwestern.edu](mailto:writingplace@northwestern.edu) and provide a brief description of what you are working on.
@@ -29,16 +35,18 @@ The Writing Place hosts several cross-disciplinary writing workshops throughout 
 
 Topics of workshops include:
 
-*   Tackling a Literature Review & Synthesizing Others’ Arguments
-*   Strategies for Outlining and Organizing Large Writing Projects
-*   Developing and Delivering Conference Papers, Panels, & Presentations
-*   Communicating Your Research to a General Audience
-*   Negotiating the Revision and Resubmission of Journal Articles
-*   Productive Writing and Time Management
+* Tackling a Literature Review & Synthesizing Others’ Arguments
+* Strategies for Outlining and Organizing Large Writing Projects
+* Developing and Delivering Conference Papers, Panels, & Presentations
+* Communicating Your Research to a General Audience
+* Negotiating the Revision and Resubmission of Journal Articles
+* Productive Writing and Time Management
 
 You can also get updates by liking the [Writing Place's Facebook page](https://www.facebook.com/northwesternwritingplace).
 
 #### APA Style Resources
+
+[Sample APA paper](https://northwestern.box.com/s/xd1cdszuvc4zqz1bc4xsj1c4bj76ttji)
 
 All MSHE courses require students to cite sources using APA (American Psychological Association) style. Students are expected to follow the citation guidelines of the most recent version of the APA publication manual. The APA manual is listed as a required text for the Proseminar and for all three courses of the Master's Project Sequence.
 

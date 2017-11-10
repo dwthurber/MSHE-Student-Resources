@@ -27,7 +27,7 @@ The [interactive campus map](http://maps.northwestern.edu/#latlngz=41.972%2C-87.
 
 Campus Tours The NU Office of Undergraduate Admission offers tours of the campus every day (and twice a day in the summers). The tours are preceded by a 45 minute information session, which is focused on information for prospective undergraduates. You can sign up for tours and see the times that tours are offered [here](http://www.ugadm.northwestern.edu/visit/plan-your-visit/visit-calendar.html). If you plan to attend the tour but not the information session you should arrive at the admission office 40 minutes after the time of the information session.
 
-Virtual Tours of Campus Virtual tours and snapshots of campus are an [easy alternative](http://www.northwestern.edu/campus-life/virtual-tour.html).
+Virtual Tours of Campus Virtual tours and snapshots of campus are an [easy alternative](http://admissions.northwestern.edu/visit/experience/virtual-tour.html).
 
 #### Fitness and Recreation
 
@@ -47,15 +47,15 @@ This fitness center is not owned by Northwestern but they do have a partnership 
 
 Membership at the River East Club also gives you full access to services offered by the Chicago Park District.
 
-[Northwestern Beach](http://www.fitrec.northwestern.edu/facilities/beach/)
+[Northwestern Beach](http://nurecreation.com/news/2016/5/25/facilities-summer-beach-partnership.aspx?path=facilities)
 
 Northwestern University has a private beach staffed with lifeguards during the summer months. Students (part-time or full-time) can use the beach for free but must present their student ID (wildcard).
 
-[Northwestern Sailing Center](http://www.fitrec.northwestern.edu/facilities/sailing/index.html)
+[Northwestern Sailing Center](http://nurecreation.com/index.aspx?path=sailing)
 
 Offers kayak, paddle board and catamaran rentals, as well as group and private lessons in sailing, windsurfing, and catamaran craft.
 
-[Norris Outdoors](http://www.norris.northwestern.edu/recreation/norrisoutdoors/)
+[Norris Outdoors](http://www.northwestern.edu/norris/arts-and-recreation/norrisoutdoors/)
 
 Offers rental equipment for backpacking, cross-country skiing, rollerblading, general sports, and picnics. Experienced staff are always on hand to show you how the equipment works.
 
@@ -69,7 +69,7 @@ In the winter months a skating rink is created on the east lawn of the Norris Un
 
 The University’s Student Health Service offers clinical health services to all students (full-time and part-time). Services at the Evanston facility include general medicine, women’s health (gynecology), infirmary (limited inpatient care), health education, access to specialty consultations, allergy shots, travel immunizations, laboratory, radiology (X-ray), and pharmacy. Students do NOT have to have the NU Health Insurance to utilize Health Services.
 
-[Health Insurance](http://www.nuhs.northwestern.edu/evanston/insurance.aspx)
+[Health Insurance](http://www.northwestern.edu/student-insurance/)
 
 Northwestern offers health insurance through Aetna. Premiums are the same for part-time students as for full-time (for 2013-14 that is $3,067 for the year).
 
@@ -103,7 +103,7 @@ Dittmar Art Gallary
 
 Plays
 
-[Norris University Center](http://www.northwestern.edu/religious-life/)
+[Norris University Center](http://www.northwestern.edu/norris/)
 
 [Wildcard Discount Locations](http://www.northwestern.edu/uservices/wildcard/advantage_discounts/a_to_z/index.html)
 
@@ -111,7 +111,7 @@ Plays
 
 [STA Travel](http://www.statravel.com/): Travel discounts for students
 
-#### Dining on Campus&nbsp;
+#### Dining on Campus
 
 [Hours listed on the NUcuisine website](https://nucuisine.sodexomyway.net/hours/index.html). For more info, check out their websites.
 
@@ -127,7 +127,7 @@ Plays
 <br>North Campus&nbsp;
 <br>Varied breakfast selections, hot lunches, fresh salads, hot panini's, sushi, Campbell's Soup and desserts&nbsp;
 
-[Norris University Center](http://www.nucuisine.com/retail/norris.html)
+[Norris University Center](http://www.northwestern.edu/norris/services/dining/index.html)
 <br>Mid-campus&nbsp;
 <br>(Starbucks Coffee, Subway, Dunkin Donuts, food court and convenience store)&nbsp;
 
@@ -150,7 +150,7 @@ Plays
 #### International Student Resources
 
 * [International Office](http://www.northwestern.edu/international/index.html)- First point of contact for any visa or housing issues and site of many helpful resources.
-* [Graduate Sidekicks](http://www.northwestern.edu/international/forms/io-advising/graduate-sidekicks.html)- Peer resource for advice on academics, culture, and other aspects of life as a graduate student at Northwestern!
+* [Graduate Sidekicks](http://www.northwestern.edu/international/living-working/before-arrival/student-orientation-and-check-in/graduate-sidekicks1.html)- Peer resource for advice on academics, culture, and other aspects of life as a graduate student at Northwestern!
 
 #### Other Campus Resources
 

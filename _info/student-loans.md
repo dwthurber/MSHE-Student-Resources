@@ -1,7 +1,7 @@
 ---
 title: Student Loans
 description: Student loans for MS in Higher Education Administration and Policy students are administered through Student Financial Services. Students may not receive their student loan offer at the same time as their scholarship and awards offer.
-topics: 
+topics:
   - financial aid
   - internships
 actions:
@@ -32,7 +32,7 @@ After determining eligibility via the FAFSA, most matriculated students are able
 
 #### Private or Alternative Loans
 
-Non-matriculated students and matriculated students registered for fewer than two courses per quarter may be eligible for private or alternative loans. Additional information about private and alternative loans is available at [http://www.northwestern.edu/sfs/financial_aid/student-loans/private-alt/index.html](http://www.northwestern.edu/sfs/financial_aid/student-loans/private-alt/index.html)
+Non-matriculated students and matriculated students registered for fewer than two courses per quarter may be eligible for private or alternative loans. Additional information about private and alternative loans is [available  online](http://www.northwestern.edu/sfs/graduate-financial-aid/private-alternative-loans.html)
 
 Deferring Previous Student LoansIf you have student loans from undergraduate or previous graduate programs you may be able to defer your loan payments while you are a student. Generally you must be enrolled in at least two courses per term to be eligible to defer your loan payments. For help in deferring your loans contact [Colleen Delaney](mailto:c-delaney@northwestern.edu) in Student Financial Services. You can also download the necessary forms to apply for deferment at the [MyCampusLoan](https://www.mycampusloan.com/static/html/forms/index.html) website.
 

@@ -1,7 +1,7 @@
 ---
 title: Higher Ed Careers
 description: Higher ed careers can be varied in type, job responsibility, functional area, location, institutional type, and many other factors. The websites listed below for job searching and the salary information can help you begin to understand and navigate this complex landscape.
-topics: 
+topics:
   - career resources
 actions:
   - apply for jobs
@@ -19,7 +19,7 @@ section: career
 
 Listed here are some composite sites dedicated to finding jobs in higher education. Also remember to look at the human resources pages of institutions that you are interested in working for.
 
-Remember that submitting an application is just one of the many steps involved in getting hired. Also remember to talk with Lois Trautvetter, Kristin McCann, and your instructors and mentors to see if they can connect you with an alum or colleague that has some connection with the department, institution or area of interest. We strongly encourage you to contact the MSHE Career Coach, Audra Nelson when you begin applying for a position. 
+Remember that submitting an application is just one of the many steps involved in getting hired. Also remember to talk with Lois Trautvetter, Kristin McCann, and your instructors and mentors to see if they can connect you with an alum or colleague that has some connection with the department, institution or area of interest. We strongly encourage you to contact the MSHE Career Coach, Audra Nelson when you begin applying for a position.
 
 Also, remember that you can utilize the Northwestern University [Career Services Office](http://www.northwestern.edu/careers/) and your undergraduate institutions' career services office.
 
@@ -75,7 +75,7 @@ Also, remember that you can utilize the Northwestern University [Career Services
 ##### International Education/Study Abroad
 
 *   [NAFSA: Association of International Educators](http://jobregistry.nafsa.org/jobseekers/)
-*   [Forum on Education Abroad](http://www.forumea.org/dialogue-jobs.cfm)
+*   [Forum on Education Abroad](https://forumea.org/resources/forumjobs/)
 *   [SECUSS-L Listserv](http://listserv.buffalo.edu/cgi-bin/wa?SUBED1=SECUSS-L&A=1) (sign-up for a free electronic forum for Education Abroad professionals)
 
 ##### Discipline-Specific Job Sites
@@ -92,19 +92,12 @@ Also, remember that you can utilize the Northwestern University [Career Services
 
 * * *
 
-#### For Local Chicago-Area Job Searches
-
-If you are searching for positions just in the Chicagoland area you'll of course want to consult the HR sites of the colleges and universities in the area (in addition to using other resources mentioned on this page.) To help, please see this [List of Chicago Area Colleges and Universities](https://sesp.box.com/shared/static/qxrqjbvijqi64btamzt7.pdf)
-
-* * *
-
 #### Higher Education Administration Salary Info
 
 Check out [Highered Jobs](http://www.higheredjobs.com/salary/salaryDisplay.cfm?SurveyID=23) and the [Chronicle](http://chronicle.com/article/Median-Salaries-of-Midlevel/126834/) for information on average salaries for higher education administrators (you must be connected through Northwestern's network to open the Chronicle article).[Glassdoor.com](http://glassdoor.com/) is also a great resource  for [salary comparison](http://www.glassdoor.com/Salaries/index.htm).  
 
-The College and University Professional Association for Human Resources ([CUPA-HR](http://www.cupahr.org/index.aspx)) also does an [annual survey](http://www.cupahr.org/surveys/index.aspx) to gather data about higher education professionals' salaries. 
+The College and University Professional Association for Human Resources ([CUPA-HR](http://www.cupahr.org/surveys/publications/administrators-higher-education/)) also does an [annual survey](http://ww2.cupahr.org/surveys/files/salary2013/AHE13-Executive-Summary.pdf) to gather data about higher education professionals' salaries. 
 
-*   [Executive Summary: Professionals in Higher Education Salary Survey for the 2012-13 Academic Year (Mid-Level Administrators)](http://www.cupahr.org/surveys/files/salary2013/PHE-2013-Executive-Summary.pdf)
-*   [Executive Summary: Administrators in Higher Education Salary Survey for the 2012-13 Academic Year (High-Level Administrators)](http://www.cupahr.org/surveys/files/salary2013/AHE13-Executive-Summary.pdf)
+*   [Executive Summary: Professionals in Higher Education Salary Survey for the 2012-13 Academic Year (Mid-Level Administrators)](https://www.higheredjobs.com/salary/salaryDisplay.cfm?SurveyID=41)
 
 If you're looking to move to a new geographic area, you'll also want to check out a [cost of living calculator](http://money.cnn.com/calculator/pf/cost-of-living/). 

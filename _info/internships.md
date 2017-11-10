@@ -5,7 +5,7 @@ topics:
   - internships
   - financial aid
 actions:
-  - 
+  -
 statuses:
   - newly admitted students
   - current students
@@ -26,7 +26,7 @@ You can read more about the specifics of internships here: [Internship Handbook.
 
 #### Waiving the Internship Requirement
 
-For those students who have significant work experience in the field, [there is a form for waiving the internship course requirement](https://sesp.box.com/shared/static/18e6c2988634e2552d74.pdf); however, that does not preclude students from engaging in an internship experience and/or taking the course if they would like to. If you are considering waiving the requirement, please contact the Assistant Director, Dr. Kristin McCann, as soon as possible.
+For those students who have significant work experience in the field, [there is a form for waiving the internship course requirement](https://northwestern.box.com/s/nqnl0s0864aikb1mmj2uh8si4h3jwlp2); however, that does not preclude students from engaging in an internship experience and/or taking the course if they would like to. If you are considering waiving the requirement, please contact the Assistant Director, Dr. Kristin McCann, as soon as possible.
 
 #### Internship Course: MS_HE 485 Canvas Site
 
@@ -47,7 +47,7 @@ MSHE staff keep track of what internship opportunities are available for current
 1. **Reflect** on what type(s) of internship experience(s) you hope to gain.
 2. **Contact** Dr. Kristin McCann at [kristin.mccann1@northwestern.edu](mailto:kristin.mccann1@northwestern.edu) to discuss your interests and/or contact Dr. McCann to alert her that you decided to apply to a given opportunity you saw advertised.
 3. **Email and/or meet with** the Director, Assistant Director, or Career Coach to discuss your application and/or interview.
-4. After **applying for, interviewing for, and securing an opportunity**, alert your supervisor(s) that you are required to complete an [Internship Contract (PDF)](https://sesp.box.com/shared/static/0af73a6f40872a70bcbe.pdf) and that you will eventually need your supervisor(s) to complete an [Internship Evaluation (PDF)](https://sesp.box.com/shared/static/3308bfceade7c9fa2ab1.pdf) about your performance–whether the experience is for credit or not, both documents are required.
+4. After **applying for, interviewing for, and securing an opportunity**, alert your supervisor(s) that you are required to complete an [Internship Contract (PDF)](https://northwestern.box.com/s/ts367jd66aleu3a7ej6s657wcfylldts) and that you will eventually need your supervisor(s) to complete an [Internship Evaluation (PDF)](https://northwestern.box.com/s/35k14adupzpgqto2c7ua8xpoxbecmrb8) about your performance–whether the experience is for credit or not, both documents are required.
 5. **Complete the Internship Contract** WITH your site supervisor(s).
 6. **[Submit a copy of the Internship Contract](mailto:kristin.mccann1@northwestern.edu)** to the MSHE office–(Attn.: Assistant Director).
 7. We recommend that you **submit an internship evaluation quarterly to the office**; however, if your supervisor only has time to submit an evaluation at the end of the internship experience (such as after two or three quarters), that is acceptable. Nevertheless, **we highly recommend** that you gain structured feedback from your supervisor on a regular basis to assess your progress in your internship.

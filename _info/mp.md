@@ -1,7 +1,7 @@
 ---
 title: Master's Project Sequence
 description: The Master’s Project is an opportunity to pursue resolution of a question about which you have genuine concern. The question may grow out of an interest that you have had for some time or one that has arisen recently through course work or personal experience.
-topics: 
+topics:
   - master project
   - academics
 actions:
@@ -20,7 +20,7 @@ The Master’s Project is an opportunity to pursue resolution of a question abou
 
 #### List of all Master's Projects
 
-Check out the [Master's Project Database](/mp/) for a list of all master's projects from previous years.
+Check out the [Master's Project Database](https://airtable.com/shrWnGSGNIkgcfqCI/tblxJvzsCunRfMVSQ?backgroundColor=gray&viewControls=on) for a list of all master's projects from previous years.
 
 #### Before the Master's Project
 

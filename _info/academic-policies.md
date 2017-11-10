@@ -1,11 +1,11 @@
 ---
 title: Academic Policies
-description: A range of academic policies for the MSHE program including transfer credit, FERPA and right to privacy, grade changes, taking an incomplete, grades for dropped courses, pass/no pass grades, auditing courses, academic probation and other questions. 
-topics: 
+description: A range of academic policies for the MSHE program including transfer credit, FERPA and right to privacy, grade changes, taking an incomplete, grades for dropped courses, pass/no pass grades, auditing courses, academic probation and other questions.
+topics:
   - academics
   - policies
 actions:
-  - 
+  -
 statuses:
   - current students
   - certificate students
@@ -34,7 +34,7 @@ It is important to note that you must get the permission of the instructor to ta
 
 Incomplete courses appear as a “Y” grade on your transcript and count as an "F" in your GPA. Once you have turned in all of your work and your instructor has submitted a grade change the "Y" will be completely replaced by the new grade.
 
-We highly recommend that you reconcile "Y" grades within one quarter. Students who are receiving federal student loans should also be aware of how the Y grade impacts their eligibility in regards to the [Satisfactory Academic Progress](https://sesp.box.com/shared/static/8f37c2ec2978b0130140.pdf) guidelines. You must resolve the incomplete grade within one year from the term in which you earned the "Y" grade or the "Y" will be permanent (exceptions may be made in the case of a medical leave of absence). For instance, if you receive an incomplete in a course during the fall term, you must complete the work, and your instructor must submit a change of grade request by the end of finals week during the following fall term. [See the official NU policy on resolving Y grades here](http://www.registrar.northwestern.edu/academic_records/Change-Of-Grade-Policies.html).
+We highly recommend that you reconcile "Y" grades within one quarter. Students who are receiving federal student loans should also be aware of how the Y grade impacts their eligibility in regards to the [Satisfactory Academic Progress](http://undergradaid.northwestern.edu/aid-basics-eligibility/satisfactory-academic-progress) guidelines. You must resolve the incomplete grade within one year from the term in which you earned the "Y" grade or the "Y" will be permanent (exceptions may be made in the case of a medical leave of absence). For instance, if you receive an incomplete in a course during the fall term, you must complete the work, and your instructor must submit a change of grade request by the end of finals week during the following fall term. [See the official NU policy on resolving Y grades here](http://www.registrar.northwestern.edu/academic_records/Change-Of-Grade-Policies.html).
 
 #### Grades for Dropped Courses
 

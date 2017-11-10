@@ -1,7 +1,7 @@
 ---
 title: Evanston
 description: Evanston has a number of good restaurants and attractions. Check out these suggestions for places to go on a budget (or to get your parents to take you not on a budget), and other useful suggestions about making the most of living in Evanston.
-topics: 
+topics:
   - student life
 actions:
   - find a place to live
@@ -11,7 +11,7 @@ statuses:
   - current students
   - certificate students
 keywords:
-  - 
+  -
 comments: true
 section: student life
 ---
@@ -34,7 +34,7 @@ $$$ - perhaps your parents are in town, or you'd like to dress up fancy
 *   [The Celtic Knot Public House $](http://celticknotpub.com/)
 *   [Tapas Barcelonas $/$$](http://www.tapasbarcelona.com/Home.aspx)
 
-For additional dining options that are within walking distance of campus see [http://www.downtownevanston.org/visiting-evanston/dining/4-dining](http://www.downtownevanston.org/visiting-evanston/dining/4-dining)
+For additional dining options that are within walking distance of campus see [http://downtownevanston.org/eat-drink](http://downtownevanston.org/eat-drink)
 
 #### Rent a Movie
 
@@ -42,7 +42,7 @@ The [Marjorie Mitchell Multimedia Center](http://www.library.northwestern.edu/li
 
 #### Evanston Attractions
 
-Evanston has [five public beaches](http://www.cityofevanston.org/parks-recreation/lakefront-beaches/) (there is also a private beach on Northwestern’s campus for NU students, faculty and staff only), so when the weather is warm Lake Michigan is a great place to cool off.
+Evanston has [six public beaches](https://www.cityofevanston.org/government/departments/parks-recreation-community-services/lakefront-and-beaches) (there is also a private beach on Northwestern’s campus for NU students, faculty and staff only), so when the weather is warm Lake Michigan is a great place to cool off.
 
 Dozens of major motion pictures have filmed scenes in Evanston, including Contagion (2011), starring Matt Damon; The Weather Man (2005), starring Nicholas Cage; and Road to Perdition (2002), starring Tom Hanks and Paul Newman.
 

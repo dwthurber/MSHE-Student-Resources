@@ -1,10 +1,10 @@
 ---
 title: Graduation
 description: This page includes all the information you will need to graduate including information about the petition to graduate survey, exit survyes, commencement and convocation ceremonies, transcript requests, and getting your diploma.
-topics: 
+topics:
   - policies
 actions:
-  - 
+  -
 statuses:
   - current students
 keywords:
@@ -31,7 +31,7 @@ What happens to your Northwestern email, your NetID, and your access to Northwes
 
 #### Commencement v. Convocation
 
-If you hear the word 'Commencement', this is the ceremony where ALL NU grads assemble in the stadium, NU President Morty Shapiro speaks, and each NU school (including SESP) is recognized en masse. You do not need a ticket, but all your guests do in order to enter the stadium. You can get a maximum of 10 tickets, and you can order them via this website address: [http://nucommencement.universitytickets.com/user_pages/event_listings.asp](http://nucommencement.universitytickets.com/user_pages/event_listings.asp).
+If you hear the word 'Commencement', this is the ceremony where ALL NU grads assemble in the stadium, NU President Morty Shapiro speaks, and each NU school (including SESP) is recognized en masse. You do not need a ticket, but all your guests do in order to enter the stadium. You can [get a maximum of 10 tickets online](http://www.northwestern.edu/commencement/students/tickets/index.html).
 
 'Convocation' refers to the School of Education and Social Policy's ceremony, which is held on the same day (afternoon) as the all-NU Commencement. Any student who will graduated in Winter or Spring or will be graduating in Summer or Fall of a given academic year may walk in that year's ceremony--e.g., a student graduating in Fall (December) 2017 could technically walk in the June 2017 ceremony. For students who are going to complete the program after the actual commencement/convocation takes place--such as Summer (August) or Fall (December) graduates, they must complete a Permission to Participate form, and this information will be communicated via email to all graduating students.
 

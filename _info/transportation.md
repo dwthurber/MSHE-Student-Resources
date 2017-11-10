@@ -1,7 +1,7 @@
 ---
 title: Transportation
 description: Learn how to get around campus and chicago using the Inter-campus shuttle, Northwestern campus parking, public transportation (CTA), Metra rail, and biking.
-topics: 
+topics:
   - student life
 actions:
   - find a place to live
@@ -38,4 +38,4 @@ The Metra is a public train system that serves Chicago and many suburbs. The Met
 
 #### Chicago Bike Map
 
-[The Chicago Bike Map](http://www.cityofchicago.org/cityinfo/cdot/bikemap/keymap.html) is organized by neighborhood and includes important information for safe biking in the city.
+[The Chicago Bike Map](https://www.cityofchicago.org/city/en/depts/cdot/provdrs/bike/svcs/bike_maps.html) is organized by neighborhood and includes important information for safe biking in the city.

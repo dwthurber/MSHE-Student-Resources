@@ -1,7 +1,7 @@
 ---
 title: Chicago
-description: Chicago has a number of resources for you to explore and enjoy. For example you might check out Chicago's many bike routes, got to a comedy show, or check out one of Chicago's many attractions. 
-topics: 
+description: Chicago has a number of resources for you to explore and enjoy. For example you might check out Chicago's many bike routes, got to a comedy show, or check out one of Chicago's many attractions.
+topics:
   - student life
 actions:
   - relax and enjoy
@@ -11,7 +11,7 @@ statuses:
   - current students
   - certificate students
 keywords:
-  - 
+  -
 comments: true
 ---
 
@@ -21,7 +21,7 @@ comments: true
 
 #### Chicago Bike Map
 
-[The Chicago Bike Map](http://www.cityofchicago.org/cityinfo/cdot/bikemap/keymap.html) is organized by neighborhood and includes important information for safe biking in the city.
+[The Chicago Bike Map](https://www.cityofchicago.org/city/en/depts/cdot/provdrs/bike/svcs/bike_maps.html) is organized by neighborhood and includes important information for safe biking in the city.
 
 #### Lonely Planet Guide to NU
 
@@ -49,17 +49,17 @@ comments: true
 
 [Lincoln Park Zoo](http://www.lpzoo.org/)
 
-[Millennium Park](http://explorechicago.org/city/en/millennium.html)
+[Millennium Park](https://www.cityofchicago.org/city/en/depts/dca/supp_info/millennium_park.html)
 
 [Navy Pier](http://www.navypier.com/)
 
-[John Hancock](http://jhochicago.com/en/)
+[John Hancock](https://www.johnhancock.com/)
 
 [Shedd Aquarium](http://www.sheddaquarium.org/)
 
 [Museum of Science & Industry](http://www.msichicago.org/)
 
-[Field Museum](https://sites.google.com/)
+[Field Museum](https://www.fieldmuseum.org/)
 
 [Adler Planetarium](http://www.adlerplanetarium.org/)
 

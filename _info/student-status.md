@@ -1,7 +1,7 @@
 ---
 title: Student Status
 description: Policies related to matriculated vs non-matriculated students, full-time vs part-time students, academic progress and completion, inactive status, and withdrawing from or re-entry into the MSHE program.
-topics: 
+topics:
   - policies
   - student status
 actions:
@@ -45,7 +45,7 @@ If you no longer wish to continue as a student in the MSHE program please contac
 
 #### Re-Entry for Withdrawn Students
 
-Students who have been withdrawn can re-enter the program within five years of the date they matriculated. To re-enter the student must submit the [Petition to Re-Enter form](https://northwestern.box.com/shared/static/fca5zpi8j9zuwmvtvur8.pdf) and a $25 fee to the MSHE program office.
+Students who have been withdrawn can re-enter the program within five years of the date they matriculated. To re-enter the student must submit the [Petition to Re-Enter form](https://northwestern.box.com/s/xuwvjz0t5ftearbi7n5hnj4bw5zbujt6) and a $25 fee to the MSHE program office.
 
 If it has been more than five years since the date that the student matriculated they may have to re-apply for admission to the program.
 

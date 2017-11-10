@@ -34,11 +34,11 @@ HESA works with the department to plan co-curricular programming and professiona
 
 HESA welcomes involvement by full- and part-time students at any stage of the Higher Ed program!
 
-[LGBTQ Resource Center](http://www.norris.northwestern.edu/csi/lgbtcenter/)
+[LGBTQ Resource Center](http://www.northwestern.edu/msa/resources/lgbtqia-resources/index.html)
 
 The center's aim is to increase visibility and awareness of issues surrounding gender and sexuality by uniting existing community entities and developing educational and outreach-oriented programming. MSHE students may be particularly interested in trainings offered by the resource center, including SafeSpace training, and the LGBTQ Campus Advisory Network.
 
-[University Hearing and Appeals System (UHAS)](http://www.northwestern.edu/student-conduct/conduct/formal/uhas/)
+[University Hearing and Appeals System (UHAS)](http://www.northwestern.edu/student-conduct/student-conduct-process/UHAS/)
 
 UHAS is the formal campus student conduct process at Northwestern. Hearings are conducted before a UHAS Hearing Panel composed of six to nine members of the University community (students, faculty and staff). If you are interested in becoming a part of the Hearing Panel or volunteering as an advocate for students involved in a UHAS hearing contact the Office of Student Conduct and Conflict Resolution.
 

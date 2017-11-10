@@ -1,7 +1,7 @@
 ---
 title: Tuition
 description: Tuition is set each year during the summer. The Master of Science in Higher Education Administration and Policy Program does not charge any student activity or other fee beyond tuition. Tuition does not include the cost of books.
-topics: 
+topics:
   - financial aid
 actions:
 statuses:
@@ -14,14 +14,14 @@ keywords:
   - Tuition Bills
   - Overdue Payments
   - NU Employee Tuition Benefit
-  - Tax Documents 
+  - Tax Documents
   - 1098T
   - loans
 comments: true
 section: policies
 ---
 
-The tuition rate for the 2015-16 academic year is $3,753 per course. If a student took all 15 course units required for the master's degree at the 2015-16 tuition rate, the total cost of tuition would be $56,295\. 
+The tuition rate for the 2015-16 academic year is $3,753 per course. If a student took all 15 course units required for the master's degree at the 2015-16 tuition rate, the total cost of tuition would be $56,295\.
 
 #### Your Student Account
 
@@ -35,7 +35,7 @@ The Office of Student Accounts and Student Financial Services are separate offic
 
 Tuition bills are posted electronically to [CAESAR](http://www.northwestern.edu/caesar/). Students will receive an email at their Northwestern email address when a tuition bill is posted.
 
-The [Student Financial Services website](http://www.northwestern.edu/sfs/tuition/sesp_quarter.html) has a chart showing when tuition is billed and when payments are due each quarter. Students have to pay the full balance of their tuition bill by the payment deadline. If they do not a late fee of $150 can be assessed on the next monthly billing cycle. Full-time students can sign up for the 9-pay program, which spreads payments out monthly, but part-time students do not have access to this service.
+The [Student Financial Services website](http://www.northwestern.edu/sfs/) has a chart showing when tuition is billed and when payments are due each quarter. Students have to pay the full balance of their tuition bill by the payment deadline. If they do not a late fee of $150 can be assessed on the next monthly billing cycle. Full-time students can sign up for the 9-pay program, which spreads payments out monthly, but part-time students do not have access to this service.
 
 That said, it is not uncommon for students to register for courses after the quarterly payment deadline. Student tuition bills are processed on the 10th of each month, so if you haven't registered by the 10th you will be billed the following month.
 

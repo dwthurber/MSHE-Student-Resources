@@ -28,7 +28,7 @@ As you craft your cover letters and resume, please keep the following, general t
 * **Well-written resumes and cover letters are only helpful if they're seen by the right people**. A good rule of thumb is to spend at least as much time networking as you do submitting applications. Many would argue you should spend more.
 * **Asking for help is not a weakness**. If you have questions about how to design your job search strategy, please contact Carla Cortes, Kristin McCann, or Lois Trautvetter. We’re here to help!
 
-With that said, please take advantage of these training tools to help you craft cover letters and a resume that will instill you with pride, impress employers, and generate interviews. We hope you find this training beneficial! If it is (and especially if it isn’t), please provide feedback to carla.cortes@@northwestern.edu
+With that said, please take advantage of these training tools to help you craft cover letters and a resume that will instill you with pride, impress employers, and generate interviews. We hope you find this training beneficial! If it is (and especially if it isn’t), please provide feedback to carla.cortes@northwestern.edu
 
 ### Creating a Strong Higher Ed Resume
 

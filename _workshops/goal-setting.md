@@ -61,7 +61,11 @@ Research has shown that if you do have a calling orientation, you are more likel
 
 Thinking of STAR achievements that you have enjoyed doing and that give you pride (like you did in the workshop preparation) is the first step in thinking through what your calling is and how to use that to find a job which will support your calling.
 
-Additional Resources: Guided Reflection Exercise &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Workshop Preparation Accomplishment Worksheet&nbsp;
+Additional Resources:
+
+Guided Reflection Exercise &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+Workshop Preparation - Accomplishment Worksheet&nbsp;
 
 #### Goal Setting
 

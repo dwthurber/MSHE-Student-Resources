@@ -78,8 +78,6 @@ Take time now to set some goals, and don’t forget to make them SMART! SMART go
 
 That said, let's dive right in with setting your own goals. When you are ready, click **START** below. Note: if the goal setting exercise does not load below, try opening it in a new window by clicking [here](https://mshighered.typeform.com/to/C9zr5i).&nbsp; <!-- Change the width and height values to suit you best -->
 
-<div class="typeform-widget" data-url="https://mshighered.typeform.com/to/C9zr5i" data-text="Goal Setting Worksheet" style="width:100%;height:500px;">&nbsp;</div>
-
 <div class="typeform-widget" data-url="https://mshighered.typeform.com/to/C9zr5i" data-text="Goal Setting Worksheet" style="width:100%;height:500px;">Powered by<a style="color: #999" target="_blank" href="https://www.typeform.com/examples/?utm_campaign=C9zr5i&amp;utm_source=typeform.com-4800891-Basic&amp;utm_medium=typeform&amp;utm_content=typeform-embedded-poweredbytypeform&amp;utm_term=EN">Typeform</a></div>
 
 <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>

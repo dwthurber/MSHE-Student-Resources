@@ -65,7 +65,7 @@ Additional Resources:
 
 [Guided Reflection Exercise](https://northwestern.box.com/s/v6uo4uwbzc31klw0kw89f3kjlse736ya)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 
-Workshop Preparation - [Accomplishment Worksheet&nbsp;](https://northwestern.box.com/s/g1k2obogfg1ifwyhzgrlyskay91s7z9w)
+Workshop Preparation - [Accomplishment Worksheet](https://northwestern.box.com/s/g1k2obogfg1ifwyhzgrlyskay91s7z9w)&nbsp;
 
 #### Goal Setting
 

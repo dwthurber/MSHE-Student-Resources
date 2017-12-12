@@ -76,8 +76,13 @@ Take time now to set some goals, and don’t forget to make them SMART! SMART go
 
 ![SMART-goals.png]({{ site.baseurl }}/img/SMART-goals.png)
 
-That said, let's dive right in with setting your own goals. When you are ready, click **START** below. Note: if the goal setting exercise does not load below, try opening it in a new window by clicking [here](https://mshighered.typeform.com/to/C9zr5i).&nbsp;
-<!-- Change the width and height values to suit you best -->
+That said, let's dive right in with setting your own goals. When you are ready, click **START** below. Note: if the goal setting exercise does not load below, try opening it in a new window by clicking [here](https://mshighered.typeform.com/to/C9zr5i).&nbsp; <!-- Change the width and height values to suit you best -->
+
+<div class="typeform-widget" data-url="https://mshighered.typeform.com/to/C9zr5i" data-text="Goal Setting Worksheet" style="width:100%;height:500px;">Additional Resources: Guided Reflection Exercise &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Workshop Preparation Accomplishment Worksheet&nbsp;</div>
+
+<div class="typeform-widget" data-url="https://mshighered.typeform.com/to/C9zr5i" data-text="Goal Setting Worksheet" style="width:100%;height:500px;">&nbsp;</div>
+
+<div class="typeform-widget" data-url="https://mshighered.typeform.com/to/C9zr5i" data-text="Goal Setting Worksheet" style="width:100%;height:500px;">&nbsp;</div>
 
 <div class="typeform-widget" data-url="https://mshighered.typeform.com/to/C9zr5i" data-text="Goal Setting Worksheet" style="width:100%;height:500px;">&nbsp;</div>
 

@@ -61,12 +61,6 @@ Research has shown that if you do have a calling orientation, you are more likel
 
 Thinking of STAR achievements that you have enjoyed doing and that give you pride (like you did in the workshop preparation) is the first step in thinking through what your calling is and how to use that to find a job which will support your calling.
 
-Additional Resources:
-
-[Guided Reflection Exercise](https://northwestern.box.com/s/v6uo4uwbzc31klw0kw89f3kjlse736ya)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-
-Workshop Preparation - [Accomplishment Worksheet](https://northwestern.box.com/s/g1k2obogfg1ifwyhzgrlyskay91s7z9w)&nbsp;
-
 #### Goal Setting
 
 Begin by reflecting on your past jobs and what you liked and disliked about each of them. You can use [this form](https://northwestern.box.com/shared/static/43dx87eqnosx3syj1z9qe2cnneybbsjq.docx) to help you complete this reflection.&nbsp;
@@ -86,12 +80,6 @@ That said, let's dive right in with setting your own goals. When you are ready, 
 
 <div class="typeform-widget" data-url="https://mshighered.typeform.com/to/C9zr5i" data-text="Goal Setting Worksheet" style="width:100%;height:500px;">&nbsp;</div>
 
-<div class="typeform-widget" data-url="https://mshighered.typeform.com/to/C9zr5i" data-text="Goal Setting Worksheet" style="width:100%;height:500px;">&nbsp;</div>
-
-<div class="typeform-widget" data-url="https://mshighered.typeform.com/to/C9zr5i" data-text="Goal Setting Worksheet" style="width:100%;height:500px;">&nbsp;</div>
-
-<div class="typeform-widget" data-url="https://mshighered.typeform.com/to/C9zr5i" data-text="Goal Setting Worksheet" style="width:100%;height:500px;">&nbsp;</div>
+<div class="typeform-widget" data-url="https://mshighered.typeform.com/to/C9zr5i" data-text="Goal Setting Worksheet" style="width:100%;height:500px;">Powered by<a style="color: #999" target="_blank" href="https://www.typeform.com/examples/?utm_campaign=C9zr5i&amp;utm_source=typeform.com-4800891-Basic&amp;utm_medium=typeform&amp;utm_content=typeform-embedded-poweredbytypeform&amp;utm_term=EN">Typeform</a></div>
 
 <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
-
-<div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;">Powered by<a style="color: #999" target="_blank" href="https://www.typeform.com/examples/?utm_campaign=C9zr5i&amp;utm_source=typeform.com-4800891-Basic&amp;utm_medium=typeform&amp;utm_content=typeform-embedded-poweredbytypeform&amp;utm_term=EN">Typeform</a></div>

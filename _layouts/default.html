@@ -34,7 +34,7 @@
 </head>
 {% if page.mp_guide == true %}<body class="grey-background" ng-controller="mainController">{% endif %}<body ng-controller="mainController">
     {% unless page.header == false %}<header class="cd-main-header">
-		<a class="cd-logo" href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/img/MSHE-vertical-template-02.png" alt="Logo"></a>
+		<a class="cd-logo" href="{{ site.baseurl }}/" target="_self"><img src="{{ site.baseurl }}/img/MSHE-vertical-template-02.png" alt="Logo"></a>
 
 		<ul class="cd-header-buttons">
 			<li><a class="cd-search-trigger" href="#cd-search"><span></span></a></li>
@@ -55,48 +55,48 @@
 
 				<ul class="cd-secondary-nav is-hidden">
 					<li class="go-back"><a href="#0">Menu</a></li>
-					<li class="see-all"><a href="{{ site.baseurl }}/info/index.html">All Resources</a></li>
+					<li class="see-all"><a href="{{ site.baseurl }}/info/index.html" target="_self">All Resources</a></li>
 					<li class="has-children">
-						<a href="{{ site.baseurl }}/info/#/academics">Academics</a>
+						<a href="{{ site.baseurl }}/info/#/academics" target="_self">Academics</a>
 
 						<ul class="is-hidden">
 							<li class="go-back"><a href="#0">Academics</a></li>
-							<li class="see-all"><a href="{{ site.baseurl }}/info/#/academics">All Academics</a></li>
+							<li class="see-all"><a href="{{ site.baseurl }}/info/#/academics" target="_self">All Academics</a></li>
 							<li class="has-children">
 								<a href="#0">Registration</a>
 
 								<ul class="is-hidden">
 									<li class="go-back"><a href="#0">Registration</a></li>
 									<li class="see-all"><a href="#0">All Academics</a></li>
-									{% for item in site.info %}{% if item.section == "registration" %}<li><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></li>{% endif %}{% endfor %}
+									{% for item in site.info %}{% if item.section == "registration" %}<li><a href="{{ item.url | prepend:site.baseurl }}" target="_self">{{ item.title }}</a></li>{% endif %}{% endfor %}
 								</ul>
 							</li>
-							{% for item in site.info %}{% if item.section == "academics" %}<li><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></li>{% endif %}{% endfor %}
+							{% for item in site.info %}{% if item.section == "academics" %}<li><a href="{{ item.url | prepend:site.baseurl }}" target="_self">{{ item.title }}</a></li>{% endif %}{% endfor %}
 							<li class="has-children">
 								<a href="#0">Master's Project</a>
 
 								<ul class="is-hidden">
 									<li class="go-back"><a href="#0">Master's Project</a></li>
 									<li class="see-all"><a href="#0">All Academics</a></li>
-									{% for item in site.info %}{% if item.section == "mp" %}<li><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></li>{% endif %}{% endfor %}
+									{% for item in site.info %}{% if item.section == "mp" %}<li><a href="{{ item.url | prepend:site.baseurl }}" target="_self">{{ item.title }}</a></li>{% endif %}{% endfor %}
 								</ul>
 							</li>
 						</ul>
 					</li>
 
 					<li class="has-children">
-						<a href="{{ site.baseurl }}/info/#/studentlife">Student Experience</a>
+						<a href="{{ site.baseurl }}/info/#/studentlife" target="_self">Student Experience</a>
 
 						<ul class="is-hidden">
 							<li class="go-back"><a href="#0">Student Experience</a></li>
-							<li class="see-all"><a href="{{ site.baseurl }}/info/#/studentlife">All Student Resources</a></li>
+							<li class="see-all"><a href="{{ site.baseurl }}/info/#/studentlife" target="_self">All Student Resources</a></li>
 							<li class="has-children">
 								<a href="#0">Internships</a>
 
 								<ul class="is-hidden">
 									<li class="go-back"><a href="#0">Internships</a></li>
-									<li class="see-all"><a href="{{ site.baseurl }}/info/#/internships">All Internship Resources</a></li>
-									{% for item in site.info %}{% if item.section == "internships" %}<li><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></li>{% endif %}{% endfor %}
+									<li class="see-all"><a href="{{ site.baseurl }}/info/#/internships" target="_self">All Internship Resources</a></li>
+									{% for item in site.info %}{% if item.section == "internships" %}<li><a href="{{ item.url | prepend:site.baseurl }}" target="_self">{{ item.title }}</a></li>{% endif %}{% endfor %}
 								</ul>
 							</li>
 							<li class="has-children">
@@ -104,56 +104,56 @@
 
 								<ul class="is-hidden">
 									<li class="go-back"><a href="#0">Student Life</a></li>
-									<li class="see-all"><a href="{{ site.baseurl }}/info/#/studentlife">All Student Life Resources</a></li>
-									{% for item in site.info %}{% if item.section == "student life" %}<li><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></li>{% endif %}{% endfor %}
+									<li class="see-all"><a href="{{ site.baseurl }}/info/#/studentlife" target="_self">All Student Life Resources</a></li>
+									{% for item in site.info %}{% if item.section == "student life" %}<li><a href="{{ item.url | prepend:site.baseurl }}" target="_self">{{ item.title }}</a></li>{% endif %}{% endfor %}
 								</ul>
 							</li>
-							{% for item in site.info %}{% if item.section == "student experience" %}<li><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></li>{% endif %}{% endfor %}
+							{% for item in site.info %}{% if item.section == "student experience" %}<li><a href="{{ item.url | prepend:site.baseurl }}" target="_self">{{ item.title }}</a></li>{% endif %}{% endfor %}
 						</ul>
 					</li>
 
 					<li class="has-children">
-						<a href="{{ site.baseurl }}/info/#/careerresources">Career Resources</a>
+						<a href="{{ site.baseurl }}/info/#/careerresources" target="_self">Career Resources</a>
 
 						<ul class="is-hidden">
-							<li class="go-back"><a href="{{ site.baseurl }}/info/#/careerresources">Career Resources</a></li>
-							<li class="see-all"><a href="{{ site.baseurl }}/info/#/careerresources">All Career Resources</a></li>
-							{% for item in site.info %}{% if item.section == "career" %}<li><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></li>{% endif %}{% endfor %}
+							<li class="go-back"><a href="{{ site.baseurl }}/info/#/careerresources" target="_self">Career Resources</a></li>
+							<li class="see-all"><a href="{{ site.baseurl }}/info/#/careerresources" target="_self">All Career Resources</a></li>
+							{% for item in site.info %}{% if item.section == "career" %}<li><a href="{{ item.url | prepend:site.baseurl }}" target="_self">{{ item.title }}</a></li>{% endif %}{% endfor %}
 							<li class="has-children">
 								<a href="#0">Professional Development</a>
 
 								<ul class="is-hidden">
 									<li class="go-back"><a href="#0">Career Resources</a></li>
-									<li class="see-all"><a href="{{ site.baseurl }}/workshops/">All Workshops</a></li>{% assign sorted_workshops = site.workshops | sort:"order" %}
-									{% for item in sorted_workshops %}<li><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></li>{% endfor %}
+									<li class="see-all"><a href="{{ site.baseurl }}/workshops/" target="_self">All Workshops</a></li>{% assign sorted_workshops = site.workshops | sort:"order" %}
+									{% for item in sorted_workshops %}<li><a href="{{ item.url | prepend:site.baseurl }}" target="_self">{{ item.title }}</a></li>{% endfor %}
 								</ul>
 							</li>
 						</ul>
 					</li>
 
 					<li class="has-children">
-						<a href="{{ site.baseurl }}/info/#/policies">Policies and Procedures</a>
+						<a href="{{ site.baseurl }}/info/#/policies" target="_self">Policies and Procedures</a>
 
 						<ul class="is-hidden">
 							<li class="go-back"><a href="#0">Policies and Procedures</a></li>
-							<li class="see-all"><a href="{{ site.baseurl }}/info/#/policies">All Policies and Procedures</a></li>
+							<li class="see-all"><a href="{{ site.baseurl }}/info/#/policies" target="_self">All Policies and Procedures</a></li>
 							<li class="has-children">
 								<a href="#0">Academic Policies</a>
 
 								<ul class="is-hidden">
 									<li class="go-back"><a href="#0">Academic Policies</a></li>
-									<li class="see-all"><a href="{{ site.baseurl }}/info/#/policies">All Academic Policies</a></li>
-									{% for item in site.info %}{% if item.section == "academic policies" %}<li><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></li>{% endif %}{% endfor %}
+									<li class="see-all"><a href="{{ site.baseurl }}/info/#/policies" target="_self">All Academic Policies</a></li>
+									{% for item in site.info %}{% if item.section == "academic policies" %}<li><a href="{{ item.url | prepend:site.baseurl }}" target="_self">{{ item.title }}</a></li>{% endif %}{% endfor %}
 								</ul>
 							</li>
-							{% for item in site.info %}{% if item.section == "policies" %}<li><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></li>{% endif %}{% endfor %}
+							{% for item in site.info %}{% if item.section == "policies" %}<li><a href="{{ item.url | prepend:site.baseurl }}" target="_self">{{ item.title }}</a></li>{% endif %}{% endfor %}
 							<li class="has-children">
 								<a href="#0">Student Status</a>
 
 								<ul class="is-hidden">
 									<li class="go-back"><a href="#0">Student Status</a></li>
-									<li class="see-all"><a href="{{ site.baseurl }}/info/#/policies">All Policies</a></li>
-									{% for item in site.info %}{% if item.section == "student status" %}<li><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></li>{% endif %}{% endfor %}
+									<li class="see-all"><a href="{{ site.baseurl }}/info/#/policies" target="_self">All Policies</a></li>
+									{% for item in site.info %}{% if item.section == "student status" %}<li><a href="{{ item.url | prepend:site.baseurl }}" target="_self">{{ item.title }}</a></li>{% endif %}{% endfor %}
 								</ul>
 							</li>
 						</ul>
@@ -162,47 +162,47 @@
 			</li>
 
 			<li class="has-children">
-				<a href="http://codyhouse.co/?p=409">Workshops</a>
+				<a href="#">Workshops</a>
 				<ul class="cd-nav-icons is-hidden">
 					<li class="go-back"><a href="#0">Menu</a></li>
-					<li class="see-all"><a href="{{ site.baseurl }}/workshops/">Browse Workshops</a></li>
+					<li class="see-all"><a href="{{ site.baseurl }}/workshops/" target="_self">Browse Workshops</a></li>
 					<li>
-						<a class="cd-nav-item item-1" href="{{ site.baseurl }}/workshops/goal-setting.html">
+						<a class="cd-nav-item item-1" href="{{ site.baseurl }}/workshops/goal-setting.html" target="_self">
 							<h3>Self Assessment and Goal Setting</h3>
 							<p>Reflection, self assessment, and goal setting</p>
 						</a>
 					</li>
 
 					<li>
-						<a class="cd-nav-item item-2" href="{{ site.baseurl }}/workshops/networking.html">
+						<a class="cd-nav-item item-2" href="{{ site.baseurl }}/workshops/networking.html" target="_self">
 							<h3>Networking</h3>
 							<p>The most important element of the job search</p>
 						</a>
 					</li>
 
 					<li>
-						<a class="cd-nav-item item-3" href="{{ site.baseurl }}/workshops/resume-and-cover-letter.html">
+						<a class="cd-nav-item item-3" href="{{ site.baseurl }}/workshops/resume-and-cover-letter.html" target="_self">
 							<h3>Resume and Cover Letter Writing</h3>
 							<p>Marketing documents you’ll need for a job search</p>
 						</a>
 					</li>
 
 					<li>
-						<a class="cd-nav-item item-4" href="{{ site.baseurl }}/workshops/interviewing.html">
+						<a class="cd-nav-item item-4" href="{{ site.baseurl }}/workshops/interviewing.html" target="_self">
 							<h3>Interviewing</h3>
 							<p>Intentional interviewing is a dialogue</p>
 						</a>
 					</li>
 
 					<li>
-						<a class="cd-nav-item item-5" href="{{ site.baseurl }}/workshops/decision-making.html">
+						<a class="cd-nav-item item-5" href="{{ site.baseurl }}/workshops/decision-making.html" target="_self">
 							<h3>Decision Making</h3>
 							<p>Evaluate an offer, negotiate, & close</p>
 						</a>
 					</li>
 
 					<li>
-						<a class="cd-nav-item item-6" href="{{ site.baseurl }}/workshops/first-90-days.html">
+						<a class="cd-nav-item item-6" href="{{ site.baseurl }}/workshops/first-90-days.html" target="_self">
 							<h3>First 90 Days</h3>
 							<p>Transitions are times of vulnerability</p>
 						</a>
@@ -217,7 +217,7 @@
 	</nav> <!-- cd-nav -->
 
 	<div id="cd-search" class="cd-search">
-		<form action="{{ site.baseurl }}/search/">
+		<form action="{{ site.baseurl }}/search/" target="_self">
 			<input type="search" name="q" placeholder="Search...">
 		</form>
 		<!--    <form action="{{ site.baseurl }}/search/">-->
@@ -231,7 +231,7 @@
             <div class="column">
                 <h4>Explore</h4>
                 {% for nav_item in site.data.nav %}
-                <p><a href="{{ nav_item.link | prepend:site.baseurl }}">{{ nav_item.name }}</a></p>
+                <p><a href="{{ nav_item.link | prepend:site.baseurl }}" target="_self">{{ nav_item.name }}</a></p>
                 {% endfor %}
             </div>
             <div class="column">

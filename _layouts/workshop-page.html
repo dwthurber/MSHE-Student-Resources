@@ -5,7 +5,7 @@ layout: default
 <section class="main-page-container">
     <div class="corso-left">
     <div class="breadcrumbs">
-        <p>You are here: &nbsp;&nbsp;&nbsp; <a href="{{ site.baseurl }}/workshops/">Workshops</a> > {{ page.title }}</p>
+        <p>You are here: &nbsp;&nbsp;&nbsp; <a href="{{ site.baseurl }}/workshops/" target="_self">Workshops</a> > {{ page.title }}</p>
     </div>
     {% if page.upcoming_workshop.scheduled == true %}<blockquote>
         <p class="upcoming-date"><i class="fa fa-calendar" aria-hidden="true"></i> <strong>Next workshop:</strong> {{ page.upcoming_workshop.upcoming_date | date: "%a, %b %-d, %Y" }} at {{ page.upcoming_workshop.start_time }} - {{ page.upcoming_workshop.end_time }} // {{ page.upcoming_workshop.location }}</p>
@@ -44,8 +44,8 @@ layout: default
             {% for item in sorted_workshops %}
             {% if item.url != page.url %}
             <div class="related-info">
-                <h5><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></h5>
-                <p class="subheader"><a href="{{ item.url }}">{{ item.url }} </a></p>
+                <h5><a href="{{ item.url | prepend:site.baseurl }}" target="_self">{{ item.title }}</a></h5>
+                <p class="subheader"><a href="{{ item.url }}" target="_self">{{ item.url }} </a></p>
                 <p>{{ item.description | truncate: 150, ' ... ' }}</p>
             </div>{% endif %}{% endfor %}
         </div>

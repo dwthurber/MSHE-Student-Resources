@@ -46,4 +46,4 @@ topics:
 
 #### Workshop Materials
 
-<iframe src="https://app.box.com/embed/preview/0gk3jg6j0wrsun86i7j4ljcki2ziwni9?theme=dark" width="500" height="400" frameborder="0" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>
+<iframe src="https://northwestern.app.box.com/embed/s/9c3tt19kbn4yn0d3tsmcj5lbhxn0fnxb" width="500" height="400" frameborder="0" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>

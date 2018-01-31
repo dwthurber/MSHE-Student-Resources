@@ -59,6 +59,8 @@ topics:
 
 Northwestern Career Advancement – Resources on Interviewing<br>[http://www.northwestern.edu/careers/job-intern-prep/interviewing/index.html](http://www.northwestern.edu/careers/job-intern-prep/interviewing/index.html)
 
+Higher Education Recruitment Consortium (HERC) Interviewing Posts<br>[https://www.hercjobs.org/career\_advice/herc\_career\_blog?topic=interviewing](https://www.hercjobs.org/career_advice/herc_career_blog?topic=interviewing)
+
 Vault Resources – Preparing for the Interview<br>[http://www.vault.com/interviews/article/interviewing/preparing-for-the-interview](http://www.vault.com/interviews/article/interviewing/preparing-for-the-interview)
 
 The Muse – How to Knock your Interview out of the Park<br>[https://www.themuse.com/advice/how-to-knock-your-next-interview-out-of-the-park](https://www.themuse.com/advice/how-to-knock-your-next-interview-out-of-the-park)

@@ -25,7 +25,7 @@ layout: default
 <section class="main-page-container">
 <div class="corso-left">
     <div class="breadcrumbs">
-        <p>You are here: &nbsp;&nbsp;&nbsp; <a href="{{ site.baseurl }}/info/">Topics</a> > {{ page.title }}</p>
+        <p>You are here: &nbsp;&nbsp;&nbsp; <a href="{{ site.baseurl }}/info/" target="_self">Topics</a> > {{ page.title }}</p>
     </div>
     <h2>{{ page.title }}</h2>
     <p>{{ page.description }}</p>
@@ -83,7 +83,7 @@ layout: default
         {% if sameTagCount >= 2 %}
         
             <div class="related-info">
-                <h5><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></h5>
+                <h5><a href="{{ item.url | prepend:site.baseurl }}" target="_self">{{ item.title }}</a></h5>
                 <p class="subheader"><a href="{{ item.url }}">{{ item.url }} </a></p>
                 <p>{{ item.description | truncate: 150, ' ... ' }}</p>
             </div>

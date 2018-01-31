@@ -84,7 +84,7 @@ layout: default
         
             <div class="related-info">
                 <h5><a href="{{ item.url | prepend:site.baseurl }}" target="_self">{{ item.title }}</a></h5>
-                <p class="subheader"><a href="{{ item.url }}">{{ item.url }} </a></p>
+                <p class="subheader"><a href="{{ item.url }}" target="_self">{{ item.url }} </a></p>
                 <p>{{ item.description | truncate: 150, ' ... ' }}</p>
             </div>
         {% endif %}

@@ -59,18 +59,10 @@ topics:
 
 Northwestern Career Advancement – Resources on Interviewing<br>[http://www.northwestern.edu/careers/job-intern-prep/interviewing/index.html](http://www.northwestern.edu/careers/job-intern-prep/interviewing/index.html)
 
-&nbsp;
-
 Vault Resources – Preparing for the Interview<br>[http://www.vault.com/interviews/article/interviewing/preparing-for-the-interview](http://www.vault.com/interviews/article/interviewing/preparing-for-the-interview)
-
-&nbsp;
 
 The Muse – How to Knock your Interview out of the Park<br>[https://www.themuse.com/advice/how-to-knock-your-next-interview-out-of-the-park](https://www.themuse.com/advice/how-to-knock-your-next-interview-out-of-the-park)
 
-&nbsp;
-
 Questions about organizational culture: 12 Questions to Ask at Your Next Job Interview<br>[https://www.dailyworth.com/posts/12-interview-questions-you-can-ask-to-uncover-company-culture](https://www.dailyworth.com/posts/12-interview-questions-you-can-ask-to-uncover-company-culture)
-
-&nbsp;
 
 How to Answer the “What is your weakness?” question.<br>[http://www.vault.com/blog/interviewing/how-to-answer-the-what-is-your-weakness-interview-question/](http://www.vault.com/blog/interviewing/how-to-answer-the-what-is-your-weakness-interview-question/)

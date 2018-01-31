@@ -33,7 +33,7 @@ list-by:
             <article class="mixing" id="Container">
                 {% for item in site.info %}
                 <div class="mix {{ item.topics | join: ',' | remove: ' ' | split: ',' | join: ' ' }} {{ item.actions | join: ',' | remove: ' ' | split: ',' | join: ' ' }} {{ item.statuses | join: ',' | remove: ' ' | split: ',' | join: ' ' }}" data-name="{{ item.title }}">
-                    <h2><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></h2>
+                    <h2><a href="{{ item.url | prepend:site.baseurl }}" target="_self">{{ item.title }}</a></h2>
                     <p class="subheader"><a href="{{ item.url }}">{{ item.url }} </a></p>
                     <p>{{ item.description | truncate: 300, '...' }}</p>
                 </div>

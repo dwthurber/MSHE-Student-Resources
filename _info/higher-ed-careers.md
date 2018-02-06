@@ -101,7 +101,7 @@ Also, remember that you can utilize the Northwestern University [Career Services
 
 Check out [Highered Jobs](http://www.higheredjobs.com/salary/salaryDisplay.cfm?SurveyID=23) and the [Chronicle](http://chronicle.com/article/Median-Salaries-of-Midlevel/126834/) for information on average salaries for higher education administrators (you must be connected through Northwestern's network to open the Chronicle article).[Glassdoor.com](http://glassdoor.com/)&nbsp;is also a great resource&nbsp; for [salary comparison](http://www.glassdoor.com/Salaries/index.htm).
 
-The College and University Professional Association for Human Resources ([CUPA-HR](http://www.cupahr.org/surveys/publications/administrators-higher-education/)) also does an [annual survey](http://ww2.cupahr.org/surveys/files/salary2013/AHE13-Executive-Summary.pdf) to gather data about higher education professionals' salaries.&nbsp;
+The College and University Professional Association for Human Resources ([CUPA-HR](http://www.cupahr.org/surveys/publications/administrators-higher-education/)) also does an annual survey to gather data about higher education professionals' salaries.&nbsp;
 
 * [College and University Professional Association for Human Resources (CUPA-HR) Professionals in Higher Education Salary Report - 2017](https://www.cupahr.org/surveys/publications/professionals-higher-education/)
 * Selected data:&nbsp;

@@ -103,6 +103,9 @@ Check out [Highered Jobs](http://www.higheredjobs.com/salary/salaryDisplay.cfm?S
 
 The College and University Professional Association for Human Resources ([CUPA-HR](http://www.cupahr.org/surveys/publications/administrators-higher-education/)) also does an [annual survey](http://ww2.cupahr.org/surveys/files/salary2013/AHE13-Executive-Summary.pdf) to gather data about higher education professionals' salaries.&nbsp;
 
-* [Executive Summary: Professionals in Higher Education Salary Survey for the 2012-13 Academic Year (Mid-Level Administrators)](https://www.higheredjobs.com/salary/salaryDisplay.cfm?SurveyID=41)
+* [College and University Professional Association for Human Resources (CUPA-HR) Professionals in Higher Education Salary Report - 2017](https://www.cupahr.org/surveys/publications/professionals-higher-education/)
+* Selected data:&nbsp;
+
+  [https://www.cupahr.org/wp-content/uploads/2017/07/PHE16-Selected-Data.pdf](https://www.cupahr.org/wp-content/uploads/2017/07/PHE16-Selected-Data.pdf)
 
 If you're looking to move to a new geographic area, you'll also want to check out a [cost of living calculator](http://money.cnn.com/calculator/pf/cost-of-living/).&nbsp;

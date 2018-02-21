@@ -20,7 +20,6 @@ topics:
   - career resources
 ---
 
-
 #### About {{ page.title }}
 
 ##### Before the Interview:
@@ -52,6 +51,8 @@ topics:
 #### Workshop Materials
 
 <iframe src="https://northwestern.app.box.com/embed/s/9c3tt19kbn4yn0d3tsmcj5lbhxn0fnxb" allowfullscreen="" webkitallowfullscreen="" msallowfullscreen="" width="500" height="400" frameborder="0"></iframe>
+
+[Interviewing Tips from MSHE Alumni – February 2018 Workshop](https://northwestern.box.com/s/vfndchvqwmfitdgjs9p1d4ac9csav6p7)
 
 #### Additional Resources
 

@@ -4,7 +4,7 @@ description: >-
   Reflection, self assessment, and goal setting acquaints you with your value,
   provides material for your resume, refines your focus, and serves as a filter
   for opportunities and well-intentioned advice.
-facilitator: 'Audra Nelson, Career Coach'
+facilitator: 'Carla Cortes, Senior Career Advisor'
 icon_path: /img/workshop_icons/icon_assessment.png
 order: '1'
 upcoming_workshop:

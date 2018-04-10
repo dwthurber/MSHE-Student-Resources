@@ -48,7 +48,7 @@ Important elements for consideration regarding admission into the degree program
 
 The average scores of successful applications (posted [here on the MSHE website](http://www.sesp.northwestern.edu/higher-education/admissions/index.html)) are a useful guideline for students hoping to matriculate. Some students also have specific parameters for applying for matriculation on their initial non-matriculated acceptance letter.
 
-If you have any questions about the application procedure please contact Erin McNulty at [mshe-apply@northwestern.edu](mailto:mshe-apply@northwestern.edu) or Kristin McCann at [kristin.mccann1@northwestern.edu](mailto:kristin.mccann1@northwestern.edu).
+If you have any questions about the application procedure please contact Erin McNulty at [mshe-apply@northwestern.edu](mailto:mshe-apply@northwestern.edu).
 
 #### About Letters of Recommendation
 

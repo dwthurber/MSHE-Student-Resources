@@ -26,26 +26,26 @@ You can read more about the specifics of internships here: [Internship Handbook.
 
 #### Waiving the Internship Requirement
 
-For those students who have significant work experience in the field, [there is a form for waiving the internship course requirement](https://northwestern.box.com/s/nqnl0s0864aikb1mmj2uh8si4h3jwlp2); however, that does not preclude students from engaging in an internship experience and/or taking the course if they would like to. If you are considering waiving the requirement, please contact the Assistant Director, Dr. Kristin McCann, as soon as possible.
+For those students who have significant work experience in the field, [there is a form for waiving the internship course requirement](https://northwestern.box.com/s/nqnl0s0864aikb1mmj2uh8si4h3jwlp2); however, that does not preclude students from engaging in an internship experience and/or taking the course if they would like to. If you are considering waiving the requirement, please contact your academic advisor as soon as possible.
 
 #### Internship Course: MS_HE 485 Canvas Site
 
-All students who are doing an internship should have access to the the MS_HE 485 Canvas course site (even if they are not getting credit for in that quarter.) The Canvas course site has valuable resources that can help you make the most of your internship experience. Having access to the Canvas site also ensures that you are receiving communications about meetings and reminders about the types of documents you should be gathering to include in your internship portfolio and paper. If you have been placed in an internship but do not have access to the internship Canvas site please contact Dr. Kristin McCann at [kristin.mccann1@northwestern.edu](mailto:kristin.mccann1@northwestern.edu).
+All students who are doing an internship should have access to the the MS_HE 485 Canvas course site (even if they are not getting credit for in that quarter.) The Canvas course site has valuable resources that can help you make the most of your internship experience. Having access to the Canvas site also ensures that you are receiving communications about meetings and reminders about the types of documents you should be gathering to include in your internship portfolio and paper. If you have been placed in an internship but do not have access to the internship Canvas site please contact [ms-highered@northwestern.edu](mailto:ms-highered@northwestern.edu).
 
 #### Steps to Secure an Internship
 
 ##### New Students
 
-Some of you may have participated in admitted student 'Preview Days' in order to interview for internships. If you did not participate in preview days then you should have a conversation with Assistant Director, Dr. Kristin McCann at [kristin.mccann1@northwestern.edu](mailto:kristin.mccann1@northwestern.edu), to alert her of a desired internship (e.g., what type, in what quarter(s), etc.).
+Some of you may have participated in admitted student 'Preview Days' in order to interview for internships. If you did not participate in preview days then you should have a conversation with our office staff to discuss a desired internship (e.g., what type, in what quarter(s), etc.).
 
 ##### Current Students
 
-For current students, there is not a similar process as preview days; rather, students should contact Assistant Director, Dr. Kristin McCann at [kristin.mccann1@northwestern.edu](mailto:kristin.mccann1@northwestern.edu), to alert her of a desired internship (e.g., what type, in what quarter(s), etc.).
+For current students, there is not a similar process as preview days; rather, students should contact Senior Career Advisor, Carla Cortes at [carla.cortes@northwestern.edu](mailto:carla.cortes@northwestern.edu), to alert her of a desired internship (e.g., what type, in what quarter(s), etc.).
 
 MSHE staff keep track of what internship opportunities are available for current students, and students should also check their NU email regularly, as openings are also sent through the MSHE student Listserv.
 
 1. **Reflect** on what type(s) of internship experience(s) you hope to gain.
-2. **Contact** Dr. Kristin McCann at [kristin.mccann1@northwestern.edu](mailto:kristin.mccann1@northwestern.edu) to discuss your interests and/or contact Dr. McCann to alert her that you decided to apply to a given opportunity you saw advertised.
+2. **Contact** Senior Career Advisor, Carla Cortes at [carla.cortes@northwestern.edu](mailto:carla.cortes@northwestern.edu) to discuss your interests and/or contact Dr. McCann to alert her that you decided to apply to a given opportunity you saw advertised.
 3. **Email and/or meet with** the Director, Assistant Director, or Career Coach to discuss your application and/or interview.
 4. After **applying for, interviewing for, and securing an opportunity**, alert your supervisor(s) that you are required to complete an [Internship Contract (PDF)](https://northwestern.box.com/s/ts367jd66aleu3a7ej6s657wcfylldts) and that you will eventually need your supervisor(s) to complete an [Internship Evaluation (PDF)](https://northwestern.box.com/s/35k14adupzpgqto2c7ua8xpoxbecmrb8) about your performance–whether the experience is for credit or not, both documents are required.
 5. **Complete the Internship Contract** WITH your site supervisor(s).

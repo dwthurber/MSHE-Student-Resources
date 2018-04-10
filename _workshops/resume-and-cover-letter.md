@@ -5,7 +5,7 @@ description: >-
   successful job search. Together, they tell your professional story – the goals
   you want to help an employer achieve, and the skills, experience, and values
   you possess that will help you do so.
-facilitator: 'Audra Nelson, Career Coach'
+facilitator: 'Carla Cortes, Senior Career Advisor'
 icon_path: /img/workshop_icons/icon_resume.png
 order: '3'
 upcoming_workshop:
@@ -26,7 +26,7 @@ As you craft your cover letters and resume, please keep the following, general t
 * **The resume and cover letter must be complementary**, but each must also be strong enough to stand on its own. You never know which document recruiters and hiring managers will scan first.
 * **Cover letters aren't optional**. They are essential for connecting your strengths to the job's requirements, and it's advisable to write one for each application, even if it isn't requested.
 * **Well-written resumes and cover letters are only helpful if they're seen by the right people**. A good rule of thumb is to spend at least as much time networking as you do submitting applications. Many would argue you should spend more.
-* **Asking for help is not a weakness**. If you have questions about how to design your job search strategy, please contact Carla Cortes, Kristin McCann, or Lois Trautvetter. We’re here to help!
+* **Asking for help is not a weakness**. If you have questions about how to design your job search strategy, please contact Carla Cortes or Lois Trautvetter. We’re here to help!
 
 With that said, please take advantage of these training tools to help you craft cover letters and a resume that will instill you with pride, impress employers, and generate interviews. We hope you find this training beneficial! If it is (and especially if it isn’t), please provide feedback to carla.cortes@northwestern.edu
 

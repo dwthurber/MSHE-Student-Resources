@@ -1,7 +1,7 @@
 ---
 title: Technology Setup and Resources
 description: There are a number of technology tools you might use as an MSHE student. Learn how to connect to the wireless network, set up VPN, access your u.northwestern.edu email address, and troublesheet common IT issues.
-topics: 
+topics:
   - technology
 actions:
 statuses:
@@ -41,7 +41,7 @@ Email information for MSHE students who are also full-time NU staff
 
 Staff of Northwestern who become students in the MSHE program have two options for email. They can use their regular northwestern.edu email account as their student account OR they can set up a separate u.northwestern.edu email account for messages related to their student status.
 
-To set up a u.northwestern account go to [https://umail.northwestern.edu/index.html](https://umail.northwestern.edu/index.html). Then contact Kristin McCann at [kristin.mccann1@northwestern.edu](mailto:kristin.mccann1@northwestern.edu) to ask that she add your new u.northwestern.edu email account to the listserv.
+To set up a u.northwestern account go to [https://umail.northwestern.edu/index.html](https://umail.northwestern.edu/index.html). 
 
 If for any reason you are not able to establish a U.northwestern account send an email to [consultant@northwestern.edu](mailto:consultant@northwestern.edu) and ask NUIT to establish at u.northwestern.edu account for you (explain in the message that you're going to be a part-time student in addition to a staff member. They will establish the account on your behalf.
 

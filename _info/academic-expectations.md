@@ -1,16 +1,16 @@
 ---
 title: Academic and Grading Expectations
 description: As an MSHE student, you have entered a community of scholarship in which academic integrity is of the highest value. Criteria for and evaluation of performance are at the discretion of the instructor. Expectations and how they are being met will be communicated to students via the course syllabus and feedback throughout the term.
-topics: 
+topics:
   - academics
   - policies
 actions:
-  - 
+  -
 statuses:
   - current students
   - certificate students
 keywords:
-  - 
+  -
 comments: true
 section: academic policies
 ---
@@ -32,4 +32,4 @@ Class Attendance It is expected that students should plan to attend all class me
 
 #### Questions?
 
-If you have questions about any of the information contained on this page, please contact Dr. Kristin McCann, MSHE Assistant Director ([kristin.mccann1@northwestern.edu](mailto:kristin.mccann1@northwestern.edu); 847-491-4620).
+If you have questions about any of the information contained on this page, please contact ([ms-highered@northwestern.edu])(mailto:ms-highered@northwestern.edu).

@@ -28,7 +28,7 @@ section: registration
 ---
 
 
-Dr. Kristin McCann will process your enrollment appointment after receiving the Intention to Register form and the tuition deposit. Depending on when you applied and were accepted, enrollment for your starting quarter may not yet be open (e.g. if you were accepted in January and planning to start in the fall you wouldn't be able to register for courses until fall enrollment opened in late spring.) You will get an email from Kristin letting you know when your enrollment appointment has been set.
+The MSHE office will process your enrollment appointment after receiving the Intention to Register form and the tuition deposit. Depending on when you applied and were accepted, enrollment for your starting quarter may not yet be open (e.g. if you were accepted in January and planning to start in the fall you wouldn't be able to register for courses until fall enrollment opened in late spring.) You will get an email from Kristin letting you know when your enrollment appointment has been set.
 
 #### Course Registration
 
@@ -47,11 +47,11 @@ The MSLOC program put together this helpful [10-minute video](https://nwuniversi
 * Once you've registered for a course it will show up on the main landing page (the "student center") in CAESAR. The course may also appear in Blackboard, but it is not uncommon for instructors to wait to make courses visible to students until closer to the start of the term, so don't assume that you aren't registered just because a course isn't appearing in blackboard.
 
 
-More registration tips and troubleshooting are available [here](http://www.registrar.northwestern.edu/registration/CAESAR_help.html). If you get stuck feel free to contact [Dr. Kristin McCann](mailto:kristin.mccann1@northwestern.edu).
+More registration tips and troubleshooting are available [here](http://www.registrar.northwestern.edu/registration/CAESAR_help.html).
 
 ### How do I find an elective?
 
-Take a look at the following infographic to get started on how to find an elective. A more detailed explanation of how to register for electives outside of MSHE follows. If you have questions, contact [Dr. Kristin McCann](mailto:kristin.mccann1@northwestern.edu).
+Take a look at the following infographic to get started on how to find an elective. A more detailed explanation of how to register for electives outside of MSHE follows
 
 <iframe src="https://app.box.com/embed/preview/22mvqf3yz6w3dz7ozmbeticdzikz55gm?theme=dark" width="500" height="400" frameborder="0" allowfullscreen="" webkitallowfullscreen="" msallowfullscreen=""></iframe>
 
@@ -59,7 +59,7 @@ Take a look at the following infographic to get started on how to find an electi
 
 ##### [School of professional Studies (SPS) Courses](http://sps.northwestern.edu/program-areas/graduate/)
 
-MSHE students often take graduate-level courses offered through the School of professional Studies (SPS)–especially in the Master of Public Policy (MPPA) and Master of Sports Administration (MSA) programs. These courses are offered at the Chicago campus. &nbsp;MSHE students cannot register themselves for SPS courses. If you want to take an SPS course please complete the [Authorization for Dual Registration Form](https://northwestern.box.com/shared/static/oidimwjx3scahj5lqm1l.pdf) and send it to Dr. Kristin McCann. &nbsp;If the SPS administrator gives permission Kristin will ask the SPS Registrar to register you for the class. SPS will not register you for the class until one week before the class begins and will only register you if the course is not already full.
+MSHE students often take graduate-level courses offered through the School of professional Studies (SPS)–especially in the Master of Public Policy (MPPA) and Master of Sports Administration (MSA) programs. These courses are offered at the Chicago campus. &nbsp;MSHE students cannot register themselves for SPS courses. If you want to take an SPS course please complete the [Authorization for Dual Registration Form](https://northwestern.box.com/shared/static/oidimwjx3scahj5lqm1l.pdf) and send it to the MSHE office. &nbsp;If the SPS administrator gives permission Kristin will ask the SPS Registrar to register you for the class. SPS will not register you for the class until one week before the class begins and will only register you if the course is not already full.
 
 ##### SPS "DL" Courses and Scheduling
 
@@ -89,19 +89,19 @@ The MS_Ed program prepares people to teach at the K-12 level. MSHE students can 
 
 ##### [Counseling Courses](http://www.tgs.northwestern.edu/academics/programs/counseling/index.html)
 
-If you are interested in taking counseling courses, please contact Dr. Kristin McCann as soon as possible to discuss potential options. Outside students are admitted to counseling courses on a case-by-case basis by the Counseling program's Director.
+If you are interested in taking counseling courses, please contact the MSHE office as soon as possible to discuss potential options. Outside students are admitted to counseling courses on a case-by-case basis by the Counseling program's Director.
 
 ##### [Kellogg Part-Time MBA Courses](http://www.kellogg.northwestern.edu/programs/parttimemba/academics.aspx)
 
-If you are interested in taking courses through Kellogg's part-time MBA program (located on the Chicago campus), please contact Dr. Kristin McCann as soon as possible to discuss potential options. &nbsp;[\*Note: Students cannot add OR drop Kellogg courses in Caesar - it has to be handled through the Kellogg registrar.]
+If you are interested in taking courses through Kellogg's part-time MBA program (located on the Chicago campus), please contact the MSHE office as soon as possible to discuss potential options. &nbsp;[\*Note: Students cannot add OR drop Kellogg courses in Caesar - it has to be handled through the Kellogg registrar.]
 
 ##### [Medill IMC Courses](http://www.tgs.northwestern.edu/academics/programs/counseling/index.html)
 
-If you are interested in taking counseling courses, please contact Dr. Kristin McCann as soon as possible to discuss potential options. Enrolling in an IMC course requires the permission of the Director and course instructor.
+If you are interested in taking counseling courses, please contact the MSHE office as soon as possible to discuss potential options. Enrolling in an IMC course requires the permission of the Director and course instructor.
 
 ##### [The Graduate School (TGS) Courses](http://www.tgs.northwestern.edu/academics/programs/counseling/index.html)
 
-In general MSHE students can register themselves for TGS courses.Some courses say that outside students need to get instructor permission, in which case you can contact the instructor directly to request permission to take the course. Contact Dr. Kristin McCann if you are having trouble with the registration process.
+In general MSHE students can register themselves for TGS courses.Some courses say that outside students need to get instructor permission, in which case you can contact the instructor directly to request permission to take the course. Contact the MSHE office if you are having trouble with the registration process.
 
 #### Registration Holds
 
@@ -119,7 +119,7 @@ Courses dropped after the first five days of classes (add/drop week) but before 
 
 ##### Cancellation (dropping all of your courses in a quarter)
 
-If you will be dropping all of your courses in a quarter you will not be able to do so in CAESAR. You should contact Dr. Kristin McCann at [kristin.mccann1@northwestern.edu](mailto:kristin.mccann1@northwestern.edu) and she will fill out a paper form to drop you from your courses. This includes cases where students were signed up for only one course and then needed to drop the course.
+If you will be dropping all of your courses in a quarter you will not be able to do so in CAESAR. You should contact the MSHE office at [kristin.mccann1@northwestern.edu](mailto:kristin.mccann1@northwestern.edu) and she will fill out a paper form to drop you from your courses. This includes cases where students were signed up for only one course and then needed to drop the course.
 
 #### Course Evaluations (CTEC) and Feedback
 

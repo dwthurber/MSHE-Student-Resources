@@ -41,7 +41,7 @@ Students who are not enrolled in any courses in a quarter other than summer are 
 
 #### Withdrawing from the MSHE Program
 
-If you no longer wish to continue as a student in the MSHE program please contact Dr. Kristin McCann at kristin.mccann1@northwestern.edu. Kristin will assist you in filling out a paper form to terminate your status as a student in the program. Please note that this process is the same for matriculated and non-matriculated students.
+If you no longer wish to continue as a student in the MSHE program please contact the MSHE office. We will assist you in filling out a paper form to terminate your status as a student in the program. Please note that this process is the same for matriculated and non-matriculated students.
 
 #### Re-Entry for Withdrawn Students
 
@@ -51,4 +51,4 @@ If it has been more than five years since the date that the student matriculated
 
 #### Questions?
 
-If you have questions about any of the information contained on this page, please contact Dr. Kristin McCann, MSHE Assistant Director ([kristin.mccann1@northwestern.edu](mailto:kristin.mccann1@northwestern.edu); 847-491-4620).
+If you have questions about any of the information contained on this page, please contact ([ms-highered@northwestern.edu])(mailto:ms-highered@northwestern.edu).

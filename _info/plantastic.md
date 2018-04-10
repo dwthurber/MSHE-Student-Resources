@@ -70,4 +70,4 @@ In order to be saved, a plan must satisfy these requirements:
 
 **What if a class I plan to take is cancelled?**
 
-Dr. Kristin McCann will notify you and either make changes to your plan themselves, or ask you to log in and propose a new plan.
+The MSHE office will notify you and either make changes to your plan themselves, or ask you to log in and propose a new plan.

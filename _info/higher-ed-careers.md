@@ -24,7 +24,7 @@ section: career
 
 Listed here are some composite sites dedicated to finding jobs in higher education. Also remember to look at the human resources pages of institutions that you are interested in working for.
 
-Remember that submitting an application is just one of the many steps involved in getting hired. Also remember to talk with Lois Trautvetter, Kristin McCann, and your instructors and mentors to see if they can connect you with an alum or colleague that has some connection with the department, institution or area of interest. We strongly encourage you to contact the MSHE Career Coach, Carla Cortes when you begin applying for a position.
+Remember that submitting an application is just one of the many steps involved in getting hired. Also remember to talk with Lois Trautvetter, Kristin Carla Cortes, and your instructors and mentors to see if they can connect you with an alum or colleague that has some connection with the department, institution or area of interest. We strongly encourage you to contact the MSHE Career Coach, Carla Cortes when you begin applying for a position.
 
 Also, remember that you can utilize the Northwestern University [Career Services Office](http://www.northwestern.edu/careers/) and your undergraduate institutions' career services office.
 

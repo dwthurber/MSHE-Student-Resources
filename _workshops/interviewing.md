@@ -5,7 +5,7 @@ description: >-
   you are qualified, whether you would enjoy working there, and whether they
   like you. You also want to know what your goals are as an interviewee and what
   questions you are trying to answer.
-facilitator: 'Audra Nelson, Career Coach'
+facilitator: 'Carla Cortes, Senior Career Advisor'
 icon_path: /img/workshop_icons/icon_interviewing.png
 order: '4'
 upcoming_workshop:

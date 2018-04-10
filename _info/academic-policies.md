@@ -54,4 +54,4 @@ In matters regarding satisfactory academic progress and parameters for academic 
 
 #### Questions?
 
-If you have questions about any of the information contained on this page, please contact Dr. Kristin McCann, MSHE Assistant Director ([kristin.mccann1@northwestern.edu](mailto:kristin.mccann1@northwestern.edu); 847-491-4620).
+If you have questions about any of the information contained on this page, please contact ([ms-highered@northwestern.edu])(mailto:ms-highered@northwestern.edu).

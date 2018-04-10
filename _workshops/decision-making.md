@@ -62,7 +62,7 @@ process
 
 #### Additional Resources
 
-* ([Negotiating Handout])(https://northwestern.box.com/s/m9b1ypoo46jo1hjb7r7pd4w5w8ry5ukx)
-* ([Cheat Sheet for Negotiating Salaries])(https://northwestern.box.com/s/awmzcwq4ctecc3nastfvvcpm6od26msj)
-* Reviewing the Offer from Lynda.com ([https://www.youtube.com/watch?v=fyMCgJjyCfA])(https://www.youtube.com/watch?v=fyMCgJjyCfA)
-* Top Salary Negotiation Tips for Women (Kellogg professor) ([https://www.youtube.com/watch?v=JBc-3gyW2vY])(https://www.youtube.com/watch?v=JBc-3gyW2vY)
+* [Negotiating Handout](https://northwestern.box.com/s/m9b1ypoo46jo1hjb7r7pd4w5w8ry5ukx)
+* [Cheat Sheet for Negotiating Salaries](https://northwestern.box.com/s/awmzcwq4ctecc3nastfvvcpm6od26msj)
+* Reviewing the Offer from Lynda.com [https://www.youtube.com/watch?v=fyMCgJjyCfA](https://www.youtube.com/watch?v=fyMCgJjyCfA)
+* Top Salary Negotiation Tips for Women (Kellogg professor) [https://www.youtube.com/watch?v=JBc-3gyW2vY](https://www.youtube.com/watch?v=JBc-3gyW2vY)

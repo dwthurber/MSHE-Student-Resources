@@ -49,7 +49,7 @@ MSHE staff keep track of what internship opportunities are available for current
 3. **Email and/or meet with** the Director, Assistant Director, or Career Coach to discuss your application and/or interview.
 4. After **applying for, interviewing for, and securing an opportunity**, alert your supervisor(s) that you are required to complete an [Internship Contract (PDF)](https://northwestern.box.com/s/ts367jd66aleu3a7ej6s657wcfylldts) and that you will eventually need your supervisor(s) to complete an [Internship Evaluation (PDF)](https://northwestern.box.com/s/35k14adupzpgqto2c7ua8xpoxbecmrb8) about your performance–whether the experience is for credit or not, both documents are required.
 5. **Complete the Internship Contract** WITH your site supervisor(s).
-6. **[Submit a copy of the Internship Contract](mailto:kristin.mccann1@northwestern.edu)** to the MSHE office–(Attn.: Assistant Director).
+6. **[Submit a copy of the Internship Contract](mailto:carla.cortes@northwestern.edu)** to the MSHE office–(Attn.: Senior Career Advisor).
 7. We recommend that you **submit an internship evaluation quarterly to the office**; however, if your supervisor only has time to submit an evaluation at the end of the internship experience (such as after two or three quarters), that is acceptable. Nevertheless, **we highly recommend** that you gain structured feedback from your supervisor on a regular basis to assess your progress in your internship.
 
 

@@ -28,7 +28,7 @@ section: registration
 ---
 
 
-The MSHE office will process your enrollment appointment after receiving the Intention to Register form and the tuition deposit. Depending on when you applied and were accepted, enrollment for your starting quarter may not yet be open (e.g. if you were accepted in January and planning to start in the fall you wouldn't be able to register for courses until fall enrollment opened in late spring.) You will get an email from Kristin letting you know when your enrollment appointment has been set.
+The MSHE office will process your enrollment appointment after receiving the Intention to Register form and the tuition deposit. Depending on when you applied and were accepted, enrollment for your starting quarter may not yet be open (e.g. if you were accepted in January and planning to start in the fall you wouldn't be able to register for courses until fall enrollment opened in late spring.) You will get an email from the MSHE office letting you know when your enrollment appointment has been set.
 
 #### Course Registration
 
@@ -59,7 +59,7 @@ Take a look at the following infographic to get started on how to find an electi
 
 ##### [School of professional Studies (SPS) Courses](http://sps.northwestern.edu/program-areas/graduate/)
 
-MSHE students often take graduate-level courses offered through the School of professional Studies (SPS)–especially in the Master of Public Policy (MPPA) and Master of Sports Administration (MSA) programs. These courses are offered at the Chicago campus. &nbsp;MSHE students cannot register themselves for SPS courses. If you want to take an SPS course please complete the [Authorization for Dual Registration Form](https://northwestern.box.com/shared/static/oidimwjx3scahj5lqm1l.pdf) and send it to the MSHE office. &nbsp;If the SPS administrator gives permission Kristin will ask the SPS Registrar to register you for the class. SPS will not register you for the class until one week before the class begins and will only register you if the course is not already full.
+MSHE students often take graduate-level courses offered through the School of professional Studies (SPS)–especially in the Master of Public Policy (MPPA) and Master of Sports Administration (MSA) programs. These courses are offered at the Chicago campus. &nbsp;MSHE students cannot register themselves for SPS courses. If you want to take an SPS course please complete the [Authorization for Dual Registration Form](https://northwestern.box.com/shared/static/oidimwjx3scahj5lqm1l.pdf) and send it to the MSHE office. &nbsp;If the SPS administrator gives permission, the MSHE office will ask the SPS Registrar to register you for the class. SPS will not register you for the class until one week before the class begins and will only register you if the course is not already full.
 
 ##### SPS "DL" Courses and Scheduling
 
@@ -68,8 +68,8 @@ You may notice that some SPS courses have a "DL" in their title. DL means “dis
 ##### [MS in Learning and Organizational Change (MSLOC) Courses](https://www.sesp.northwestern.edu/masters-learning-and-organizational-change/curriculum.html)
 
 1. Read ["Policies and Procedures for non-MSLOC students to take MSLOC course"](https://northwestern.box.com/shared/static/tupdjs36s320xfp69gtp.pdf)
-2. Ask Kristin for the course syllabus. Please note that the syllabi are intellectual property - please do not forward to others.
-3. If you want to take the course ask Kristin to contact the MSLOC program administrators to put you on the waitlist for the course.
+2. Ask the MSHE office for the course syllabus. Please note that the syllabi are intellectual property - please do not forward to others.
+3. If you want to take the course ask the MSHE office to contact the MSLOC program administrators to put you on the waitlist for the course.
 4. You will be registered for the course one week before the class begins if the class is not full.
 
 
@@ -119,7 +119,7 @@ Courses dropped after the first five days of classes (add/drop week) but before 
 
 ##### Cancellation (dropping all of your courses in a quarter)
 
-If you will be dropping all of your courses in a quarter you will not be able to do so in CAESAR. You should contact the MSHE office at [kristin.mccann1@northwestern.edu](mailto:kristin.mccann1@northwestern.edu) and she will fill out a paper form to drop you from your courses. This includes cases where students were signed up for only one course and then needed to drop the course.
+If you will be dropping all of your courses in a quarter you will not be able to do so in CAESAR. You should contact the MSHE office and we will fill out a paper form to drop you from your courses. This includes cases where students were signed up for only one course and then needed to drop the course.
 
 #### Course Evaluations (CTEC) and Feedback
 

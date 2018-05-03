@@ -38,10 +38,10 @@ section: registration
             <td width="150px" class="sort tip" data-tip="Sort by Department" ng-click="sort('department')">Course Department <i ng-if="sortOrder == 'department'" class="fa fa-caret-down" ng-class="{flip:reverse}" aria-hidden="true"></i></td>
         </tr>
     </table>
-    {% for elective in site.data.electives %} 
+    {% for elective in site.data.electives %}
        <div class="mix" data-name="{{ elective.Course_Title }}" data-number="{{ elective.Course_Number }}" data-department="{{ elective.Course_Dept }}">
     <table width="100%" class="mp-table" >
-       
+
         <tr>
             <td width="100px" class="year">{{ elective.Course_Num }}</td>
             <td class="mp-title"><strong>{{ elective.Course_Title }}</strong></td>
@@ -50,7 +50,7 @@ section: registration
         <tr>
             <td></td>
             <td colspan="2" class="details">
-                <p class="subheader"><em>Typically Offered: </em>{% if elective.Typically_offered contains 'fall' %}<span class="quarter-pill">Fall</span> {% endif %}{% if elective.Typically_offered contains 'winter' %}<span class="quarter-pill">Winter</span> {% endif %}{% if elective.Typically_offered contains 'spring' %}<span class="quarter-pill">Spring</span> {% endif %}{% if elective.Typically_offered contains 'Summer' %}<span class="quarter-pill">Summer</span> {% endif %}</p>
+                <p class="subheader"><em>Typically Offered: </em>{% if elective.Typically_offered contains 'fall' %}<span class="quarter-pill">Fall</span> {% endif %}{% if elective.Typically_offered contains 'winter' %}<span class="quarter-pill">Winter</span> {% endif %}{% if elective.Typically_offered contains 'spring' %}<span class="quarter-pill">Spring</span> {% endif %}{% if elective.Typically_offered contains 'summer' %}<span class="quarter-pill">Summer</span> {% endif %}</p>
                 <p>{{ elective.Course_Description }}</p>
             </td>
         </tr>

@@ -33,7 +33,7 @@ Starting a new app isn't really intuitive. I'm including a screen shot, as I've 
 
 Once you fill in your name, email etc you may see a warning that says "there is already an application with this email address." Just say that that's alright by you and continue on to start the application.
 
-When you start your application choose "non-matriculated to matriculated" under "application type" (not "matriculated.) If you would like to re-use any materials that you submitted with your first application, including letters of recommendation, essays, transcripts and GRE scores, please contact Erin McNulty at [mshe-apply@northwestern.edu](mailto:mshe-apply@northwestern.edu) after you submit your application and she will transfer the materials to your new application.
+When you start your application choose "non-matriculated to matriculated" under "application type" (not "matriculated.) If you would like to re-use any materials that you submitted with your first application, including letters of recommendation, essays, transcripts and GRE scores, please contact The MSHE Admissions Committee at [mshe-apply@northwestern.edu](mailto:mshe-apply@northwestern.edu) after you submit your application and she will transfer the materials to your new application.
 
 The materials required for completing the non-matriculated to matriculated application include:
 
@@ -48,7 +48,7 @@ Important elements for consideration regarding admission into the degree program
 
 The average scores of successful applications (posted [here on the MSHE website](http://www.sesp.northwestern.edu/higher-education/admissions/index.html)) are a useful guideline for students hoping to matriculate. Some students also have specific parameters for applying for matriculation on their initial non-matriculated acceptance letter.
 
-If you have any questions about the application procedure please contact Erin McNulty at [mshe-apply@northwestern.edu](mailto:mshe-apply@northwestern.edu).
+If you have any questions about the application procedure please contact The MSHE Admissions Committee at [mshe-apply@northwestern.edu](mailto:mshe-apply@northwestern.edu).
 
 #### About Letters of Recommendation
 

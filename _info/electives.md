@@ -50,7 +50,9 @@ section: registration
         <tr>
             <td></td>
             <td colspan="2" class="details">
-                <p class="subheader"><em>Typically Offered: </em>{% if elective.Typically_offered contains 'fall' %}<span class="quarter-pill">Fall</span> {% endif %}{% if elective.Typically_offered contains 'winter' %}<span class="quarter-pill">Winter</span> {% endif %}{% if elective.Typically_offered contains 'spring' %}<span class="quarter-pill">Spring</span> {% endif %}{% if elective.Typically_offered contains 'summer' %}<span class="quarter-pill">Summer</span> {% endif %}</p>
+                <p class="subheader"><em>Typically Offered: </em>
+                {% if elective.Course_Qtr contains 'fall' %}<span class="quarter-pill">Fall</span> {% endif %}{% if elective.Course_Qtr contains 'winter' %}<span class="quarter-pill">Winter</span> {% endif %}{% if elective.Course_Qtr contains 'spring' %}<span class="quarter-pill">Spring</span> {% endif %}{% if elective.Course_Qtr contains 'summer' %}<span class="quarter-pill">Summer</span> {% endif %}
+                </p>
                 <p>{{ elective.Course_Description }}</p>
             </td>
         </tr>

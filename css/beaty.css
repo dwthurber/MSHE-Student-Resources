@@ -1,0 +1,146 @@
+
+/*
+Beaty 1.0
+Copyright (c) 2015 Tipue
+Beaty is released under the MIT License
+http://www.tipue.com/beaty
+*/
+
+
+/* Gregory Corso */
+
+
+.corso-left, .gregory-left
+{
+     margin: 0 auto;
+     max-width: 1220px;
+     padding: 30px 430px 30px 30px;         
+}
+.corso-right, .gregory-right
+{
+     position: absolute;
+     top: 0;
+     right: 0;
+     box-sizing: border-box;
+     width: 400px;
+     height: 100%;
+     background-color: #f9f9f9;
+     padding: 30px;
+     z-index: 100;
+}
+
+
+/* Brion Gysin */
+
+
+.gysin-left, .brion-left
+{
+     position: fixed;
+     top: 0;
+     left: 0;
+     box-sizing: border-box;
+     width: 400px;
+     height: 100%;
+     background-color: #f9f9f9;
+     padding: 30px;
+     z-index: 100;
+}
+.gysin-right, .brion-right
+{
+     margin: 0 auto;
+     max-width: 700px;
+     padding: 30px 30px 30px 430px;         
+}
+
+
+/* Huncke */
+
+
+.huncke-left, .huncke-right
+{
+     box-sizing: border-box;
+     width: 300px;
+     height: 100%;
+     background-color: #f9f9f9;
+     padding: 30px;
+     z-index: 100;
+}
+.huncke-left
+{
+     position: fixed;
+     top: 0;
+     left: 0;
+}
+.huncke-mid
+{
+     margin: 0 auto;
+     max-width: 700px;
+     padding: 30px 330px 30px 330px;         
+}
+.huncke-right
+{
+     position: fixed;
+     top: 0;
+     right: 0;
+}
+
+
+/* Gelber */
+
+
+.gelber-left
+{
+     margin: 0 auto;
+     max-width: 700px;
+     padding: 30px 430px 30px 30px;    
+}
+.gelber-right-top
+{
+     position: fixed;
+     top: 0;
+     right: 0;
+     box-sizing: border-box;
+     width: 400px;
+     height: 300px;
+     background-color: #f9f9f9;
+     padding: 30px;
+     z-index: 100;
+}
+.gelber-right-bottom
+{
+     position: fixed;
+     top: 300px;
+     right: 0;
+     box-sizing: border-box;
+     width: 400px;
+     height: 100%;
+     background-color: #efefef;
+     padding: 30px;
+     z-index: 100;
+}
+
+
+/* responsive */
+
+
+@media screen and (max-width: 980px) 
+{
+     .corso-left, .gregory-left, .gysin-right, .brion-right, .huncke-mid, .gelber-left
+     {
+          padding: 30px;
+     }
+     .corso-right, .gysin-left, .huncke-right, .gelber-right-bottom
+     {
+          position: relative;
+          top: 0;
+          width: 100%;
+     }
+     .gregory-right, .brion-left, .huncke-left, .gelber-right-top
+     {
+          display: none;
+     }
+}
+
+.corso-right {
+     padding-top: 30px;
+}

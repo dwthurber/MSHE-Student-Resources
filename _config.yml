@@ -1,7 +1,11 @@
-baseurl: /MSHE_Canvas_Resources
+baseurl: /MSHE-Student-Resources
 
 collections:
   info:
+    output: true
+  mp_content:
+    output: true
+  workshops:
     output: true
     
 defaults:
@@ -11,3 +15,133 @@ defaults:
       type: "info"
     values:
       layout: "info-page"
+  - 
+    scope:
+      path: ""
+      type: "mp_content"
+    values:
+      layout: "mp-guide-page"
+  - 
+    scope:
+      path: ""
+      type: "workshops"
+    values:
+      layout: "workshop-page"
+
+statuses:
+  - newly admitted students
+  - current students
+  - non-matriculated students
+  - certificate students
+  
+list-bies:
+  - category
+  - action
+  - student status
+  
+topics: 
+  - academics
+  - career resources
+  - financial aid
+  - internships
+  - master project
+  - policies
+  - student life
+  - technology
+  - wellness
+  
+actions: 
+  - apply for jobs
+  - attend a conference
+  - choose an elective
+  - find a place to live
+  - relax and enjoy
+  - succeed in classes
+
+categories:
+  - Academic Services and Programming
+  - Admissions and Enrollment Management
+  - Alumni Relations and Development
+  - Athletics
+  - Career Services
+  - Civic Engagement and Volunteerism
+  - Corporate Learning/Development
+  - Financial Issues
+  - Higher Education Policy
+  - Social Justice
+  - Strategic Planning and Institutional Research
+  - Student Development
+  - Student Engagement
+  - Student Support Services
+  - Student Wellness
+  - Study Abroad and International Education
+  
+types: 
+  - download
+  - external link
+  - internal pages
+  
+filters: 
+  - '406'
+  - '407'
+  - '408'
+  - IRB
+  - Posters
+  - Presentations
+  - Rationale
+  - Artifact Analysis
+  - Charts and Tables
+  - Coding
+  - Existing Data
+  - Focus Groups
+  - Interviews
+  - Observations
+  - References
+  - Statistics
+  - Surveys
+  - Writing and APA
+
+guides:
+  - Research Questions
+  - Abstract
+  - Introduction
+  - Literature Review
+  - Data Collection
+  - Data Summary
+  - Data Interpretation
+  - Conclusion
+  - Executive Summary
+  - Posters
+  - Presentations
+  - Beyond the MP
+
+formats:
+  - pdf
+  - word
+  - excel
+  - powerpoint
+  - video
+  - photo
+  - other
+  
+submission_types:
+  - draft
+  - final
+
+quarters:
+  - fall
+  - winter
+  - spring
+  - beyond mp
+
+functional_areas:
+  - Student Affairs
+  - Academic Affairs
+  - Central Administration
+  - Enrollment Management
+  - Policy, Government, and Other Organizations
+  - Alumni Relations & Development
+
+consent: 
+  - true
+  - false

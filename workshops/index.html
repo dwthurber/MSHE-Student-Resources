@@ -1,0 +1,24 @@
+---
+layout: default
+section: workshops
+---
+{% include career_hero.html %}
+<br><br>
+    <section class="container">
+        <h2>Workshops</h2>
+        <div class="flex-container group" id="Workshops">
+            {% for page in site.workshops %}<div class="resource" data-name="{{ page.order }}">
+                <img src="{{ page.icon_path | prepend: site.baseurl }}" alt="workshop icon" />
+                <div class="resource-content">
+                    <h2>{{ page.title }}</h2>
+                    <p>{{ page.description | truncate: 30, ' ... ' }}</p>
+                </div>
+                <a href="{{ page.url | prepend: site.baseurl }}"><div class="mix-hover hidden text-left">
+                    <p>{{ page.description | truncate: 200, ' ... ' }}</p>
+                </div></a>
+            </div>{% endfor %}
+            
+        </div>
+    </section>
+    <br>
+    

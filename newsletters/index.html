@@ -1,0 +1,62 @@
+---
+layout: default
+title: Newsletters
+description: Archive of past MSHE Newsletters
+current_path: 'https://sway.com/s/mu2Y5X8xlG4QN5XG/embed'
+archives:
+  - name: Winter/Spring 2016 Newsletter
+    link: >-
+      http://us11.campaign-archive1.com/?u=38d07a8efd009d2a4c7d8dd85&id=c9374e9627
+  - name: Fall/Winter 2016 Newsletter
+    link: >-
+      http://us11.campaign-archive2.com/?u=38d07a8efd009d2a4c7d8dd85&id=7f091aa265
+  - name: Summer 2015 Newsletter
+    link: >-
+      http://us11.campaign-archive2.com/?u=38d07a8efd009d2a4c7d8dd85&id=571b9b68ee
+  - name: Fall 2013 Newsletter
+    link: >-
+      https://sites.google.com/a/u.northwestern.edu/mshe/_/rsrc/1444070259208/home/resources-for-alumni/alumni-news/2013%20alum%20newsletter.jpg
+  - name: Fall 2012 Newsletter
+    link: >-
+      https://sites.google.com/a/u.northwestern.edu/mshe/_/rsrc/1444070259555/home/resources-for-alumni/alumni-news/newsletter2012-700.jpg
+  - name: Fall 2011 Newsletter
+    link: >-
+      https://sites.google.com/a/u.northwestern.edu/mshe/_/rsrc/1444070259208/home/resources-for-alumni/alumni-news/2011alumninewsletter700.jpg
+  - name: Fall 2010 Newsletter
+    link: >-
+      https://sites.google.com/a/u.northwestern.edu/mshe/_/rsrc/1444070259207/home/resources-for-alumni/alumni-news/2010-alumni-newsletter700.jpg
+---
+
+<div class="info-page-hero">
+  <div class="info-page-header">
+    <h2>MSHE Newsletters</h2>
+  </div>
+  <div class="info-page-nav">
+
+  </div>
+</div>
+<section class="main-page-container" style="min-height:2000px">
+<div class="corso-left">
+    <h2>{{ page.title }}</h2>
+    <p>{{ page.description }}</p>
+    <p><strong>Most Recent Newsletter:</strong></p>
+    <div>
+      <iframe width="760px" height="500px" src="{{page.current_path}}" frameborder="0" marginheight="0" marginwidth="0" max-width="100%" sandbox="allow-forms allow-modals allow-orientation-lock allow-popups allow-same-origin allow-scripts" scrolling="no" style="border: none; max-width: 100%; max-height: 100vh" allowfullscreen mozallowfullscreen msallowfullscreen webkitallowfullscreen></iframe>
+    </div>
+    <hr>
+    <table width="100%" class="mp-table" >
+       {% for newsletter in page.archives %}
+        <tr style="border-bottom: solid 1px #cfcfcf">
+            <td class="mp-title" style="padding: 12px; vertical-align:bottom"><strong>{{ newsletter.name }}</strong></td>
+            <td width="100px" class="category" style="padding: 12px; vertical-align:bottom"><a href="{{ newsletter.link }}" target="_blank">View</a></td>
+        </tr>
+        {% endfor %}
+    </table>
+
+</div>
+<div class="corso-right">
+    <h5 class="column-header">Have news to share?</h5>
+    <p>We would love to feature you in our next newsletter! Please fill out the form below and we will be in touch.</p>
+    <div class="newsletter-form-wrapper"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd5S8drdq10w0KjmFBqaEyzHrn0W8quyrPjdfkfZoL2Us5fTA/viewform?embedded=true" width="340" height="1700" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></div>
+</div>
+</section>

@@ -1,0 +1,53 @@
+---
+layout: default
+list-by:
+  - Category
+  - Action
+  - Student Status
+---
+<br><br>
+    <section class="container">
+        <h2>All topics</h2>
+        <br>
+        <p class="listby-label">List by</p>
+        <ul class="listby">
+            {% for item in page.list-by %}
+            <li ng-click="pickFilter('{{ item | downcase | replace:' ','' }}'); go()" ng-class="{ active: filterFilter == '{{ item | downcase | replace:' ','' }}'}">{{ item }}</li>
+            {% endfor %}
+        </ul>
+        <div>
+            <aside class="topics-filters">
+                {% for filter in site.data.filters %}
+                {% if filter.list-by == 'category' %}
+                <ul ng-show="filterFilter == 'category'">
+                    <li><a href="#{{ filter.name | downcase | replace:' ','' }}" class="filter" data-filter=".{{ filter.name | downcase | replace:' ','' }}">{{ filter.name }} <span class="triangle"></span></a> </li>
+                </ul>{% elsif filter.list-by == 'action' %}
+                <ul ng-show="filterFilter == 'action'">
+                    <li><a href="#{{ filter.name | downcase | replace:' ','' }}" class="filter" data-filter=".{{ filter.name | downcase | replace:' ','' }}">{{ filter.name }} <span class="triangle"></span></a> </li>
+                </ul>{% elsif filter.list-by == 'student status' %}
+                <ul ng-show="filterFilter == 'studentstatus'">
+                    <li><a href="#{{ filter.name | downcase | replace:' ','' }}" class="filter" data-filter=".{{ filter.name | downcase | replace:' ','' }}">{{ filter.name }} <span class="triangle"></span></a> </li>
+                </ul>{% endif %}
+                {% endfor %}
+            </aside>
+            <article class="mixing" id="Container">
+                {% for item in site.info %}
+                <div class="mix {{ item.topics | join: ',' | remove: ' ' | split: ',' | join: ' ' }} {{ item.actions | join: ',' | remove: ' ' | split: ',' | join: ' ' }} {{ item.statuses | join: ',' | remove: ' ' | split: ',' | join: ' ' }}" data-name="{{ item.title }}">
+                    <h2><a href="{{ item.url | prepend:site.baseurl }}" target="_self">{{ item.title }}</a></h2>
+                    <p class="subheader"><a href="{{ item.url }}">{{ item.url }} </a></p>
+                    <p>{{ item.description | truncate: 300, '...' }}</p>
+                </div>
+                {% endfor %}
+                {% for item in site.workshops %}
+                <div class="mix {{ item.topics | join: ',' | remove: ' ' | split: ',' | join: ' ' }} {{ item.actions | join: ',' | remove: ' ' | split: ',' | join: ' ' }} {{ item.statuses | join: ',' | remove: ' ' | split: ',' | join: ' ' }}" data-name="{{ item.title }}">
+                    <h2><a href="{{ item.url | prepend:site.baseurl }}" target="_self">{{ item.title }}</a></h2>
+                    <p class="subheader"><a href="{{ item.url }}">{{ item.url }} </a></p>
+                    <p>{{ item.description | truncate: 300, '...' }}</p>
+                </div>
+                {% endfor %}
+            </article>
+            
+        </div>
+    </section>
+    <br>
+    

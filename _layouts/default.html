@@ -1,48 +1,244 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="topicsApp" class="no-js">
 <head>
+    {% if page.title %}
+    <title>MSHE | {{ page.title }}</title>
+    {% else %}
     <title>MSHE Student Resources</title>
+    {% endif %}
     <meta name="author" content="Derek Thurber">
     <meta name="description" content="The Student Resources for the Master of Science in Higher Education Administration and Policy Program at Northwestern University">
-    <link rel="stylesheet" type="text/css" href="../css/reset.css"></link>
-    <link rel="stylesheet" type="text/css" href="../css/base.css"></link>
-    <link rel="stylesheet" type="text/css" href="../css/main.css"></link>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<base target="_blank">
+    <link rel="icon" type="image/ico" href="{{ site.baseurl }}/img/favicon.ico">
+    <!--stylesheets-->
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/reset.css"></link>
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/base.css"></link>
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/main.css"></link>
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/beaty.css"></link>
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/tipr.css"></link>
+    {% unless page.title == 'MP Timeline' %}<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/cd-header.css"></link>{% endunless %}
+    {% if page.title == 'MSHE MeetUps' %}<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/cd-testimonials.css"></link>{% endif %}
+    {% if page.title == 'MP Timeline' %}<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/cd-timeline.css"></link>{% endif %}
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/resources.css"></link>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link href="{{ site.baseurl }}/tipuesearch/tipuesearch.css" rel="stylesheet">
+    <link href="//cdn.rawgit.com/noelboss/featherlight/1.4.1/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+    <!--jquery library-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="jquery.mixitup.min.js"></script>
-    <script src="main.js"></script>
+    <script async="" defer="" src="//survey.g.doubleclick.net/async_survey?site=l5uivyigcjgba"></script>
+    <!--google consumer survey-->
+    {% if page.mp_guide == true %}
+    <script async="" defer="" src="//survey.g.doubleclick.net/async_survey?site=4vo5xgmexqy2txce2fwmey5xkm"></script>{% endif %}
 </head>
-<body>
-    <header>
-        <img src="./img/MSHE-horizontal-option2-02.png" alt="MSHE Logo"></img>
-        <input type="text" placeholder="Search"><i class="fa fa-search" aria-hidden="true"></i>
-        <nav>
-            <ul>
-            {% for nav_item in site.data.nav %}
-                {% if page.url == nav_item.link %}
-                <li><a class="active" href="{{ nav_item.link }}">{{ nav_item.name }}</a></li>
-                {% else %}
-                <li><a href="{{ nav_item.link }}">{{ nav_item.name }}</a></li>
-              {% endif %}
-            {% endfor %}
-            </ul>
-        </nav>
-    </header>
-    
-    {{ content }}
-    
+{% if page.mp_guide == true %}<body class="grey-background" ng-controller="mainController">{% endif %}<body ng-controller="mainController">
+    {% unless page.header == false %}<header class="cd-main-header">
+		<a class="cd-logo" href="{{ site.baseurl }}/" target="_self"><img src="{{ site.baseurl }}/img/MSHE-vertical-template-02.png" alt="Logo"></a>
+
+		<ul class="cd-header-buttons">
+			<li><a class="cd-search-trigger" href="#cd-search"><span></span></a></li>
+			<li><a class="cd-nav-trigger" href="#cd-primary-nav"><span></span></a></li>
+		</ul> <!-- cd-header-buttons -->
+	</header>{% endunless %}
+
+	<main class="cd-main-content">
+		{{ content }}
+	</main>
+
+	{% unless page.header == false %}<div class="cd-overlay"></div>
+
+	<nav class="cd-nav">
+		<ul id="cd-primary-nav" class="cd-primary-nav is-fixed">
+			<li class="has-children">
+				<a href="{{ site.baseurl }}/info/">Student Resources</a>
+
+				<ul class="cd-secondary-nav is-hidden">
+					<li class="go-back"><a href="#0">Menu</a></li>
+					<li class="see-all"><a href="{{ site.baseurl }}/info/index.html" target="_self">All Resources</a></li>
+					<li class="has-children">
+						<a href="{{ site.baseurl }}/info/#/academics" target="_self">Academics</a>
+
+						<ul class="is-hidden">
+							<li class="go-back"><a href="#0">Academics</a></li>
+							<li class="see-all"><a href="{{ site.baseurl }}/info/#/academics" target="_self">All Academics</a></li>
+							<li class="has-children">
+								<a href="#0">Registration</a>
+
+								<ul class="is-hidden">
+									<li class="go-back"><a href="#0">Registration</a></li>
+									<li class="see-all"><a href="#0">All Academics</a></li>
+									{% for item in site.info %}{% if item.section == "registration" %}<li><a href="{{ item.url | prepend:site.baseurl }}" target="_self">{{ item.title }}</a></li>{% endif %}{% endfor %}
+								</ul>
+							</li>
+							{% for item in site.info %}{% if item.section == "academics" %}<li><a href="{{ item.url | prepend:site.baseurl }}" target="_self">{{ item.title }}</a></li>{% endif %}{% endfor %}
+							<li class="has-children">
+								<a href="#0">Master's Project</a>
+
+								<ul class="is-hidden">
+									<li class="go-back"><a href="#0">Master's Project</a></li>
+									<li class="see-all"><a href="#0">All Academics</a></li>
+									{% for item in site.info %}{% if item.section == "mp" %}<li><a href="{{ item.url | prepend:site.baseurl }}" target="_self">{{ item.title }}</a></li>{% endif %}{% endfor %}
+								</ul>
+							</li>
+						</ul>
+					</li>
+
+					<li class="has-children">
+						<a href="{{ site.baseurl }}/info/#/studentlife" target="_self">Student Experience</a>
+
+						<ul class="is-hidden">
+							<li class="go-back"><a href="#0">Student Experience</a></li>
+							<li class="see-all"><a href="{{ site.baseurl }}/info/#/studentlife" target="_self">All Student Resources</a></li>
+							<li class="has-children">
+								<a href="#0">Internships</a>
+
+								<ul class="is-hidden">
+									<li class="go-back"><a href="#0">Internships</a></li>
+									<li class="see-all"><a href="{{ site.baseurl }}/info/#/internships" target="_self">All Internship Resources</a></li>
+									{% for item in site.info %}{% if item.section == "internships" %}<li><a href="{{ item.url | prepend:site.baseurl }}" target="_self">{{ item.title }}</a></li>{% endif %}{% endfor %}
+								</ul>
+							</li>
+							<li class="has-children">
+								<a href="#0">Student Life</a>
+
+								<ul class="is-hidden">
+									<li class="go-back"><a href="#0">Student Life</a></li>
+									<li class="see-all"><a href="{{ site.baseurl }}/info/#/studentlife" target="_self">All Student Life Resources</a></li>
+									{% for item in site.info %}{% if item.section == "student life" %}<li><a href="{{ item.url | prepend:site.baseurl }}" target="_self">{{ item.title }}</a></li>{% endif %}{% endfor %}
+								</ul>
+							</li>
+							{% for item in site.info %}{% if item.section == "student experience" %}<li><a href="{{ item.url | prepend:site.baseurl }}" target="_self">{{ item.title }}</a></li>{% endif %}{% endfor %}
+						</ul>
+					</li>
+
+					<li class="has-children">
+						<a href="{{ site.baseurl }}/info/#/careerresources" target="_self">Career Resources</a>
+
+						<ul class="is-hidden">
+							<li class="go-back"><a href="{{ site.baseurl }}/info/#/careerresources" target="_self">Career Resources</a></li>
+							<li class="see-all"><a href="{{ site.baseurl }}/info/#/careerresources" target="_self">All Career Resources</a></li>
+							{% for item in site.info %}{% if item.section == "career" %}<li><a href="{{ item.url | prepend:site.baseurl }}" target="_self">{{ item.title }}</a></li>{% endif %}{% endfor %}
+							<li class="has-children">
+								<a href="#0">Professional Development</a>
+
+								<ul class="is-hidden">
+									<li class="go-back"><a href="#0">Career Resources</a></li>
+									<li class="see-all"><a href="{{ site.baseurl }}/workshops/" target="_self">All Workshops</a></li>{% assign sorted_workshops = site.workshops | sort:"order" %}
+									{% for item in sorted_workshops %}<li><a href="{{ item.url | prepend:site.baseurl }}" target="_self">{{ item.title }}</a></li>{% endfor %}
+								</ul>
+							</li>
+						</ul>
+					</li>
+
+					<li class="has-children">
+						<a href="{{ site.baseurl }}/info/#/policies" target="_self">Policies and Procedures</a>
+
+						<ul class="is-hidden">
+							<li class="go-back"><a href="#0">Policies and Procedures</a></li>
+							<li class="see-all"><a href="{{ site.baseurl }}/info/#/policies" target="_self">All Policies and Procedures</a></li>
+							<li class="has-children">
+								<a href="#0">Academic Policies</a>
+
+								<ul class="is-hidden">
+									<li class="go-back"><a href="#0">Academic Policies</a></li>
+									<li class="see-all"><a href="{{ site.baseurl }}/info/#/policies" target="_self">All Academic Policies</a></li>
+									{% for item in site.info %}{% if item.section == "academic policies" %}<li><a href="{{ item.url | prepend:site.baseurl }}" target="_self">{{ item.title }}</a></li>{% endif %}{% endfor %}
+								</ul>
+							</li>
+							{% for item in site.info %}{% if item.section == "policies" %}<li><a href="{{ item.url | prepend:site.baseurl }}" target="_self">{{ item.title }}</a></li>{% endif %}{% endfor %}
+							<li class="has-children">
+								<a href="#0">Student Status</a>
+
+								<ul class="is-hidden">
+									<li class="go-back"><a href="#0">Student Status</a></li>
+									<li class="see-all"><a href="{{ site.baseurl }}/info/#/policies" target="_self">All Policies</a></li>
+									{% for item in site.info %}{% if item.section == "student status" %}<li><a href="{{ item.url | prepend:site.baseurl }}" target="_self">{{ item.title }}</a></li>{% endif %}{% endfor %}
+								</ul>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+
+			<li class="has-children">
+				<a href="#">Workshops</a>
+				<ul class="cd-nav-icons is-hidden">
+					<li class="go-back"><a href="#0">Menu</a></li>
+					<li class="see-all"><a href="{{ site.baseurl }}/workshops/" target="_self">Browse Workshops</a></li>
+					<li>
+						<a class="cd-nav-item item-1" href="{{ site.baseurl }}/workshops/goal-setting.html" target="_self">
+							<h3>Self Assessment and Goal Setting</h3>
+							<p>Reflection, self assessment, and goal setting</p>
+						</a>
+					</li>
+
+					<li>
+						<a class="cd-nav-item item-2" href="{{ site.baseurl }}/workshops/networking.html" target="_self">
+							<h3>Networking</h3>
+							<p>The most important element of the job search</p>
+						</a>
+					</li>
+
+					<li>
+						<a class="cd-nav-item item-3" href="{{ site.baseurl }}/workshops/resume-and-cover-letter.html" target="_self">
+							<h3>Resume and Cover Letter Writing</h3>
+							<p>Marketing documents you’ll need for a job search</p>
+						</a>
+					</li>
+
+					<li>
+						<a class="cd-nav-item item-4" href="{{ site.baseurl }}/workshops/interviewing.html" target="_self">
+							<h3>Interviewing</h3>
+							<p>Intentional interviewing is a dialogue</p>
+						</a>
+					</li>
+
+					<li>
+						<a class="cd-nav-item item-5" href="{{ site.baseurl }}/workshops/decision-making.html" target="_self">
+							<h3>Decision Making</h3>
+							<p>Evaluate an offer, negotiate, & close</p>
+						</a>
+					</li>
+
+					<li>
+						<a class="cd-nav-item item-6" href="{{ site.baseurl }}/workshops/first-90-days.html" target="_self">
+							<h3>First 90 Days</h3>
+							<p>Transitions are times of vulnerability</p>
+						</a>
+					</li>
+
+				</ul>
+			</li>
+
+      <li><a href="{{ site.baseurl }}/newsletters/">Newsletters</a></li>
+      <li><a href="{{ site.baseurl }}/meetup/">MSHE MeetUps</a></li>
+		</ul> <!-- primary-nav -->
+	</nav> <!-- cd-nav -->
+
+	<div id="cd-search" class="cd-search">
+		<form action="{{ site.baseurl }}/search/" target="_self">
+			<input type="search" name="q" placeholder="Search...">
+		</form>
+		<!--    <form action="{{ site.baseurl }}/search/">-->
+    <!--    <input type="text" name="q" id="tipue_search_input" autocomplete="off" placeholder="Search" required>-->
+    <!--    </form>-->
+	</div>
+
+
     <section class="sitemap">
         <div class="three-columns">
             <div class="column">
                 <h4>Explore</h4>
-                <p><a href="index.html">Search</a></p>
-                <p><a href="topics.html">Topics</a></p>
+                {% for nav_item in site.data.nav %}
+                <p><a href="{{ nav_item.link | prepend:site.baseurl }}" target="_self">{{ nav_item.name }}</a></p>
+                {% endfor %}
             </div>
             <div class="column">
                 <h4>Stay Connected</h4>
-                <p><i class="fa fa-facebook-square" aria-hidden="true"></i> Facebook</p>
-                <p><i class="fa fa-twitter-square" aria-hidden="true"></i> Twitter</p>
-                <p><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</p>
+                <p><i class="fa fa-facebook-square" aria-hidden="true"></i><a href="https://www.facebook.com/pages/Northwestern-University-Higher-Education-Administration-and-Policy-Program/417734068297949" target="_blank"> Facebook</a></p>
+                <p><i class="fa fa-twitter-square" aria-hidden="true"></i><a href="https://twitter.com/NU_HigherEd" target="_blank"> Twitter</a></p>
+                <p><i class="fa fa-instagram" aria-hidden="true"></i><a href="https://www.instagram.com/nu_mshe/" target="_blank"> Instagram</a></p>
             </div>
             <div class="column">
                 <h4>Contact</h4>
@@ -50,21 +246,64 @@
                     <p>Ask a Question:</p>
                     <p><a href="mailto:ms-highered@northwestern.edu">ms-highered@northwestern.edu</a></p>
                 </div>
-                <div class="contact-block">
+                <!-- <div class="contact-block">
                     <p>Academic Advising:</p>
                     <p><a href="mailto:kristin.mccann1@northwestern.edu">kristin.mccann1@northwestern.edu</a></p>
-                </div>
+                </div> -->
                 <div class="contact-block">
-                    <p>Suggest a Topic:</p>
-                    <p><a href="mailto:derek.thurber@northwestern.edu">derek.thurber@northwestern.edu</a></p>
+                    <p>Career Coaching:</p>
+                    <p><a href="mailto:carla.cortes@northwestern.edu">carla.cortes@northwestern.edu</a></p>
                 </div>
             </div>
-            
+
         </div>
-    </section>
+    </section>{% endunless %}
     <footer>
         <p><span class="purple"><strong>Copyright </strong></span><i class="fa fa-copyright" aria-hidden="true"></i> 2016</p>
         <p>Designed by <strong>Derek Thurber </strong></p>
     </footer>
+
+    <!--angularjs libraries-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+    <!--mixitup jquery plugin library-->
+    <script src="https://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
+    <!--site js files-->
+    {% unless page.no-js == true %}<script src="{{ site.baseurl }}/js/app.js"></script>{% endunless %}
+     {% if page.search %}
+     <!--tipue search js files-->
+    <script src="{{ site.baseurl }}/tipuesearch/tipuesearch_set.js"></script>
+    <script src="{{ site.baseurl }}/tipuesearch/tipuesearch.min.js"></script>
+    {% endif %}
+    {% if page.comments %}
+    <!--Disqus js-->
+    <script id="dsq-count-scr" src="//mshestudentresources.disqus.com/count.js" async></script>
+    {% endif %}
+    <!--featherlight js-->
+    <script src="//cdn.rawgit.com/noelboss/featherlight/1.4.1/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+    <!--smoothscroll.js files-->
+    <script src="{{ site.baseurl }}/js/smoothscroll.js"></script>
+    <!--modernizr-->
+    <script src="{{ site.baseurl }}/js/modernizr.js"></script>
+    <!--cd-header-->
+    <script src="{{ site.baseurl }}/js/cd-header.js"></script>
+    <!--tipr-->
+    <script src="{{ site.baseurl }}/js/tipr.min.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+    $(document).ready(function() {
+         $('.tip').tipr();
+    });
+    </script>
+    <!--analytics-->
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-69072426-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </body>
 </html>

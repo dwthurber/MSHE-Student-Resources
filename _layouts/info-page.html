@@ -1,7 +1,94 @@
 ---
 layout: default
 ---
-<section class="container">
-<h2>{{ page.title }}</h2>
-{{ page.content }}
+{%if page.section == "career" %}
+  {% include career_hero.html %}
+{% elsif page.section == "student experience" %}
+  {% include student-experience_hero.html %}
+{% elsif page.section == "student life" %}
+  {% include student-experience_hero.html %}
+{% elsif page.section == "internships" %}
+  {% include student-experience_hero.html %}
+{% elsif page.section == "academics" %}
+  {% include academics_hero.html %}
+{% elsif page.section == "mp" %}
+  {% include academics_hero.html %}
+{% elsif page.section == "registration" %}
+  {% include academics_hero.html %}
+{% elsif page.section == "policies" %}
+  {% include policies_hero.html %}
+{% elsif page.section == "academic policies" %}
+  {% include policies_hero.html %}
+{% elsif page.section == "student status" %}
+  {% include policies_hero.html %}
+{% endif %}
+<section class="main-page-container">
+<div class="corso-left">
+    <div class="breadcrumbs">
+        <p>You are here: &nbsp;&nbsp;&nbsp; <a href="{{ site.baseurl }}/info/" target="_self">Topics</a> > {{ page.title }}</p>
+    </div>
+    <h2>{{ page.title }}</h2>
+    <p>{{ page.description }}</p>
+    {{ page.content }}
+    <br><br>
+    <div id="disqus_thread"></div>
+    <script>
+    /**
+    * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+    */
+    // var disqus_developer = 1; // Comment out when the site is live
+    var disqus_config = function () {
+    // this.page.url = "{{ page.url }}"; // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = "{{ page.url }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    
+    s.src = '//mshestudentresources.disqus.com/embed.js';
+    
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+</div>
+<div class="corso-right">
+    <h5 class="column-header">You might also like...</h5>
+    <div class="three-columns related">
+      {% for item in site.info %}
+        {% assign sameTagCount = 0 %}
+        {% for tag in item.topics %}
+          {% if item.url != page.url %}
+            {% if page.topics contains tag %}
+            {% assign sameTagCount = sameTagCount | plus: 1 %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+        {% for action in item.actions %}
+          {% if item.url != page.url %}
+            {% if page.actions contains action %}
+            {% assign sameTagCount = sameTagCount | plus: 1 %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+        {% for keyword in item.keywords %}
+          {% if item.url != page.url %}
+            {% if page.keywords contains keyword %}
+            {% assign sameTagCount = sameTagCount | plus: 1 %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+        {% if sameTagCount >= 2 %}
+        
+            <div class="related-info">
+                <h5><a href="{{ item.url | prepend:site.baseurl }}" target="_self">{{ item.title }}</a></h5>
+                <p class="subheader"><a href="{{ item.url }}" target="_self">{{ item.url }} </a></p>
+                <p>{{ item.description | truncate: 150, ' ... ' }}</p>
+            </div>
+        {% endif %}
+       {% endfor %}
+    </div>
+</div>
 </section>

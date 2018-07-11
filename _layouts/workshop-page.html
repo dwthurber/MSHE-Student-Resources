@@ -1,0 +1,53 @@
+---
+layout: default
+---
+{% include career_hero.html %}
+<section class="main-page-container">
+    <div class="corso-left">
+    <div class="breadcrumbs">
+        <p>You are here: &nbsp;&nbsp;&nbsp; <a href="{{ site.baseurl }}/workshops/" target="_self">Workshops</a> > {{ page.title }}</p>
+    </div>
+    {% if page.upcoming_workshop.scheduled == true %}<blockquote>
+        <p class="upcoming-date"><i class="fa fa-calendar" aria-hidden="true"></i> <strong>Next workshop:</strong> {{ page.upcoming_workshop.upcoming_date | date: "%a, %b %-d, %Y" }} at {{ page.upcoming_workshop.start_time }} - {{ page.upcoming_workshop.end_time }} // {{ page.upcoming_workshop.location }}</p>
+    </blockquote>{% endif %}
+    <h2>{{ page.title }}</h2>
+    <p>{{ page.description }}</p>
+    {{ page.content }}
+    <br><br>
+    <div id="disqus_thread"></div>
+    <script>
+    /**
+    * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+    */
+    // var disqus_developer = 1; // Comment out when the site is live
+    var disqus_config = function () {
+    // this.page.url = "{{ page.url }}"; // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = "{{ page.url }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    
+    s.src = '//mshestudentresources.disqus.com/embed.js';
+    
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+    </div>
+    <div class="corso-right">
+        <h5 class="column-header">Other workshops</h5>
+        <div class="three-columns related">
+            {% assign sorted_workshops = site.workshops | sort:"order" %}
+            {% for item in sorted_workshops %}
+            {% if item.url != page.url %}
+            <div class="related-info">
+                <h5><a href="{{ item.url | prepend:site.baseurl }}" target="_self">{{ item.title }}</a></h5>
+                <p class="subheader"><a href="{{ item.url }}" target="_self">{{ item.url }} </a></p>
+                <p>{{ item.description | truncate: 150, ' ... ' }}</p>
+            </div>{% endif %}{% endfor %}
+        </div>
+    </div>
+</section>
